@@ -1,27 +1,26 @@
 {
-  "name": "matt-website",
+  "name": "MFarejowicz.github.io",
   "version": "1.0.0",
   "description": "Personal Website for Matt Farejowicz",
   "main": "index.js",
   "directories": {
-    "doc": "docs"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MFarejowicz/matt-website.git"
+    "url": "git+https://github.com/MFarejowicz/MFarejowicz.github.io.git"
   },
   "keywords": [
     "website"
   ],
   "author": "Matt Farejowicz",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MFarejowicz/matt-website/issues"
+    "url": "https://github.com/MFarejowicz/MFarejowicz.github.io/issues"
   },
-  "homepage": "https://github.com/MFarejowicz/matt-website#readme",
+  "homepage": "https://github.com/MFarejowicz/MFarejowicz.github.io#readme",
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1",

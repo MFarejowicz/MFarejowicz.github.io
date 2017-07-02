@@ -3,7 +3,7 @@ module.exports = function() {
     entry: "./index.jsx",
     output: {
       path: __dirname + "/static",
-      filename: "bundle.js"
+      filename: "index.js"
     },
     module: {
       loaders: [
