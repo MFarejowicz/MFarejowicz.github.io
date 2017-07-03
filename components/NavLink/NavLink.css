@@ -1,0 +1,16 @@
+.button{
+  font-size: 27px;
+  width:150px;
+  float: right;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+.button:hover{
+  background-color: #808080;
+}
+@media all and (max-width: 580px) {
+  .button{
+    font-size: 20px;
+  }
+}

@@ -1,9 +1,8 @@
-.heading {
+html,body{
+  background-color: #7EC0EE;
   font-family: 'Oswald';
-}
-
-.heading:hover {
-  background-color: #F1732A;
+  margin:0;
+  padding:0;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Oswald')
