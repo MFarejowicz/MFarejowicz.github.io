@@ -15,11 +15,11 @@ class About extends React.Component{
       <div className={styles.wrapper}>
         <Motion defaultStyle={{left:-350}} style={{left:spring(0, {stiffness:50, damping:5})}}>
           {interpolatingLocation => {
-            let style = {
+            let movement = {
               left: interpolatingLocation.left
             }
             return (
-              <div className={styles.container} style={style}>
+              <div className={styles.container} style={movement}>
                 About<br/>Coming Soon!
               </div>
             )

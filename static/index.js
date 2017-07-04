@@ -23364,12 +23364,12 @@ var Home = function (_React$Component) {
           _reactMotion.Motion,
           { defaultStyle: { left: -350 }, style: { left: (0, _reactMotion.spring)(0, { stiffness: 50, damping: 5 }) } },
           function (interpolatingLocation) {
-            var style = {
+            var movement = {
               left: interpolatingLocation.left
             };
             return _react2.default.createElement(
               "div",
-              { className: _Home2.default.container, style: style },
+              { className: _Home2.default.container, style: movement },
               "Home",
               _react2.default.createElement("br", null),
               "Coming Soon!"
@@ -23487,12 +23487,12 @@ var About = function (_React$Component) {
           _reactMotion.Motion,
           { defaultStyle: { left: -350 }, style: { left: (0, _reactMotion.spring)(0, { stiffness: 50, damping: 5 }) } },
           function (interpolatingLocation) {
-            var style = {
+            var movement = {
               left: interpolatingLocation.left
             };
             return _react2.default.createElement(
               "div",
-              { className: _About2.default.container, style: style },
+              { className: _About2.default.container, style: movement },
               "About",
               _react2.default.createElement("br", null),
               "Coming Soon!"
@@ -23610,12 +23610,12 @@ var Work = function (_React$Component) {
           _reactMotion.Motion,
           { defaultStyle: { left: -350 }, style: { left: (0, _reactMotion.spring)(0, { stiffness: 50, damping: 5 }) } },
           function (interpolatingLocation) {
-            var style = {
+            var movement = {
               left: interpolatingLocation.left
             };
             return _react2.default.createElement(
               "div",
-              { className: _Work2.default.container, style: style },
+              { className: _Work2.default.container, style: movement },
               "Work",
               _react2.default.createElement("br", null),
               "Coming Soon!"
@@ -23733,12 +23733,12 @@ var Fun = function (_React$Component) {
           _reactMotion.Motion,
           { defaultStyle: { left: -350 }, style: { left: (0, _reactMotion.spring)(0, { stiffness: 50, damping: 5 }) } },
           function (interpolatingLocation) {
-            var style = {
+            var movement = {
               left: interpolatingLocation.left
             };
             return _react2.default.createElement(
               "div",
-              { className: _Fun2.default.container, style: style },
+              { className: _Fun2.default.container, style: movement },
               "Fun",
               _react2.default.createElement("br", null),
               "Coming Soon!"
