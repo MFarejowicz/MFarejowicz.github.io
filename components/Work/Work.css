@@ -1,4 +1,8 @@
+.wrapper{
+  position: relative;
+}
 .container{
+  position: relative;
   font-size: 20px;
   margin: 20px auto;
   border: 2px solid #808080;

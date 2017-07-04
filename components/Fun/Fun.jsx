@@ -12,7 +12,20 @@ class Fun extends React.Component{
     }
 
     return(
-      <div className={styles.container}>Fun<br/>Coming Soon!</div>
+      <div className={styles.wrapper}>
+        <Motion defaultStyle={{left:-350}} style={{left:spring(0, {stiffness:50, damping:5})}}>
+          {interpolatingLocation => {
+            let style = {
+              left: interpolatingLocation.left
+            }
+            return (
+              <div className={styles.container} style={style}>
+                Fun<br/>Coming Soon!
+              </div>
+            )
+          }}
+        </Motion>
+      </div>
     )
   }
 }

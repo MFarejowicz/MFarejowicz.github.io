@@ -23359,10 +23359,23 @@ var Home = function (_React$Component) {
 
       return _react2.default.createElement(
         "div",
-        { className: _Home2.default.container },
-        "Home",
-        _react2.default.createElement("br", null),
-        "Coming Soon!"
+        { className: _Home2.default.wrapper },
+        _react2.default.createElement(
+          _reactMotion.Motion,
+          { defaultStyle: { left: -350 }, style: { left: (0, _reactMotion.spring)(0, { stiffness: 50, damping: 5 }) } },
+          function (interpolatingLocation) {
+            var style = {
+              left: interpolatingLocation.left
+            };
+            return _react2.default.createElement(
+              "div",
+              { className: _Home2.default.container, style: style },
+              "Home",
+              _react2.default.createElement("br", null),
+              "Coming Soon!"
+            );
+          }
+        )
       );
     }
   }]);
@@ -23381,10 +23394,11 @@ exports = module.exports = __webpack_require__(87)(undefined);
 
 
 // module
-exports.push([module.i, ".Home__container___3YqXY{\n  font-size: 20px;\n  margin: 20px auto;\n  border: 2px solid #808080;\n  border-radius: 10px;\n  width: 60%;\n  min-width: 550px;\n  padding: 5px 40px;\n}\n", ""]);
+exports.push([module.i, ".Home__wrapper___1QXeV{\n  position: relative;\n}\n.Home__container___3YqXY{\n  position: relative;\n  font-size: 20px;\n  margin: 20px auto;\n  border: 2px solid #808080;\n  border-radius: 10px;\n  width: 60%;\n  min-width: 550px;\n  padding: 5px 40px;\n}\n", ""]);
 
 // exports
 exports.locals = {
+	"wrapper": "Home__wrapper___1QXeV",
 	"container": "Home__container___3YqXY"
 };
 
@@ -23468,10 +23482,23 @@ var About = function (_React$Component) {
 
       return _react2.default.createElement(
         "div",
-        { className: _About2.default.container },
-        "About",
-        _react2.default.createElement("br", null),
-        "Coming Soon!"
+        { className: _About2.default.wrapper },
+        _react2.default.createElement(
+          _reactMotion.Motion,
+          { defaultStyle: { left: -350 }, style: { left: (0, _reactMotion.spring)(0, { stiffness: 50, damping: 5 }) } },
+          function (interpolatingLocation) {
+            var style = {
+              left: interpolatingLocation.left
+            };
+            return _react2.default.createElement(
+              "div",
+              { className: _About2.default.container, style: style },
+              "About",
+              _react2.default.createElement("br", null),
+              "Coming Soon!"
+            );
+          }
+        )
       );
     }
   }]);
@@ -23490,10 +23517,11 @@ exports = module.exports = __webpack_require__(87)(undefined);
 
 
 // module
-exports.push([module.i, ".About__container___3VDN6{\n  font-size: 20px;\n  margin: 20px auto;\n  border: 2px solid #808080;\n  border-radius: 10px;\n  width: 60%;\n  min-width: 550px;\n  padding: 5px 40px;\n}\n", ""]);
+exports.push([module.i, ".About__wrapper___maaSq{\n  position: relative;\n}\n.About__container___3VDN6{\n  position: relative;\n  font-size: 20px;\n  margin: 20px auto;\n  border: 2px solid #808080;\n  border-radius: 10px;\n  width: 60%;\n  min-width: 550px;\n  padding: 5px 40px;\n}\n", ""]);
 
 // exports
 exports.locals = {
+	"wrapper": "About__wrapper___maaSq",
 	"container": "About__container___3VDN6"
 };
 
@@ -23577,10 +23605,23 @@ var Work = function (_React$Component) {
 
       return _react2.default.createElement(
         "div",
-        { className: _Work2.default.container },
-        "Work",
-        _react2.default.createElement("br", null),
-        "Coming Soon!"
+        { className: _Work2.default.wrapper },
+        _react2.default.createElement(
+          _reactMotion.Motion,
+          { defaultStyle: { left: -350 }, style: { left: (0, _reactMotion.spring)(0, { stiffness: 50, damping: 5 }) } },
+          function (interpolatingLocation) {
+            var style = {
+              left: interpolatingLocation.left
+            };
+            return _react2.default.createElement(
+              "div",
+              { className: _Work2.default.container, style: style },
+              "Work",
+              _react2.default.createElement("br", null),
+              "Coming Soon!"
+            );
+          }
+        )
       );
     }
   }]);
@@ -23599,10 +23640,11 @@ exports = module.exports = __webpack_require__(87)(undefined);
 
 
 // module
-exports.push([module.i, ".Work__container___m7ZG0{\n  font-size: 20px;\n  margin: 20px auto;\n  border: 2px solid #808080;\n  border-radius: 10px;\n  width: 60%;\n  min-width: 550px;\n  padding: 5px 40px;\n}\n", ""]);
+exports.push([module.i, ".Work__wrapper___O0XhM{\n  position: relative;\n}\n.Work__container___m7ZG0{\n  position: relative;\n  font-size: 20px;\n  margin: 20px auto;\n  border: 2px solid #808080;\n  border-radius: 10px;\n  width: 60%;\n  min-width: 550px;\n  padding: 5px 40px;\n}\n", ""]);
 
 // exports
 exports.locals = {
+	"wrapper": "Work__wrapper___O0XhM",
 	"container": "Work__container___m7ZG0"
 };
 
@@ -23686,10 +23728,23 @@ var Fun = function (_React$Component) {
 
       return _react2.default.createElement(
         "div",
-        { className: _Fun2.default.container },
-        "Fun",
-        _react2.default.createElement("br", null),
-        "Coming Soon!"
+        { className: _Fun2.default.wrapper },
+        _react2.default.createElement(
+          _reactMotion.Motion,
+          { defaultStyle: { left: -350 }, style: { left: (0, _reactMotion.spring)(0, { stiffness: 50, damping: 5 }) } },
+          function (interpolatingLocation) {
+            var style = {
+              left: interpolatingLocation.left
+            };
+            return _react2.default.createElement(
+              "div",
+              { className: _Fun2.default.container, style: style },
+              "Fun",
+              _react2.default.createElement("br", null),
+              "Coming Soon!"
+            );
+          }
+        )
       );
     }
   }]);
@@ -23708,10 +23763,11 @@ exports = module.exports = __webpack_require__(87)(undefined);
 
 
 // module
-exports.push([module.i, ".Fun__container___1hvxP{\n  font-size: 20px;\n  margin: 20px auto;\n  border: 2px solid #808080;\n  border-radius: 10px;\n  width: 60%;\n  min-width: 550px;\n  padding: 5px 40px;\n}\n", ""]);
+exports.push([module.i, ".Fun__wrapper___3mLPw{\n  position: relative;\n}\n.Fun__container___1hvxP{\n  position: relative;\n  font-size: 20px;\n  margin: 20px auto;\n  border: 2px solid #808080;\n  border-radius: 10px;\n  width: 60%;\n  min-width: 550px;\n  padding: 5px 40px;\n}\n", ""]);
 
 // exports
 exports.locals = {
+	"wrapper": "Fun__wrapper___3mLPw",
 	"container": "Fun__container___1hvxP"
 };
 
