@@ -3,6 +3,8 @@
 }
 .container{
   position: relative;
+}
+.section{
   font-size: 20px;
   margin: 20px auto;
   border: 2px solid #000000;

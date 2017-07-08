@@ -1,7 +1,8 @@
 html,body{
-  font-family: 'Oswald';
+  font-family: "Roboto Condensed";
   margin:0;
   padding:0;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Oswald')
+/*@import url('https://fonts.googleapis.com/css?family=Oswald')*/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');

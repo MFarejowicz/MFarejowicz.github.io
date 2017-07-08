@@ -1,15 +1,19 @@
 import React from "react"
 import styles from "./About.css"
 import {Motion, spring} from 'react-motion'
+import ClassList from "./ClassList/ClassList.jsx"
 
 class About extends React.Component{
 
   render() {
     let content = (
       <div>
-        About
-        <hr/>
-        Hey there! I'm currently a rising MIT sophomore studying Math with Computer Science
+        <div className={styles.section}>
+          About
+          <hr/>
+          Hey there! I'm currently a rising MIT sophomore studying Math with Computer Science
+        </div>
+        <ClassList />
       </div>
     )
 

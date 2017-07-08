@@ -11089,6 +11089,10 @@ var _About2 = _interopRequireDefault(_About);
 
 var _reactMotion = __webpack_require__(34);
 
+var _ClassList = __webpack_require__(225);
+
+var _ClassList2 = _interopRequireDefault(_ClassList);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -11112,9 +11116,14 @@ var About = function (_React$Component) {
       var content = _react2.default.createElement(
         "div",
         null,
-        "About",
-        _react2.default.createElement("hr", null),
-        "Hey there! I'm currently a rising MIT sophomore studying Math with Computer Science"
+        _react2.default.createElement(
+          "div",
+          { className: _About2.default.section },
+          "About",
+          _react2.default.createElement("hr", null),
+          "Hey there! I'm currently a rising MIT sophomore studying Math with Computer Science"
+        ),
+        _react2.default.createElement(_ClassList2.default, null)
       );
 
       if (!this.props.active) {
@@ -11279,7 +11288,7 @@ var Home = function (_React$Component) {
           { className: _Home2.default.section },
           "Home",
           _react2.default.createElement("hr", null),
-          "Hello! It seems you have stumbled upon the personal website of Matt Farejowicz. I am a current MIT sophomore, majoring in Course 18C - Mathematics with Computer Science. This website will serve as a hub for information relevant to me and what I'm up to. I'll be doing my best to keep it updated with the most current information. Regardless, thanks for visiting, and feel free to take a look around.",
+          "Hello! It seems you have stumbled upon the personal website of Matt Farejowicz. I am a current MIT sophomore, majoring in Course 18C - Mathematics with Computer Science. This website will serve as a hub for information relevant to me and what I'm up to. I will be doing my best to keep it updated with the most current information. Regardless, thanks for visiting, and feel free to take a look around.",
           _react2.default.createElement("br", null),
           _react2.default.createElement(
             "li",
@@ -12651,12 +12660,13 @@ exports = module.exports = __webpack_require__(15)(undefined);
 
 
 // module
-exports.push([module.i, ".About__wrapper___maaSq{\r\n  position: relative;\r\n}\r\n.About__container___3VDN6{\r\n  position: relative;\r\n  font-size: 20px;\r\n  margin: 20px auto;\r\n  border: 2px solid #000000;\r\n  width: 60%;\r\n  min-width: 550px;\r\n  padding: 5px 40px;\r\n}\r\n", ""]);
+exports.push([module.i, ".About__wrapper___maaSq{\r\n  position: relative;\r\n}\r\n.About__container___3VDN6{\r\n  position: relative;\r\n}\r\n.About__section___2esxW{\r\n  font-size: 20px;\r\n  margin: 20px auto;\r\n  border: 2px solid #000000;\r\n  width: 60%;\r\n  min-width: 550px;\r\n  padding: 5px 40px;\r\n}\r\n", ""]);
 
 // exports
 exports.locals = {
 	"wrapper": "About__wrapper___maaSq",
-	"container": "About__container___3VDN6"
+	"container": "About__container___3VDN6",
+	"section": "About__section___2esxW"
 };
 
 /***/ }),
@@ -12752,10 +12762,10 @@ exports.locals = {
 
 exports = module.exports = __webpack_require__(15)(undefined);
 // imports
-exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Oswald);", ""]);
+exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);", ""]);
 
 // module
-exports.push([module.i, "html,body{\n  font-family: 'Oswald';\n  margin:0;\n  padding:0;\n}\n", ""]);
+exports.push([module.i, "html,body{\n  font-family: \"Roboto Condensed\";\n  margin:0;\n  padding:0;\n}\n\n/*@import url('https://fonts.googleapis.com/css?family=Oswald')*/\n", ""]);
 
 // exports
 
@@ -25654,6 +25664,228 @@ try {
 
 module.exports = g;
 
+
+/***/ }),
+/* 225 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(10);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ClassList = __webpack_require__(227);
+
+var _ClassList2 = _interopRequireDefault(_ClassList);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var ClassList = function (_React$Component) {
+  _inherits(ClassList, _React$Component);
+
+  function ClassList(props) {
+    _classCallCheck(this, ClassList);
+
+    var _this = _possibleConstructorReturn(this, (ClassList.__proto__ || Object.getPrototypeOf(ClassList)).call(this, props));
+
+    _this.state = {
+      active: false
+    };
+    return _this;
+  }
+
+  _createClass(ClassList, [{
+    key: "changeActive",
+    value: function changeActive() {
+      this.setState({
+        active: !this.state.active
+      });
+    }
+  }, {
+    key: "render",
+    value: function render() {
+
+      return _react2.default.createElement(
+        "div",
+        { className: _ClassList2.default.outer, onClick: this.state.active ? null : this.changeActive.bind(this) },
+        _react2.default.createElement(
+          "div",
+          { className: _ClassList2.default.topBar, onClick: this.changeActive.bind(this) },
+          _react2.default.createElement(
+            "div",
+            { className: _ClassList2.default.expand },
+            this.state.active ? "\u2B9D" : "\u2B9F"
+          ),
+          _react2.default.createElement(
+            "div",
+            { className: _ClassList2.default.heading },
+            "Class List",
+            _react2.default.createElement("hr", null)
+          )
+        ),
+        _react2.default.createElement(
+          "div",
+          { className: _ClassList2.default.options },
+          !this.state.active && _react2.default.createElement(
+            "div",
+            null,
+            "Expand this section if you'd like to see what classes I've taken or am taking at MIT!"
+          ),
+          this.state.active && _react2.default.createElement(
+            "div",
+            null,
+            _react2.default.createElement(
+              "h4",
+              null,
+              "Fall 2017"
+            ),
+            _react2.default.createElement(
+              "ul",
+              null,
+              _react2.default.createElement(
+                "li",
+                null,
+                "6.01: Introduction to Electrical Engineering and Computer Science"
+              ),
+              _react2.default.createElement(
+                "li",
+                null,
+                "6.046: Mathematics for Computer Science"
+              )
+            ),
+            _react2.default.createElement(
+              "h4",
+              null,
+              "Spring 2016"
+            ),
+            _react2.default.createElement(
+              "ul",
+              null,
+              _react2.default.createElement(
+                "li",
+                null,
+                "18.03: Differential Equations"
+              ),
+              _react2.default.createElement(
+                "li",
+                null,
+                "6.00: Introduction to Programming via Python and Data Analysis"
+              ),
+              _react2.default.createElement(
+                "li",
+                null,
+                "7.014: Introductory Biology"
+              ),
+              _react2.default.createElement(
+                "li",
+                null,
+                "CMS.301: Introduction to Game Design Methods"
+              )
+            ),
+            _react2.default.createElement(
+              "h4",
+              null,
+              "Fall 2016"
+            ),
+            _react2.default.createElement(
+              "ul",
+              null,
+              _react2.default.createElement(
+                "li",
+                null,
+                "18.02: Multivariable Calculus"
+              ),
+              _react2.default.createElement(
+                "li",
+                null,
+                "8.02: Physics: Electricity and Magnetism"
+              ),
+              _react2.default.createElement(
+                "li",
+                null,
+                "5.111: Principles of Chemical Science"
+              ),
+              _react2.default.createElement(
+                "li",
+                null,
+                "STS.009: Evolution and Society"
+              )
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return ClassList;
+}(_react2.default.Component);
+
+exports.default = ClassList;
+
+/***/ }),
+/* 226 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(15)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, "h1,h2,h3,h4,h5{\n  margin: 0;\n}\nul{\n  margin-top: 0;\n}\n.ClassList__outer___m6ZNl {\n  margin: 20px auto 0;\n  padding: 5px 40px;\n  width: 60%;\n  min-width: 550px;\n  border: 2px solid #000000;\n}\n.ClassList__heading___qaV4G {\n  font-size: 20px;\n}\n.ClassList__expand___NZPcX {\n  font-size: 20px;\n  float: right;\n}\n.ClassList__topBar___NLm5l {\n  cursor: pointer;\n}\n.ClassList__options___3ESvA {\n  font-size: 20px;\n  color: #000000;\n}\n", ""]);
+
+// exports
+exports.locals = {
+	"outer": "ClassList__outer___m6ZNl",
+	"heading": "ClassList__heading___qaV4G",
+	"expand": "ClassList__expand___NZPcX",
+	"topBar": "ClassList__topBar___NLm5l",
+	"options": "ClassList__options___3ESvA"
+};
+
+/***/ }),
+/* 227 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(226);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(18)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../../node_modules/css-loader/index.js??ref--2!./ClassList.css", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js??ref--2!./ClassList.css");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
 
 /***/ })
 /******/ ]);
