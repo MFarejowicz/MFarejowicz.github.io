@@ -60,7 +60,8 @@ class Website extends React.Component {
       <div>
         <NavBar handleHome={this.homeActivator.bind(this)} handleAbout={this.aboutActivator.bind(this)}
           handleWork={this.workActivator.bind(this)} handleFun={this.funActivator.bind(this)}/>
-        <Home active={this.state.homeActive} />
+        <Home active={this.state.homeActive} handleAbout={this.aboutActivator.bind(this)}
+          handleWork={this.workActivator.bind(this)} handleFun={this.funActivator.bind(this)}/>
         <About active={this.state.aboutActive} />
         <Work active={this.state.workActive} />
         <Fun active={this.state.funActive} />
