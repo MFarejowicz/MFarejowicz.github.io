@@ -2,6 +2,7 @@ import React from "react"
 import styles from "./Work.css"
 import {Motion, spring} from 'react-motion'
 import Projects from "./Projects/Projects.jsx"
+import MyLine from "./MyLine/MyLine.jsx"
 
 class Work extends React.Component{
 
@@ -12,9 +13,7 @@ class Work extends React.Component{
           <Projects />
         </div>
         <div className={styles.section}>
-          <b>Timeline</b>
-          <hr/>
-          Work timeline coming here soon
+          <MyLine />
         </div>
       </div>
     )

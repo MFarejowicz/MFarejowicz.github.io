@@ -1,5 +1,5 @@
 .button{
-  font-size: 27px;
+  font-size: 23px;
   width:150px;
   float: right;
   padding: 10px;
@@ -7,7 +7,7 @@
   cursor: pointer;
 }
 .button:hover{
-  background-color: #808080;
+  background-color: #d8712d;
 }
 @media all and (max-width: 580px) {
   .button{
