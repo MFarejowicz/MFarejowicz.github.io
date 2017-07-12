@@ -10,7 +10,13 @@
   border: 2px solid #000000;
   width: 60%;
   min-width: 550px;
-  padding: 5px 40px;
+  padding: 10px 40px;
+}
+.email{
+  font-family: "Roboto Condensed";
+  font-size: 20px;
+  background: rgba(0,0,0,0);
+  border: none;
 }
 
 @-webkit-keyframes hvrpop {

@@ -2,7 +2,7 @@ h1,h2,h3,h4,h5{
   margin: 0;
 }
 ul{
-  margin-top: 0;
+  margin: 0 auto 8px 0;
 }
 .outer {
   margin: 20px auto 0;
@@ -24,4 +24,19 @@ ul{
 .options {
   font-size: 20px;
   color: #000000;
+}
+.clickable {
+  cursor: pointer;
+}
+.fall{
+  color: #cf5230;
+}
+.winter{
+  color: #a0ccff;
+}
+.spring{
+  color: #4aa02c;
+}
+.summer{
+  color: #236e96;
 }

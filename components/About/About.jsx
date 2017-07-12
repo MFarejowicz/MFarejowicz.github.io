@@ -1,7 +1,7 @@
 import React from "react"
 import styles from "./About.css"
 import {Motion, spring} from 'react-motion'
-import ClassList from "./ClassList/ClassList.jsx"
+import List from "./List/List.jsx"
 
 class About extends React.Component{
 
@@ -9,11 +9,15 @@ class About extends React.Component{
     let content = (
       <div>
         <div className={styles.section}>
-          About
+          <b>Biography</b>
           <hr/>
           Hey there! I'm currently a rising MIT sophomore studying Math with Computer Science
         </div>
-        <ClassList />
+        <List />
+        <div className={styles.section}>
+          <b>Links</b>
+          <hr/>
+        </div>
       </div>
     )
 

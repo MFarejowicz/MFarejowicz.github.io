@@ -22,6 +22,7 @@
   "homepage": "https://github.com/MFarejowicz/MFarejowicz.github.io#readme",
   "dependencies": {
     "react": "^15.6.1",
+    "react-copy-to-clipboard": "^5.0.0",
     "react-dom": "^15.6.1",
     "react-motion": "^0.5.0",
     "webpack": "^2.6.1"

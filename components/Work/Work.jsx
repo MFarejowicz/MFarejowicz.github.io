@@ -7,7 +7,7 @@ class Work extends React.Component{
   render() {
     let content = (
       <div>
-        Work
+        <b>Work</b>
         <hr/>
         Past and current projects coming here soon.
       </div>

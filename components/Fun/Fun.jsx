@@ -7,9 +7,9 @@ class Fun extends React.Component{
   render() {
     let content = (
       <div>
-        Fun
+        <b>Fun</b>
         <hr/>
-        MIT Memes for media minded teens coming here soon
+        See what I do for fun!
       </div>
     )
 
