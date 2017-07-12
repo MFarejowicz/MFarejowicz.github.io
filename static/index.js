@@ -11481,7 +11481,7 @@ var _NavBar = __webpack_require__(226);
 
 var _NavBar2 = _interopRequireDefault(_NavBar);
 
-var _NavLink = __webpack_require__(102);
+var _NavLink = __webpack_require__(235);
 
 var _NavLink2 = _interopRequireDefault(_NavLink);
 
@@ -11912,61 +11912,7 @@ var List = function (_React$Component) {
 exports.default = List;
 
 /***/ }),
-/* 102 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(8);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _NavLink = __webpack_require__(227);
-
-var _NavLink2 = _interopRequireDefault(_NavLink);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var NavLink = function (_React$Component) {
-  _inherits(NavLink, _React$Component);
-
-  function NavLink() {
-    _classCallCheck(this, NavLink);
-
-    return _possibleConstructorReturn(this, (NavLink.__proto__ || Object.getPrototypeOf(NavLink)).apply(this, arguments));
-  }
-
-  _createClass(NavLink, [{
-    key: "render",
-    value: function render() {
-
-      return _react2.default.createElement(
-        "div",
-        { className: _NavLink2.default.button, onClick: this.props.handleClick },
-        this.props.title
-      );
-    }
-  }]);
-
-  return NavLink;
-}(_react2.default.Component);
-
-exports.default = NavLink;
-
-/***/ }),
+/* 102 */,
 /* 103 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13158,22 +13104,7 @@ exports.locals = {
 };
 
 /***/ }),
-/* 111 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(14)(undefined);
-// imports
-
-
-// module
-exports.push([module.i, ".NavLink__button___3yYmK{\n  font-size: 27px;\n  width:150px;\n  float: right;\n  padding: 10px;\n  text-align: center;\n  cursor: pointer;\n}\n.NavLink__button___3yYmK:hover{\n  background-color: #808080;\n}\n@media all and (max-width: 580px) {\n  .NavLink__button___3yYmK{\n    font-size: 20px;\n  }\n}\n", ""]);
-
-// exports
-exports.locals = {
-	"button": "NavLink__button___3yYmK"
-};
-
-/***/ }),
+/* 111 */,
 /* 112 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -26050,37 +25981,7 @@ if(false) {
 }
 
 /***/ }),
-/* 227 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(111);
-if(typeof content === 'string') content = [[module.i, content, '']];
-// Prepare cssTransformation
-var transform;
-
-var options = {}
-options.transform = transform
-// add the styles to the DOM
-var update = __webpack_require__(16)(content, options);
-if(content.locals) module.exports = content.locals;
-// Hot Module Replacement
-if(false) {
-	// When the styles change, update the <style> tags
-	if(!content.locals) {
-		module.hot.accept("!!../../node_modules/css-loader/index.js??ref--2!./NavLink.css", function() {
-			var newContent = require("!!../../node_modules/css-loader/index.js??ref--2!./NavLink.css");
-			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-			update(newContent);
-		});
-	}
-	// When the module is disposed, remove the <style> tags
-	module.hot.dispose(function() { update(); });
-}
-
-/***/ }),
+/* 227 */,
 /* 228 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -26437,6 +26338,108 @@ if(false) {
 	if(!content.locals) {
 		module.hot.accept("!!../../../node_modules/css-loader/index.js??ref--2!./Projects.css", function() {
 			var newContent = require("!!../../../node_modules/css-loader/index.js??ref--2!./Projects.css");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 235 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(8);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _NavLink = __webpack_require__(237);
+
+var _NavLink2 = _interopRequireDefault(_NavLink);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var NavLink = function (_React$Component) {
+  _inherits(NavLink, _React$Component);
+
+  function NavLink() {
+    _classCallCheck(this, NavLink);
+
+    return _possibleConstructorReturn(this, (NavLink.__proto__ || Object.getPrototypeOf(NavLink)).apply(this, arguments));
+  }
+
+  _createClass(NavLink, [{
+    key: "render",
+    value: function render() {
+
+      return _react2.default.createElement(
+        "div",
+        { className: _NavLink2.default.button, onClick: this.props.handleClick },
+        this.props.title
+      );
+    }
+  }]);
+
+  return NavLink;
+}(_react2.default.Component);
+
+exports.default = NavLink;
+
+/***/ }),
+/* 236 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(14)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".NavLink__button___16SDS{\n  font-size: 27px;\n  width:150px;\n  float: right;\n  padding: 10px;\n  text-align: center;\n  cursor: pointer;\n}\n.NavLink__button___16SDS:hover{\n  background-color: #808080;\n}\n@media all and (max-width: 580px) {\n  .NavLink__button___16SDS{\n    font-size: 20px;\n  }\n}\n", ""]);
+
+// exports
+exports.locals = {
+	"button": "NavLink__button___16SDS"
+};
+
+/***/ }),
+/* 237 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(236);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(16)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../../node_modules/css-loader/index.js??ref--2!./NavLink.css", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js??ref--2!./NavLink.css");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});

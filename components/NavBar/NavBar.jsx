@@ -1,6 +1,6 @@
 import React from "react"
 import styles from "./NavBar.css"
-import NavLink from "../NavLink/NavLink.jsx"
+import NavLink from "./NavLink/NavLink.jsx"
 
 class NavBar extends React.Component {
 
