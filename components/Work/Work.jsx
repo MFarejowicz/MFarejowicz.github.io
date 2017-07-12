@@ -1,15 +1,21 @@
 import React from "react"
 import styles from "./Work.css"
 import {Motion, spring} from 'react-motion'
+import Projects from "./Projects/Projects.jsx"
 
 class Work extends React.Component{
 
   render() {
     let content = (
       <div>
-        <b>Work</b>
-        <hr/>
-        Past and current projects coming here soon.
+        <div className={styles.section}>
+          <Projects />
+        </div>
+        <div className={styles.section}>
+          <b>Timeline</b>
+          <hr/>
+          Work timeline coming here soon
+        </div>
       </div>
     )
 

@@ -1,0 +1,41 @@
+.description{
+  margin: 0 0 15px 0;
+}
+.container {
+  font-size: 0;
+}
+/*.container::after {
+  display: table;
+  content: " ";
+  clear: both;
+}*/
+.project {
+  font-size: 16px;
+  min-height: 250px;
+  display: inline-block;
+  vertical-align: top;
+  width: 33.33%;
+  box-sizing: border-box;
+  text-align: center;
+  transition: all .5s ease;
+}
+.project:hover{
+  transform: scale(1.05);
+}
+.link {
+  color: #000000;
+  text-decoration: none;
+  width: 90%;
+}
+.picture {
+  width: 90%;
+  padding: 4px;
+  border: 1px solid #808080;
+}
+.title {
+  margin-top: 10px;
+}
+.caption {
+  margin: 10px 0;
+  padding: 0 20px;
+}
