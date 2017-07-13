@@ -11246,7 +11246,7 @@ var About = function (_React$Component) {
             "Biography"
           ),
           _react2.default.createElement("hr", null),
-          "Hey there! I'm currently a rising MIT sophomore studying Math with Computer Science"
+          "Hey there! I'm currently a rising MIT sophomore studying Math with Computer Science."
         ),
         _react2.default.createElement(_List2.default, null),
         _react2.default.createElement(
@@ -11257,7 +11257,34 @@ var About = function (_React$Component) {
             null,
             "Links"
           ),
-          _react2.default.createElement("hr", null)
+          _react2.default.createElement("hr", null),
+          _react2.default.createElement(
+            "p",
+            { className: _About2.default.caption },
+            "Find me on some professional networks:"
+          ),
+          _react2.default.createElement(
+            "ul",
+            { className: _About2.default.linkList },
+            _react2.default.createElement(
+              "li",
+              null,
+              _react2.default.createElement(
+                "a",
+                { className: _About2.default.link, href: "https://github.com/MFarejowicz" },
+                "Github"
+              )
+            ),
+            _react2.default.createElement(
+              "li",
+              null,
+              _react2.default.createElement(
+                "a",
+                { className: _About2.default.link, href: "https://www.linkedin.com/in/mfarejowicz/" },
+                "LinkedIn"
+              )
+            )
+          )
         )
       );
 
@@ -11338,12 +11365,64 @@ var Fun = function (_React$Component) {
         "div",
         null,
         _react2.default.createElement(
-          "b",
-          null,
-          "Fun"
+          "div",
+          { className: _Fun2.default.section },
+          _react2.default.createElement(
+            "b",
+            null,
+            "Social Links"
+          ),
+          _react2.default.createElement("hr", null),
+          _react2.default.createElement(
+            "p",
+            { className: _Fun2.default.caption },
+            "Find me on some not-so-professional networks:"
+          ),
+          _react2.default.createElement(
+            "ul",
+            { className: _Fun2.default.linkList },
+            _react2.default.createElement(
+              "li",
+              null,
+              _react2.default.createElement(
+                "a",
+                { className: _Fun2.default.link, href: "http://steamcommunity.com/profiles/76561198039687446" },
+                "Steam"
+              )
+            ),
+            _react2.default.createElement(
+              "li",
+              null,
+              _react2.default.createElement(
+                "a",
+                { className: _Fun2.default.link, href: "https://myanimelist.net/profile/Nerds6969" },
+                "MyAnimeList"
+              )
+            )
+          )
         ),
-        _react2.default.createElement("hr", null),
-        "See what I do for fun!"
+        _react2.default.createElement(
+          "div",
+          { className: _Fun2.default.section },
+          _react2.default.createElement(
+            "b",
+            null,
+            "Interest Lists"
+          ),
+          _react2.default.createElement("hr", null),
+          "Coming soon."
+        ),
+        _react2.default.createElement(
+          "div",
+          { className: _Fun2.default.section },
+          _react2.default.createElement(
+            "b",
+            null,
+            "Games"
+          ),
+          _react2.default.createElement("hr", null),
+          "Coming soon (iffy on this one)."
+        )
       );
 
       if (!this.props.active) {
@@ -11436,11 +11515,11 @@ var Home = function (_React$Component) {
             "Home"
           ),
           _react2.default.createElement("hr", null),
-          "Hello! It seems you have stumbled upon the personal website of Matt Farejowicz. I am a current MIT sophomore, majoring in Course 18C - Mathematics with Computer Science. This website will serve as a hub for information relevant to me and what I'm up to. I will be doing my best to keep it updated with the most current information. Regardless, thanks for visiting, and feel free to take a look around.",
+          "Hello! You've stumbled upon the personal website of Matt Farejowicz. I am a current MIT sophomore, majoring in Course 18C - Mathematics with Computer Science. This website will serve as a hub for information relevant to me and what I'm up to. I will be doing my best to keep it updated with the most current information. Regardless, thanks for visiting, and feel free to take a look around.",
           _react2.default.createElement("br", null),
           _react2.default.createElement(
             "ul",
-            null,
+            { className: _Home2.default.list },
             _react2.default.createElement(
               "li",
               null,
@@ -11882,7 +11961,7 @@ var List = function (_React$Component) {
             ),
             _react2.default.createElement(
               "ul",
-              null,
+              { className: _List2.default.classList },
               _react2.default.createElement(
                 "li",
                 null,
@@ -11916,11 +11995,22 @@ var List = function (_React$Component) {
             ),
             _react2.default.createElement(
               "ul",
-              null,
+              { className: _List2.default.classList },
               _react2.default.createElement(
                 "li",
                 null,
-                "UROP with the Collective Learning Group at the MIT Media Lab"
+                "UROP with the ",
+                _react2.default.createElement(
+                  "a",
+                  { href: "https://www.media.mit.edu/groups/collective-learning/overview/" },
+                  "Collective Learning Group"
+                ),
+                " at the MIT Media Lab"
+              ),
+              _react2.default.createElement(
+                "li",
+                null,
+                "Next Haunt Producer (current)"
               )
             ),
             _react2.default.createElement(
@@ -11930,7 +12020,7 @@ var List = function (_React$Component) {
             ),
             _react2.default.createElement(
               "ul",
-              null,
+              { className: _List2.default.classList },
               _react2.default.createElement(
                 "li",
                 null,
@@ -11950,6 +12040,21 @@ var List = function (_React$Component) {
                 "li",
                 null,
                 "CMS.301: Introduction to Game Design Methods"
+              ),
+              _react2.default.createElement(
+                "li",
+                null,
+                "Next House VP of Facilities (current)"
+              ),
+              _react2.default.createElement(
+                "li",
+                null,
+                "Next Gamers Exec Member (current)"
+              ),
+              _react2.default.createElement(
+                "li",
+                null,
+                "Next House Intramural Ice Hockey"
               )
             ),
             _react2.default.createElement(
@@ -11959,7 +12064,7 @@ var List = function (_React$Component) {
             ),
             _react2.default.createElement(
               "ul",
-              null,
+              { className: _List2.default.classList },
               _react2.default.createElement(
                 "li",
                 null,
@@ -11969,6 +12074,11 @@ var List = function (_React$Component) {
                 "li",
                 null,
                 "6.178: Introduction to Software Engineering in Java"
+              ),
+              _react2.default.createElement(
+                "li",
+                null,
+                "MIT Educational Studies Program Admin (current)"
               )
             ),
             _react2.default.createElement(
@@ -11978,7 +12088,7 @@ var List = function (_React$Component) {
             ),
             _react2.default.createElement(
               "ul",
-              null,
+              { className: _List2.default.classList },
               _react2.default.createElement(
                 "li",
                 null,
@@ -11998,6 +12108,16 @@ var List = function (_React$Component) {
                 "li",
                 null,
                 "STS.009: Evolution and Society"
+              ),
+              _react2.default.createElement(
+                "li",
+                null,
+                "Next House 2W Wing Rep"
+              ),
+              _react2.default.createElement(
+                "li",
+                null,
+                "Next Haunt Build Crew and Run Crew"
               )
             ),
             _react2.default.createElement(
@@ -12007,7 +12127,7 @@ var List = function (_React$Component) {
             ),
             _react2.default.createElement(
               "ul",
-              null,
+              { className: _List2.default.classList },
               _react2.default.createElement(
                 "li",
                 null,
@@ -12219,7 +12339,7 @@ var Projects = function (_React$Component) {
         _react2.default.createElement(
           "p",
           { className: _Projects2.default.description },
-          "My past and current projects can be found here!"
+          "My past and current projects can be found here:"
         ),
         _react2.default.createElement(
           "div",
@@ -13382,13 +13502,16 @@ exports = module.exports = __webpack_require__(13)(undefined);
 
 
 // module
-exports.push([module.i, ".About__wrapper___maaSq{\r\n  position: relative;\r\n}\r\n.About__container___3VDN6{\r\n  position: relative;\r\n}\r\n.About__section___2esxW{\r\n  font-size: 20px;\r\n  margin: 20px auto;\r\n  border: 2px solid #000000;\r\n  width: 60%;\r\n  min-width: 550px;\r\n  padding: 5px 40px;\r\n}\r\n", ""]);
+exports.push([module.i, ".About__wrapper___maaSq{\r\n  position: relative;\r\n}\r\n.About__container___3VDN6{\r\n  position: relative;\r\n}\r\n.About__section___2esxW{\r\n  font-size: 20px;\r\n  margin: 20px auto;\r\n  border: 2px solid #000000;\r\n  width: 60%;\r\n  min-width: 550px;\r\n  padding: 10px 40px;\r\n}\r\n.About__caption___3H4jc{\r\n  margin: 0 0 5px 0;\r\n}\r\n.About__linkList___2aWK0{\r\n  list-style-type: none;\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n.About__link___xkDQW:hover{\r\n  color: #f17e33;\r\n}\r\n", ""]);
 
 // exports
 exports.locals = {
 	"wrapper": "About__wrapper___maaSq",
 	"container": "About__container___3VDN6",
-	"section": "About__section___2esxW"
+	"section": "About__section___2esxW",
+	"caption": "About__caption___3H4jc",
+	"linkList": "About__linkList___2aWK0",
+	"link": "About__link___xkDQW"
 };
 
 /***/ }),
@@ -13400,7 +13523,7 @@ exports = module.exports = __webpack_require__(13)(undefined);
 
 
 // module
-exports.push([module.i, "h1,h2,h3,h4,h5{\n  margin: 0;\n}\nul{\n  margin: 0 auto 8px 0;\n}\n.List__outer___3T9P5 {\n  margin: 20px auto 0;\n  padding: 5px 40px;\n  width: 60%;\n  min-width: 550px;\n  border: 2px solid #000000;\n}\n.List__heading___29qU_ {\n  font-size: 20px;\n}\n.List__expand___2l7IH {\n  font-size: 20px;\n  float: right;\n}\n.List__topBar___nu9iT {\n  cursor: pointer;\n}\n.List__options___UEaWT {\n  font-size: 20px;\n  color: #000000;\n}\n.List__clickable___gC-bX {\n  cursor: pointer;\n}\n.List__fall___gPCQM{\n  color: #cf5230;\n}\n.List__winter___3yOKg{\n  color: #a0ccff;\n}\n.List__spring___1F0LU{\n  color: #4aa02c;\n}\n.List__summer___3nfaq{\n  color: #236e96;\n}\n", ""]);
+exports.push([module.i, ".List__outer___3T9P5 {\n  margin: 20px auto 0;\n  padding: 5px 40px;\n  width: 60%;\n  min-width: 550px;\n  border: 2px solid #000000;\n}\n.List__heading___29qU_ {\n  font-size: 20px;\n}\n.List__expand___2l7IH {\n  font-size: 20px;\n  float: right;\n}\n.List__topBar___nu9iT {\n  cursor: pointer;\n}\n.List__options___UEaWT {\n  font-size: 20px;\n  color: #000000;\n}\n.List__clickable___gC-bX {\n  cursor: pointer;\n}\n.List__classList___3HTTB{\n  margin: 0 auto 8px 0;\n}\n.List__fall___gPCQM{\n  color: #cf5230;\n}\n.List__winter___3yOKg{\n  color: #a0ccff;\n}\n.List__spring___1F0LU{\n  color: #4aa02c;\n}\n.List__summer___3nfaq{\n  color: #236e96;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -13410,6 +13533,7 @@ exports.locals = {
 	"topBar": "List__topBar___nu9iT",
 	"options": "List__options___UEaWT",
 	"clickable": "List__clickable___gC-bX",
+	"classList": "List__classList___3HTTB",
 	"fall": "List__fall___gPCQM",
 	"winter": "List__winter___3yOKg",
 	"spring": "List__spring___1F0LU",
@@ -13425,12 +13549,16 @@ exports = module.exports = __webpack_require__(13)(undefined);
 
 
 // module
-exports.push([module.i, ".Fun__wrapper___3mLPw{\n  position: relative;\n}\n.Fun__container___1hvxP{\n  position: relative;\n  font-size: 20px;\n  margin: 20px auto;\n  border: 2px solid #000000;\n  width: 60%;\n  min-width: 550px;\n  padding: 5px 40px;\n}\n", ""]);
+exports.push([module.i, ".Fun__wrapper___3mLPw{\n  position: relative;\n}\n.Fun__container___1hvxP{\n  position: relative;\n}\n.Fun__section___j7M-Q{\n  font-size: 20px;\n  margin: 20px auto;\n  border: 2px solid #000000;\n  width: 60%;\n  min-width: 550px;\n  padding: 10px 40px;\n}\n.Fun__caption___2dC1o{\n  margin: 0 0 5px 0;\n}\n.Fun__linkList___28r6W{\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n}\n.Fun__link___aNeU7:hover{\n  color: #f17e33;\n}\n", ""]);
 
 // exports
 exports.locals = {
 	"wrapper": "Fun__wrapper___3mLPw",
-	"container": "Fun__container___1hvxP"
+	"container": "Fun__container___1hvxP",
+	"section": "Fun__section___j7M-Q",
+	"caption": "Fun__caption___2dC1o",
+	"linkList": "Fun__linkList___28r6W",
+	"link": "Fun__link___aNeU7"
 };
 
 /***/ }),
@@ -13442,13 +13570,14 @@ exports = module.exports = __webpack_require__(13)(undefined);
 
 
 // module
-exports.push([module.i, ".Home__wrapper___1QXeV{\r\n  position: relative;\r\n}\r\n.Home__container___3YqXY{\r\n  position: relative;\r\n}\r\n.Home__section___1FP21{\r\n  font-size: 20px;\r\n  margin: 20px auto;\r\n  border: 2px solid #000000;\r\n  width: 60%;\r\n  min-width: 550px;\r\n  padding: 10px 40px;\r\n}\r\n.Home__email___nL9Ik{\r\n  font-family: \"Roboto Condensed\";\r\n  font-size: 20px;\r\n  background: rgba(0,0,0,0);\r\n  border: none;\r\n}\r\n\r\n@-webkit-keyframes Home__hvrpop___7_j5D {\r\n  50% {\r\n    -webkit-transform: scale(1.2);\r\n    transform: scale(1.2);\r\n  }\r\n}\r\n@keyframes Home__hvrpop___7_j5D {\r\n  50% {\r\n    -webkit-transform: scale(1.2);\r\n    transform: scale(1.2);\r\n  }\r\n}\r\n.Home__hvrpop___7_j5D {\r\n  text-decoration: underline;\r\n  cursor: pointer;\r\n  display: inline-block;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  box-shadow: 0 0 1px transparent;\r\n}\r\n.Home__hvrpop___7_j5D:hover, .Home__hvrpop___7_j5D:focus, .Home__hvrpop___7_j5D:active {\r\n  color: #f17e33;\r\n  -webkit-animation-name: Home__hvrpop___7_j5D;\r\n  animation-name: Home__hvrpop___7_j5D;\r\n  -webkit-animation-duration: 0.3s;\r\n  animation-duration: 0.3s;\r\n  -webkit-animation-timing-function: linear;\r\n  animation-timing-function: linear;\r\n  -webkit-animation-iteration-count: 1;\r\n  animation-iteration-count: 1;\r\n}\r\n", ""]);
+exports.push([module.i, ".Home__wrapper___1QXeV{\r\n  position: relative;\r\n}\r\n.Home__container___3YqXY{\r\n  position: relative;\r\n}\r\n.Home__section___1FP21{\r\n  font-size: 20px;\r\n  margin: 20px auto;\r\n  border: 2px solid #000000;\r\n  width: 60%;\r\n  min-width: 550px;\r\n  padding: 10px 40px;\r\n}\r\n.Home__list___1B08o {\r\n  margin: 0;\r\n}\r\n.Home__email___nL9Ik{\r\n  font-family: \"Roboto Condensed\";\r\n  font-size: 20px;\r\n  background: rgba(0,0,0,0);\r\n  border: none;\r\n}\r\n\r\n@-webkit-keyframes Home__hvrpop___7_j5D {\r\n  50% {\r\n    -webkit-transform: scale(1.2);\r\n    transform: scale(1.2);\r\n  }\r\n}\r\n@keyframes Home__hvrpop___7_j5D {\r\n  50% {\r\n    -webkit-transform: scale(1.2);\r\n    transform: scale(1.2);\r\n  }\r\n}\r\n.Home__hvrpop___7_j5D {\r\n  text-decoration: underline;\r\n  cursor: pointer;\r\n  display: inline-block;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  box-shadow: 0 0 1px transparent;\r\n}\r\n.Home__hvrpop___7_j5D:hover, .Home__hvrpop___7_j5D:focus, .Home__hvrpop___7_j5D:active {\r\n  color: #f17e33;\r\n  -webkit-animation-name: Home__hvrpop___7_j5D;\r\n  animation-name: Home__hvrpop___7_j5D;\r\n  -webkit-animation-duration: 0.3s;\r\n  animation-duration: 0.3s;\r\n  -webkit-animation-timing-function: linear;\r\n  animation-timing-function: linear;\r\n  -webkit-animation-iteration-count: 1;\r\n  animation-iteration-count: 1;\r\n}\r\n", ""]);
 
 // exports
 exports.locals = {
 	"wrapper": "Home__wrapper___1QXeV",
 	"container": "Home__container___3YqXY",
 	"section": "Home__section___1FP21",
+	"list": "Home__list___1B08o",
 	"email": "Home__email___nL9Ik",
 	"hvrpop": "Home__hvrpop___7_j5D"
 };
@@ -13480,7 +13609,7 @@ exports = module.exports = __webpack_require__(13)(undefined);
 
 
 // module
-exports.push([module.i, ".NavLink__button___16SDS{\n  font-size: 23px;\n  width:150px;\n  float: right;\n  padding: 10px;\n  text-align: center;\n  cursor: pointer;\n}\n.NavLink__button___16SDS:hover{\n  background-color: #d8712d;\n}\n@media all and (max-width: 580px) {\n  .NavLink__button___16SDS{\n    font-size: 20px;\n  }\n}\n", ""]);
+exports.push([module.i, ".NavLink__button___16SDS{\n  font-size: 23px;\n  width:150px;\n  float: right;\n  padding: 10px;\n  text-align: center;\n  cursor: pointer;\n}\n.NavLink__button___16SDS:hover{\n  background-color: #d8712d;\n}\n@media all and (max-width: 1300px) {\n  .NavLink__button___16SDS{\n    width: 50px;\n  }\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -13518,7 +13647,7 @@ exports = module.exports = __webpack_require__(13)(undefined);
 
 
 // module
-exports.push([module.i, ".Work__wrapper___O0XhM{\n  position: relative;\n}\n.Work__container___m7ZG0{\n  position: relative;\n}\n.Work__section___1FF5S{\n  font-size: 20px;\n  margin: 20px auto;\n  border: 2px solid #000000;\n  width: 60%;\n  min-width: 550px;\n  padding: 5px 40px;\n}\n", ""]);
+exports.push([module.i, ".Work__wrapper___O0XhM{\n  position: relative;\n}\n.Work__container___m7ZG0{\n  position: relative;\n}\n.Work__section___1FF5S{\n  font-size: 20px;\n  margin: 20px auto;\n  border: 2px solid #000000;\n  width: 60%;\n  min-width: 550px;\n  padding: 10px 40px;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -13536,7 +13665,7 @@ exports = module.exports = __webpack_require__(13)(undefined);
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);", ""]);
 
 // module
-exports.push([module.i, "html,body{\n  font-family: \"Roboto Condensed\";\n  margin:0;\n  padding:0;\n}\n\n/*@import url('https://fonts.googleapis.com/css?family=Oswald')*/\n", ""]);
+exports.push([module.i, "html,body{\n  font-family: \"Roboto Condensed\";\n  margin:0;\n  padding:0;\n}\nh1,h2,h3,h4,h5{\n  margin: 0;\n}\n\n/*@import url('https://fonts.googleapis.com/css?family=Oswald')*/\n", ""]);
 
 // exports
 

@@ -11,12 +11,17 @@ class About extends React.Component{
         <div className={styles.section}>
           <b>Biography</b>
           <hr/>
-          Hey there! I'm currently a rising MIT sophomore studying Math with Computer Science
+          Hey there! I'm currently a rising MIT sophomore studying Math with Computer Science.
         </div>
         <List />
         <div className={styles.section}>
           <b>Links</b>
           <hr/>
+          <p className={styles.caption}>Find me on some professional networks:</p>
+          <ul className={styles.linkList}>
+            <li><a className={styles.link} href="https://github.com/MFarejowicz">Github</a></li>
+            <li><a className={styles.link} href="https://www.linkedin.com/in/mfarejowicz/">LinkedIn</a></li>
+          </ul>
         </div>
       </div>
     )

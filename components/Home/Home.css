@@ -12,6 +12,9 @@
   min-width: 550px;
   padding: 10px 40px;
 }
+.list {
+  margin: 0;
+}
 .email{
   font-family: "Roboto Condensed";
   font-size: 20px;

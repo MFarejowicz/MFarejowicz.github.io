@@ -9,8 +9,8 @@
 .button:hover{
   background-color: #d8712d;
 }
-@media all and (max-width: 580px) {
+@media all and (max-width: 1300px) {
   .button{
-    font-size: 20px;
+    width: 50px;
   }
 }

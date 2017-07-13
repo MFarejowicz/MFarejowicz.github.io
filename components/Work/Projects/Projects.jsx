@@ -9,7 +9,7 @@ class Projects extends React.Component {
       <div>
         <b>Projects</b>
         <hr/>
-        <p className={styles.description}>My past and current projects can be found here!</p>
+        <p className={styles.description}>My past and current projects can be found here:</p>
         <div className={styles.container}>
           <div className={styles.project}>
             <a href="./components/Work/Links/Todo/todo.html" className={styles.link}>

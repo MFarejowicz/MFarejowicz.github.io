@@ -1,9 +1,3 @@
-h1,h2,h3,h4,h5{
-  margin: 0;
-}
-ul{
-  margin: 0 auto 8px 0;
-}
 .outer {
   margin: 20px auto 0;
   padding: 5px 40px;
@@ -27,6 +21,9 @@ ul{
 }
 .clickable {
   cursor: pointer;
+}
+.classList{
+  margin: 0 auto 8px 0;
 }
 .fall{
   color: #cf5230;

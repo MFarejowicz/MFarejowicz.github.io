@@ -12,14 +12,14 @@ class Home extends React.Component{
         <div className={styles.section}>
           <b>Home</b>
           <hr/>
-          Hello! It seems you have stumbled upon the personal website of Matt
+          Hello! You've stumbled upon the personal website of Matt
           Farejowicz. I am a current MIT sophomore, majoring in Course 18C -
           Mathematics with Computer Science. This website will serve
           as a hub for information relevant to me and what I'm up to. I will
           be doing my best to keep it updated with the most current information.
           Regardless, thanks for visiting, and feel free to take a look around.
           <br/>
-          <ul>
+          <ul className={styles.list}>
             <li>You can find out more about me and my personal interests over
               in the <span className={styles.hvrpop} onClick={this.props.handleAbout}>About</span> tab. </li>
             <li>You can check out my current and previous work over in

@@ -7,9 +7,25 @@ class Fun extends React.Component{
   render() {
     let content = (
       <div>
-        <b>Fun</b>
-        <hr/>
-        See what I do for fun!
+        <div className={styles.section}>
+          <b>Social Links</b>
+          <hr/>
+          <p className={styles.caption}>Find me on some not-so-professional networks:</p>
+          <ul className={styles.linkList}>
+            <li><a className={styles.link} href="http://steamcommunity.com/profiles/76561198039687446">Steam</a></li>
+            <li><a className={styles.link} href="https://myanimelist.net/profile/Nerds6969">MyAnimeList</a></li>
+          </ul>
+        </div>
+        <div className={styles.section}>
+          <b>Interest Lists</b>
+          <hr/>
+          Coming soon.
+        </div>
+        <div className={styles.section}>
+          <b>Games</b>
+          <hr/>
+          Coming soon (iffy on this one).
+        </div>
       </div>
     )
 
