@@ -13525,7 +13525,7 @@ exports = module.exports = __webpack_require__(13)(undefined);
 
 
 // module
-exports.push([module.i, ".List__outer___3T9P5 {\n  margin: 20px auto 0;\n  padding: 5px 40px;\n  width: 60%;\n  min-width: 550px;\n  border: 2px solid #000000;\n}\n.List__heading___29qU_ {\n  font-size: 20px;\n}\n.List__expand___2l7IH {\n  font-size: 20px;\n  float: right;\n}\n.List__topBar___nu9iT {\n  cursor: pointer;\n}\n.List__options___UEaWT {\n  font-size: 20px;\n  color: #000000;\n}\n.List__clickable___gC-bX {\n  cursor: pointer;\n}\n.List__classList___3HTTB{\n  margin: 0 auto 8px 0;\n}\n.List__fall___gPCQM{\n  color: #cf5230;\n}\n.List__winter___3yOKg{\n  color: #a0ccff;\n}\n.List__spring___1F0LU{\n  color: #4aa02c;\n}\n.List__summer___3nfaq{\n  color: #236e96;\n}\n", ""]);
+exports.push([module.i, ".List__outer___3T9P5 {\n  margin: 20px auto 0;\n  padding: 10px 40px;\n  width: 60%;\n  min-width: 550px;\n  border: 2px solid #000000;\n}\n.List__heading___29qU_ {\n  font-size: 20px;\n}\n.List__expand___2l7IH {\n  font-size: 20px;\n  float: right;\n}\n.List__topBar___nu9iT {\n  cursor: pointer;\n}\n.List__options___UEaWT {\n  font-size: 20px;\n  color: #000000;\n}\n.List__clickable___gC-bX {\n  cursor: pointer;\n}\n.List__classList___3HTTB{\n  margin: 0 auto 8px 0;\n}\n.List__fall___gPCQM{\n  color: #cf5230;\n}\n.List__winter___3yOKg{\n  color: #a0ccff;\n}\n.List__spring___1F0LU{\n  color: #4aa02c;\n}\n.List__summer___3nfaq{\n  color: #236e96;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -13611,7 +13611,7 @@ exports = module.exports = __webpack_require__(13)(undefined);
 
 
 // module
-exports.push([module.i, ".NavLink__button___16SDS{\n  font-size: 33px;\n  width: 150px;\n  float: right;\n  padding: 11px 10px 10px;\n  text-align: center;\n  cursor: pointer;\n}\n.NavLink__button___16SDS:hover{\n  background-color: #d8712d;\n}\n@media all and (max-width: 1300px) {\n  .NavLink__button___16SDS{\n    width: 50px;\n  }\n}\n", ""]);
+exports.push([module.i, ".NavLink__button___16SDS{\n  font-size: 33px;\n  width: 150px;\n  float: right;\n  padding: 11px 10px 10px;\n  text-align: center;\n  cursor: pointer;\n}\n.NavLink__button___16SDS:hover{\n  background-color: #d8712d;\n}\n@media all and (max-width: 1420px) {\n  .NavLink__button___16SDS{\n    width: 100px;\n  }\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -13664,10 +13664,10 @@ exports.locals = {
 
 exports = module.exports = __webpack_require__(13)(undefined);
 // imports
-exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);", ""]);
+exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed|Oswald);", ""]);
 
 // module
-exports.push([module.i, "html,body{\n  font-family: \"Roboto Condensed\";\n  margin:0;\n  padding:0;\n}\nh1,h2,h3,h4,h5{\n  margin: 0;\n}\n\n/*@import url('https://fonts.googleapis.com/css?family=Oswald')*/\n", ""]);
+exports.push([module.i, "html, body {\n  font-family: \"Roboto Condensed\";\n  margin: 0;\n  padding: 0;\n}\n\n\nh1, h2, h3, h4, h5 {\n  margin: 0;\n}\n\nb {\n  font-size: 28px\n}\n\n\n/*@import url('https://fonts.googleapis.com/css?family=Oswald')*/\n", ""]);
 
 // exports
 

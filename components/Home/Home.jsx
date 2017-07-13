@@ -50,14 +50,14 @@ class Home extends React.Component{
           parts of the website that move utilize the <a className={styles.hvrpop} href="https://github.com/chenglou/react-motion">react-motion</a> library, which offers elegant solutions to physics based movement in components.
         </div>
         <div className={styles.section}>
-        <b>Contact</b>
-        <hr/>
-        If you'd like to reach me directly, feel free to shoot me an email at <CopyToClipboard text="mfarejow@mit.edu">
-            <span className={styles.hvrpop}> mfarejow@mit.edu</span>
-          </CopyToClipboard>
-        <br/>
-        <br/>
-        For other links and ways to connect, take a look at the <span className={styles.hvrpop} onClick={this.props.handleAbout}>About</span> tab
+          <b>Contact</b>
+          <hr/>
+          If you'd like to reach me directly, feel free to shoot me an email at <CopyToClipboard text="mfarejow@mit.edu">
+              <span className={styles.hvrpop}> mfarejow@mit.edu</span>
+            </CopyToClipboard>
+          <br/>
+          <br/>
+          For other links and ways to connect, take a look at the <span className={styles.hvrpop} onClick={this.props.handleAbout}>About</span> tab
         </div>
       </div>
     )
