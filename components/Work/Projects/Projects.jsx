@@ -13,7 +13,7 @@ class Projects extends React.Component {
         <div className={styles.container}>
           <div className={styles.project}>
             <a href="./components/Work/Links/Todo/todo.html" className={styles.link}>
-              <img className={styles.picture} src="./static/pics/todo.png"></img>
+              <img className={styles.picture} src="./static/img/todo.png" alt="Simple Todo"></img>
               <div className={styles.projectInfo}>
                 <h3 className={styles.title}>Simple Todo</h3>
                 <p className={styles.caption}> My first webapp ever. A simple todo list I made that uses JQuery for functionality and localStorage to keep list entries across sessions. </p>
@@ -22,7 +22,7 @@ class Projects extends React.Component {
           </div>
           <div className={styles.project}>
             <a href="#" className={styles.link}>
-              <img className={styles.picture} src="./static/pics/replot.png"></img>
+              <img className={styles.picture} src="./static/img/replot.png" alt="Replot"></img>
               <div className={styles.projectInfo}>
                 <h3 className={styles.title}>Replot</h3>
                 <p className={styles.caption}> (Coming soon!) A ReactJS Data Visualiation Library </p>

@@ -8,11 +8,12 @@ class NavBar extends React.Component {
     return (
       <div className={styles.top}>
         <div className={styles.container}>
+          <img src="./static/img/matthead.png" height="100%" alt="Matt" style={{float: "left"}}></img>
           <NavLink title="Fun" handleClick={this.props.handleFun}/>
           <NavLink title="Work" handleClick={this.props.handleWork}/>
           <NavLink title="About" handleClick={this.props.handleAbout}/>
           <NavLink title="Home" handleClick={this.props.handleHome}/>
-          <div className={styles.brand}>MattF</div>
+          <p className={styles.brand}>MattF</p>
         </div>
       </div>
     )

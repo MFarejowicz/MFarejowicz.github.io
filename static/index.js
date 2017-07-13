@@ -11246,6 +11246,7 @@ var About = function (_React$Component) {
             "Biography"
           ),
           _react2.default.createElement("hr", null),
+          _react2.default.createElement("img", { src: "./static/img/matt.png", alt: "Matt", width: "20%", style: { float: "right" } }),
           "Hey there! I'm currently a rising MIT sophomore studying Math with Computer Science."
         ),
         _react2.default.createElement(_List2.default, null),
@@ -11711,12 +11712,13 @@ var NavBar = function (_React$Component) {
         _react2.default.createElement(
           "div",
           { className: _NavBar2.default.container },
+          _react2.default.createElement("img", { src: "./static/img/matthead.png", height: "100%", alt: "Matt", style: { float: "left" } }),
           _react2.default.createElement(_NavLink2.default, { title: "Fun", handleClick: this.props.handleFun }),
           _react2.default.createElement(_NavLink2.default, { title: "Work", handleClick: this.props.handleWork }),
           _react2.default.createElement(_NavLink2.default, { title: "About", handleClick: this.props.handleAbout }),
           _react2.default.createElement(_NavLink2.default, { title: "Home", handleClick: this.props.handleHome }),
           _react2.default.createElement(
-            "div",
+            "p",
             { className: _NavBar2.default.brand },
             "MattF"
           )
@@ -12350,7 +12352,7 @@ var Projects = function (_React$Component) {
             _react2.default.createElement(
               "a",
               { href: "./components/Work/Links/Todo/todo.html", className: _Projects2.default.link },
-              _react2.default.createElement("img", { className: _Projects2.default.picture, src: "./static/pics/todo.png" }),
+              _react2.default.createElement("img", { className: _Projects2.default.picture, src: "./static/img/todo.png", alt: "Simple Todo" }),
               _react2.default.createElement(
                 "div",
                 { className: _Projects2.default.projectInfo },
@@ -12373,7 +12375,7 @@ var Projects = function (_React$Component) {
             _react2.default.createElement(
               "a",
               { href: "#", className: _Projects2.default.link },
-              _react2.default.createElement("img", { className: _Projects2.default.picture, src: "./static/pics/replot.png" }),
+              _react2.default.createElement("img", { className: _Projects2.default.picture, src: "./static/img/replot.png", alt: "Replot" }),
               _react2.default.createElement(
                 "div",
                 { className: _Projects2.default.projectInfo },
@@ -13502,7 +13504,7 @@ exports = module.exports = __webpack_require__(13)(undefined);
 
 
 // module
-exports.push([module.i, ".About__wrapper___maaSq{\r\n  position: relative;\r\n}\r\n.About__container___3VDN6{\r\n  position: relative;\r\n}\r\n.About__section___2esxW{\r\n  font-size: 20px;\r\n  margin: 20px auto;\r\n  border: 2px solid #000000;\r\n  width: 60%;\r\n  min-width: 550px;\r\n  padding: 10px 40px;\r\n}\r\n.About__caption___3H4jc{\r\n  margin: 0 0 5px 0;\r\n}\r\n.About__linkList___2aWK0{\r\n  list-style-type: none;\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n.About__link___xkDQW:hover{\r\n  color: #f17e33;\r\n}\r\n", ""]);
+exports.push([module.i, ".About__wrapper___maaSq{\r\n  position: relative;\r\n}\r\n.About__container___3VDN6{\r\n  position: relative;\r\n}\r\n.About__section___2esxW{\r\n  font-size: 20px;\r\n  margin: 20px auto;\r\n  border: 2px solid #000000;\r\n  width: 60%;\r\n  min-width: 550px;\r\n  padding: 10px 40px;\r\n  overflow: auto;\r\n}\r\n.About__caption___3H4jc{\r\n  margin: 0 0 5px 0;\r\n}\r\n.About__linkList___2aWK0{\r\n  list-style-type: none;\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n.About__link___xkDQW:hover{\r\n  color: #f17e33;\r\n}\r\n", ""]);
 
 // exports
 exports.locals = {
@@ -13591,7 +13593,7 @@ exports = module.exports = __webpack_require__(13)(undefined);
 
 
 // module
-exports.push([module.i, ".NavBar__top___j_M8x{\n  background-color: #f17e33;\n}\n\n.NavBar__container___2bZCu{\n  width: 60%;\n  margin: 0 auto;\n}\n\n.NavBar__brand___2LsgG{\n  font-size: 40px;\n}\n", ""]);
+exports.push([module.i, ".NavBar__top___j_M8x{\n  background-color: #f17e33;\n}\n\n.NavBar__container___2bZCu{\n  width: 60%;\n  height: 60px;\n  margin: 0 auto;\n}\n\n.NavBar__brand___2LsgG{\n  font-size: 40px;\n  padding-top: 6px;\n  margin: 0;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -13609,7 +13611,7 @@ exports = module.exports = __webpack_require__(13)(undefined);
 
 
 // module
-exports.push([module.i, ".NavLink__button___16SDS{\n  font-size: 23px;\n  width:150px;\n  float: right;\n  padding: 10px;\n  text-align: center;\n  cursor: pointer;\n}\n.NavLink__button___16SDS:hover{\n  background-color: #d8712d;\n}\n@media all and (max-width: 1300px) {\n  .NavLink__button___16SDS{\n    width: 50px;\n  }\n}\n", ""]);
+exports.push([module.i, ".NavLink__button___16SDS{\n  font-size: 33px;\n  width: 150px;\n  float: right;\n  padding: 11px 10px 10px;\n  text-align: center;\n  cursor: pointer;\n}\n.NavLink__button___16SDS:hover{\n  background-color: #d8712d;\n}\n@media all and (max-width: 1300px) {\n  .NavLink__button___16SDS{\n    width: 50px;\n  }\n}\n", ""]);
 
 // exports
 exports.locals = {

@@ -11,6 +11,7 @@
   width: 60%;
   min-width: 550px;
   padding: 10px 40px;
+  overflow: auto;
 }
 .caption{
   margin: 0 0 5px 0;

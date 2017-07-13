@@ -11,6 +11,7 @@ class About extends React.Component{
         <div className={styles.section}>
           <b>Biography</b>
           <hr/>
+          <img src="./static/img/matt.png" alt="Matt" width="20%" style={{float:"right"}}></img>
           Hey there! I'm currently a rising MIT sophomore studying Math with Computer Science.
         </div>
         <List />
