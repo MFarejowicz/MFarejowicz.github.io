@@ -5,7 +5,7 @@
   position: relative;
 }
 .section{
-  font-size: 20px;
+  font-size: 18px;
   margin: 20px auto;
   border: 2px solid #000000;
   width: 60%;
@@ -13,13 +13,17 @@
   padding: 10px 40px;
 }
 .list {
-  margin: 0;
+  margin: 5px 0 0 0;
 }
 .email{
   font-family: "Roboto Condensed";
   font-size: 20px;
   background: rgba(0,0,0,0);
   border: none;
+}
+
+.text {
+  line-height: 150%;
 }
 
 @-webkit-keyframes hvrpop {

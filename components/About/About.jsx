@@ -12,17 +12,21 @@ class About extends React.Component{
           <b>Biography</b>
           <hr/>
           <img src="./static/img/matt.png" alt="Matt" width="20%" style={{float:"right"}}></img>
-          Hey there! I'm currently a rising MIT sophomore studying Math with Computer Science.
+          <div className={styles.text}>
+            Hey there! I'm currently a rising MIT sophomore studying Math with Computer Science.
+          </div>
         </div>
         <List />
         <div className={styles.section}>
           <b>Links</b>
           <hr/>
-          <p className={styles.caption}>Find me on some professional networks:</p>
-          <ul className={styles.linkList}>
-            <li><a className={styles.link} href="https://github.com/MFarejowicz">Github</a></li>
-            <li><a className={styles.link} href="https://www.linkedin.com/in/mfarejowicz/">LinkedIn</a></li>
-          </ul>
+          <div className={styles.text}>
+            <p className={styles.caption}>Find me on some professional networks:</p>
+            <ul className={styles.linkList}>
+              <li><a className={styles.link} href="https://github.com/MFarejowicz"><img src="./static/img/git.png" className={styles.icon}></img>Github</a></li>
+              <li><a className={styles.link} href="https://www.linkedin.com/in/mfarejowicz/"><img src="./static/img/li.png" className={styles.icon}></img>LinkedIn</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     )

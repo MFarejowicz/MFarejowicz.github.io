@@ -5,6 +5,14 @@
   position: relative;
 }
 .section{
+  font-size: 18px;
+  margin: 20px auto;
+  border: 2px solid #000000;
+  width: 60%;
+  min-width: 550px;
+  padding: 10px 40px;
+}
+.timeline{
   font-size: 20px;
   margin: 20px auto;
   border: 2px solid #000000;

@@ -1,5 +1,5 @@
 html, body {
-  font-family: "Roboto Condensed";
+  font-family: "Roboto Condensed", serif;
   margin: 0;
   padding: 0;
 }
@@ -10,10 +10,11 @@ h1, h2, h3, h4, h5 {
 }
 
 b {
-  font-size: 28px
+  font-family: "Roboto", serif;
+  font-size: 26px
 }
 
 
 /*@import url('https://fonts.googleapis.com/css?family=Oswald')*/
 
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Oswald');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto');

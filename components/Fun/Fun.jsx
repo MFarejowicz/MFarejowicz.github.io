@@ -10,21 +10,27 @@ class Fun extends React.Component{
         <div className={styles.section}>
           <b>Social Links</b>
           <hr/>
-          <p className={styles.caption}>Find me on some not-so-professional networks:</p>
-          <ul className={styles.linkList}>
-            <li><a className={styles.link} href="http://steamcommunity.com/profiles/76561198039687446">Steam</a></li>
-            <li><a className={styles.link} href="https://myanimelist.net/profile/Nerds6969">MyAnimeList</a></li>
-          </ul>
+          <div className={styles.text}>
+            <p className={styles.caption}>Find me on some not-so-professional networks:</p>
+            <ul className={styles.linkList}>
+              <li><a className={styles.link} href="http://steamcommunity.com/profiles/76561198039687446"><img src="./static/img/steam.ico" className={styles.icon}></img>Steam</a></li>
+              <li><a className={styles.link} href="https://myanimelist.net/profile/Nerds6969"><img src="./static/img/mal.png" className={styles.icon}></img>MyAnimeList</a></li>
+            </ul>
+          </div>
         </div>
         <div className={styles.section}>
           <b>Interest Lists</b>
           <hr/>
-          Coming soon.
+          <div className={styles.text}>
+            Coming soon.
+          </div>
         </div>
         <div className={styles.section}>
           <b>Games</b>
           <hr/>
-          Coming soon (iffy on this one).
+          <div className={styles.text}>
+            Coming soon (iffy on this one).
+          </div>
         </div>
       </div>
     )

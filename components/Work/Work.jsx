@@ -12,7 +12,7 @@ class Work extends React.Component{
         <div className={styles.section}>
           <Projects />
         </div>
-        <div className={styles.section}>
+        <div className={styles.timeline}>
           <MyLine />
         </div>
       </div>

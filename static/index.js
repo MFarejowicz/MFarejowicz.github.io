@@ -11247,7 +11247,11 @@ var About = function (_React$Component) {
           ),
           _react2.default.createElement("hr", null),
           _react2.default.createElement("img", { src: "./static/img/matt.png", alt: "Matt", width: "20%", style: { float: "right" } }),
-          "Hey there! I'm currently a rising MIT sophomore studying Math with Computer Science."
+          _react2.default.createElement(
+            "div",
+            { className: _About2.default.text },
+            "Hey there! I'm currently a rising MIT sophomore studying Math with Computer Science."
+          )
         ),
         _react2.default.createElement(_List2.default, null),
         _react2.default.createElement(
@@ -11260,29 +11264,35 @@ var About = function (_React$Component) {
           ),
           _react2.default.createElement("hr", null),
           _react2.default.createElement(
-            "p",
-            { className: _About2.default.caption },
-            "Find me on some professional networks:"
-          ),
-          _react2.default.createElement(
-            "ul",
-            { className: _About2.default.linkList },
+            "div",
+            { className: _About2.default.text },
             _react2.default.createElement(
-              "li",
-              null,
-              _react2.default.createElement(
-                "a",
-                { className: _About2.default.link, href: "https://github.com/MFarejowicz" },
-                "Github"
-              )
+              "p",
+              { className: _About2.default.caption },
+              "Find me on some professional networks:"
             ),
             _react2.default.createElement(
-              "li",
-              null,
+              "ul",
+              { className: _About2.default.linkList },
               _react2.default.createElement(
-                "a",
-                { className: _About2.default.link, href: "https://www.linkedin.com/in/mfarejowicz/" },
-                "LinkedIn"
+                "li",
+                null,
+                _react2.default.createElement(
+                  "a",
+                  { className: _About2.default.link, href: "https://github.com/MFarejowicz" },
+                  _react2.default.createElement("img", { src: "./static/img/git.png", className: _About2.default.icon }),
+                  "Github"
+                )
+              ),
+              _react2.default.createElement(
+                "li",
+                null,
+                _react2.default.createElement(
+                  "a",
+                  { className: _About2.default.link, href: "https://www.linkedin.com/in/mfarejowicz/" },
+                  _react2.default.createElement("img", { src: "./static/img/li.png", className: _About2.default.icon }),
+                  "LinkedIn"
+                )
               )
             )
           )
@@ -11375,29 +11385,35 @@ var Fun = function (_React$Component) {
           ),
           _react2.default.createElement("hr", null),
           _react2.default.createElement(
-            "p",
-            { className: _Fun2.default.caption },
-            "Find me on some not-so-professional networks:"
-          ),
-          _react2.default.createElement(
-            "ul",
-            { className: _Fun2.default.linkList },
+            "div",
+            { className: _Fun2.default.text },
             _react2.default.createElement(
-              "li",
-              null,
-              _react2.default.createElement(
-                "a",
-                { className: _Fun2.default.link, href: "http://steamcommunity.com/profiles/76561198039687446" },
-                "Steam"
-              )
+              "p",
+              { className: _Fun2.default.caption },
+              "Find me on some not-so-professional networks:"
             ),
             _react2.default.createElement(
-              "li",
-              null,
+              "ul",
+              { className: _Fun2.default.linkList },
               _react2.default.createElement(
-                "a",
-                { className: _Fun2.default.link, href: "https://myanimelist.net/profile/Nerds6969" },
-                "MyAnimeList"
+                "li",
+                null,
+                _react2.default.createElement(
+                  "a",
+                  { className: _Fun2.default.link, href: "http://steamcommunity.com/profiles/76561198039687446" },
+                  _react2.default.createElement("img", { src: "./static/img/steam.ico", className: _Fun2.default.icon }),
+                  "Steam"
+                )
+              ),
+              _react2.default.createElement(
+                "li",
+                null,
+                _react2.default.createElement(
+                  "a",
+                  { className: _Fun2.default.link, href: "https://myanimelist.net/profile/Nerds6969" },
+                  _react2.default.createElement("img", { src: "./static/img/mal.png", className: _Fun2.default.icon }),
+                  "MyAnimeList"
+                )
               )
             )
           )
@@ -11411,7 +11427,11 @@ var Fun = function (_React$Component) {
             "Interest Lists"
           ),
           _react2.default.createElement("hr", null),
-          "Coming soon."
+          _react2.default.createElement(
+            "div",
+            { className: _Fun2.default.text },
+            "Coming soon."
+          )
         ),
         _react2.default.createElement(
           "div",
@@ -11422,7 +11442,11 @@ var Fun = function (_React$Component) {
             "Games"
           ),
           _react2.default.createElement("hr", null),
-          "Coming soon (iffy on this one)."
+          _react2.default.createElement(
+            "div",
+            { className: _Fun2.default.text },
+            "Coming soon (iffy on this one)."
+          )
         )
       );
 
@@ -11516,43 +11540,46 @@ var Home = function (_React$Component) {
             "Home"
           ),
           _react2.default.createElement("hr", null),
-          "Hello! You've stumbled upon the personal website of Matt Farejowicz. I am a current MIT sophomore, majoring in Course 18C - Mathematics with Computer Science. This website will serve as a hub for information relevant to me and what I'm up to. I will be doing my best to keep it updated with the most current information. Regardless, thanks for visiting, and feel free to take a look around.",
-          _react2.default.createElement("br", null),
           _react2.default.createElement(
-            "ul",
-            { className: _Home2.default.list },
+            "div",
+            { className: _Home2.default.text },
+            "Hello! You've arrived at the personal website of Matt Farejowicz. I'm a current MIT sophomore, majoring in Course 18C - Mathematics with Computer Science. This website will serve as a hub for information relevant to me and what I'm up to. I'll be doing my best to keep it updated with the most current information. Regardless, thanks for visiting, and feel free to take a look around.",
             _react2.default.createElement(
-              "li",
-              null,
-              "You can find out more about me and my personal interests over in the ",
+              "ul",
+              { className: _Home2.default.list },
               _react2.default.createElement(
-                "span",
-                { className: _Home2.default.hvrpop, onClick: this.props.handleAbout },
-                "About"
+                "li",
+                null,
+                "You can find out more about me and my life over in the ",
+                _react2.default.createElement(
+                  "span",
+                  { className: _Home2.default.hvrpop, onClick: this.props.handleAbout },
+                  "About"
+                ),
+                " tab. "
               ),
-              " tab. "
-            ),
-            _react2.default.createElement(
-              "li",
-              null,
-              "You can check out my current and previous work over in the ",
               _react2.default.createElement(
-                "span",
-                { className: _Home2.default.hvrpop, onClick: this.props.handleWork },
-                "Work"
+                "li",
+                null,
+                "You can check out my current and previous work over in the ",
+                _react2.default.createElement(
+                  "span",
+                  { className: _Home2.default.hvrpop, onClick: this.props.handleWork },
+                  "Work"
+                ),
+                " tab. "
               ),
-              " tab. "
-            ),
-            _react2.default.createElement(
-              "li",
-              null,
-              "Or you can enjoy some informal and comical content over in the ",
               _react2.default.createElement(
-                "span",
-                { className: _Home2.default.hvrpop, onClick: this.props.handleFun },
-                "Fun"
-              ),
-              " tab. "
+                "li",
+                null,
+                "Or you can enjoy some informal, personal interest content over in the ",
+                _react2.default.createElement(
+                  "span",
+                  { className: _Home2.default.hvrpop, onClick: this.props.handleFun },
+                  "Fun"
+                ),
+                " tab. "
+              )
             )
           )
         ),
@@ -11565,40 +11592,44 @@ var Home = function (_React$Component) {
             "About this website"
           ),
           _react2.default.createElement("hr", null),
-          "This website is written in ",
           _react2.default.createElement(
-            "a",
-            { className: _Home2.default.hvrpop, href: "https://facebook.github.io/react/" },
-            "ReactJS"
-          ),
-          ". React, developed by Facebook, and maintained by both Facebook and the community, is an extremely neat JavaScript library that allows users to build their website or webapp piece-by-piece in what are known as Components. These components can update via self-contained attributes known as states, or communicate with one another via attributes known as props. If you are interested in functional web design, as I am, I highly encourage you to check React out! React also encourages the use of an XML-like syntax called JSX, which I compile through a loader known as ",
-          _react2.default.createElement(
-            "a",
-            { className: _Home2.default.hvrpop, href: "https://babeljs.io/" },
-            "Babel"
-          ),
-          ", and bundle with ",
-          _react2.default.createElement(
-            "a",
-            { className: _Home2.default.hvrpop, href: "https://webpack.github.io/" },
-            "Webpack"
-          ),
-          "!",
-          _react2.default.createElement("br", null),
-          _react2.default.createElement("br", null),
-          "A majority of the CSS is originally written, however many of the hover effects have been used with permission from ",
-          _react2.default.createElement(
-            "a",
-            { className: _Home2.default.hvrpop, href: "http://ianlunn.github.io/Hover/" },
-            "Hover.css"
-          ),
-          ", a super convenient and abundant library of CSS hover effects. Any parts of the website that move utilize the ",
-          _react2.default.createElement(
-            "a",
-            { className: _Home2.default.hvrpop, href: "https://github.com/chenglou/react-motion" },
-            "react-motion"
-          ),
-          " library, which offers elegant solutions to physics based movement in components."
+            "div",
+            { className: _Home2.default.text },
+            "This website is written in ",
+            _react2.default.createElement(
+              "a",
+              { className: _Home2.default.hvrpop, href: "https://facebook.github.io/react/" },
+              "ReactJS"
+            ),
+            ". React, developed by Facebook, and maintained by both Facebook and the community, is an extremely neat JavaScript library that allows users to build their website or webapp piece-by-piece in what are known as Components. These components can update via self-contained attributes known as states, or communicate with one another via attributes known as props. If you are interested in functional web design, as I am, I highly encourage you to check React out! React also encourages the use of an XML-like syntax called JSX, which I compile through a loader known as ",
+            _react2.default.createElement(
+              "a",
+              { className: _Home2.default.hvrpop, href: "https://babeljs.io/" },
+              "Babel"
+            ),
+            ", and bundle with ",
+            _react2.default.createElement(
+              "a",
+              { className: _Home2.default.hvrpop, href: "https://webpack.github.io/" },
+              "Webpack"
+            ),
+            "!",
+            _react2.default.createElement("br", null),
+            _react2.default.createElement("br", null),
+            "A majority of the CSS is originally written, however many of the hover effects have been used with permission from ",
+            _react2.default.createElement(
+              "a",
+              { className: _Home2.default.hvrpop, href: "http://ianlunn.github.io/Hover/" },
+              "Hover.css"
+            ),
+            ", a super convenient and abundant library of CSS hover effects. Any parts of the website that move utilize the ",
+            _react2.default.createElement(
+              "a",
+              { className: _Home2.default.hvrpop, href: "https://github.com/chenglou/react-motion" },
+              "react-motion"
+            ),
+            " library, which offers elegant solutions to physics based movement in components."
+          )
         ),
         _react2.default.createElement(
           "div",
@@ -11609,25 +11640,29 @@ var Home = function (_React$Component) {
             "Contact"
           ),
           _react2.default.createElement("hr", null),
-          "If you'd like to reach me directly, feel free to shoot me an email at ",
           _react2.default.createElement(
-            _reactCopyToClipboard2.default,
-            { text: "mfarejow@mit.edu" },
+            "div",
+            { className: _Home2.default.text },
+            "If you'd like to reach me directly, feel free to shoot me an email at ",
+            _react2.default.createElement(
+              _reactCopyToClipboard2.default,
+              { text: "mfarejow@mit.edu" },
+              _react2.default.createElement(
+                "span",
+                { className: _Home2.default.hvrpop },
+                " mfarejow@mit.edu"
+              )
+            ),
+            _react2.default.createElement("br", null),
+            _react2.default.createElement("br", null),
+            "For other links and ways to connect, take a look at the ",
             _react2.default.createElement(
               "span",
-              { className: _Home2.default.hvrpop },
-              " mfarejow@mit.edu"
-            )
-          ),
-          _react2.default.createElement("br", null),
-          _react2.default.createElement("br", null),
-          "For other links and ways to connect, take a look at the ",
-          _react2.default.createElement(
-            "span",
-            { className: _Home2.default.hvrpop, onClick: this.props.handleAbout },
-            "About"
-          ),
-          " tab"
+              { className: _Home2.default.hvrpop, onClick: this.props.handleAbout },
+              "About"
+            ),
+            " tab"
+          )
         )
       );
 
@@ -11793,7 +11828,7 @@ var Work = function (_React$Component) {
         ),
         _react2.default.createElement(
           "div",
-          { className: _Work2.default.section },
+          { className: _Work2.default.timeline },
           _react2.default.createElement(_MyLine2.default, null)
         )
       );
@@ -12018,7 +12053,7 @@ var List = function (_React$Component) {
             _react2.default.createElement(
               "h4",
               { className: _List2.default.spring },
-              "Spring 2016"
+              "Spring 2017"
             ),
             _react2.default.createElement(
               "ul",
@@ -13504,7 +13539,7 @@ exports = module.exports = __webpack_require__(13)(undefined);
 
 
 // module
-exports.push([module.i, ".About__wrapper___maaSq{\r\n  position: relative;\r\n}\r\n.About__container___3VDN6{\r\n  position: relative;\r\n}\r\n.About__section___2esxW{\r\n  font-size: 20px;\r\n  margin: 20px auto;\r\n  border: 2px solid #000000;\r\n  width: 60%;\r\n  min-width: 550px;\r\n  padding: 10px 40px;\r\n  overflow: auto;\r\n}\r\n.About__caption___3H4jc{\r\n  margin: 0 0 5px 0;\r\n}\r\n.About__linkList___2aWK0{\r\n  list-style-type: none;\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n.About__link___xkDQW:hover{\r\n  color: #f17e33;\r\n}\r\n", ""]);
+exports.push([module.i, ".About__wrapper___maaSq{\r\n  position: relative;\r\n}\r\n.About__container___3VDN6{\r\n  position: relative;\r\n}\r\n.About__section___2esxW{\r\n  font-size: 18px;\r\n  margin: 20px auto;\r\n  border: 2px solid #000000;\r\n  width: 60%;\r\n  min-width: 550px;\r\n  padding: 10px 40px;\r\n  overflow: auto;\r\n}\r\n.About__caption___3H4jc{\r\n  margin: 0 0 3px 0;\r\n}\r\n.About__linkList___2aWK0{\r\n  list-style-type: none;\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n.About__link___xkDQW:hover{\r\n  color: #f17e33;\r\n}\r\n.About__text___35ymG {\r\n  line-height: 150%;\r\n}\r\n.About__icon___2hXmT {\r\n  width: 22px;\r\n  margin-right: 5px;\r\n}\r\n", ""]);
 
 // exports
 exports.locals = {
@@ -13513,7 +13548,9 @@ exports.locals = {
 	"section": "About__section___2esxW",
 	"caption": "About__caption___3H4jc",
 	"linkList": "About__linkList___2aWK0",
-	"link": "About__link___xkDQW"
+	"link": "About__link___xkDQW",
+	"text": "About__text___35ymG",
+	"icon": "About__icon___2hXmT"
 };
 
 /***/ }),
@@ -13525,7 +13562,7 @@ exports = module.exports = __webpack_require__(13)(undefined);
 
 
 // module
-exports.push([module.i, ".List__outer___3T9P5 {\n  margin: 20px auto 0;\n  padding: 10px 40px;\n  width: 60%;\n  min-width: 550px;\n  border: 2px solid #000000;\n}\n.List__heading___29qU_ {\n  font-size: 20px;\n}\n.List__expand___2l7IH {\n  font-size: 20px;\n  float: right;\n}\n.List__topBar___nu9iT {\n  cursor: pointer;\n}\n.List__options___UEaWT {\n  font-size: 20px;\n  color: #000000;\n}\n.List__clickable___gC-bX {\n  cursor: pointer;\n}\n.List__classList___3HTTB{\n  margin: 0 auto 8px 0;\n}\n.List__fall___gPCQM{\n  color: #cf5230;\n}\n.List__winter___3yOKg{\n  color: #a0ccff;\n}\n.List__spring___1F0LU{\n  color: #4aa02c;\n}\n.List__summer___3nfaq{\n  color: #236e96;\n}\n", ""]);
+exports.push([module.i, ".List__outer___3T9P5 {\n  margin: 20px auto 0;\n  padding: 10px 40px;\n  width: 60%;\n  min-width: 550px;\n  border: 2px solid #000000;\n}\n.List__heading___29qU_ {\n  font-size: 26px;\n}\n.List__expand___2l7IH {\n  font-size: 26px;\n  float: right;\n}\n.List__topBar___nu9iT {\n  cursor: pointer;\n}\n.List__options___UEaWT {\n  font-size: 18px;\n  color: #000000;\n}\n.List__clickable___gC-bX {\n  cursor: pointer;\n}\n.List__classList___3HTTB{\n  margin: 0 auto 8px 0;\n  line-height: 145%\n}\n.List__fall___gPCQM{\n  font-size: 20px;\n  color: #cf5230;\n}\n.List__winter___3yOKg{\n  font-size: 20px;\n  color: #a0ccff;\n}\n.List__spring___1F0LU{\n  font-size: 20px;\n  color: #4aa02c;\n}\n.List__summer___3nfaq{\n  font-size: 20px;\n  color: #236e96;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -13551,7 +13588,7 @@ exports = module.exports = __webpack_require__(13)(undefined);
 
 
 // module
-exports.push([module.i, ".Fun__wrapper___3mLPw{\n  position: relative;\n}\n.Fun__container___1hvxP{\n  position: relative;\n}\n.Fun__section___j7M-Q{\n  font-size: 20px;\n  margin: 20px auto;\n  border: 2px solid #000000;\n  width: 60%;\n  min-width: 550px;\n  padding: 10px 40px;\n}\n.Fun__caption___2dC1o{\n  margin: 0 0 5px 0;\n}\n.Fun__linkList___28r6W{\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n}\n.Fun__link___aNeU7:hover{\n  color: #f17e33;\n}\n", ""]);
+exports.push([module.i, ".Fun__wrapper___3mLPw{\n  position: relative;\n}\n.Fun__container___1hvxP{\n  position: relative;\n}\n.Fun__section___j7M-Q{\n  font-size: 18px;\n  margin: 20px auto;\n  border: 2px solid #000000;\n  width: 60%;\n  min-width: 550px;\n  padding: 10px 40px;\n}\n.Fun__caption___2dC1o{\n  margin: 0 0 3px 0;\n}\n.Fun__linkList___28r6W{\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n}\n.Fun__link___aNeU7:hover{\n  color: #f17e33;\n}\n.Fun__text___2nI1k {\n  line-height: 150%;\n}\n.Fun__icon___m_m74 {\n  width: 22px;\n  margin-right: 5px;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -13560,7 +13597,9 @@ exports.locals = {
 	"section": "Fun__section___j7M-Q",
 	"caption": "Fun__caption___2dC1o",
 	"linkList": "Fun__linkList___28r6W",
-	"link": "Fun__link___aNeU7"
+	"link": "Fun__link___aNeU7",
+	"text": "Fun__text___2nI1k",
+	"icon": "Fun__icon___m_m74"
 };
 
 /***/ }),
@@ -13572,7 +13611,7 @@ exports = module.exports = __webpack_require__(13)(undefined);
 
 
 // module
-exports.push([module.i, ".Home__wrapper___1QXeV{\r\n  position: relative;\r\n}\r\n.Home__container___3YqXY{\r\n  position: relative;\r\n}\r\n.Home__section___1FP21{\r\n  font-size: 20px;\r\n  margin: 20px auto;\r\n  border: 2px solid #000000;\r\n  width: 60%;\r\n  min-width: 550px;\r\n  padding: 10px 40px;\r\n}\r\n.Home__list___1B08o {\r\n  margin: 0;\r\n}\r\n.Home__email___nL9Ik{\r\n  font-family: \"Roboto Condensed\";\r\n  font-size: 20px;\r\n  background: rgba(0,0,0,0);\r\n  border: none;\r\n}\r\n\r\n@-webkit-keyframes Home__hvrpop___7_j5D {\r\n  50% {\r\n    -webkit-transform: scale(1.2);\r\n    transform: scale(1.2);\r\n  }\r\n}\r\n@keyframes Home__hvrpop___7_j5D {\r\n  50% {\r\n    -webkit-transform: scale(1.2);\r\n    transform: scale(1.2);\r\n  }\r\n}\r\n.Home__hvrpop___7_j5D {\r\n  text-decoration: underline;\r\n  cursor: pointer;\r\n  display: inline-block;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  box-shadow: 0 0 1px transparent;\r\n}\r\n.Home__hvrpop___7_j5D:hover, .Home__hvrpop___7_j5D:focus, .Home__hvrpop___7_j5D:active {\r\n  color: #f17e33;\r\n  -webkit-animation-name: Home__hvrpop___7_j5D;\r\n  animation-name: Home__hvrpop___7_j5D;\r\n  -webkit-animation-duration: 0.3s;\r\n  animation-duration: 0.3s;\r\n  -webkit-animation-timing-function: linear;\r\n  animation-timing-function: linear;\r\n  -webkit-animation-iteration-count: 1;\r\n  animation-iteration-count: 1;\r\n}\r\n", ""]);
+exports.push([module.i, ".Home__wrapper___1QXeV{\r\n  position: relative;\r\n}\r\n.Home__container___3YqXY{\r\n  position: relative;\r\n}\r\n.Home__section___1FP21{\r\n  font-size: 18px;\r\n  margin: 20px auto;\r\n  border: 2px solid #000000;\r\n  width: 60%;\r\n  min-width: 550px;\r\n  padding: 10px 40px;\r\n}\r\n.Home__list___1B08o {\r\n  margin: 5px 0 0 0;\r\n}\r\n.Home__email___nL9Ik{\r\n  font-family: \"Roboto Condensed\";\r\n  font-size: 20px;\r\n  background: rgba(0,0,0,0);\r\n  border: none;\r\n}\r\n\r\n.Home__text___zzrdr {\r\n  line-height: 150%;\r\n}\r\n\r\n@-webkit-keyframes Home__hvrpop___7_j5D {\r\n  50% {\r\n    -webkit-transform: scale(1.2);\r\n    transform: scale(1.2);\r\n  }\r\n}\r\n@keyframes Home__hvrpop___7_j5D {\r\n  50% {\r\n    -webkit-transform: scale(1.2);\r\n    transform: scale(1.2);\r\n  }\r\n}\r\n.Home__hvrpop___7_j5D {\r\n  text-decoration: underline;\r\n  cursor: pointer;\r\n  display: inline-block;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  box-shadow: 0 0 1px transparent;\r\n}\r\n.Home__hvrpop___7_j5D:hover, .Home__hvrpop___7_j5D:focus, .Home__hvrpop___7_j5D:active {\r\n  color: #f17e33;\r\n  -webkit-animation-name: Home__hvrpop___7_j5D;\r\n  animation-name: Home__hvrpop___7_j5D;\r\n  -webkit-animation-duration: 0.3s;\r\n  animation-duration: 0.3s;\r\n  -webkit-animation-timing-function: linear;\r\n  animation-timing-function: linear;\r\n  -webkit-animation-iteration-count: 1;\r\n  animation-iteration-count: 1;\r\n}\r\n", ""]);
 
 // exports
 exports.locals = {
@@ -13581,6 +13620,7 @@ exports.locals = {
 	"section": "Home__section___1FP21",
 	"list": "Home__list___1B08o",
 	"email": "Home__email___nL9Ik",
+	"text": "Home__text___zzrdr",
 	"hvrpop": "Home__hvrpop___7_j5D"
 };
 
@@ -13593,7 +13633,7 @@ exports = module.exports = __webpack_require__(13)(undefined);
 
 
 // module
-exports.push([module.i, ".NavBar__top___j_M8x{\n  background-color: #f17e33;\n}\n\n.NavBar__container___2bZCu{\n  width: 60%;\n  height: 60px;\n  margin: 0 auto;\n}\n\n.NavBar__brand___2LsgG{\n  font-size: 40px;\n  padding-top: 6px;\n  margin: 0;\n}\n", ""]);
+exports.push([module.i, ".NavBar__top___j_M8x{\n  background-color: #f17e33;\n}\n\n.NavBar__container___2bZCu{\n  width: 60%;\n  height: 60px;\n  margin: 0 auto;\n}\n\n.NavBar__brand___2LsgG{\n  font-family: \"Roboto\", serif;\n  font-size: 40px;\n  padding-top: 6px;\n  margin: 0;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -13611,7 +13651,7 @@ exports = module.exports = __webpack_require__(13)(undefined);
 
 
 // module
-exports.push([module.i, ".NavLink__button___16SDS{\n  font-size: 33px;\n  width: 150px;\n  float: right;\n  padding: 11px 10px 10px;\n  text-align: center;\n  cursor: pointer;\n}\n.NavLink__button___16SDS:hover{\n  background-color: #d8712d;\n}\n@media all and (max-width: 1420px) {\n  .NavLink__button___16SDS{\n    width: 100px;\n  }\n}\n", ""]);
+exports.push([module.i, ".NavLink__button___16SDS{\n  font-family: \"Roboto Condensed\", serif;\n  font-size: 33px;\n  width: 150px;\n  float: right;\n  padding: 11px 10px 10px;\n  text-align: center;\n  cursor: pointer;\n}\n.NavLink__button___16SDS:hover{\n  background-color: #d8712d;\n}\n@media all and (max-width: 1420px) {\n  .NavLink__button___16SDS{\n    width: 100px;\n  }\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -13627,7 +13667,7 @@ exports = module.exports = __webpack_require__(13)(undefined);
 
 
 // module
-exports.push([module.i, ".Projects__description___3J0ms{\n  margin: 0 0 15px 0;\n}\n.Projects__container___3XN3I {\n  font-size: 0;\n}\n/*.container::after {\n  display: table;\n  content: \" \";\n  clear: both;\n}*/\n.Projects__project___ipZ_M {\n  font-size: 16px;\n  min-height: 250px;\n  display: inline-block;\n  vertical-align: top;\n  width: 33.33%;\n  box-sizing: border-box;\n  text-align: center;\n  transition: all .5s ease;\n}\n.Projects__project___ipZ_M:hover{\n  transform: scale(1.05);\n}\n.Projects__link___jkbtY {\n  color: #000000;\n  text-decoration: none;\n  width: 90%;\n}\n.Projects__picture___2vAnK {\n  width: 90%;\n  padding: 4px;\n  border: 1px solid #808080;\n}\n.Projects__title___2dh-Z {\n  margin-top: 10px;\n}\n.Projects__caption___1A5Wc {\n  margin: 10px 0;\n  padding: 0 20px;\n}\n", ""]);
+exports.push([module.i, ".Projects__description___3J0ms{\n  font-size: 18px;\n  margin: 0 0 10px 0;\n}\n.Projects__container___3XN3I {\n  font-size: 0;\n}\n.Projects__project___ipZ_M {\n  font-size: 16px;\n  min-height: 250px;\n  display: inline-block;\n  vertical-align: top;\n  width: 33.33%;\n  box-sizing: border-box;\n  text-align: center;\n  transition: all .5s ease;\n}\n.Projects__project___ipZ_M:hover{\n  transform: scale(1.05);\n}\n.Projects__link___jkbtY {\n  color: #000000;\n  text-decoration: none;\n  width: 90%;\n}\n.Projects__picture___2vAnK {\n  width: 90%;\n  padding: 4px;\n  border: 1px solid #808080;\n}\n.Projects__title___2dh-Z {\n  margin-top: 10px;\n}\n.Projects__caption___1A5Wc {\n  margin: 10px 0;\n  padding: 0 20px;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -13649,13 +13689,14 @@ exports = module.exports = __webpack_require__(13)(undefined);
 
 
 // module
-exports.push([module.i, ".Work__wrapper___O0XhM{\n  position: relative;\n}\n.Work__container___m7ZG0{\n  position: relative;\n}\n.Work__section___1FF5S{\n  font-size: 20px;\n  margin: 20px auto;\n  border: 2px solid #000000;\n  width: 60%;\n  min-width: 550px;\n  padding: 10px 40px;\n}\n", ""]);
+exports.push([module.i, ".Work__wrapper___O0XhM{\n  position: relative;\n}\n.Work__container___m7ZG0{\n  position: relative;\n}\n.Work__section___1FF5S{\n  font-size: 18px;\n  margin: 20px auto;\n  border: 2px solid #000000;\n  width: 60%;\n  min-width: 550px;\n  padding: 10px 40px;\n}\n.Work__timeline___3XmZ_{\n  font-size: 20px;\n  margin: 20px auto;\n  border: 2px solid #000000;\n  width: 60%;\n  min-width: 550px;\n  padding: 10px 40px;\n}\n", ""]);
 
 // exports
 exports.locals = {
 	"wrapper": "Work__wrapper___O0XhM",
 	"container": "Work__container___m7ZG0",
-	"section": "Work__section___1FF5S"
+	"section": "Work__section___1FF5S",
+	"timeline": "Work__timeline___3XmZ_"
 };
 
 /***/ }),
@@ -13664,10 +13705,10 @@ exports.locals = {
 
 exports = module.exports = __webpack_require__(13)(undefined);
 // imports
-exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed|Oswald);", ""]);
+exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto);", ""]);
 
 // module
-exports.push([module.i, "html, body {\n  font-family: \"Roboto Condensed\";\n  margin: 0;\n  padding: 0;\n}\n\n\nh1, h2, h3, h4, h5 {\n  margin: 0;\n}\n\nb {\n  font-size: 28px\n}\n\n\n/*@import url('https://fonts.googleapis.com/css?family=Oswald')*/\n", ""]);
+exports.push([module.i, "html, body {\n  font-family: \"Roboto Condensed\", serif;\n  margin: 0;\n  padding: 0;\n}\n\n\nh1, h2, h3, h4, h5 {\n  margin: 0;\n}\n\nb {\n  font-family: \"Roboto\", serif;\n  font-size: 26px\n}\n\n\n/*@import url('https://fonts.googleapis.com/css?family=Oswald')*/\n", ""]);
 
 // exports
 

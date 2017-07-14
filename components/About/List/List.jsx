@@ -52,7 +52,7 @@ class List extends React.Component {
                 <li>UROP with the <a href="https://www.media.mit.edu/groups/collective-learning/overview/">Collective Learning Group</a> at the MIT Media Lab</li>
                 <li>Next Haunt Producer (current)</li>
               </ul>
-              <h4 className={styles.spring}>Spring 2016</h4>
+              <h4 className={styles.spring}>Spring 2017</h4>
               <ul className={styles.classList}>
                 <li>18.03: Differential Equations</li>
                 <li>6.00: Introduction to Computer Science and Programming</li>
