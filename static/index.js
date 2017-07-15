@@ -12280,7 +12280,7 @@ var NavLink = function (_React$Component) {
 
       return _react2.default.createElement(
         "div",
-        { className: _NavLink2.default.button, onClick: this.props.handleClick },
+        { className: _NavLink2.default.hvrUnderline, onClick: this.props.handleClick },
         this.props.title
       );
     }
@@ -13713,11 +13713,11 @@ exports = module.exports = __webpack_require__(13)(undefined);
 
 
 // module
-exports.push([module.i, ".NavLink__button___16SDS{\n  font-family: \"Roboto Condensed\", serif;\n  font-size: 33px;\n  width: 150px;\n  float: right;\n  padding: 11px 10px 10px;\n  text-align: center;\n  cursor: pointer;\n}\n.NavLink__button___16SDS:hover{\n  background-color: #d8712d;\n}\n@media all and (max-width: 1420px) {\n  .NavLink__button___16SDS{\n    width: 100px;\n  }\n}\n", ""]);
+exports.push([module.i, ".NavLink__hvrUnderline___21XtX {\n  font-family: \"Roboto Condensed\", serif;\n  font-size: 33px;\n  width: 150px;\n  padding: 11px 10px 10px;\n  float: right;\n  text-align: center;\n  cursor: pointer;\n  display: inline-block;\n  vertical-align: middle;\n  -webkit-transform: perspective(1px) translateZ(0);\n  transform: perspective(1px) translateZ(0);\n  box-shadow: 0 0 1px transparent;\n  position: relative;\n  overflow: hidden;\n}\n.NavLink__hvrUnderline___21XtX:before {\n  content: \"\";\n  position: absolute;\n  z-index: -1;\n  left: 50%;\n  right: 50%;\n  bottom: 0;\n  background: #000000;\n  height: 4px;\n  -webkit-transition-property: left, right;\n  transition-property: left, right;\n  -webkit-transition-duration: 0.3s;\n  transition-duration: 0.3s;\n  -webkit-transition-timing-function: ease-out;\n  transition-timing-function: ease-out;\n}\n.NavLink__hvrUnderline___21XtX:hover:before, .NavLink__hvrUnderline___21XtX:focus:before, .NavLink__hvrUnderline___21XtX:active:before {\n  left: 0;\n  right: 0;\n}\n@media all and (max-width: 1420px) {\n  .NavLink__hvrUnderline___21XtX{\n    width: 100px;\n  }\n}\n", ""]);
 
 // exports
 exports.locals = {
-	"button": "NavLink__button___16SDS"
+	"hvrUnderline": "NavLink__hvrUnderline___21XtX"
 };
 
 /***/ }),

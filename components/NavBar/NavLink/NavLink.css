@@ -1,17 +1,41 @@
-.button{
+.hvrUnderline {
   font-family: "Roboto Condensed", serif;
   font-size: 33px;
   width: 150px;
-  float: right;
   padding: 11px 10px 10px;
+  float: right;
   text-align: center;
   cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  overflow: hidden;
 }
-.button:hover{
-  background-color: #d8712d;
+.hvrUnderline:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background: #000000;
+  height: 4px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvrUnderline:hover:before, .hvrUnderline:focus:before, .hvrUnderline:active:before {
+  left: 0;
+  right: 0;
 }
 @media all and (max-width: 1420px) {
-  .button{
+  .hvrUnderline{
     width: 100px;
   }
 }
