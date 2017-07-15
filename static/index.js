@@ -11537,7 +11537,7 @@ var Home = function (_React$Component) {
           _react2.default.createElement(
             "b",
             null,
-            "Home"
+            "Welcome!"
           ),
           _react2.default.createElement("hr", null),
           _react2.default.createElement(
@@ -13611,7 +13611,7 @@ exports = module.exports = __webpack_require__(13)(undefined);
 
 
 // module
-exports.push([module.i, ".Home__wrapper___1QXeV{\r\n  position: relative;\r\n}\r\n.Home__container___3YqXY{\r\n  position: relative;\r\n}\r\n.Home__section___1FP21{\r\n  font-size: 18px;\r\n  margin: 20px auto;\r\n  border: 2px solid #000000;\r\n  width: 60%;\r\n  min-width: 550px;\r\n  padding: 10px 40px;\r\n}\r\n.Home__list___1B08o {\r\n  margin: 5px 0 0 0;\r\n}\r\n.Home__email___nL9Ik{\r\n  font-family: \"Roboto Condensed\";\r\n  font-size: 20px;\r\n  background: rgba(0,0,0,0);\r\n  border: none;\r\n}\r\n\r\n.Home__text___zzrdr {\r\n  line-height: 150%;\r\n}\r\n\r\n@-webkit-keyframes Home__hvrpop___7_j5D {\r\n  50% {\r\n    -webkit-transform: scale(1.2);\r\n    transform: scale(1.2);\r\n  }\r\n}\r\n@keyframes Home__hvrpop___7_j5D {\r\n  50% {\r\n    -webkit-transform: scale(1.2);\r\n    transform: scale(1.2);\r\n  }\r\n}\r\n.Home__hvrpop___7_j5D {\r\n  text-decoration: underline;\r\n  cursor: pointer;\r\n  display: inline-block;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  box-shadow: 0 0 1px transparent;\r\n}\r\n.Home__hvrpop___7_j5D:hover, .Home__hvrpop___7_j5D:focus, .Home__hvrpop___7_j5D:active {\r\n  color: #f17e33;\r\n  -webkit-animation-name: Home__hvrpop___7_j5D;\r\n  animation-name: Home__hvrpop___7_j5D;\r\n  -webkit-animation-duration: 0.3s;\r\n  animation-duration: 0.3s;\r\n  -webkit-animation-timing-function: linear;\r\n  animation-timing-function: linear;\r\n  -webkit-animation-iteration-count: 1;\r\n  animation-iteration-count: 1;\r\n}\r\n", ""]);
+exports.push([module.i, ".Home__wrapper___1QXeV{\r\n  position: relative;\r\n}\r\n.Home__container___3YqXY{\r\n  position: relative;\r\n}\r\n.Home__section___1FP21{\r\n  font-size: 18px;\r\n  margin: 20px auto;\r\n  border: 2px solid #000000;\r\n  width: 60%;\r\n  min-width: 550px;\r\n  padding: 10px 40px;\r\n}\r\n.Home__list___1B08o {\r\n  margin: 5px 0 0 0;\r\n}\r\n.Home__email___nL9Ik{\r\n  font-family: \"Roboto Condensed\";\r\n  font-size: 20px;\r\n  background: rgba(0,0,0,0);\r\n  border: none;\r\n}\r\n\r\n.Home__text___zzrdr {\r\n  line-height: 150%;\r\n}\r\n\r\n@-webkit-keyframes Home__hvrpop___7_j5D {\r\n  50% {\r\n    -webkit-transform: scale(1.2);\r\n    transform: scale(1.2);\r\n  }\r\n}\r\n@keyframes Home__hvrpop___7_j5D {\r\n  50% {\r\n    -webkit-transform: scale(1.2);\r\n    transform: scale(1.2);\r\n  }\r\n}\r\n.Home__hvrpop___7_j5D {\r\n  font-size: 18px;\r\n  text-decoration: underline;\r\n  cursor: pointer;\r\n  display: inline-block;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  box-shadow: 0 0 1px transparent;\r\n}\r\n.Home__hvrpop___7_j5D:hover, .Home__hvrpop___7_j5D:focus, .Home__hvrpop___7_j5D:active {\r\n  color: #f17e33;\r\n  -webkit-animation-name: Home__hvrpop___7_j5D;\r\n  animation-name: Home__hvrpop___7_j5D;\r\n  -webkit-animation-duration: 0.3s;\r\n  animation-duration: 0.3s;\r\n  -webkit-animation-timing-function: linear;\r\n  animation-timing-function: linear;\r\n  -webkit-animation-iteration-count: 1;\r\n  animation-iteration-count: 1;\r\n}\r\n", ""]);
 
 // exports
 exports.locals = {

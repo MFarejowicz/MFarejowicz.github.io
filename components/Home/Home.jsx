@@ -10,7 +10,7 @@ class Home extends React.Component{
     let content = (
       <div>
         <div className={styles.section}>
-          <b>Home</b>
+          <b>Welcome!</b>
           <hr/>
           <div className={styles.text}>
             Hello! You've arrived at the personal website of Matt

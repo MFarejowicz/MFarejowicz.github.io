@@ -39,6 +39,7 @@
   }
 }
 .hvrpop {
+  font-size: 18px;
   text-decoration: underline;
   cursor: pointer;
   display: inline-block;
