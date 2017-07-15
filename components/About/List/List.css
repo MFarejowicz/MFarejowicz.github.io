@@ -1,5 +1,5 @@
 .outer {
-  margin: 20px auto 0;
+  margin: 20px auto;
   padding: 10px 40px;
   width: 60%;
   min-width: 550px;
@@ -15,7 +15,7 @@
 .topBar {
   cursor: pointer;
 }
-.options {
+.content {
   font-size: 18px;
   color: #000000;
 }

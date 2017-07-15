@@ -30,7 +30,7 @@ class List extends React.Component {
             <hr/>
           </div>
         </div>
-        <div className={styles.options}>
+        <div className={styles.content}>
           {!this.state.active &&
             <div className={styles.clickable}>
               Click to expand this section and see what classes I've taken

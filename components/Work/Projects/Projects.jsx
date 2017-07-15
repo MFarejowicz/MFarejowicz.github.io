@@ -25,7 +25,7 @@ class Projects extends React.Component {
               <img className={styles.picture} src="./static/img/replot.png" alt="Replot"></img>
               <div className={styles.projectInfo}>
                 <h3 className={styles.title}>Replot</h3>
-                <p className={styles.caption}> (Coming soon!) A ReactJS Data Visualiation Library </p>
+                <p className={styles.caption}> (Coming soon!) A ReactJS Data Visualization Library </p>
               </div>
             </a>
           </div>

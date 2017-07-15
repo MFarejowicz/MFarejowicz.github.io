@@ -11246,11 +11246,47 @@ var About = function (_React$Component) {
             "Biography"
           ),
           _react2.default.createElement("hr", null),
-          _react2.default.createElement("img", { src: "./static/img/matt.png", alt: "Matt", width: "20%", style: { float: "right" } }),
+          _react2.default.createElement("img", { src: "./static/img/matt.png", title: "It's Matt!", alt: "Matt", width: "20%", style: { float: "right" } }),
           _react2.default.createElement(
             "div",
             { className: _About2.default.text },
-            "Hey there! I'm currently a rising MIT sophomore studying Math with Computer Science."
+            _react2.default.createElement(
+              "p",
+              null,
+              "Hey there! My name is Matthew Farejowicz, but you can call me Matt, MattF, Faree, or Joon. I'm a rising MIT Sophomore who likes, math, computer science, video games, volunteering, anime, taking walks, and talking to people. "
+            ),
+            _react2.default.createElement(
+              "p",
+              null,
+              "I grew up in a small suburban town in Illinois, which is where I completed my education though high school. There I developed my love for technology and my love for interacting with people, and (perhaps unsurprisingly) my love for interacting with people ",
+              _react2.default.createElement(
+                "i",
+                null,
+                "through"
+              ),
+              " technology. I worked in my local library, informing people about new and creative Maker technologies, and learned an incredible amount about the potential of tech through stories people shared with me. Here I was also exposed to the beauty of math and programming and how we can problem solve using both."
+            ),
+            _react2.default.createElement(
+              "p",
+              null,
+              " Afterwards, I flew halfway across the country to start college at MIT, which is where I find myself now. My classes have allowed me to continue exploring the potential of math and computer science, and the incredible amount of student diversity has drastically increased my perspective on life. I've met so many new people, tried countless new foods, procrastinated on too many homework assignments, joined student government as my dorm VP, took up teaching through ESP, attempted sports for the first time with intramural ice hockey, and it's all been an unbelievably eye-opening experience."
+            ),
+            _react2.default.createElement(
+              "p",
+              null,
+              "Right now I'm doing research with an awesome group of grad students under a concerningly overqualified tenure-track professor, and I've gained an inconceivable amount of practical skills with regards to functional programming and project practices. I'm attempting to produce a self-contained two-story haunted-house escape-the-room for this upcoming October, and I'm looking forward to taking more classes related to Math and Computer Science. In classic me fashion, I find myself probably overcommitted, balancing social shenanigans with professional endeavors. And I wouldn't want it any other way."
+            ),
+            _react2.default.createElement(
+              "p",
+              null,
+              "So that's my story up to this point. How about ",
+              _react2.default.createElement(
+                "i",
+                null,
+                "yours"
+              ),
+              "?"
+            )
           )
         ),
         _react2.default.createElement(_List2.default, null),
@@ -11543,7 +11579,7 @@ var Home = function (_React$Component) {
           _react2.default.createElement(
             "div",
             { className: _Home2.default.text },
-            "Hello! You've arrived at the personal website of Matt Farejowicz. I'm a current MIT sophomore, majoring in Course 18C - Mathematics with Computer Science. This website will serve as a hub for information relevant to me and what I'm up to. I'll be doing my best to keep it updated with the most current information. Regardless, thanks for visiting, and feel free to take a look around.",
+            "Hello! You've arrived at the personal website of Matt Farejowicz. I'm a rising MIT sophomore, majoring in Course 18C - Mathematics with Computer Science. This website will serve as a hub for information relevant to me and what I'm up to. I'll be doing my best to keep it updated with the most current information. Regardless, thanks for visiting, and feel free to take a look around.",
             _react2.default.createElement(
               "ul",
               { className: _Home2.default.list },
@@ -11595,40 +11631,46 @@ var Home = function (_React$Component) {
           _react2.default.createElement(
             "div",
             { className: _Home2.default.text },
-            "This website is written in ",
             _react2.default.createElement(
-              "a",
-              { className: _Home2.default.hvrpop, href: "https://facebook.github.io/react/" },
-              "ReactJS"
+              "p",
+              null,
+              "This website is written in ",
+              _react2.default.createElement(
+                "a",
+                { className: _Home2.default.hvrpop, href: "https://facebook.github.io/react/" },
+                "ReactJS"
+              ),
+              ". React, developed by Facebook, and maintained by both Facebook and the community, is an extremely neat JavaScript library that allows users to build their website or webapp piece-by-piece in what are known as Components. These components can update via self-contained attributes known as states, or communicate with one another via attributes known as props. If you are interested in functional web design, as I am, I highly encourage you to check React out! React also encourages the use of an XML-like syntax called JSX, which I compile through a loader known as ",
+              _react2.default.createElement(
+                "a",
+                { className: _Home2.default.hvrpop, href: "https://babeljs.io/" },
+                "Babel"
+              ),
+              ", and bundle with ",
+              _react2.default.createElement(
+                "a",
+                { className: _Home2.default.hvrpop, href: "https://webpack.github.io/" },
+                "Webpack"
+              ),
+              "! "
             ),
-            ". React, developed by Facebook, and maintained by both Facebook and the community, is an extremely neat JavaScript library that allows users to build their website or webapp piece-by-piece in what are known as Components. These components can update via self-contained attributes known as states, or communicate with one another via attributes known as props. If you are interested in functional web design, as I am, I highly encourage you to check React out! React also encourages the use of an XML-like syntax called JSX, which I compile through a loader known as ",
             _react2.default.createElement(
-              "a",
-              { className: _Home2.default.hvrpop, href: "https://babeljs.io/" },
-              "Babel"
-            ),
-            ", and bundle with ",
-            _react2.default.createElement(
-              "a",
-              { className: _Home2.default.hvrpop, href: "https://webpack.github.io/" },
-              "Webpack"
-            ),
-            "!",
-            _react2.default.createElement("br", null),
-            _react2.default.createElement("br", null),
-            "A majority of the CSS is originally written, however many of the hover effects have been used with permission from ",
-            _react2.default.createElement(
-              "a",
-              { className: _Home2.default.hvrpop, href: "http://ianlunn.github.io/Hover/" },
-              "Hover.css"
-            ),
-            ", a super convenient and abundant library of CSS hover effects. Any parts of the website that move utilize the ",
-            _react2.default.createElement(
-              "a",
-              { className: _Home2.default.hvrpop, href: "https://github.com/chenglou/react-motion" },
-              "react-motion"
-            ),
-            " library, which offers elegant solutions to physics based movement in components."
+              "p",
+              null,
+              "A majority of the CSS is originally written, however many of the hover effects have been used with permission from ",
+              _react2.default.createElement(
+                "a",
+                { className: _Home2.default.hvrpop, href: "http://ianlunn.github.io/Hover/" },
+                "Hover.css"
+              ),
+              ", a super convenient and abundant library of CSS hover effects. Any parts of the website that move utilize the ",
+              _react2.default.createElement(
+                "a",
+                { className: _Home2.default.hvrpop, href: "https://github.com/chenglou/react-motion" },
+                "react-motion"
+              ),
+              " library, which offers elegant solutions to physics based movement in components. "
+            )
           )
         ),
         _react2.default.createElement(
@@ -11643,25 +11685,32 @@ var Home = function (_React$Component) {
           _react2.default.createElement(
             "div",
             { className: _Home2.default.text },
-            "If you'd like to reach me directly, feel free to shoot me an email at ",
             _react2.default.createElement(
-              _reactCopyToClipboard2.default,
-              { text: "mfarejow@mit.edu" },
+              "p",
+              null,
+              "If you'd like to reach me directly, feel free to shoot me an email at ",
+              _react2.default.createElement(
+                _reactCopyToClipboard2.default,
+                { text: "mfarejow@mit.edu" },
+                _react2.default.createElement(
+                  "span",
+                  { className: _Home2.default.hvrpop },
+                  " mfarejow@mit.edu"
+                )
+              ),
+              " "
+            ),
+            _react2.default.createElement(
+              "p",
+              null,
+              "For other links and ways to connect, take a look at the ",
               _react2.default.createElement(
                 "span",
-                { className: _Home2.default.hvrpop },
-                " mfarejow@mit.edu"
-              )
-            ),
-            _react2.default.createElement("br", null),
-            _react2.default.createElement("br", null),
-            "For other links and ways to connect, take a look at the ",
-            _react2.default.createElement(
-              "span",
-              { className: _Home2.default.hvrpop, onClick: this.props.handleAbout },
-              "About"
-            ),
-            " tab"
+                { className: _Home2.default.hvrpop, onClick: this.props.handleAbout },
+                "About"
+              ),
+              " tab "
+            )
           )
         )
       );
@@ -11747,7 +11796,7 @@ var NavBar = function (_React$Component) {
         _react2.default.createElement(
           "div",
           { className: _NavBar2.default.container },
-          _react2.default.createElement("img", { src: "./static/img/matthead.png", height: "100%", alt: "Matt", style: { float: "left", cursor: "pointer" }, onClick: this.props.handleHome }),
+          _react2.default.createElement("img", { src: "./static/img/matthead.png", title: "Me!", height: "100%", alt: "Matt", style: { float: "left", cursor: "pointer" }, onClick: this.props.handleHome }),
           _react2.default.createElement(_NavLink2.default, { title: "Fun", handleClick: this.props.handleFun }),
           _react2.default.createElement(_NavLink2.default, { title: "Work", handleClick: this.props.handleWork }),
           _react2.default.createElement(_NavLink2.default, { title: "About", handleClick: this.props.handleAbout }),
@@ -11982,7 +12031,7 @@ var List = function (_React$Component) {
         ),
         _react2.default.createElement(
           "div",
-          { className: _List2.default.options },
+          { className: _List2.default.content },
           !this.state.active && _react2.default.createElement(
             "div",
             { className: _List2.default.clickable },
@@ -12295,23 +12344,36 @@ var MyLine = function (_React$Component) {
           null,
           _react2.default.createElement(
             _reactEventTimeline.TimelineEvent,
-            { title: "Collective Learning UROP", createdAt: "June 2017 - August 2017" },
-            "Undergrad Research Assistant with the Collective Learning Group at the MIT Media Lab."
+            { title: "Research with Collective Learning", createdAt: "June 2017 - August 2017", iconColor: "#f17e33", icon: _react2.default.createElement("img", { src: "./static/img/data.png", width: "50%" }) },
+            "Assisted in Research with the Collective Learning Group at the MIT Media Lab through via MIT UROP.",
+            _react2.default.createElement("br", null),
+            "Contributed to the Replot Data Visualization project."
           ),
           _react2.default.createElement(
             _reactEventTimeline.TimelineEvent,
-            { title: "Physics 8.02 TA", createdAt: "February 2017 - May 2017" },
-            "Served as a Teaching Assistant under Prof. Peter Dourmashkin for an 8.02 TEAL class at MIT."
+            { title: "Physics 8.02 TA", createdAt: "February 2017 - May 2017", iconColor: "#f17e33", icon: _react2.default.createElement("img", { src: "./static/img/phys.svg", width: "50%" }) },
+            "Served as a Teaching Assistant under Prof. Peter Dourmashkin for an 8.02 TEAL class at MIT.",
+            _react2.default.createElement("br", null),
+            "Answered student questions and clarified concepts in class, as well as graded homework weekly."
           ),
           _react2.default.createElement(
             _reactEventTimeline.TimelineEvent,
-            { title: "Makerspace and Technology Assistant", createdAt: "December 2013 - July 2016" },
-            "Worked and managed the Forge, a makerspace, in the Ela Area Public Library."
+            { title: "Lake Zurich Senior High School", createdAt: "May 2016", iconColor: "#f17e33", icon: _react2.default.createElement("img", { src: "./static/img/grad.png", width: "50%" }) },
+            "Graduated from LZHS with Summa Cum Laude Honors."
           ),
           _react2.default.createElement(
             _reactEventTimeline.TimelineEvent,
-            { title: "Children's Department Page", createdAt: "August 2013 - December 2013" },
-            "Worked as a page in the Children's Department of the Ela Area Public Library."
+            { title: "Makerspace and Technology Assistant", createdAt: "December 2013 - May 2016", iconColor: "#f17e33", icon: _react2.default.createElement("img", { src: "./static/img/tech.png", width: "50%" }) },
+            "Worked and managed \"The Forge\", a makerspace, in the Ela Area Public Library.",
+            _react2.default.createElement("br", null),
+            "Helped patrons understand and utilize Maker technologies, as well as led classes on the subject."
+          ),
+          _react2.default.createElement(
+            _reactEventTimeline.TimelineEvent,
+            { title: "Children's Department Page", createdAt: "August 2013 - December 2013", iconColor: "#f17e33", icon: _react2.default.createElement("img", { src: "./static/img/book.png", width: "50%" }) },
+            "Worked as a page in the Children's Department of the Ela Area Public Library.",
+            _react2.default.createElement("br", null),
+            "Responsibilities included shelving children's books and assisting patrons in finding media."
           )
         )
       );
@@ -12422,7 +12484,7 @@ var Projects = function (_React$Component) {
                 _react2.default.createElement(
                   "p",
                   { className: _Projects2.default.caption },
-                  " (Coming soon!) A ReactJS Data Visualiation Library "
+                  " (Coming soon!) A ReactJS Data Visualization Library "
                 )
               )
             )
@@ -13562,7 +13624,7 @@ exports = module.exports = __webpack_require__(13)(undefined);
 
 
 // module
-exports.push([module.i, ".List__outer___3T9P5 {\n  margin: 20px auto 0;\n  padding: 10px 40px;\n  width: 60%;\n  min-width: 550px;\n  border: 2px solid #000000;\n}\n.List__heading___29qU_ {\n  font-size: 26px;\n}\n.List__expand___2l7IH {\n  font-size: 26px;\n  float: right;\n}\n.List__topBar___nu9iT {\n  cursor: pointer;\n}\n.List__options___UEaWT {\n  font-size: 18px;\n  color: #000000;\n}\n.List__clickable___gC-bX {\n  cursor: pointer;\n}\n.List__classList___3HTTB{\n  margin: 0 auto 8px 0;\n  line-height: 145%\n}\n.List__fall___gPCQM{\n  font-size: 20px;\n  color: #cf5230;\n}\n.List__winter___3yOKg{\n  font-size: 20px;\n  color: #a0ccff;\n}\n.List__spring___1F0LU{\n  font-size: 20px;\n  color: #4aa02c;\n}\n.List__summer___3nfaq{\n  font-size: 20px;\n  color: #236e96;\n}\n", ""]);
+exports.push([module.i, ".List__outer___3T9P5 {\n  margin: 20px auto;\n  padding: 10px 40px;\n  width: 60%;\n  min-width: 550px;\n  border: 2px solid #000000;\n}\n.List__heading___29qU_ {\n  font-size: 26px;\n}\n.List__expand___2l7IH {\n  font-size: 26px;\n  float: right;\n}\n.List__topBar___nu9iT {\n  cursor: pointer;\n}\n.List__content___3IeTF {\n  font-size: 18px;\n  color: #000000;\n}\n.List__clickable___gC-bX {\n  cursor: pointer;\n}\n.List__classList___3HTTB{\n  margin: 0 auto 8px 0;\n  line-height: 145%\n}\n.List__fall___gPCQM{\n  font-size: 20px;\n  color: #cf5230;\n}\n.List__winter___3yOKg{\n  font-size: 20px;\n  color: #a0ccff;\n}\n.List__spring___1F0LU{\n  font-size: 20px;\n  color: #4aa02c;\n}\n.List__summer___3nfaq{\n  font-size: 20px;\n  color: #236e96;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -13570,7 +13632,7 @@ exports.locals = {
 	"heading": "List__heading___29qU_",
 	"expand": "List__expand___2l7IH",
 	"topBar": "List__topBar___nu9iT",
-	"options": "List__options___UEaWT",
+	"content": "List__content___3IeTF",
 	"clickable": "List__clickable___gC-bX",
 	"classList": "List__classList___3HTTB",
 	"fall": "List__fall___gPCQM",
@@ -13708,7 +13770,7 @@ exports = module.exports = __webpack_require__(13)(undefined);
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto);", ""]);
 
 // module
-exports.push([module.i, "html, body {\n  font-family: \"Roboto Condensed\", serif;\n  margin: 0;\n  padding: 0;\n  -webkit-text-size-adjust: none;\n}\n\n\nh1, h2, h3, h4, h5 {\n  margin: 0;\n}\n\nb {\n  font-family: \"Roboto\", serif;\n  font-size: 26px\n}\n\n\n/*@import url('https://fonts.googleapis.com/css?family=Oswald')*/\n", ""]);
+exports.push([module.i, "html, body {\n  font-family: \"Roboto Condensed\", serif;\n  margin: 0;\n  padding: 0;\n  -webkit-text-size-adjust: none;\n}\n\n\nh1, h2, h3, h4, h5 {\n  margin: 0;\n}\n\nb {\n  font-family: \"Roboto\", serif;\n  font-size: 26px\n}\n\np{\n  margin: 5px 0;\n}\n\n\n/*@import url('https://fonts.googleapis.com/css?family=Oswald')*/\n", ""]);
 
 // exports
 
