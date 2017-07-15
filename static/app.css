@@ -2,6 +2,7 @@ html, body {
   font-family: "Roboto Condensed", serif;
   margin: 0;
   padding: 0;
+  -webkit-text-size-adjust: none;
 }
 
 

@@ -11747,14 +11747,14 @@ var NavBar = function (_React$Component) {
         _react2.default.createElement(
           "div",
           { className: _NavBar2.default.container },
-          _react2.default.createElement("img", { src: "./static/img/matthead.png", height: "100%", alt: "Matt", style: { float: "left" } }),
+          _react2.default.createElement("img", { src: "./static/img/matthead.png", height: "100%", alt: "Matt", style: { float: "left", cursor: "pointer" }, onClick: this.props.handleHome }),
           _react2.default.createElement(_NavLink2.default, { title: "Fun", handleClick: this.props.handleFun }),
           _react2.default.createElement(_NavLink2.default, { title: "Work", handleClick: this.props.handleWork }),
           _react2.default.createElement(_NavLink2.default, { title: "About", handleClick: this.props.handleAbout }),
           _react2.default.createElement(_NavLink2.default, { title: "Home", handleClick: this.props.handleHome }),
           _react2.default.createElement(
             "p",
-            { className: _NavBar2.default.brand },
+            { className: _NavBar2.default.brand, onClick: this.props.handleHome },
             "MattF"
           )
         )
@@ -13633,7 +13633,7 @@ exports = module.exports = __webpack_require__(13)(undefined);
 
 
 // module
-exports.push([module.i, ".NavBar__top___j_M8x{\n  background-color: #f17e33;\n}\n\n.NavBar__container___2bZCu{\n  width: 60%;\n  height: 60px;\n  margin: 0 auto;\n}\n\n.NavBar__brand___2LsgG{\n  font-family: \"Roboto\", serif;\n  font-size: 40px;\n  padding-top: 6px;\n  margin: 0;\n}\n", ""]);
+exports.push([module.i, ".NavBar__top___j_M8x{\n  background-color: #f17e33;\n}\n\n.NavBar__container___2bZCu{\n  width: 60%;\n  height: 60px;\n  margin: 0 auto;\n}\n\n.NavBar__brand___2LsgG{\n  font-family: \"Roboto\", serif;\n  font-size: 40px;\n  padding-top: 6px;\n  margin: 0;\n  cursor: pointer;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -13708,7 +13708,7 @@ exports = module.exports = __webpack_require__(13)(undefined);
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto);", ""]);
 
 // module
-exports.push([module.i, "html, body {\n  font-family: \"Roboto Condensed\", serif;\n  margin: 0;\n  padding: 0;\n}\n\n\nh1, h2, h3, h4, h5 {\n  margin: 0;\n}\n\nb {\n  font-family: \"Roboto\", serif;\n  font-size: 26px\n}\n\n\n/*@import url('https://fonts.googleapis.com/css?family=Oswald')*/\n", ""]);
+exports.push([module.i, "html, body {\n  font-family: \"Roboto Condensed\", serif;\n  margin: 0;\n  padding: 0;\n  -webkit-text-size-adjust: none;\n}\n\n\nh1, h2, h3, h4, h5 {\n  margin: 0;\n}\n\nb {\n  font-family: \"Roboto\", serif;\n  font-size: 26px\n}\n\n\n/*@import url('https://fonts.googleapis.com/css?family=Oswald')*/\n", ""]);
 
 // exports
 
