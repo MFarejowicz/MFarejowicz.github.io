@@ -11835,7 +11835,7 @@ var NavBar = function (_React$Component) {
         _react2.default.createElement(
           "div",
           { className: _NavBar2.default.container },
-          _react2.default.createElement("img", { src: "./static/img/matthead.png", title: "Me!", height: "100%", alt: "Matt", style: { float: "left", cursor: "pointer" }, onClick: this.props.handleHome }),
+          _react2.default.createElement("img", { src: "./static/img/matthead.png", title: "Me!", height: "100%", alt: "Matt", style: { float: "left", cursor: "pointer" }, onClick: this.handleHome.bind(this) }),
           _react2.default.createElement(_NavLink2.default, { title: "Fun", handleClick: this.props.handleFun }),
           _react2.default.createElement(_NavLink2.default, { title: "Work", handleClick: this.props.handleWork }),
           _react2.default.createElement(_NavLink2.default, { title: "About", handleClick: this.props.handleAbout }),
@@ -12329,7 +12329,9 @@ var Dropdown = function (_React$Component) {
     key: "show",
     value: function show() {
       this.setState({ listVisible: true });
-      document.addEventListener("click", this.hide.bind(this), { once: true });
+      document.addEventListener("click", this.hide.bind(this), { once: true }
+      // document.addEventListener("touchstart", this.hide.bind(this), {once:true})
+      );
     }
   }, {
     key: "hide",
@@ -12368,7 +12370,7 @@ var Dropdown = function (_React$Component) {
         var item = this.props.list[i];
         items.push(_react2.default.createElement(
           "div",
-          { key: item, onClick: this.select.bind(this, item), style: this.state.listVisible ? { fontSize: "33px", background: "#ffffff", zIndex: "10", border: "1px solid #000000", width: "150px", padding: "11px 10px 10px", textAlign: "center", cursor: "pointer", position: "absolute", top: (i + 1) * 60 + "px" } : style.hidden },
+          { key: item, onClick: this.select.bind(this, item), style: this.state.listVisible ? { fontSize: "26px", background: "#ffffff", zIndex: "10", border: "1px solid #000000", width: "100px", padding: "11px 0px 10px", textAlign: "center", cursor: "pointer", position: "absolute", top: (i + 1) * 54 + "px" } : style.hidden },
           _react2.default.createElement(
             "span",
             null,
@@ -13826,7 +13828,7 @@ exports = module.exports = __webpack_require__(11)(undefined);
 
 
 // module
-exports.push([module.i, ".Home__wrapper___1QXeV{\r\n  position: relative;\r\n}\r\n.Home__container___3YqXY{\r\n  position: relative;\r\n}\r\n.Home__section___1FP21{\r\n  font-size: 18px;\r\n  margin: 20px auto;\r\n  border: 2px solid #000000;\r\n  width: 60%;\r\n  min-width: 550px;\r\n  padding: 10px 40px;\r\n}\r\n.Home__list___1B08o {\r\n  margin: 5px 0 8px 0;\r\n}\r\n.Home__email___nL9Ik{\r\n  font-family: \"Roboto Condensed\";\r\n  font-size: 20px;\r\n  background: rgba(0,0,0,0);\r\n  border: none;\r\n}\r\n\r\n.Home__text___zzrdr {\r\n  line-height: 150%;\r\n}\r\n\r\n@-webkit-keyframes Home__hvrpop___7_j5D {\r\n  50% {\r\n    -webkit-transform: scale(1.2);\r\n    transform: scale(1.2);\r\n  }\r\n}\r\n@keyframes Home__hvrpop___7_j5D {\r\n  50% {\r\n    -webkit-transform: scale(1.2);\r\n    transform: scale(1.2);\r\n  }\r\n}\r\n.Home__hvrpop___7_j5D {\r\n  font-size: 18px;\r\n  text-decoration: underline;\r\n  cursor: pointer;\r\n  display: inline-block;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  box-shadow: 0 0 1px transparent;\r\n}\r\n.Home__hvrpop___7_j5D:hover, .Home__hvrpop___7_j5D:focus, .Home__hvrpop___7_j5D:active {\r\n  color: #f17e33;\r\n  -webkit-animation-name: Home__hvrpop___7_j5D;\r\n  animation-name: Home__hvrpop___7_j5D;\r\n  -webkit-animation-duration: 0.3s;\r\n  animation-duration: 0.3s;\r\n  -webkit-animation-timing-function: linear;\r\n  animation-timing-function: linear;\r\n  -webkit-animation-iteration-count: 1;\r\n  animation-iteration-count: 1;\r\n}\r\n", ""]);
+exports.push([module.i, ".Home__wrapper___1QXeV{\r\n  position: relative;\r\n}\r\n.Home__container___3YqXY{\r\n  position: relative;\r\n}\r\n.Home__section___1FP21{\r\n  font-size: 18px;\r\n  margin: 20px auto;\r\n  border: 2px solid #000000;\r\n  width: 60%;\r\n  min-width: 100px;\r\n  padding: 10px 40px;\r\n}\r\n.Home__list___1B08o {\r\n  margin: 5px 0 8px 0;\r\n}\r\n.Home__email___nL9Ik{\r\n  font-family: \"Roboto Condensed\";\r\n  font-size: 20px;\r\n  background: rgba(0,0,0,0);\r\n  border: none;\r\n}\r\n\r\n.Home__text___zzrdr {\r\n  line-height: 150%;\r\n}\r\n\r\n@-webkit-keyframes Home__hvrpop___7_j5D {\r\n  50% {\r\n    -webkit-transform: scale(1.2);\r\n    transform: scale(1.2);\r\n  }\r\n}\r\n@keyframes Home__hvrpop___7_j5D {\r\n  50% {\r\n    -webkit-transform: scale(1.2);\r\n    transform: scale(1.2);\r\n  }\r\n}\r\n.Home__hvrpop___7_j5D {\r\n  font-size: 18px;\r\n  text-decoration: underline;\r\n  cursor: pointer;\r\n  display: inline-block;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  box-shadow: 0 0 1px transparent;\r\n}\r\n.Home__hvrpop___7_j5D:hover, .Home__hvrpop___7_j5D:focus, .Home__hvrpop___7_j5D:active {\r\n  color: #f17e33;\r\n  -webkit-animation-name: Home__hvrpop___7_j5D;\r\n  animation-name: Home__hvrpop___7_j5D;\r\n  -webkit-animation-duration: 0.3s;\r\n  animation-duration: 0.3s;\r\n  -webkit-animation-timing-function: linear;\r\n  animation-timing-function: linear;\r\n  -webkit-animation-iteration-count: 1;\r\n  animation-iteration-count: 1;\r\n}\r\n\r\n@media all and (max-width: 800px){\r\n  .Home__section___1FP21 {\r\n    font-size: 14px;\r\n  }\r\n  .Home__hvrpop___7_j5D{\r\n    font-size: 14px;\r\n  }\r\n  .Home__list___1B08o{\r\n    margin: 5px 0 8px -20px;\r\n  }\r\n}\r\n\r\n@media all and (max-width: 400px){\r\n  .Home__section___1FP21 {\r\n    font-size: 12px;\r\n  }\r\n  .Home__hvrpop___7_j5D{\r\n    font-size: 12px;\r\n  }\r\n  .Home__list___1B08o{\r\n    margin: 5px 0 8px -35px;\r\n  }\r\n}\r\n", ""]);
 
 // exports
 exports.locals = {
@@ -13848,7 +13850,7 @@ exports = module.exports = __webpack_require__(11)(undefined);
 
 
 // module
-exports.push([module.i, ".Dropdown__container___2CHfe {\n  display: none;\n}\n\n@media all and (max-width: 600px){\n  .Dropdown__container___2CHfe {\n    display: inline;\n    position: relative;\n    float: right;\n  }\n  .Dropdown__hvrUnderline___1SidC {\n    font-size: 33px;\n    width: 150px;\n    padding: 11px 10px 10px;\n    float: right;\n    text-align: center;\n    cursor: pointer;\n    display: inline-block;\n    vertical-align: middle;\n    -webkit-transform: perspective(1px) translateZ(0);\n    transform: perspective(1px) translateZ(0);\n    box-shadow: 0 0 1px transparent;\n    position: relative;\n    overflow: hidden;\n  }\n  .Dropdown__hvrUnderline___1SidC:before {\n    content: \"\";\n    position: absolute;\n    z-index: -1;\n    left: 50%;\n    right: 50%;\n    bottom: 0;\n    background: #000000;\n    height: 4px;\n    -webkit-transition-property: left, right;\n    transition-property: left, right;\n    -webkit-transition-duration: 0.3s;\n    transition-duration: 0.3s;\n    -webkit-transition-timing-function: ease-out;\n    transition-timing-function: ease-out;\n  }\n  .Dropdown__hvrUnderline___1SidC:hover:before, .Dropdown__hvrUnderline___1SidC:focus:before, .Dropdown__hvrUnderline___1SidC:active:before {\n    left: 0;\n    right: 0;\n  }\n\n}\n", ""]);
+exports.push([module.i, ".Dropdown__container___2CHfe {\n  display: none;\n}\n\n@media all and (max-width: 800px){\n  .Dropdown__container___2CHfe {\n    display: inline;\n    position: relative;\n    float: right;\n  }\n  .Dropdown__hvrUnderline___1SidC {\n    font-size: 24px;\n    width: 100px;\n    padding: 16px 0px 15px;\n    float: right;\n    text-align: center;\n    cursor: pointer;\n    display: inline-block;\n    vertical-align: middle;\n    -webkit-transform: perspective(1px) translateZ(0);\n    transform: perspective(1px) translateZ(0);\n    box-shadow: 0 0 1px transparent;\n    position: relative;\n    overflow: hidden;\n  }\n  .Dropdown__hvrUnderline___1SidC:before {\n    content: \"\";\n    position: absolute;\n    z-index: -1;\n    left: 50%;\n    right: 50%;\n    bottom: 0;\n    background: #000000;\n    height: 4px;\n    -webkit-transition-property: left, right;\n    transition-property: left, right;\n    -webkit-transition-duration: 0.3s;\n    transition-duration: 0.3s;\n    -webkit-transition-timing-function: ease-out;\n    transition-timing-function: ease-out;\n  }\n  .Dropdown__hvrUnderline___1SidC:hover:before, .Dropdown__hvrUnderline___1SidC:focus:before, .Dropdown__hvrUnderline___1SidC:active:before {\n    left: 0;\n    right: 0;\n  }\n\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -13865,7 +13867,7 @@ exports = module.exports = __webpack_require__(11)(undefined);
 
 
 // module
-exports.push([module.i, ".NavBar__top___j_M8x{\r\n  background-color: #f17e33;\r\n}\r\n\r\n.NavBar__container___2bZCu{\r\n  width: 60%;\r\n  height: 60px;\r\n  margin: 0 auto;\r\n}\r\n\r\n.NavBar__brand___2LsgG{\r\n  display: inline-block;\r\n  font-family: \"Roboto\", serif;\r\n  font-size: 40px;\r\n  padding-top: 6px;\r\n  margin: 0;\r\n  cursor: pointer;\r\n}\r\n", ""]);
+exports.push([module.i, ".NavBar__top___j_M8x{\r\n  background-color: #f17e33;\r\n}\r\n\r\n.NavBar__container___2bZCu{\r\n  width: 60%;\r\n  height: 60px;\r\n  margin: 0 auto;\r\n}\r\n\r\n.NavBar__brand___2LsgG{\r\n  display: inline-block;\r\n  font-family: \"Roboto\", serif;\r\n  font-size: 40px;\r\n  padding-top: 6px;\r\n  margin: 0;\r\n  cursor: pointer;\r\n}\r\n\r\n@media all and (max-width: 800px){\r\n  .NavBar__container___2bZCu{\r\n    width: 90%\r\n  }\r\n}\r\n\r\n@media all and (max-width: 400px){\r\n  .NavBar__brand___2LsgG{\r\n    font-size: 24px;\r\n    font-weight: bold;\r\n    padding-top: 16px;\r\n  }\r\n}\r\n", ""]);
 
 // exports
 exports.locals = {
@@ -13883,7 +13885,7 @@ exports = module.exports = __webpack_require__(11)(undefined);
 
 
 // module
-exports.push([module.i, ".NavLink__hvrUnderline___21XtX {\n  font-family: \"Roboto Condensed\", serif;\n  font-size: 33px;\n  width: 150px;\n  padding: 11px 10px 10px;\n  float: right;\n  text-align: center;\n  cursor: pointer;\n  display: inline-block;\n  vertical-align: middle;\n  -webkit-transform: perspective(1px) translateZ(0);\n  transform: perspective(1px) translateZ(0);\n  box-shadow: 0 0 1px transparent;\n  position: relative;\n  overflow: hidden;\n}\n.NavLink__hvrUnderline___21XtX:before {\n  content: \"\";\n  position: absolute;\n  z-index: -1;\n  left: 50%;\n  right: 50%;\n  bottom: 0;\n  background: #000000;\n  height: 4px;\n  -webkit-transition-property: left, right;\n  transition-property: left, right;\n  -webkit-transition-duration: 0.3s;\n  transition-duration: 0.3s;\n  -webkit-transition-timing-function: ease-out;\n  transition-timing-function: ease-out;\n}\n.NavLink__hvrUnderline___21XtX:hover:before, .NavLink__hvrUnderline___21XtX:focus:before, .NavLink__hvrUnderline___21XtX:active:before {\n  left: 0;\n  right: 0;\n}\n@media all and (max-width: 1420px) {\n  .NavLink__hvrUnderline___21XtX{\n    width: 100px;\n  }\n}\n@media all and (max-width: 1080px) {\n  .NavLink__hvrUnderline___21XtX{\n    width: 50px;\n  }\n}\n@media all and (max-width: 600px) {\n  .NavLink__hvrUnderline___21XtX{\n    display: none;\n  }\n}\n", ""]);
+exports.push([module.i, ".NavLink__hvrUnderline___21XtX {\n  font-size: 33px;\n  width: 150px;\n  padding: 11px 10px 10px;\n  float: right;\n  text-align: center;\n  cursor: pointer;\n  display: inline-block;\n  vertical-align: middle;\n  -webkit-transform: perspective(1px) translateZ(0);\n  transform: perspective(1px) translateZ(0);\n  box-shadow: 0 0 1px transparent;\n  position: relative;\n  overflow: hidden;\n}\n.NavLink__hvrUnderline___21XtX:before {\n  content: \"\";\n  position: absolute;\n  z-index: -1;\n  left: 50%;\n  right: 50%;\n  bottom: 0;\n  background: #000000;\n  height: 4px;\n  -webkit-transition-property: left, right;\n  transition-property: left, right;\n  -webkit-transition-duration: 0.3s;\n  transition-duration: 0.3s;\n  -webkit-transition-timing-function: ease-out;\n  transition-timing-function: ease-out;\n}\n.NavLink__hvrUnderline___21XtX:hover:before, .NavLink__hvrUnderline___21XtX:focus:before, .NavLink__hvrUnderline___21XtX:active:before {\n  left: 0;\n  right: 0;\n}\n@media all and (max-width: 1440px) {\n  .NavLink__hvrUnderline___21XtX{\n    width: 100px;\n  }\n}\n@media all and (max-width: 1100px) {\n  .NavLink__hvrUnderline___21XtX{\n    font-size: 24px;\n    padding: 16px 10px 15px;\n    width: 50px;\n  }\n}\n@media all and (max-width: 800px) {\n  .NavLink__hvrUnderline___21XtX{\n    display: none;\n  }\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -13940,7 +13942,7 @@ exports = module.exports = __webpack_require__(11)(undefined);
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto);", ""]);
 
 // module
-exports.push([module.i, "html, body {\n  font-family: \"Roboto Condensed\", serif;\n  margin: 0;\n  padding: 0;\n  -webkit-text-size-adjust: none;\n}\n\n\nh1, h2, h3, h4, h5 {\n  margin: 0;\n}\n\nb {\n  font-family: \"Roboto\", serif;\n  font-size: 26px\n}\n\np{\n  margin: 8px 0;\n}\n", ""]);
+exports.push([module.i, "html, body {\n  font-family: \"Roboto Condensed\", serif;\n  margin: 0;\n  padding: 0;\n  -webkit-text-size-adjust: none;\n}\n\n\nh1, h2, h3, h4, h5 {\n  margin: 0;\n}\n\nb {\n  font-family: \"Roboto\", serif;\n  font-size: 26px\n}\n\np{\n  margin: 8px 0;\n}\n\n@media all and (max-width: 800px) {\n  b {\n    font-size: 20px;\n  }\n}\n", ""]);
 
 // exports
 

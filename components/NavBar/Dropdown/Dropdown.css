@@ -2,16 +2,16 @@
   display: none;
 }
 
-@media all and (max-width: 600px){
+@media all and (max-width: 800px){
   .container {
     display: inline;
     position: relative;
     float: right;
   }
   .hvrUnderline {
-    font-size: 33px;
-    width: 150px;
-    padding: 11px 10px 10px;
+    font-size: 24px;
+    width: 100px;
+    padding: 16px 0px 15px;
     float: right;
     text-align: center;
     cursor: pointer;

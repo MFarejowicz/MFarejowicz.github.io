@@ -9,7 +9,7 @@
   margin: 20px auto;
   border: 2px solid #000000;
   width: 60%;
-  min-width: 550px;
+  min-width: 100px;
   padding: 10px 40px;
 }
 .list {
@@ -57,4 +57,28 @@
   animation-timing-function: linear;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
+}
+
+@media all and (max-width: 800px){
+  .section {
+    font-size: 14px;
+  }
+  .hvrpop{
+    font-size: 14px;
+  }
+  .list{
+    margin: 5px 0 8px -20px;
+  }
+}
+
+@media all and (max-width: 400px){
+  .section {
+    font-size: 12px;
+  }
+  .hvrpop{
+    font-size: 12px;
+  }
+  .list{
+    margin: 5px 0 8px -35px;
+  }
 }

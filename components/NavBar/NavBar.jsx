@@ -44,7 +44,7 @@ class NavBar extends React.Component {
     return (
       <div className={styles.top}>
         <div className={styles.container}>
-          <img src="./static/img/matthead.png" title="Me!" height="100%" alt="Matt" style={{float: "left", cursor: "pointer"}} onClick={this.props.handleHome}></img>
+          <img src="./static/img/matthead.png" title="Me!" height="100%" alt="Matt" style={{float: "left", cursor: "pointer"}} onClick={this.handleHome.bind(this)}></img>
           <NavLink title="Fun" handleClick={this.props.handleFun}/>
           <NavLink title="Work" handleClick={this.props.handleWork}/>
           <NavLink title="About" handleClick={this.props.handleAbout}/>
