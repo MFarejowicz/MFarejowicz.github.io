@@ -9,6 +9,7 @@
 }
 
 .brand{
+  display: inline-block;
   font-family: "Roboto", serif;
   font-size: 40px;
   padding-top: 6px;
