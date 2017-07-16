@@ -13868,7 +13868,7 @@ exports = module.exports = __webpack_require__(11)(undefined);
 
 
 // module
-exports.push([module.i, ".NavBar__top___j_M8x{\r\n  background-color: #f17e33;\r\n}\r\n\r\n.NavBar__container___2bZCu{\r\n  width: 60%;\r\n  height: 60px;\r\n  margin: 0 auto;\r\n}\r\n\r\n.NavBar__brand___2LsgG{\r\n  display: inline-block;\r\n  font-family: \"Roboto\", serif;\r\n  font-size: 40px;\r\n  padding-top: 6px;\r\n  margin: 0;\r\n  cursor: pointer;\r\n}\r\n\r\n@media all and (max-width: 800px){\r\n  .NavBar__container___2bZCu{\r\n    width: 90%\r\n  }\r\n}\r\n\r\n@media all and (max-width: 400px){\r\n  .NavBar__brand___2LsgG{\r\n    font-size: 24px;\r\n    font-weight: bold;\r\n    padding-top: 16px;\r\n  }\r\n}\r\n", ""]);
+exports.push([module.i, ".NavBar__top___j_M8x{\r\n  background-color: #f17e33;\r\n}\r\n\r\n.NavBar__container___2bZCu{\r\n  width: 60%;\r\n  height: 60px;\r\n  margin: 0 auto;\r\n}\r\n\r\n.NavBar__brand___2LsgG{\r\n  display: inline-block;\r\n  font-family: \"Roboto\", serif;\r\n  font-size: 40px;\r\n  padding-top: 6px;\r\n  margin: 0;\r\n  cursor: pointer;\r\n}\r\n\r\n@media all and (max-width: 800px){\r\n  .NavBar__container___2bZCu{\r\n    width: 90%\r\n  }\r\n}\r\n\r\n@media all and (max-width: 400px){\r\n  .NavBar__brand___2LsgG{\r\n    font-size: 24px;\r\n    padding-top: 16px;\r\n  }\r\n}\r\n", ""]);
 
 // exports
 exports.locals = {
