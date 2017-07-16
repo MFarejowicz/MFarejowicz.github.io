@@ -12763,6 +12763,14 @@ var Website = function (_React$Component) {
   }, {
     key: "render",
     value: function render() {
+      var mobile = /Mobi/.test(navigator.userAgent) && !window.MSStream;
+      if (mobile) {
+        var css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = "* {cursor: pointer}";
+        document.body.appendChild(css);
+      }
+
       return _react2.default.createElement(
         "div",
         null,
@@ -13850,7 +13858,7 @@ exports = module.exports = __webpack_require__(11)(undefined);
 
 
 // module
-exports.push([module.i, ".Dropdown__container___2CHfe {\n  display: none;\n}\n\n@media all and (max-width: 800px){\n  .Dropdown__container___2CHfe {\n    display: inline;\n    position: relative;\n    float: right;\n  }\n  .Dropdown__hvrUnderline___1SidC {\n    font-size: 24px;\n    width: 100px;\n    padding: 16px 0px 15px;\n    float: right;\n    text-align: center;\n    cursor: pointer;\n    display: inline-block;\n    vertical-align: middle;\n    -webkit-transform: perspective(1px) translateZ(0);\n    transform: perspective(1px) translateZ(0);\n    box-shadow: 0 0 1px transparent;\n    position: relative;\n    overflow: hidden;\n  }\n  .Dropdown__hvrUnderline___1SidC:before {\n    content: \"\";\n    position: absolute;\n    z-index: -1;\n    left: 50%;\n    right: 50%;\n    bottom: 0;\n    background: #000000;\n    height: 4px;\n    -webkit-transition-property: left, right;\n    transition-property: left, right;\n    -webkit-transition-duration: 0.3s;\n    transition-duration: 0.3s;\n    -webkit-transition-timing-function: ease-out;\n    transition-timing-function: ease-out;\n  }\n  .Dropdown__hvrUnderline___1SidC:hover:before, .Dropdown__hvrUnderline___1SidC:focus:before, .Dropdown__hvrUnderline___1SidC:active:before {\n    left: 0;\n    right: 0;\n  }\n\n}\n", ""]);
+exports.push([module.i, ".Dropdown__container___2CHfe {\r\n  display: none;\r\n}\r\n\r\n@media all and (max-width: 800px){\r\n  .Dropdown__container___2CHfe {\r\n    display: inline;\r\n    position: relative;\r\n    float: right;\r\n  }\r\n  .Dropdown__hvrUnderline___1SidC {\r\n    font-size: 24px;\r\n    width: 100px;\r\n    padding: 16px 0px 15px;\r\n    float: right;\r\n    text-align: center;\r\n    cursor: pointer;\r\n    display: inline-block;\r\n    vertical-align: middle;\r\n    -webkit-transform: perspective(1px) translateZ(0);\r\n    transform: perspective(1px) translateZ(0);\r\n    box-shadow: 0 0 1px transparent;\r\n    position: relative;\r\n    overflow: hidden;\r\n  }\r\n  .Dropdown__hvrUnderline___1SidC:before {\r\n    content: \"\";\r\n    position: absolute;\r\n    z-index: -1;\r\n    left: 50%;\r\n    right: 50%;\r\n    bottom: 0;\r\n    background: #000000;\r\n    height: 4px;\r\n    -webkit-transition-property: left, right;\r\n    transition-property: left, right;\r\n    -webkit-transition-duration: 0.3s;\r\n    transition-duration: 0.3s;\r\n    -webkit-transition-timing-function: ease-out;\r\n    transition-timing-function: ease-out;\r\n  }\r\n  .Dropdown__hvrUnderline___1SidC:hover:before, .Dropdown__hvrUnderline___1SidC:focus:before, .Dropdown__hvrUnderline___1SidC:active:before {\r\n    left: 0;\r\n    right: 0;\r\n  }\r\n\r\n}\r\n", ""]);
 
 // exports
 exports.locals = {
@@ -13885,7 +13893,7 @@ exports = module.exports = __webpack_require__(11)(undefined);
 
 
 // module
-exports.push([module.i, ".NavLink__hvrUnderline___21XtX {\n  font-size: 33px;\n  width: 150px;\n  padding: 11px 10px 10px;\n  float: right;\n  text-align: center;\n  cursor: pointer;\n  display: inline-block;\n  vertical-align: middle;\n  -webkit-transform: perspective(1px) translateZ(0);\n  transform: perspective(1px) translateZ(0);\n  box-shadow: 0 0 1px transparent;\n  position: relative;\n  overflow: hidden;\n}\n.NavLink__hvrUnderline___21XtX:before {\n  content: \"\";\n  position: absolute;\n  z-index: -1;\n  left: 50%;\n  right: 50%;\n  bottom: 0;\n  background: #000000;\n  height: 4px;\n  -webkit-transition-property: left, right;\n  transition-property: left, right;\n  -webkit-transition-duration: 0.3s;\n  transition-duration: 0.3s;\n  -webkit-transition-timing-function: ease-out;\n  transition-timing-function: ease-out;\n}\n.NavLink__hvrUnderline___21XtX:hover:before, .NavLink__hvrUnderline___21XtX:focus:before, .NavLink__hvrUnderline___21XtX:active:before {\n  left: 0;\n  right: 0;\n}\n@media all and (max-width: 1440px) {\n  .NavLink__hvrUnderline___21XtX{\n    width: 100px;\n  }\n}\n@media all and (max-width: 1100px) {\n  .NavLink__hvrUnderline___21XtX{\n    font-size: 24px;\n    padding: 16px 10px 15px;\n    width: 50px;\n  }\n}\n@media all and (max-width: 800px) {\n  .NavLink__hvrUnderline___21XtX{\n    display: none;\n  }\n}\n", ""]);
+exports.push([module.i, ".NavLink__hvrUnderline___21XtX {\r\n  font-size: 33px;\r\n  width: 150px;\r\n  padding: 11px 10px 10px;\r\n  float: right;\r\n  text-align: center;\r\n  cursor: pointer;\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  box-shadow: 0 0 1px transparent;\r\n  position: relative;\r\n  overflow: hidden;\r\n}\r\n.NavLink__hvrUnderline___21XtX:before {\r\n  content: \"\";\r\n  position: absolute;\r\n  z-index: -1;\r\n  left: 50%;\r\n  right: 50%;\r\n  bottom: 0;\r\n  background: #000000;\r\n  height: 4px;\r\n  -webkit-transition-property: left, right;\r\n  transition-property: left, right;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-timing-function: ease-out;\r\n  transition-timing-function: ease-out;\r\n}\r\n.NavLink__hvrUnderline___21XtX:hover:before, .NavLink__hvrUnderline___21XtX:focus:before, .NavLink__hvrUnderline___21XtX:active:before {\r\n  left: 0;\r\n  right: 0;\r\n}\r\n@media all and (max-width: 1440px) {\r\n  .NavLink__hvrUnderline___21XtX{\r\n    width: 100px;\r\n  }\r\n}\r\n@media all and (max-width: 1100px) {\r\n  .NavLink__hvrUnderline___21XtX{\r\n    font-size: 24px;\r\n    padding: 16px 10px 15px;\r\n    width: 50px;\r\n  }\r\n}\r\n@media all and (max-width: 800px) {\r\n  .NavLink__hvrUnderline___21XtX{\r\n    display: none;\r\n  }\r\n}\r\n", ""]);
 
 // exports
 exports.locals = {
@@ -13942,7 +13950,7 @@ exports = module.exports = __webpack_require__(11)(undefined);
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto);", ""]);
 
 // module
-exports.push([module.i, "html, body {\n  font-family: \"Roboto Condensed\", serif;\n  margin: 0;\n  padding: 0;\n  -webkit-text-size-adjust: none;\n}\n\n\nh1, h2, h3, h4, h5 {\n  margin: 0;\n}\n\nb {\n  font-family: \"Roboto\", serif;\n  font-size: 26px\n}\n\np{\n  margin: 8px 0;\n}\n\n@media all and (max-width: 800px) {\n  b {\n    font-size: 20px;\n  }\n}\n", ""]);
+exports.push([module.i, "html, body {\r\n  font-family: \"Roboto Condensed\", serif;\r\n  margin: 0;\r\n  padding: 0;\r\n  -webkit-text-size-adjust: none;\r\n}\r\n\r\n\r\nh1, h2, h3, h4, h5 {\r\n  margin: 0;\r\n}\r\n\r\nb {\r\n  font-family: \"Roboto\", serif;\r\n  font-size: 26px\r\n}\r\n\r\np{\r\n  margin: 8px 0;\r\n}\r\n\r\n@media all and (max-width: 800px) {\r\n  b {\r\n    font-size: 20px;\r\n  }\r\n}\r\n", ""]);
 
 // exports
 

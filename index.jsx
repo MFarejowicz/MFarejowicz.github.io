@@ -56,6 +56,14 @@ class Website extends React.Component {
   }
 
   render(){
+    var mobile = /Mobi/.test(navigator.userAgent) && !window.MSStream
+    if (mobile) {
+      var css = document.createElement("style")
+      css.type = "text/css"
+      css.innerHTML = "* {cursor: pointer}"
+      document.body.appendChild(css)
+    }
+
     return (
       <div>
         <NavBar handleHome={this.homeActivator.bind(this)} handleAbout={this.aboutActivator.bind(this)}
