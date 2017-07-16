@@ -39,3 +39,13 @@
     width: 100px;
   }
 }
+@media all and (max-width: 1080px) {
+  .hvrUnderline{
+    width: 50px;
+  }
+}
+@media all and (max-width: 600px) {
+  .hvrUnderline{
+    display: none;
+  }
+}

@@ -1,8 +1,44 @@
 import React from "react"
 import styles from "./NavBar.css"
 import NavLink from "./NavLink/NavLink.jsx"
+import Dropdown from "./Dropdown/Dropdown.jsx"
 
 class NavBar extends React.Component {
+
+  constructor(props){
+    super(props)
+    this.state = {
+      selected: "Home"
+    }
+  }
+
+  handleHome(){
+    this.setState({selected: "Home"})
+    this.props.handleHome()
+  }
+
+  switchSelected(newPane){
+    switch (newPane) {
+      case "Home":
+        this.setState({selected: "Home"})
+        this.props.handleHome()
+        break;
+      case "About":
+        this.setState({selected: "About"})
+        this.props.handleAbout()
+        break;
+      case "Work":
+        this.setState({selected: "Work"})
+        this.props.handleWork()
+        break;
+      case "Fun":
+        this.setState({selected: "Fun"})
+        this.props.handleFun()
+        break;
+      default:
+        break;
+    }
+  }
 
   render() {
     return (
@@ -13,7 +49,8 @@ class NavBar extends React.Component {
           <NavLink title="Work" handleClick={this.props.handleWork}/>
           <NavLink title="About" handleClick={this.props.handleAbout}/>
           <NavLink title="Home" handleClick={this.props.handleHome}/>
-          <p className={styles.brand} onClick={this.props.handleHome}>MattF</p>
+          <Dropdown selected={this.state.selected} list={["Home", "About", "Work", "Fun"]} handleChange={this.switchSelected.bind(this)}/>
+          <span className={styles.brand} onClick={this.handleHome.bind(this)}>MattF</span>
         </div>
       </div>
     )
