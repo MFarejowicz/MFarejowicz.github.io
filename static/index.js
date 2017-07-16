@@ -11793,15 +11793,6 @@ var NavBar = function (_React$Component) {
 
   _createClass(NavBar, [{
     key: "handleHome",
-
-
-    // constructor(props){
-    //   super(props)
-    //   this.state = {
-    //     selected:
-    //   }
-    // }
-
     value: function handleHome() {
       this.setState({ selected: "Home" });
       this.props.handleHome();
@@ -13789,7 +13780,7 @@ exports = module.exports = __webpack_require__(11)(undefined);
 
 
 // module
-exports.push([module.i, ".List__outer___3T9P5 {\n  margin: 20px auto;\n  padding: 10px 40px;\n  width: 60%;\n  min-width: 100px;\n  border: 2px solid #000000;\n}\n.List__heading___29qU_ {\n  font-size: 26px;\n  font-weight: bold;\n}\n.List__expand___2l7IH {\n  font-size: 26px;\n  float: right;\n}\n.List__topBar___nu9iT {\n  cursor: pointer;\n}\n.List__content___3IeTF {\n  font-size: 18px;\n  color: #000000;\n}\n.List__clickable___gC-bX {\n  cursor: pointer;\n}\n.List__classList___3HTTB{\n  margin: 0 0 8px 0;\n  line-height: 145%\n}\n.List__fall___gPCQM{\n  font-size: 20px;\n  color: #cf5230;\n}\n.List__winter___3yOKg{\n  font-size: 20px;\n  color: #a0ccff;\n}\n.List__spring___1F0LU{\n  font-size: 20px;\n  color: #4aa02c;\n}\n.List__summer___3nfaq{\n  font-size: 20px;\n  color: #236e96;\n}\n\n@media all and (max-width: 800px){\n  .List__heading___29qU_{\n    font-size: 20px;\n  }\n  .List__expand___2l7IH{\n    font-size: 20px;\n  }\n  .List__classList___3HTTB {\n    margin: 0 0 8px -20px;\n  }\n  .List__content___3IeTF{\n    font-size: 14px;\n  }\n  .List__fall___gPCQM,.List__winter___3yOKg,.List__spring___1F0LU,.List__summer___3nfaq {\n    font-size: 17px;\n  }\n}\n\n@media all and (max-width: 400px){\n  .List__heading___29qU_{\n    font-size: 16px;\n  }\n  .List__expand___2l7IH{\n    font-size: 16px;\n  }\n  .List__content___3IeTF{\n    font-size: 12px;\n  }\n  .List__fall___gPCQM,.List__winter___3yOKg,.List__spring___1F0LU,.List__summer___3nfaq {\n    font-size: 15px;\n  }\n}\n", ""]);
+exports.push([module.i, ".List__outer___3T9P5 {\n  margin: 20px auto;\n  padding: 10px 40px;\n  width: 60%;\n  min-width: 100px;\n  border: 2px solid #000000;\n}\n.List__heading___29qU_ {\n  font-size: 26px;\n  font-weight: bold;\n}\n.List__expand___2l7IH {\n  font-size: 26px;\n  float: right;\n}\n.List__topBar___nu9iT {\n  cursor: pointer;\n}\n.List__content___3IeTF {\n  font-size: 18px;\n  color: #000000;\n}\n.List__clickable___gC-bX {\n  cursor: pointer;\n}\n.List__classList___3HTTB{\n  margin: 0 0 8px 0;\n  line-height: 145%\n}\n.List__fall___gPCQM{\n  font-size: 20px;\n  color: #cf5230;\n}\n.List__winter___3yOKg{\n  font-size: 20px;\n  color: #a0ccff;\n}\n.List__spring___1F0LU{\n  font-size: 20px;\n  color: #4aa02c;\n}\n.List__summer___3nfaq{\n  font-size: 20px;\n  color: #236e96;\n}\n\n@media all and (max-width: 800px){\n  .List__heading___29qU_{\n    font-size: 20px;\n  }\n  .List__expand___2l7IH{\n    font-size: 20px;\n  }\n  .List__classList___3HTTB {\n    margin: 0 0 8px -20px;\n  }\n  .List__content___3IeTF{\n    font-size: 14px;\n  }\n  .List__fall___gPCQM,.List__winter___3yOKg,.List__spring___1F0LU,.List__summer___3nfaq {\n    font-size: 17px;\n  }\n}\n\n@media all and (max-width: 400px){\n  .List__content___3IeTF{\n    font-size: 12px;\n  }\n  .List__fall___gPCQM,.List__winter___3yOKg,.List__spring___1F0LU,.List__summer___3nfaq {\n    font-size: 15px;\n  }\n}\n", ""]);
 
 // exports
 exports.locals = {

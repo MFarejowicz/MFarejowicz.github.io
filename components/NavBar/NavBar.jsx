@@ -5,13 +5,6 @@ import Dropdown from "./Dropdown/Dropdown.jsx"
 
 class NavBar extends React.Component {
 
-  // constructor(props){
-  //   super(props)
-  //   this.state = {
-  //     selected:
-  //   }
-  // }
-
   handleHome(){
     this.setState({selected: "Home"})
     this.props.handleHome()
