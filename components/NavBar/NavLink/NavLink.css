@@ -1,5 +1,4 @@
 .hvrUnderline {
-  font-family: "Roboto Condensed", serif;
   font-size: 33px;
   width: 150px;
   padding: 11px 10px 10px;
@@ -34,17 +33,19 @@
   left: 0;
   right: 0;
 }
-@media all and (max-width: 1420px) {
+@media all and (max-width: 1440px) {
   .hvrUnderline{
     width: 100px;
   }
 }
-@media all and (max-width: 1080px) {
+@media all and (max-width: 1100px) {
   .hvrUnderline{
+    font-size: 24px;
+    padding: 16px 10px 15px;
     width: 50px;
   }
 }
-@media all and (max-width: 600px) {
+@media all and (max-width: 800px) {
   .hvrUnderline{
     display: none;
   }

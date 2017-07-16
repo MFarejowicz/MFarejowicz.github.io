@@ -16,3 +16,17 @@
   margin: 0;
   cursor: pointer;
 }
+
+@media all and (max-width: 800px){
+  .container{
+    width: 90%
+  }
+}
+
+@media all and (max-width: 400px){
+  .brand{
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 16px;
+  }
+}
