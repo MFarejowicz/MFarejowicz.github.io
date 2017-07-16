@@ -9,7 +9,7 @@
   margin: 20px auto;
   border: 2px solid #000000;
   width: 60%;
-  min-width: 550px;
+  min-width: 100px;
   padding: 10px 40px;
 }
 .caption{
@@ -29,4 +29,28 @@
 .icon {
   width: 22px;
   margin-right: 5px;
+}
+.pic {
+  width: 220px;
+  float: right;
+}
+
+@media all and (max-width: 800px){
+  .section {
+    font-size: 14px;
+  }
+  .pic {
+    margin-right: -35px;
+    width: 140px;
+  }
+}
+
+@media all and (max-width: 400px){
+  .section {
+    font-size: 12px;
+  }
+  .pic {
+    margin-right: -30px;
+    width: 100px;
+  }
 }

@@ -26,7 +26,7 @@ class List extends React.Component {
             {this.state.active ? "\u2b9d" : "\u2b9f" }
           </div>
           <div className={styles.heading}>
-            <b>Class and Activity List</b>
+            Class and Activity List
             <hr/>
           </div>
         </div>

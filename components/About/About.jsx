@@ -11,7 +11,7 @@ class About extends React.Component{
         <div className={styles.section}>
           <b>Biography</b>
           <hr/>
-          <img src="./static/img/matt.png" title="It's Matt!" alt="Matt" width="220px" style={{float:"right"}}></img>
+          <img src="./static/img/matt.png" title="It's Matt!" alt="Matt" className={styles.pic}></img>
           <div className={styles.text}>
             <p>Hey there! My name is Matthew Farejowicz, but you can call me Matt, MattF, Faree, or Joon. I'm a rising MIT Sophomore who
             likes, math, computer science, video games, volunteering, anime, taking walks, and talking to people. </p>

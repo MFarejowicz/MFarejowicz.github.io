@@ -11246,7 +11246,7 @@ var About = function (_React$Component) {
             "Biography"
           ),
           _react2.default.createElement("hr", null),
-          _react2.default.createElement("img", { src: "./static/img/matt.png", title: "It's Matt!", alt: "Matt", width: "220px", style: { float: "right" } }),
+          _react2.default.createElement("img", { src: "./static/img/matt.png", title: "It's Matt!", alt: "Matt", className: _About2.default.pic }),
           _react2.default.createElement(
             "div",
             { className: _About2.default.text },
@@ -11785,19 +11785,23 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var NavBar = function (_React$Component) {
   _inherits(NavBar, _React$Component);
 
-  function NavBar(props) {
+  function NavBar() {
     _classCallCheck(this, NavBar);
 
-    var _this = _possibleConstructorReturn(this, (NavBar.__proto__ || Object.getPrototypeOf(NavBar)).call(this, props));
-
-    _this.state = {
-      selected: "Home"
-    };
-    return _this;
+    return _possibleConstructorReturn(this, (NavBar.__proto__ || Object.getPrototypeOf(NavBar)).apply(this, arguments));
   }
 
   _createClass(NavBar, [{
     key: "handleHome",
+
+
+    // constructor(props){
+    //   super(props)
+    //   this.state = {
+    //     selected:
+    //   }
+    // }
+
     value: function handleHome() {
       this.setState({ selected: "Home" });
       this.props.handleHome();
@@ -11807,19 +11811,15 @@ var NavBar = function (_React$Component) {
     value: function switchSelected(newPane) {
       switch (newPane) {
         case "Home":
-          this.setState({ selected: "Home" });
           this.props.handleHome();
           break;
         case "About":
-          this.setState({ selected: "About" });
           this.props.handleAbout();
           break;
         case "Work":
-          this.setState({ selected: "Work" });
           this.props.handleWork();
           break;
         case "Fun":
-          this.setState({ selected: "Fun" });
           this.props.handleFun();
           break;
         default:
@@ -11835,15 +11835,15 @@ var NavBar = function (_React$Component) {
         _react2.default.createElement(
           "div",
           { className: _NavBar2.default.container },
-          _react2.default.createElement("img", { src: "./static/img/matthead.png", title: "Me!", height: "100%", alt: "Matt", style: { float: "left", cursor: "pointer" }, onClick: this.handleHome.bind(this) }),
+          _react2.default.createElement("img", { src: "./static/img/matthead.png", title: "Me!", height: "100%", alt: "Matt", style: { float: "left", cursor: "pointer" }, onClick: this.props.handleHome }),
           _react2.default.createElement(_NavLink2.default, { title: "Fun", handleClick: this.props.handleFun }),
           _react2.default.createElement(_NavLink2.default, { title: "Work", handleClick: this.props.handleWork }),
           _react2.default.createElement(_NavLink2.default, { title: "About", handleClick: this.props.handleAbout }),
           _react2.default.createElement(_NavLink2.default, { title: "Home", handleClick: this.props.handleHome }),
-          _react2.default.createElement(_Dropdown2.default, { selected: this.state.selected, list: ["Home", "About", "Work", "Fun"], handleChange: this.switchSelected.bind(this) }),
+          _react2.default.createElement(_Dropdown2.default, { selected: this.props.selected, list: ["Home", "About", "Work", "Fun"], handleChange: this.switchSelected.bind(this) }),
           _react2.default.createElement(
             "span",
-            { className: _NavBar2.default.brand, onClick: this.handleHome.bind(this) },
+            { className: _NavBar2.default.brand, onClick: this.props.handleHome },
             "MattF"
           )
         )
@@ -12061,11 +12061,7 @@ var List = function (_React$Component) {
           _react2.default.createElement(
             "div",
             { className: _List2.default.heading },
-            _react2.default.createElement(
-              "b",
-              null,
-              "Class and Activity List"
-            ),
+            "Class and Activity List",
             _react2.default.createElement("hr", null)
           )
         ),
@@ -12715,7 +12711,8 @@ var Website = function (_React$Component) {
       homeActive: true,
       aboutActive: false,
       workActive: false,
-      funActive: false
+      funActive: false,
+      selected: "Home"
     };
     return _this;
   }
@@ -12727,7 +12724,8 @@ var Website = function (_React$Component) {
         homeActive: true,
         aboutActive: false,
         workActive: false,
-        funActive: false
+        funActive: false,
+        selected: "Home"
       });
     }
   }, {
@@ -12737,7 +12735,8 @@ var Website = function (_React$Component) {
         homeActive: false,
         aboutActive: true,
         workActive: false,
-        funActive: false
+        funActive: false,
+        selected: "About"
       });
     }
   }, {
@@ -12747,7 +12746,8 @@ var Website = function (_React$Component) {
         homeActive: false,
         aboutActive: false,
         workActive: true,
-        funActive: false
+        funActive: false,
+        selected: "Work"
       });
     }
   }, {
@@ -12757,7 +12757,8 @@ var Website = function (_React$Component) {
         homeActive: false,
         aboutActive: false,
         workActive: false,
-        funActive: true
+        funActive: true,
+        selected: "Fun"
       });
     }
   }, {
@@ -12775,7 +12776,7 @@ var Website = function (_React$Component) {
         "div",
         null,
         _react2.default.createElement(_NavBar2.default, { handleHome: this.homeActivator.bind(this), handleAbout: this.aboutActivator.bind(this),
-          handleWork: this.workActivator.bind(this), handleFun: this.funActivator.bind(this) }),
+          handleWork: this.workActivator.bind(this), handleFun: this.funActivator.bind(this), selected: this.state.selected }),
         _react2.default.createElement(_Home2.default, { active: this.state.homeActive, handleAbout: this.aboutActivator.bind(this),
           handleWork: this.workActivator.bind(this), handleFun: this.funActivator.bind(this) }),
         _react2.default.createElement(_About2.default, { active: this.state.aboutActive }),
@@ -13764,7 +13765,7 @@ exports = module.exports = __webpack_require__(11)(undefined);
 
 
 // module
-exports.push([module.i, ".About__wrapper___maaSq{\r\n  position: relative;\r\n}\r\n.About__container___3VDN6{\r\n  position: relative;\r\n}\r\n.About__section___2esxW{\r\n  font-size: 18px;\r\n  margin: 20px auto;\r\n  border: 2px solid #000000;\r\n  width: 60%;\r\n  min-width: 550px;\r\n  padding: 10px 40px;\r\n}\r\n.About__caption___3H4jc{\r\n  margin: 0 0 3px 0;\r\n}\r\n.About__linkList___2aWK0{\r\n  list-style-type: none;\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n.About__link___xkDQW:hover{\r\n  color: #f17e33;\r\n}\r\n.About__text___35ymG {\r\n  line-height: 150%;\r\n}\r\n.About__icon___2hXmT {\r\n  width: 22px;\r\n  margin-right: 5px;\r\n}\r\n", ""]);
+exports.push([module.i, ".About__wrapper___maaSq{\r\n  position: relative;\r\n}\r\n.About__container___3VDN6{\r\n  position: relative;\r\n}\r\n.About__section___2esxW{\r\n  font-size: 18px;\r\n  margin: 20px auto;\r\n  border: 2px solid #000000;\r\n  width: 60%;\r\n  min-width: 100px;\r\n  padding: 10px 40px;\r\n}\r\n.About__caption___3H4jc{\r\n  margin: 0 0 3px 0;\r\n}\r\n.About__linkList___2aWK0{\r\n  list-style-type: none;\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n.About__link___xkDQW:hover{\r\n  color: #f17e33;\r\n}\r\n.About__text___35ymG {\r\n  line-height: 150%;\r\n}\r\n.About__icon___2hXmT {\r\n  width: 22px;\r\n  margin-right: 5px;\r\n}\r\n.About__pic___2Y8Gx {\r\n  width: 220px;\r\n  float: right;\r\n}\r\n\r\n@media all and (max-width: 800px){\r\n  .About__section___2esxW {\r\n    font-size: 14px;\r\n  }\r\n  .About__pic___2Y8Gx {\r\n    margin-right: -35px;\r\n    width: 140px;\r\n  }\r\n}\r\n\r\n@media all and (max-width: 400px){\r\n  .About__section___2esxW {\r\n    font-size: 12px;\r\n  }\r\n  .About__pic___2Y8Gx {\r\n    margin-right: -30px;\r\n    width: 100px;\r\n  }\r\n}\r\n", ""]);
 
 // exports
 exports.locals = {
@@ -13775,7 +13776,8 @@ exports.locals = {
 	"linkList": "About__linkList___2aWK0",
 	"link": "About__link___xkDQW",
 	"text": "About__text___35ymG",
-	"icon": "About__icon___2hXmT"
+	"icon": "About__icon___2hXmT",
+	"pic": "About__pic___2Y8Gx"
 };
 
 /***/ }),
@@ -13787,7 +13789,7 @@ exports = module.exports = __webpack_require__(11)(undefined);
 
 
 // module
-exports.push([module.i, ".List__outer___3T9P5 {\n  margin: 20px auto;\n  padding: 10px 40px;\n  width: 60%;\n  min-width: 550px;\n  border: 2px solid #000000;\n}\n.List__heading___29qU_ {\n  font-size: 26px;\n}\n.List__expand___2l7IH {\n  font-size: 26px;\n  float: right;\n}\n.List__topBar___nu9iT {\n  cursor: pointer;\n}\n.List__content___3IeTF {\n  font-size: 18px;\n  color: #000000;\n}\n.List__clickable___gC-bX {\n  cursor: pointer;\n}\n.List__classList___3HTTB{\n  margin: 0 auto 8px 0;\n  line-height: 145%\n}\n.List__fall___gPCQM{\n  font-size: 20px;\n  color: #cf5230;\n}\n.List__winter___3yOKg{\n  font-size: 20px;\n  color: #a0ccff;\n}\n.List__spring___1F0LU{\n  font-size: 20px;\n  color: #4aa02c;\n}\n.List__summer___3nfaq{\n  font-size: 20px;\n  color: #236e96;\n}\n", ""]);
+exports.push([module.i, ".List__outer___3T9P5 {\n  margin: 20px auto;\n  padding: 10px 40px;\n  width: 60%;\n  min-width: 100px;\n  border: 2px solid #000000;\n}\n.List__heading___29qU_ {\n  font-size: 26px;\n  font-weight: bold;\n}\n.List__expand___2l7IH {\n  font-size: 26px;\n  float: right;\n}\n.List__topBar___nu9iT {\n  cursor: pointer;\n}\n.List__content___3IeTF {\n  font-size: 18px;\n  color: #000000;\n}\n.List__clickable___gC-bX {\n  cursor: pointer;\n}\n.List__classList___3HTTB{\n  margin: 0 0 8px 0;\n  line-height: 145%\n}\n.List__fall___gPCQM{\n  font-size: 20px;\n  color: #cf5230;\n}\n.List__winter___3yOKg{\n  font-size: 20px;\n  color: #a0ccff;\n}\n.List__spring___1F0LU{\n  font-size: 20px;\n  color: #4aa02c;\n}\n.List__summer___3nfaq{\n  font-size: 20px;\n  color: #236e96;\n}\n\n@media all and (max-width: 800px){\n  .List__heading___29qU_{\n    font-size: 20px;\n  }\n  .List__expand___2l7IH{\n    font-size: 20px;\n  }\n  .List__classList___3HTTB {\n    margin: 0 0 8px -20px;\n  }\n  .List__content___3IeTF{\n    font-size: 14px;\n  }\n  .List__fall___gPCQM,.List__winter___3yOKg,.List__spring___1F0LU,.List__summer___3nfaq {\n    font-size: 17px;\n  }\n}\n\n@media all and (max-width: 400px){\n  .List__heading___29qU_{\n    font-size: 16px;\n  }\n  .List__expand___2l7IH{\n    font-size: 16px;\n  }\n  .List__content___3IeTF{\n    font-size: 12px;\n  }\n  .List__fall___gPCQM,.List__winter___3yOKg,.List__spring___1F0LU,.List__summer___3nfaq {\n    font-size: 15px;\n  }\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -13813,7 +13815,7 @@ exports = module.exports = __webpack_require__(11)(undefined);
 
 
 // module
-exports.push([module.i, ".Fun__wrapper___3mLPw{\n  position: relative;\n}\n.Fun__container___1hvxP{\n  position: relative;\n}\n.Fun__section___j7M-Q{\n  font-size: 18px;\n  margin: 20px auto;\n  border: 2px solid #000000;\n  width: 60%;\n  min-width: 550px;\n  padding: 10px 40px;\n}\n.Fun__caption___2dC1o{\n  margin: 0 0 3px 0;\n}\n.Fun__linkList___28r6W{\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n}\n.Fun__link___aNeU7:hover{\n  color: #f17e33;\n}\n.Fun__text___2nI1k {\n  line-height: 150%;\n}\n.Fun__icon___m_m74 {\n  width: 22px;\n  margin-right: 5px;\n}\n", ""]);
+exports.push([module.i, ".Fun__wrapper___3mLPw{\n  position: relative;\n}\n.Fun__container___1hvxP{\n  position: relative;\n}\n.Fun__section___j7M-Q{\n  font-size: 18px;\n  margin: 20px auto;\n  border: 2px solid #000000;\n  width: 60%;\n  min-width: 100px;\n  padding: 10px 40px;\n}\n.Fun__caption___2dC1o{\n  margin: 0 0 3px 0;\n}\n.Fun__linkList___28r6W{\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n}\n.Fun__link___aNeU7:hover{\n  color: #f17e33;\n}\n.Fun__text___2nI1k {\n  line-height: 150%;\n}\n.Fun__icon___m_m74 {\n  width: 22px;\n  margin-right: 5px;\n}\n\n@media all and (max-width: 800px){\n  .Fun__section___j7M-Q {\n    font-size: 14px;\n  }\n}\n\n@media all and (max-width: 400px){\n  .Fun__section___j7M-Q {\n    font-size: 12px;\n  }\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -13931,7 +13933,7 @@ exports = module.exports = __webpack_require__(11)(undefined);
 
 
 // module
-exports.push([module.i, ".Work__wrapper___O0XhM{\n  position: relative;\n}\n.Work__container___m7ZG0{\n  position: relative;\n}\n.Work__section___1FF5S{\n  font-size: 18px;\n  margin: 20px auto;\n  border: 2px solid #000000;\n  width: 60%;\n  min-width: 550px;\n  padding: 10px 40px;\n}\n.Work__timeline___3XmZ_{\n  font-size: 20px;\n  margin: 20px auto;\n  border: 2px solid #000000;\n  width: 60%;\n  min-width: 550px;\n  padding: 10px 40px;\n}\n", ""]);
+exports.push([module.i, ".Work__wrapper___O0XhM{\n  position: relative;\n}\n.Work__container___m7ZG0{\n  position: relative;\n}\n.Work__section___1FF5S{\n  font-size: 18px;\n  margin: 20px auto;\n  border: 2px solid #000000;\n  width: 60%;\n  min-width: 100px;\n  padding: 10px 40px;\n}\n.Work__timeline___3XmZ_{\n  font-size: 20px;\n  margin: 20px auto;\n  border: 2px solid #000000;\n  width: 60%;\n  min-width: 100px;\n  padding: 10px 40px;\n}\n@media all and (max-width: 800px){\n  .Work__section___1FF5S {\n    font-size: 14px;\n  }\n  .Work__timeline___3XmZ_ {\n    font-size: 14px;\n  }\n}\n\n@media all and (max-width: 400px){\n  .Work__section___1FF5S {\n    font-size: 12px;\n  }\n}\n", ""]);
 
 // exports
 exports.locals = {

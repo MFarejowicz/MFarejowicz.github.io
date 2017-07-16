@@ -9,7 +9,7 @@
   margin: 20px auto;
   border: 2px solid #000000;
   width: 60%;
-  min-width: 550px;
+  min-width: 100px;
   padding: 10px 40px;
 }
 .timeline{
@@ -17,6 +17,20 @@
   margin: 20px auto;
   border: 2px solid #000000;
   width: 60%;
-  min-width: 550px;
+  min-width: 100px;
   padding: 10px 40px;
+}
+@media all and (max-width: 800px){
+  .section {
+    font-size: 14px;
+  }
+  .timeline {
+    font-size: 14px;
+  }
+}
+
+@media all and (max-width: 400px){
+  .section {
+    font-size: 12px;
+  }
 }

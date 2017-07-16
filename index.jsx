@@ -15,7 +15,8 @@ class Website extends React.Component {
       homeActive: true,
       aboutActive: false,
       workActive: false,
-      funActive: false
+      funActive: false,
+      selected: "Home"
     }
   }
 
@@ -24,7 +25,8 @@ class Website extends React.Component {
       homeActive: true,
       aboutActive: false,
       workActive: false,
-      funActive: false
+      funActive: false,
+      selected: "Home"
     })
   }
 
@@ -33,7 +35,8 @@ class Website extends React.Component {
       homeActive: false,
       aboutActive: true,
       workActive: false,
-      funActive: false
+      funActive: false,
+      selected: "About"
     })
   }
 
@@ -42,7 +45,8 @@ class Website extends React.Component {
       homeActive: false,
       aboutActive: false,
       workActive: true,
-      funActive: false
+      funActive: false,
+      selected: "Work"
     })
   }
 
@@ -51,7 +55,8 @@ class Website extends React.Component {
       homeActive: false,
       aboutActive: false,
       workActive: false,
-      funActive: true
+      funActive: true,
+      selected: "Fun"
     })
   }
 
@@ -67,7 +72,7 @@ class Website extends React.Component {
     return (
       <div>
         <NavBar handleHome={this.homeActivator.bind(this)} handleAbout={this.aboutActivator.bind(this)}
-          handleWork={this.workActivator.bind(this)} handleFun={this.funActivator.bind(this)}/>
+          handleWork={this.workActivator.bind(this)} handleFun={this.funActivator.bind(this)} selected={this.state.selected}/>
         <Home active={this.state.homeActive} handleAbout={this.aboutActivator.bind(this)}
           handleWork={this.workActivator.bind(this)} handleFun={this.funActivator.bind(this)}/>
         <About active={this.state.aboutActive} />
