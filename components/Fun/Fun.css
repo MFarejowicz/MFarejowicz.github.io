@@ -1,8 +1,66 @@
-.wrapper{
-  position: relative;
+.containerin{
+  position: absolute;
+  -webkit-animation-name: fadein;
+  -webkit-animation-duration: .25s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-delay: .25s;
+  -webkit-animation-fill-mode: backwards;
+  animation-name: fadein;
+  animation-duration: .25s;
+  animation-delay: .25s;
+  animation-fill-mode: backwards;
+  animation-timing-function: linear;
 }
-.container{
-  position: relative;
+.containerout{
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-animation-name: fadeout;
+  -webkit-animation-duration: .25s;
+  -webkit-animation-timing-function: linear;
+  animation-name: fadeout;
+  animation-duration: .25s;
+  animation-timing-function: linear;
+}
+@-webkit-keyframes fadein{
+  0% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+@keyframes fadein {
+  0% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeout{
+  0% {
+    visibility: visible;
+    opacity: 1;
+  }
+  100% {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+@keyframes fadeout {
+  0% {
+    visibility: visible;
+    opacity: 1;
+  }
+  100% {
+    visibility: hidden;
+    opacity: 0;
+  }
 }
 .section{
   font-size: 18px;
@@ -12,10 +70,7 @@
   min-width: 100px;
   padding: 10px 40px;
 }
-.caption{
-  margin: 0 0 3px 0;
-}
-.linkList{
+.linkList {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -23,22 +78,66 @@
 .link:hover{
   color: #f17e33;
 }
-.text {
-  line-height: 150%;
-}
 .icon {
   width: 22px;
   margin-right: 5px;
+}
+.text {
+  line-height: 150%;
+}
+@-webkit-keyframes hvrpop {
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+@keyframes hvrpop {
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+.hvrpop {
+  font-size: 18px;
+  text-decoration: underline;
+  cursor: pointer;
+  display: inline-block;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+}
+.hvrpop:hover, .hvrpop:focus, .hvrpop:active {
+  color: #f17e33;
+  -webkit-animation-name: hvrpop;
+  animation-name: hvrpop;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
 }
 
 @media all and (max-width: 800px){
   .section {
     font-size: 14px;
   }
+  .hvrpop{
+    font-size: 14px;
+  }
+  .list{
+    margin: 5px 0 8px -20px;
+  }
 }
 
 @media all and (max-width: 400px){
   .section {
     font-size: 12px;
+  }
+  .hvrpop{
+    font-size: 12px;
+  }
+  .list{
+    margin: 5px 0 8px -35px;
   }
 }

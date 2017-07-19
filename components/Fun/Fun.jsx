@@ -1,17 +1,17 @@
 import React from "react"
 import styles from "./Fun.css"
-import {Motion, spring} from 'react-motion'
 
 class Fun extends React.Component{
 
   render() {
+
     let content = (
       <div>
         <div className={styles.section}>
           <b>Social Links</b>
           <hr/>
           <div className={styles.text}>
-            <p className={styles.caption}>Find me on some not-so-professional networks:</p>
+            Find me on some not-so-professional networks:
             <ul className={styles.linkList}>
               <li><a className={styles.link} href="http://steamcommunity.com/profiles/76561198039687446"><img src="./static/img/steam.ico" className={styles.icon}></img>Steam</a></li>
               <li><a className={styles.link} href="https://myanimelist.net/profile/Nerds6969"><img src="./static/img/mal.png" className={styles.icon}></img>MyAnimeList</a></li>
@@ -22,7 +22,7 @@ class Fun extends React.Component{
           <b>Interest Lists</b>
           <hr/>
           <div className={styles.text}>
-            Coming soon.
+            Coming soon. <p style={{color: "#ffffff"}}>Placeholder because apparently my website breaks without this which makes absolutely zero sense Placeholder because apparently my website breaks without this which makes absolutely zero sense Placeholder because apparently my website breaks without this which makes absolutely zero sense Placeholder because apparently my website breaks without this which makes absolutely zero sense Placeholder because apparently my website breaks without this which makes absolutely zero sense Placeholder because apparently my website breaks without this which makes absolutely zero sense Placeholder because apparently my website breaks without this which makes absolutely zero sense </p>
           </div>
         </div>
         <div className={styles.section}>
@@ -36,28 +36,21 @@ class Fun extends React.Component{
     )
 
     if (!this.props.active){
-      return (
-        <div style={{display: "none"}} />
+      return(
+        <div className={styles.containerout}>
+          {content}
+        </div>
       )
     }
 
     return(
-      <div className={styles.wrapper}>
-        <Motion defaultStyle={{left:-350}} style={{left:spring(0, {stiffness:30, damping:5})}}>
-          {interpolatingLocation => {
-            let movement = {
-              left: interpolatingLocation.left
-            }
-            return (
-              <div className={styles.container} style={movement}>
-                {content}
-              </div>
-            )
-          }}
-        </Motion>
+      <div className={styles.containerin}>
+        {content}
       </div>
     )
+
   }
+
 }
 
 export default Fun
