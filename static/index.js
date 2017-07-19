@@ -11336,11 +11336,7 @@ var About = function (_React$Component) {
       );
 
       if (!this.props.active) {
-        return _react2.default.createElement(
-          "div",
-          { className: _About2.default.containerout },
-          content
-        );
+        return _react2.default.createElement("div", { style: { display: "none" } });
       }
 
       return _react2.default.createElement(
@@ -11452,12 +11448,7 @@ var Fun = function (_React$Component) {
           _react2.default.createElement(
             "div",
             { className: _Fun2.default.text },
-            "Coming soon. ",
-            _react2.default.createElement(
-              "p",
-              { style: { color: "#ffffff" } },
-              "Placeholder because apparently my website breaks without this which makes absolutely zero sense Placeholder because apparently my website breaks without this which makes absolutely zero sense Placeholder because apparently my website breaks without this which makes absolutely zero sense Placeholder because apparently my website breaks without this which makes absolutely zero sense Placeholder because apparently my website breaks without this which makes absolutely zero sense Placeholder because apparently my website breaks without this which makes absolutely zero sense Placeholder because apparently my website breaks without this which makes absolutely zero sense "
-            )
+            "Coming soon."
           )
         ),
         _react2.default.createElement(
@@ -11478,11 +11469,7 @@ var Fun = function (_React$Component) {
       );
 
       if (!this.props.active) {
-        return _react2.default.createElement(
-          "div",
-          { className: _Fun2.default.containerout },
-          content
-        );
+        return _react2.default.createElement("div", { style: { display: "none" } });
       }
 
       return _react2.default.createElement(
@@ -11696,11 +11683,7 @@ var Home = function (_React$Component) {
       );
 
       if (!this.props.active) {
-        return _react2.default.createElement(
-          "div",
-          { className: _Home2.default.containerout },
-          content
-        );
+        return _react2.default.createElement("div", { style: { display: "none" } });
       }
 
       return _react2.default.createElement(
@@ -11880,20 +11863,11 @@ var Work = function (_React$Component) {
           "div",
           { className: _Work2.default.timeline },
           _react2.default.createElement(_MyLine2.default, null)
-        ),
-        _react2.default.createElement(
-          "div",
-          { style: { color: "#ffffff" } },
-          "Placeholder text because transitions don't work without them, rip Placeholder text because transitions don't work without them, rip Placeholder text because transitions don't work without them, rip Placeholder text because transitions don't work without them, rip Placeholder text because transitions don't work without them, rip Placeholder text because transitions don't work without them, rip Placeholder text because transitions don't work without them, rip"
         )
       );
 
       if (!this.props.active) {
-        return _react2.default.createElement(
-          "div",
-          { className: _Work2.default.containerout },
-          content
-        );
+        return _react2.default.createElement("div", { style: { display: "none" } });
       }
 
       return _react2.default.createElement(
@@ -13721,14 +13695,12 @@ exports = module.exports = __webpack_require__(11)(undefined);
 
 
 // module
-exports.push([module.i, ".About__containerin___3bLrj{\r\n  position: absolute;\r\n  -webkit-animation-name: About__fadein___jro7F;\r\n  -webkit-animation-duration: .25s;\r\n  -webkit-animation-timing-function: linear;\r\n  -webkit-animation-delay: .25s;\r\n  -webkit-animation-fill-mode: backwards;\r\n  animation-name: About__fadein___jro7F;\r\n  animation-duration: .25s;\r\n  animation-delay: .25s;\r\n  animation-fill-mode: backwards;\r\n  animation-timing-function: linear;\r\n}\r\n.About__containerout___1rgX0{\r\n  position: absolute;\r\n  visibility: hidden;\r\n  opacity: 0;\r\n  -webkit-animation-name: About__fadeout___19avb;\r\n  -webkit-animation-duration: .25s;\r\n  -webkit-animation-timing-function: linear;\r\n  animation-name: About__fadeout___19avb;\r\n  animation-duration: .25s;\r\n  animation-timing-function: linear;\r\n}\r\n@-webkit-keyframes About__fadein___jro7F{\r\n  0% {\r\n    visibility: hidden;\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    visibility: visible;\r\n    opacity: 1;\r\n  }\r\n}\r\n@keyframes About__fadein___jro7F {\r\n  0% {\r\n    visibility: hidden;\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    visibility: visible;\r\n    opacity: 1;\r\n  }\r\n}\r\n@-webkit-keyframes About__fadeout___19avb{\r\n  0% {\r\n    visibility: visible;\r\n    opacity: 1;\r\n  }\r\n  100% {\r\n    visibility: hidden;\r\n    opacity: 0;\r\n  }\r\n}\r\n@keyframes About__fadeout___19avb {\r\n  0% {\r\n    visibility: visible;\r\n    opacity: 1;\r\n  }\r\n  100% {\r\n    visibility: hidden;\r\n    opacity: 0;\r\n  }\r\n}\r\n.About__section___2esxW{\r\n  font-size: 18px;\r\n  margin: 20px auto;\r\n  border: 2px solid #000000;\r\n  width: 60%;\r\n  min-width: 100px;\r\n  padding: 10px 40px;\r\n}\r\n.About__caption___3H4jc{\r\n  margin: 0 0 3px 0;\r\n}\r\n.About__linkList___2aWK0{\r\n  list-style-type: none;\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n.About__link___xkDQW:hover{\r\n  color: #f17e33;\r\n}\r\n.About__text___35ymG {\r\n  line-height: 150%;\r\n}\r\n.About__icon___2hXmT {\r\n  width: 22px;\r\n  margin-right: 5px;\r\n}\r\n.About__pic___2Y8Gx {\r\n  width: 220px;\r\n  float: right;\r\n}\r\n\r\n@media all and (max-width: 800px){\r\n  .About__section___2esxW {\r\n    font-size: 14px;\r\n  }\r\n  .About__pic___2Y8Gx {\r\n    margin-right: -35px;\r\n    width: 140px;\r\n  }\r\n}\r\n\r\n@media all and (max-width: 400px){\r\n  .About__section___2esxW {\r\n    font-size: 12px;\r\n  }\r\n  .About__pic___2Y8Gx {\r\n    margin-right: -30px;\r\n    width: 100px;\r\n  }\r\n}\r\n", ""]);
+exports.push([module.i, ".About__containerin___3bLrj{\r\n  -webkit-animation-name: About__fadein___jro7F;\r\n  -webkit-animation-duration: .5s;\r\n  -webkit-animation-timing-function: linear;\r\n  -webkit-animation-fill-mode: backwards;\r\n  animation-name: About__fadein___jro7F;\r\n  animation-duration: .5s;\r\n  animation-fill-mode: backwards;\r\n  animation-timing-function: linear;\r\n}\r\n@-webkit-keyframes About__fadein___jro7F{\r\n  0% {\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    opacity: 1;\r\n  }\r\n}\r\n@keyframes About__fadein___jro7F {\r\n  0% {\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    opacity: 1;\r\n  }\r\n}\r\n.About__section___2esxW{\r\n  font-size: 18px;\r\n  margin: 20px auto;\r\n  border: 2px solid #000000;\r\n  width: 60%;\r\n  min-width: 100px;\r\n  padding: 10px 40px;\r\n}\r\n.About__caption___3H4jc{\r\n  margin: 0 0 3px 0;\r\n}\r\n.About__linkList___2aWK0{\r\n  list-style-type: none;\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n.About__link___xkDQW:hover{\r\n  color: #f17e33;\r\n}\r\n.About__text___35ymG {\r\n  line-height: 150%;\r\n}\r\n.About__icon___2hXmT {\r\n  width: 22px;\r\n  margin-right: 5px;\r\n}\r\n.About__pic___2Y8Gx {\r\n  width: 220px;\r\n  float: right;\r\n}\r\n\r\n@media all and (max-width: 800px){\r\n  .About__section___2esxW {\r\n    font-size: 14px;\r\n  }\r\n  .About__pic___2Y8Gx {\r\n    margin-right: -35px;\r\n    width: 140px;\r\n  }\r\n}\r\n\r\n@media all and (max-width: 400px){\r\n  .About__section___2esxW {\r\n    font-size: 12px;\r\n  }\r\n  .About__pic___2Y8Gx {\r\n    margin-right: -30px;\r\n    width: 100px;\r\n  }\r\n}\r\n", ""]);
 
 // exports
 exports.locals = {
 	"containerin": "About__containerin___3bLrj",
 	"fadein": "About__fadein___jro7F",
-	"containerout": "About__containerout___1rgX0",
-	"fadeout": "About__fadeout___19avb",
 	"section": "About__section___2esxW",
 	"caption": "About__caption___3H4jc",
 	"linkList": "About__linkList___2aWK0",
@@ -13773,14 +13745,12 @@ exports = module.exports = __webpack_require__(11)(undefined);
 
 
 // module
-exports.push([module.i, ".Fun__containerin___23CU7{\r\n  position: absolute;\r\n  -webkit-animation-name: Fun__fadein___2BaEo;\r\n  -webkit-animation-duration: .25s;\r\n  -webkit-animation-timing-function: linear;\r\n  -webkit-animation-delay: .25s;\r\n  -webkit-animation-fill-mode: backwards;\r\n  animation-name: Fun__fadein___2BaEo;\r\n  animation-duration: .25s;\r\n  animation-delay: .25s;\r\n  animation-fill-mode: backwards;\r\n  animation-timing-function: linear;\r\n}\r\n.Fun__containerout___2MeBd{\r\n  position: absolute;\r\n  visibility: hidden;\r\n  opacity: 0;\r\n  -webkit-animation-name: Fun__fadeout___3zU42;\r\n  -webkit-animation-duration: .25s;\r\n  -webkit-animation-timing-function: linear;\r\n  animation-name: Fun__fadeout___3zU42;\r\n  animation-duration: .25s;\r\n  animation-timing-function: linear;\r\n}\r\n@-webkit-keyframes Fun__fadein___2BaEo{\r\n  0% {\r\n    visibility: hidden;\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    visibility: visible;\r\n    opacity: 1;\r\n  }\r\n}\r\n@keyframes Fun__fadein___2BaEo {\r\n  0% {\r\n    visibility: hidden;\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    visibility: visible;\r\n    opacity: 1;\r\n  }\r\n}\r\n@-webkit-keyframes Fun__fadeout___3zU42{\r\n  0% {\r\n    visibility: visible;\r\n    opacity: 1;\r\n  }\r\n  100% {\r\n    visibility: hidden;\r\n    opacity: 0;\r\n  }\r\n}\r\n@keyframes Fun__fadeout___3zU42 {\r\n  0% {\r\n    visibility: visible;\r\n    opacity: 1;\r\n  }\r\n  100% {\r\n    visibility: hidden;\r\n    opacity: 0;\r\n  }\r\n}\r\n.Fun__section___j7M-Q{\r\n  font-size: 18px;\r\n  margin: 20px auto;\r\n  border: 2px solid #000000;\r\n  width: 60%;\r\n  min-width: 100px;\r\n  padding: 10px 40px;\r\n}\r\n.Fun__linkList___28r6W {\r\n  list-style-type: none;\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n.Fun__link___aNeU7:hover{\r\n  color: #f17e33;\r\n}\r\n.Fun__icon___m_m74 {\r\n  width: 22px;\r\n  margin-right: 5px;\r\n}\r\n.Fun__text___2nI1k {\r\n  line-height: 150%;\r\n}\r\n@-webkit-keyframes Fun__hvrpop___2C5b9 {\r\n  50% {\r\n    -webkit-transform: scale(1.2);\r\n    transform: scale(1.2);\r\n  }\r\n}\r\n@keyframes Fun__hvrpop___2C5b9 {\r\n  50% {\r\n    -webkit-transform: scale(1.2);\r\n    transform: scale(1.2);\r\n  }\r\n}\r\n.Fun__hvrpop___2C5b9 {\r\n  font-size: 18px;\r\n  text-decoration: underline;\r\n  cursor: pointer;\r\n  display: inline-block;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  box-shadow: 0 0 1px transparent;\r\n}\r\n.Fun__hvrpop___2C5b9:hover, .Fun__hvrpop___2C5b9:focus, .Fun__hvrpop___2C5b9:active {\r\n  color: #f17e33;\r\n  -webkit-animation-name: Fun__hvrpop___2C5b9;\r\n  animation-name: Fun__hvrpop___2C5b9;\r\n  -webkit-animation-duration: 0.3s;\r\n  animation-duration: 0.3s;\r\n  -webkit-animation-timing-function: linear;\r\n  animation-timing-function: linear;\r\n  -webkit-animation-iteration-count: 1;\r\n  animation-iteration-count: 1;\r\n}\r\n\r\n@media all and (max-width: 800px){\r\n  .Fun__section___j7M-Q {\r\n    font-size: 14px;\r\n  }\r\n  .Fun__hvrpop___2C5b9{\r\n    font-size: 14px;\r\n  }\r\n  .Fun__list___1Z7iV{\r\n    margin: 5px 0 8px -20px;\r\n  }\r\n}\r\n\r\n@media all and (max-width: 400px){\r\n  .Fun__section___j7M-Q {\r\n    font-size: 12px;\r\n  }\r\n  .Fun__hvrpop___2C5b9{\r\n    font-size: 12px;\r\n  }\r\n  .Fun__list___1Z7iV{\r\n    margin: 5px 0 8px -35px;\r\n  }\r\n}\r\n", ""]);
+exports.push([module.i, ".Fun__containerin___23CU7{\r\n  -webkit-animation-name: Fun__fadein___2BaEo;\r\n  -webkit-animation-duration: .5s;\r\n  -webkit-animation-timing-function: linear;\r\n  -webkit-animation-fill-mode: backwards;\r\n  animation-name: Fun__fadein___2BaEo;\r\n  animation-duration: .5s;\r\n  animation-fill-mode: backwards;\r\n  animation-timing-function: linear;\r\n}\r\n@-webkit-keyframes Fun__fadein___2BaEo{\r\n  0% {\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    opacity: 1;\r\n  }\r\n}\r\n@keyframes Fun__fadein___2BaEo {\r\n  0% {\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    opacity: 1;\r\n  }\r\n}\r\n.Fun__section___j7M-Q{\r\n  font-size: 18px;\r\n  margin: 20px auto;\r\n  border: 2px solid #000000;\r\n  width: 60%;\r\n  min-width: 100px;\r\n  padding: 10px 40px;\r\n}\r\n.Fun__linkList___28r6W {\r\n  list-style-type: none;\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n.Fun__link___aNeU7:hover{\r\n  color: #f17e33;\r\n}\r\n.Fun__icon___m_m74 {\r\n  width: 22px;\r\n  margin-right: 5px;\r\n}\r\n.Fun__text___2nI1k {\r\n  line-height: 150%;\r\n}\r\n@-webkit-keyframes Fun__hvrpop___2C5b9 {\r\n  50% {\r\n    -webkit-transform: scale(1.2);\r\n    transform: scale(1.2);\r\n  }\r\n}\r\n@keyframes Fun__hvrpop___2C5b9 {\r\n  50% {\r\n    -webkit-transform: scale(1.2);\r\n    transform: scale(1.2);\r\n  }\r\n}\r\n.Fun__hvrpop___2C5b9 {\r\n  font-size: 18px;\r\n  text-decoration: underline;\r\n  cursor: pointer;\r\n  display: inline-block;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  box-shadow: 0 0 1px transparent;\r\n}\r\n.Fun__hvrpop___2C5b9:hover, .Fun__hvrpop___2C5b9:focus, .Fun__hvrpop___2C5b9:active {\r\n  color: #f17e33;\r\n  -webkit-animation-name: Fun__hvrpop___2C5b9;\r\n  animation-name: Fun__hvrpop___2C5b9;\r\n  -webkit-animation-duration: 0.3s;\r\n  animation-duration: 0.3s;\r\n  -webkit-animation-timing-function: linear;\r\n  animation-timing-function: linear;\r\n  -webkit-animation-iteration-count: 1;\r\n  animation-iteration-count: 1;\r\n}\r\n\r\n@media all and (max-width: 800px){\r\n  .Fun__section___j7M-Q {\r\n    font-size: 14px;\r\n  }\r\n  .Fun__hvrpop___2C5b9{\r\n    font-size: 14px;\r\n  }\r\n  .Fun__list___1Z7iV{\r\n    margin: 5px 0 8px -20px;\r\n  }\r\n}\r\n\r\n@media all and (max-width: 400px){\r\n  .Fun__section___j7M-Q {\r\n    font-size: 12px;\r\n  }\r\n  .Fun__hvrpop___2C5b9{\r\n    font-size: 12px;\r\n  }\r\n  .Fun__list___1Z7iV{\r\n    margin: 5px 0 8px -35px;\r\n  }\r\n}\r\n", ""]);
 
 // exports
 exports.locals = {
 	"containerin": "Fun__containerin___23CU7",
 	"fadein": "Fun__fadein___2BaEo",
-	"containerout": "Fun__containerout___2MeBd",
-	"fadeout": "Fun__fadeout___3zU42",
 	"section": "Fun__section___j7M-Q",
 	"linkList": "Fun__linkList___28r6W",
 	"link": "Fun__link___aNeU7",
@@ -13799,14 +13769,12 @@ exports = module.exports = __webpack_require__(11)(undefined);
 
 
 // module
-exports.push([module.i, ".Home__containerin___3nChR{\r\n  position: absolute;\r\n  -webkit-animation-name: Home__fadein___XsXjx;\r\n  -webkit-animation-duration: .25s;\r\n  -webkit-animation-timing-function: linear;\r\n  -webkit-animation-delay: .25s;\r\n  -webkit-animation-fill-mode: backwards;\r\n  animation-name: Home__fadein___XsXjx;\r\n  animation-duration: .25s;\r\n  animation-delay: .25s;\r\n  animation-fill-mode: backwards;\r\n  animation-timing-function: linear;\r\n}\r\n.Home__containerout___3D-uL{\r\n  position: absolute;\r\n  visibility: hidden;\r\n  opacity: 0;\r\n  -webkit-animation-name: Home__fadeout___3YJMd;\r\n  -webkit-animation-duration: .25s;\r\n  -webkit-animation-timing-function: linear;\r\n  animation-name: Home__fadeout___3YJMd;\r\n  animation-duration: .25s;\r\n  animation-timing-function: linear;\r\n}\r\n@-webkit-keyframes Home__fadein___XsXjx{\r\n  0% {\r\n    visibility: hidden;\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    visibility: visible;\r\n    opacity: 1;\r\n  }\r\n}\r\n@keyframes Home__fadein___XsXjx {\r\n  0% {\r\n    visibility: hidden;\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    visibility: visible;\r\n    opacity: 1;\r\n  }\r\n}\r\n@-webkit-keyframes Home__fadeout___3YJMd{\r\n  0% {\r\n    visibility: visible;\r\n    opacity: 1;\r\n  }\r\n  100% {\r\n    visibility: hidden;\r\n    opacity: 0;\r\n  }\r\n}\r\n@keyframes Home__fadeout___3YJMd {\r\n  0% {\r\n    visibility: visible;\r\n    opacity: 1;\r\n  }\r\n  100% {\r\n    visibility: hidden;\r\n    opacity: 0;\r\n  }\r\n}\r\n.Home__section___1FP21{\r\n  font-size: 18px;\r\n  margin: 20px auto;\r\n  border: 2px solid #000000;\r\n  width: 60%;\r\n  min-width: 100px;\r\n  padding: 10px 40px;\r\n}\r\n.Home__list___1B08o {\r\n  margin: 5px 0 8px 0;\r\n}\r\n.Home__email___nL9Ik{\r\n  font-family: \"Roboto Condensed\";\r\n  font-size: 20px;\r\n  background: rgba(0,0,0,0);\r\n  border: none;\r\n}\r\n\r\n.Home__text___zzrdr {\r\n  line-height: 150%;\r\n}\r\n@-webkit-keyframes Home__hvrpop___7_j5D {\r\n  50% {\r\n    -webkit-transform: scale(1.2);\r\n    transform: scale(1.2);\r\n  }\r\n}\r\n@keyframes Home__hvrpop___7_j5D {\r\n  50% {\r\n    -webkit-transform: scale(1.2);\r\n    transform: scale(1.2);\r\n  }\r\n}\r\n.Home__hvrpop___7_j5D {\r\n  font-size: 18px;\r\n  text-decoration: underline;\r\n  cursor: pointer;\r\n  display: inline-block;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  box-shadow: 0 0 1px transparent;\r\n}\r\n.Home__hvrpop___7_j5D:hover, .Home__hvrpop___7_j5D:focus, .Home__hvrpop___7_j5D:active {\r\n  color: #f17e33;\r\n  -webkit-animation-name: Home__hvrpop___7_j5D;\r\n  animation-name: Home__hvrpop___7_j5D;\r\n  -webkit-animation-duration: 0.3s;\r\n  animation-duration: 0.3s;\r\n  -webkit-animation-timing-function: linear;\r\n  animation-timing-function: linear;\r\n  -webkit-animation-iteration-count: 1;\r\n  animation-iteration-count: 1;\r\n}\r\n\r\n@media all and (max-width: 800px){\r\n  .Home__section___1FP21 {\r\n    font-size: 14px;\r\n  }\r\n  .Home__hvrpop___7_j5D{\r\n    font-size: 14px;\r\n  }\r\n  .Home__list___1B08o{\r\n    margin: 5px 0 8px -20px;\r\n  }\r\n}\r\n\r\n@media all and (max-width: 400px){\r\n  .Home__section___1FP21 {\r\n    font-size: 12px;\r\n  }\r\n  .Home__hvrpop___7_j5D{\r\n    font-size: 12px;\r\n  }\r\n  .Home__list___1B08o{\r\n    margin: 5px 0 8px -35px;\r\n  }\r\n}\r\n", ""]);
+exports.push([module.i, ".Home__containerin___3nChR{\r\n  -webkit-animation-name: Home__fadein___XsXjx;\r\n  -webkit-animation-duration: .5s;\r\n  -webkit-animation-timing-function: linear;\r\n  -webkit-animation-fill-mode: backwards;\r\n  animation-name: Home__fadein___XsXjx;\r\n  animation-duration: .5s;\r\n  animation-fill-mode: backwards;\r\n  animation-timing-function: linear;\r\n}\r\n@-webkit-keyframes Home__fadein___XsXjx{\r\n  0% {\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    opacity: 1;\r\n  }\r\n}\r\n@keyframes Home__fadein___XsXjx {\r\n  0% {\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    opacity: 1;\r\n  }\r\n}\r\n.Home__section___1FP21{\r\n  font-size: 18px;\r\n  margin: 20px auto;\r\n  border: 2px solid #000000;\r\n  width: 60%;\r\n  min-width: 100px;\r\n  padding: 10px 40px;\r\n}\r\n.Home__list___1B08o {\r\n  margin: 5px 0 8px 0;\r\n}\r\n.Home__email___nL9Ik{\r\n  font-family: \"Roboto Condensed\";\r\n  font-size: 20px;\r\n  background: rgba(0,0,0,0);\r\n  border: none;\r\n}\r\n\r\n.Home__text___zzrdr {\r\n  line-height: 150%;\r\n}\r\n@-webkit-keyframes Home__hvrpop___7_j5D {\r\n  50% {\r\n    -webkit-transform: scale(1.2);\r\n    transform: scale(1.2);\r\n  }\r\n}\r\n@keyframes Home__hvrpop___7_j5D {\r\n  50% {\r\n    -webkit-transform: scale(1.2);\r\n    transform: scale(1.2);\r\n  }\r\n}\r\n.Home__hvrpop___7_j5D {\r\n  font-size: 18px;\r\n  text-decoration: underline;\r\n  cursor: pointer;\r\n  display: inline-block;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  box-shadow: 0 0 1px transparent;\r\n}\r\n.Home__hvrpop___7_j5D:hover, .Home__hvrpop___7_j5D:focus, .Home__hvrpop___7_j5D:active {\r\n  color: #f17e33;\r\n  -webkit-animation-name: Home__hvrpop___7_j5D;\r\n  animation-name: Home__hvrpop___7_j5D;\r\n  -webkit-animation-duration: 0.3s;\r\n  animation-duration: 0.3s;\r\n  -webkit-animation-timing-function: linear;\r\n  animation-timing-function: linear;\r\n  -webkit-animation-iteration-count: 1;\r\n  animation-iteration-count: 1;\r\n}\r\n\r\n@media all and (max-width: 800px){\r\n  .Home__section___1FP21 {\r\n    font-size: 14px;\r\n  }\r\n  .Home__hvrpop___7_j5D{\r\n    font-size: 14px;\r\n  }\r\n  .Home__list___1B08o{\r\n    margin: 5px 0 8px -20px;\r\n  }\r\n}\r\n\r\n@media all and (max-width: 400px){\r\n  .Home__section___1FP21 {\r\n    font-size: 12px;\r\n  }\r\n  .Home__hvrpop___7_j5D{\r\n    font-size: 12px;\r\n  }\r\n  .Home__list___1B08o{\r\n    margin: 5px 0 8px -35px;\r\n  }\r\n}\r\n", ""]);
 
 // exports
 exports.locals = {
 	"containerin": "Home__containerin___3nChR",
 	"fadein": "Home__fadein___XsXjx",
-	"containerout": "Home__containerout___3D-uL",
-	"fadeout": "Home__fadeout___3YJMd",
 	"section": "Home__section___1FP21",
 	"list": "Home__list___1B08o",
 	"email": "Home__email___nL9Ik",
@@ -13898,14 +13866,12 @@ exports = module.exports = __webpack_require__(11)(undefined);
 
 
 // module
-exports.push([module.i, ".Work__containerin___3-P3k{\n  position: absolute;\n  -webkit-animation-name: Work__fadein___dqEPx;\n  -webkit-animation-duration: .25s;\n  -webkit-animation-timing-function: linear;\n  -webkit-animation-delay: .25s;\n  -webkit-animation-fill-mode: backwards;\n  animation-name: Work__fadein___dqEPx;\n  animation-duration: .25s;\n  animation-delay: .25s;\n  animation-fill-mode: backwards;\n  animation-timing-function: linear;\n}\n.Work__containerout___1OEV8{\n  position: absolute;\n  visibility: hidden;\n  opacity: 0;\n  -webkit-animation-name: Work__fadeout___1N5Qz;\n  -webkit-animation-duration: .25s;\n  -webkit-animation-timing-function: linear;\n  animation-name: Work__fadeout___1N5Qz;\n  animation-duration: .25s;\n  animation-timing-function: linear;\n}\n@-webkit-keyframes Work__fadein___dqEPx{\n  0% {\n    visibility: hidden;\n    opacity: 0;\n  }\n  100% {\n    visibility: visible;\n    opacity: 1;\n  }\n}\n@keyframes Work__fadein___dqEPx {\n  0% {\n    visibility: hidden;\n    opacity: 0;\n  }\n  100% {\n    visibility: visible;\n    opacity: 1;\n  }\n}\n@-webkit-keyframes Work__fadeout___1N5Qz{\n  0% {\n    visibility: visible;\n    opacity: 1;\n  }\n  100% {\n    visibility: hidden;\n    opacity: 0;\n  }\n}\n@keyframes Work__fadeout___1N5Qz {\n  0% {\n    visibility: visible;\n    opacity: 1;\n  }\n  100% {\n    visibility: hidden;\n    opacity: 0;\n  }\n}\n.Work__section___1FF5S{\n  font-size: 18px;\n  margin: 20px auto;\n  border: 2px solid #000000;\n  width: 60%;\n  min-width: 100px;\n  padding: 10px 40px;\n}\n.Work__timeline___3XmZ_{\n  font-size: 20px;\n  margin: 20px auto;\n  border: 2px solid #000000;\n  width: 60%;\n  min-width: 100px;\n  padding: 10px 40px;\n}\n@media all and (max-width: 800px){\n  .Work__section___1FF5S {\n    font-size: 14px;\n  }\n  .Work__timeline___3XmZ_ {\n    font-size: 14px;\n  }\n}\n\n@media all and (max-width: 400px){\n  .Work__section___1FF5S {\n    font-size: 12px;\n  }\n}\n", ""]);
+exports.push([module.i, ".Work__containerin___3-P3k{\n  -webkit-animation-name: Work__fadein___dqEPx;\n  -webkit-animation-duration: .5s;\n  -webkit-animation-timing-function: linear;\n  -webkit-animation-fill-mode: backwards;\n  animation-name: Work__fadein___dqEPx;\n  animation-duration: .5s;\n  animation-fill-mode: backwards;\n  animation-timing-function: linear;\n}\n@-webkit-keyframes Work__fadein___dqEPx{\n  0% {\n    opacity: 0;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n@keyframes Work__fadein___dqEPx {\n  0% {\n    opacity: 0;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n.Work__section___1FF5S{\n  font-size: 18px;\n  margin: 20px auto;\n  border: 2px solid #000000;\n  width: 60%;\n  min-width: 100px;\n  padding: 10px 40px;\n}\n.Work__timeline___3XmZ_{\n  font-size: 20px;\n  margin: 20px auto;\n  border: 2px solid #000000;\n  width: 60%;\n  min-width: 100px;\n  padding: 10px 40px;\n}\n@media all and (max-width: 800px){\n  .Work__section___1FF5S {\n    font-size: 14px;\n  }\n  .Work__timeline___3XmZ_ {\n    font-size: 14px;\n  }\n}\n\n@media all and (max-width: 400px){\n  .Work__section___1FF5S {\n    font-size: 12px;\n  }\n}\n", ""]);
 
 // exports
 exports.locals = {
 	"containerin": "Work__containerin___3-P3k",
 	"fadein": "Work__fadein___dqEPx",
-	"containerout": "Work__containerout___1OEV8",
-	"fadeout": "Work__fadeout___1N5Qz",
 	"section": "Work__section___1FF5S",
 	"timeline": "Work__timeline___3XmZ_"
 };

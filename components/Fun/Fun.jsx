@@ -22,7 +22,7 @@ class Fun extends React.Component{
           <b>Interest Lists</b>
           <hr/>
           <div className={styles.text}>
-            Coming soon. <p style={{color: "#ffffff"}}>Placeholder because apparently my website breaks without this which makes absolutely zero sense Placeholder because apparently my website breaks without this which makes absolutely zero sense Placeholder because apparently my website breaks without this which makes absolutely zero sense Placeholder because apparently my website breaks without this which makes absolutely zero sense Placeholder because apparently my website breaks without this which makes absolutely zero sense Placeholder because apparently my website breaks without this which makes absolutely zero sense Placeholder because apparently my website breaks without this which makes absolutely zero sense </p>
+            Coming soon. 
           </div>
         </div>
         <div className={styles.section}>
@@ -37,9 +37,7 @@ class Fun extends React.Component{
 
     if (!this.props.active){
       return(
-        <div className={styles.containerout}>
-          {content}
-        </div>
+        <div style={{display: "none"}} />
       )
     }
 

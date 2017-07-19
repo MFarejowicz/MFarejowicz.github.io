@@ -47,9 +47,7 @@ class About extends React.Component{
 
     if (!this.props.active){
       return(
-        <div className={styles.containerout}>
-          {content}
-        </div>
+        <div style={{display: "none"}} />
       )
     }
 

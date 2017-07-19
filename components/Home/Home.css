@@ -1,65 +1,27 @@
 .containerin{
-  position: absolute;
   -webkit-animation-name: fadein;
-  -webkit-animation-duration: .25s;
+  -webkit-animation-duration: .5s;
   -webkit-animation-timing-function: linear;
-  -webkit-animation-delay: .25s;
   -webkit-animation-fill-mode: backwards;
   animation-name: fadein;
-  animation-duration: .25s;
-  animation-delay: .25s;
+  animation-duration: .5s;
   animation-fill-mode: backwards;
-  animation-timing-function: linear;
-}
-.containerout{
-  position: absolute;
-  visibility: hidden;
-  opacity: 0;
-  -webkit-animation-name: fadeout;
-  -webkit-animation-duration: .25s;
-  -webkit-animation-timing-function: linear;
-  animation-name: fadeout;
-  animation-duration: .25s;
   animation-timing-function: linear;
 }
 @-webkit-keyframes fadein{
   0% {
-    visibility: hidden;
     opacity: 0;
   }
   100% {
-    visibility: visible;
     opacity: 1;
   }
 }
 @keyframes fadein {
   0% {
-    visibility: hidden;
     opacity: 0;
   }
   100% {
-    visibility: visible;
     opacity: 1;
-  }
-}
-@-webkit-keyframes fadeout{
-  0% {
-    visibility: visible;
-    opacity: 1;
-  }
-  100% {
-    visibility: hidden;
-    opacity: 0;
-  }
-}
-@keyframes fadeout {
-  0% {
-    visibility: visible;
-    opacity: 1;
-  }
-  100% {
-    visibility: hidden;
-    opacity: 0;
   }
 }
 .section{
