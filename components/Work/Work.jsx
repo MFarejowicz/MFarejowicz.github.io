@@ -15,6 +15,7 @@ class Work extends React.Component{
         <div className={styles.timeline}>
           <MyLine />
         </div>
+        <div style={{color: "#ffffff"}}>Placeholder text because transitions don't work without them, rip Placeholder text because transitions don't work without them, rip Placeholder text because transitions don't work without them, rip Placeholder text because transitions don't work without them, rip Placeholder text because transitions don't work without them, rip Placeholder text because transitions don't work without them, rip Placeholder text because transitions don't work without them, rip</div>
       </div>
     )
 
