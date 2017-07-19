@@ -6,7 +6,7 @@ class NavLink extends React.Component {
   render() {
 
     return (
-      <div className={styles.hvrUnderline} onClick={this.props.handleClick}>
+      <div className={this.props.active ? styles.active : styles.hvrUnderline} onClick={this.props.handleClick}>
         {this.props.title}
       </div>
     )

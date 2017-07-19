@@ -18,7 +18,6 @@ class Dropdown extends React.Component {
   show() {
     this.setState({ listVisible: true })
     document.addEventListener("click", this.hide.bind(this), {once:true})
-    // document.addEventListener("touchstart", this.hide.bind(this), {once:true})
   }
 
   hide() {
@@ -29,7 +28,7 @@ class Dropdown extends React.Component {
     return (
       <div className={styles.container}>
         <div onClick={!this.state.listVisible? this.show.bind(this) : null}>
-          <div className={styles.hvrUnderline}>{this.props.selected}</div>
+          <div className={styles.hvrUnderline}><img src="./static/img/drop.png" className={styles.pic}></img>{this.props.selected}</div>
         </div>
         {this.renderListItems()}
       </div>

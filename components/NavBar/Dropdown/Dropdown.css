@@ -8,6 +8,11 @@
     position: relative;
     float: right;
   }
+  .pic {
+    width: 20%;
+    vertical-align: middle;
+    margin-right: 5px;
+  }
   .hvrUnderline {
     font-size: 24px;
     width: 100px;

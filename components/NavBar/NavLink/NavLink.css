@@ -1,3 +1,13 @@
+.active{
+  font-weight: bold;
+  font-size: 33px;
+  width: 150px;
+  padding: 11px 10px 10px;
+  float: right;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+}
 .hvrUnderline {
   font-size: 33px;
   width: 150px;
@@ -34,11 +44,19 @@
   right: 0;
 }
 @media all and (max-width: 1440px) {
+  .active{
+    width: 100px;
+  }
   .hvrUnderline{
     width: 100px;
   }
 }
 @media all and (max-width: 1100px) {
+  .active{
+    font-size: 24px;
+    padding: 16px 10px 15px;
+    width: 50px;
+  }
   .hvrUnderline{
     font-size: 24px;
     padding: 16px 10px 15px;
@@ -46,6 +64,9 @@
   }
 }
 @media all and (max-width: 800px) {
+  .active{
+    display: none;
+  }
   .hvrUnderline{
     display: none;
   }
