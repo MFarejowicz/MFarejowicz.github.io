@@ -2,7 +2,7 @@
   display: none;
 }
 
-@media all and (max-width: 800px){
+@media all and (max-width: 800px) {
   .container {
     display: inline;
     position: relative;
@@ -48,5 +48,4 @@
     left: 0;
     right: 0;
   }
-
 }

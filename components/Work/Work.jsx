@@ -1,12 +1,13 @@
 import React from "react"
 import styles from "./Work.css"
-import {Motion, spring} from 'react-motion'
 import Projects from "./Projects/Projects.jsx"
 import MyLine from "./MyLine/MyLine.jsx"
+
 
 class Work extends React.Component{
 
   render() {
+
     let content = (
       <div>
         <div className={styles.section}>
@@ -25,12 +26,14 @@ class Work extends React.Component{
     }
 
     return(
-      <div className={styles.containerin}>
+      <div className={styles.container}>
         {content}
       </div>
     )
 
   }
+
 }
+
 
 export default Work

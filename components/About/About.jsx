@@ -1,11 +1,12 @@
 import React from "react"
 import styles from "./About.css"
-import {Motion, spring} from 'react-motion'
 import List from "./List/List.jsx"
+
 
 class About extends React.Component{
 
   render() {
+
     let content = (
       <div>
         <div className={styles.section}>
@@ -52,12 +53,14 @@ class About extends React.Component{
     }
 
     return(
-      <div className={styles.containerin}>
+      <div className={styles.container}>
         {content}
       </div>
     )
 
   }
+
 }
+
 
 export default About

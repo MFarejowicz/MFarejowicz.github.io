@@ -5,68 +5,78 @@
   min-width: 100px;
   border: 2px solid #000000;
 }
+
 .heading {
   font-size: 26px;
   font-weight: bold;
 }
+
 .expand {
   font-size: 26px;
   float: right;
 }
+
 .topBar {
   cursor: pointer;
 }
+
 .content {
   font-size: 18px;
   color: #000000;
 }
+
 .clickable {
   cursor: pointer;
 }
-.classList{
+
+.classList {
   margin: 0 0 8px 0;
   line-height: 145%
 }
-.fall{
+
+.fall {
   font-size: 20px;
   color: #cf5230;
 }
-.winter{
+
+.winter {
   font-size: 20px;
   color: #a0ccff;
 }
-.spring{
+
+.spring {
   font-size: 20px;
   color: #4aa02c;
 }
-.summer{
+
+.summer {
   font-size: 20px;
   color: #236e96;
 }
 
-@media all and (max-width: 800px){
-  .heading{
+@media all and (max-width: 800px) {
+  .heading {
     font-size: 20px;
   }
-  .expand{
+  .expand {
     font-size: 20px;
   }
   .classList {
     margin: 0 0 8px -20px;
   }
-  .content{
+  .content {
     font-size: 14px;
   }
-  .fall,.winter,.spring,.summer {
+  .fall, .winter, .spring, .summer {
     font-size: 17px;
   }
 }
 
-@media all and (max-width: 400px){
-  .content{
+@media all and (max-width: 400px) {
+  .content {
     font-size: 12px;
   }
-  .fall,.winter,.spring,.summer {
+  .fall, .winter, .spring, .summer {
     font-size: 15px;
   }
 }

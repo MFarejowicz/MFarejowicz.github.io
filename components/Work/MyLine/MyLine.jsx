@@ -1,9 +1,11 @@
 import React from "react"
 import {Timeline, TimelineEvent} from "react-event-timeline"
 
+
 class MyLine extends React.Component {
 
   render() {
+
     return (
       <div>
         <b>Timeline</b>
@@ -35,7 +37,10 @@ class MyLine extends React.Component {
         </Timeline>
       </div>
     )
+
   }
+
 }
+
 
 export default MyLine

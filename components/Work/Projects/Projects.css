@@ -1,10 +1,12 @@
-.description{
+.description {
   font-size: 18px;
   margin: 0 0 10px 0;
 }
+
 .container {
   font-size: 0;
 }
+
 .project {
   font-size: 16px;
   min-height: 250px;
@@ -15,27 +17,33 @@
   text-align: center;
   transition: all .5s ease;
 }
-.project:hover{
+
+.project:hover {
   transform: scale(1.05);
 }
+
 .link {
   color: #000000;
   text-decoration: none;
   width: 90%;
 }
+
 .picture {
   width: 90%;
   padding: 4px;
   border: 1px solid #808080;
 }
+
 .title {
   margin-top: 10px;
 }
+
 .caption {
   margin: 10px 0;
   padding: 0 20px;
 }
-@media all and (max-width: 800px){
+
+@media all and (max-width: 800px) {
   .description {
     font-size: 14px;
   }
@@ -48,7 +56,8 @@
     padding: 0 10px;
   }
 }
-@media all and (max-width: 400px){
+
+@media all and (max-width: 400px) {
   .description {
     font-size: 12px;
   }

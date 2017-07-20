@@ -2,6 +2,7 @@ import React from "react"
 import styles from "./Home.css"
 import CopyToClipboard from 'react-copy-to-clipboard'
 
+
 class Home extends React.Component{
 
   render() {
@@ -74,7 +75,7 @@ class Home extends React.Component{
     }
 
     return(
-      <div className={styles.containerin}>
+      <div className={styles.container}>
         {content}
       </div>
     )
@@ -82,5 +83,6 @@ class Home extends React.Component{
   }
 
 }
+
 
 export default Home

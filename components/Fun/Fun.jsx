@@ -1,6 +1,7 @@
 import React from "react"
 import styles from "./Fun.css"
 
+
 class Fun extends React.Component{
 
   render() {
@@ -78,7 +79,7 @@ class Fun extends React.Component{
     }
 
     return(
-      <div className={styles.containerin}>
+      <div className={styles.container}>
         {content}
       </div>
     )
@@ -86,5 +87,6 @@ class Fun extends React.Component{
   }
 
 }
+
 
 export default Fun

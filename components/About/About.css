@@ -1,4 +1,4 @@
-.containerin{
+.container {
   -webkit-animation-name: fadein;
   -webkit-animation-duration: .5s;
   -webkit-animation-timing-function: linear;
@@ -8,7 +8,8 @@
   animation-fill-mode: backwards;
   animation-timing-function: linear;
 }
-@-webkit-keyframes fadein{
+
+@-webkit-keyframes fadein {
   0% {
     opacity: 0;
   }
@@ -16,6 +17,7 @@
     opacity: 1;
   }
 }
+
 @keyframes fadein {
   0% {
     opacity: 0;
@@ -24,7 +26,8 @@
     opacity: 1;
   }
 }
-.section{
+
+.section {
   font-size: 18px;
   margin: 20px auto;
   border: 2px solid #000000;
@@ -32,30 +35,36 @@
   min-width: 100px;
   padding: 10px 40px;
 }
-.caption{
+
+.caption {
   margin: 0 0 3px 0;
 }
-.linkList{
+
+.linkList {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-.link:hover{
+
+.link:hover {
   color: #f17e33;
 }
+
 .text {
   line-height: 150%;
 }
+
 .icon {
   width: 22px;
   margin-right: 5px;
 }
+
 .pic {
   width: 220px;
   float: right;
 }
 
-@media all and (max-width: 800px){
+@media all and (max-width: 800px) {
   .section {
     font-size: 14px;
   }
@@ -65,7 +74,7 @@
   }
 }
 
-@media all and (max-width: 400px){
+@media all and (max-width: 400px) {
   .section {
     font-size: 12px;
   }

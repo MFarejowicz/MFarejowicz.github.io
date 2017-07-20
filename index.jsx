@@ -7,6 +7,7 @@ import About from "./components/About/About.jsx"
 import Work from "./components/Work/Work.jsx"
 import Fun from "./components/Fun/Fun.jsx"
 
+
 class Website extends React.Component {
 
   constructor(props){
@@ -61,6 +62,7 @@ class Website extends React.Component {
   }
 
   render(){
+
     var mobile = /Mobi/.test(navigator.userAgent) && !window.MSStream
     if (mobile) {
       var css = document.createElement("style")
@@ -80,8 +82,11 @@ class Website extends React.Component {
         <Fun active={this.state.funActive} />
       </div>
     )
+
   }
+
 }
+
 
 ReactDOM.render(
   <Website />,

@@ -1,6 +1,7 @@
 import React from "react"
 import styles from "./Dropdown.css"
 
+
 class Dropdown extends React.Component {
 
   constructor(props){
@@ -25,6 +26,7 @@ class Dropdown extends React.Component {
   }
 
   render() {
+
     return (
       <div className={styles.container}>
         <div onClick={!this.state.listVisible? this.show.bind(this) : null}>
@@ -53,6 +55,8 @@ class Dropdown extends React.Component {
     }
     return <div>{items}</div>
   }
+
 }
+
 
 export default Dropdown

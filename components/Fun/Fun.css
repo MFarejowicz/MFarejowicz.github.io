@@ -1,4 +1,4 @@
-.containerin{
+.container {
   -webkit-animation-name: fadein;
   -webkit-animation-duration: .5s;
   -webkit-animation-timing-function: linear;
@@ -8,7 +8,8 @@
   animation-fill-mode: backwards;
   animation-timing-function: linear;
 }
-@-webkit-keyframes fadein{
+
+@-webkit-keyframes fadein {
   0% {
     opacity: 0;
   }
@@ -16,6 +17,7 @@
     opacity: 1;
   }
 }
+
 @keyframes fadein {
   0% {
     opacity: 0;
@@ -24,7 +26,8 @@
     opacity: 1;
   }
 }
-.section{
+
+.section {
   font-size: 18px;
   margin: 20px auto;
   border: 2px solid #000000;
@@ -32,47 +35,44 @@
   min-width: 100px;
   padding: 10px 40px;
 }
-.caption{
+
+.caption {
   margin: 0 0 3px 0;
 }
+
 .linkList {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
+
 .split {
   margin: 0;
   width: 50%;
   min-width: 180px;
 }
+
 .favList {
   margin: 3px 0;
 }
+
 .inFavList {
   margin: 0;
 }
-.link:hover{
+
+.link:hover {
   color: #f17e33;
 }
+
 .icon {
   width: 22px;
   margin-right: 5px;
 }
+
 .text {
   line-height: 150%;
 }
-@-webkit-keyframes hvrpop {
-  50% {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-  }
-}
-@keyframes hvrpop {
-  50% {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-  }
-}
+
 .hvrpop {
   font-size: 18px;
   text-decoration: underline;
@@ -82,6 +82,7 @@
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px transparent;
 }
+
 .hvrpop:hover, .hvrpop:focus, .hvrpop:active {
   color: #f17e33;
   -webkit-animation-name: hvrpop;
@@ -94,26 +95,40 @@
   animation-iteration-count: 1;
 }
 
-@media all and (max-width: 800px){
+@-webkit-keyframes hvrpop {
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+
+@keyframes hvrpop {
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+
+@media all and (max-width: 800px) {
   .section {
     font-size: 14px;
   }
-  .hvrpop{
+  .hvrpop {
     font-size: 14px;
   }
-  .list{
+  .list {
     margin: 5px 0 8px -20px;
   }
 }
 
-@media all and (max-width: 400px){
+@media all and (max-width: 400px) {
   .section {
     font-size: 12px;
   }
-  .hvrpop{
+  .hvrpop {
     font-size: 12px;
   }
-  .list{
+  .list {
     margin: 5px 0 8px -35px;
   }
 }

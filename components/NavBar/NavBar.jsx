@@ -3,6 +3,7 @@ import styles from "./NavBar.css"
 import NavLink from "./NavLink/NavLink.jsx"
 import Dropdown from "./Dropdown/Dropdown.jsx"
 
+
 class NavBar extends React.Component {
 
   handleHome(){
@@ -29,6 +30,7 @@ class NavBar extends React.Component {
   }
 
   render() {
+
     return (
       <div className={styles.top}>
         <div className={styles.container}>
@@ -42,8 +44,10 @@ class NavBar extends React.Component {
         </div>
       </div>
     )
+
   }
 
 }
+
 
 export default NavBar

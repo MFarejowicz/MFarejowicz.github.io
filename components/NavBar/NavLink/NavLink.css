@@ -1,4 +1,4 @@
-.active{
+.active {
   font-weight: bold;
   font-size: 33px;
   width: 150px;
@@ -8,6 +8,7 @@
   display: inline-block;
   vertical-align: middle;
 }
+
 .hvrUnderline {
   font-size: 33px;
   width: 150px;
@@ -23,6 +24,7 @@
   position: relative;
   overflow: hidden;
 }
+
 .hvrUnderline:before {
   content: "";
   position: absolute;
@@ -39,35 +41,39 @@
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
+
 .hvrUnderline:hover:before, .hvrUnderline:focus:before, .hvrUnderline:active:before {
   left: 0;
   right: 0;
 }
+
 @media all and (max-width: 1440px) {
-  .active{
+  .active {
     width: 100px;
   }
-  .hvrUnderline{
+  .hvrUnderline {
     width: 100px;
   }
 }
+
 @media all and (max-width: 1100px) {
-  .active{
+  .active {
     font-size: 24px;
     padding: 16px 10px 15px;
     width: 50px;
   }
-  .hvrUnderline{
+  .hvrUnderline {
     font-size: 24px;
     padding: 16px 10px 15px;
     width: 50px;
   }
 }
+
 @media all and (max-width: 800px) {
-  .active{
+  .active {
     display: none;
   }
-  .hvrUnderline{
+  .hvrUnderline {
     display: none;
   }
 }

@@ -5,7 +5,6 @@ html, body {
   -webkit-text-size-adjust: none;
 }
 
-
 h1, h2, h3, h4, h5 {
   margin: 0;
 }
@@ -15,7 +14,7 @@ b {
   font-size: 26px
 }
 
-p{
+p {
   margin: 8px 0;
 }
 
@@ -24,6 +23,5 @@ p{
     font-size: 20px;
   }
 }
-
 
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto');

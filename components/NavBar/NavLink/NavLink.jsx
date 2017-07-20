@@ -1,6 +1,7 @@
 import React from "react"
 import styles from "./NavLink.css"
 
+
 class NavLink extends React.Component {
 
   render() {
@@ -10,8 +11,10 @@ class NavLink extends React.Component {
         {this.props.title}
       </div>
     )
+
   }
 
 }
+
 
 export default NavLink

@@ -1,14 +1,14 @@
-.top{
+.top {
   background-color: #f17e33;
 }
 
-.container{
+.container {
   width: 60%;
   height: 60px;
   margin: 0 auto;
 }
 
-.brand{
+.brand {
   display: inline-block;
   font-family: "Roboto", serif;
   font-size: 40px;
@@ -17,14 +17,14 @@
   cursor: pointer;
 }
 
-@media all and (max-width: 800px){
-  .container{
+@media all and (max-width: 800px) {
+  .container {
     width: 90%
   }
 }
 
-@media all and (max-width: 400px){
-  .brand{
+@media all and (max-width: 400px) {
+  .brand {
     font-size: 24px;
     padding-top: 16px;
   }
