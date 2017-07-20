@@ -13,6 +13,15 @@ class Projects extends React.Component {
         <p className={styles.description}>My past and current projects can be found here:</p>
         <div className={styles.container}>
           <div className={styles.project}>
+            <a href="https://m3challenge.siam.org/sites/default/files/uploads/0000006996_HM_withcomments.pdf" className={styles.link}>
+              <img className={styles.picture} src="./static/img/moody.jpg" alt="Simple Todo"></img>
+              <div className={styles.projectInfo}>
+                <h3 className={styles.title}>Moody's Mega Math Challenge</h3>
+                <p className={styles.caption}> Honorable Mention Team for M^3 <br/> AKA getting to know 3 others very well as you compete in a 14 hour math competition. </p>
+              </div>
+            </a>
+          </div>
+          <div className={styles.project}>
             <a href="./components/Work/Links/Todo/todo.html" className={styles.link}>
               <img className={styles.picture} src="./static/img/todo.png" alt="Simple Todo"></img>
               <div className={styles.projectInfo}>
