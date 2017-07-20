@@ -11409,7 +11409,11 @@ var Fun = function (_React$Component) {
           _react2.default.createElement(
             "div",
             { className: _Fun2.default.text },
-            "Find me on some not-so-professional networks:",
+            _react2.default.createElement(
+              "p",
+              { className: _Fun2.default.caption },
+              "Find me on some not-so-professional networks:"
+            ),
             _react2.default.createElement(
               "ul",
               { className: _Fun2.default.linkList },
@@ -11419,7 +11423,7 @@ var Fun = function (_React$Component) {
                 _react2.default.createElement(
                   "a",
                   { className: _Fun2.default.link, href: "http://steamcommunity.com/profiles/76561198039687446" },
-                  _react2.default.createElement("img", { src: "./static/img/steam.ico", className: _Fun2.default.icon }),
+                  _react2.default.createElement("img", { src: "./static/img/steam.png", className: _Fun2.default.icon }),
                   "Steam"
                 )
               ),
@@ -11448,7 +11452,134 @@ var Fun = function (_React$Component) {
           _react2.default.createElement(
             "div",
             { className: _Fun2.default.text },
-            "Coming soon."
+            _react2.default.createElement(
+              "p",
+              { className: _Fun2.default.caption },
+              "Favorite books:"
+            ),
+            _react2.default.createElement(
+              "ul",
+              { className: _Fun2.default.favList },
+              _react2.default.createElement(
+                "li",
+                null,
+                "House of Leaves"
+              ),
+              _react2.default.createElement(
+                "li",
+                null,
+                "Blood Meridian"
+              ),
+              _react2.default.createElement(
+                "li",
+                null,
+                "Cat's Cradle"
+              ),
+              _react2.default.createElement(
+                "li",
+                null,
+                "Hitchhiker's Guide to the Galaxy"
+              )
+            ),
+            _react2.default.createElement("hr", { className: _Fun2.default.split }),
+            _react2.default.createElement(
+              "p",
+              { className: _Fun2.default.caption },
+              "Favorite programming languages:"
+            ),
+            _react2.default.createElement(
+              "ul",
+              { className: _Fun2.default.favList },
+              _react2.default.createElement(
+                "li",
+                null,
+                "Javascript",
+                _react2.default.createElement(
+                  "ul",
+                  { className: _Fun2.default.inFavList },
+                  _react2.default.createElement(
+                    "li",
+                    null,
+                    "React"
+                  ),
+                  _react2.default.createElement(
+                    "li",
+                    null,
+                    "p5.js"
+                  )
+                )
+              ),
+              _react2.default.createElement(
+                "li",
+                null,
+                "Java"
+              ),
+              _react2.default.createElement(
+                "li",
+                null,
+                "Python"
+              )
+            ),
+            _react2.default.createElement("hr", { className: _Fun2.default.split }),
+            _react2.default.createElement(
+              "p",
+              { className: _Fun2.default.caption },
+              "Favorite movies:"
+            ),
+            _react2.default.createElement(
+              "ul",
+              { className: _Fun2.default.favList },
+              _react2.default.createElement(
+                "li",
+                null,
+                "The SpongeBob SquarePants Movie"
+              ),
+              _react2.default.createElement(
+                "li",
+                null,
+                "The Dark Knight Trilogy"
+              )
+            ),
+            _react2.default.createElement("hr", { className: _Fun2.default.split }),
+            _react2.default.createElement(
+              "p",
+              { className: _Fun2.default.caption },
+              "Favorite anime:"
+            ),
+            _react2.default.createElement(
+              "ul",
+              { className: _Fun2.default.favList },
+              _react2.default.createElement(
+                "li",
+                null,
+                "One Punch Man"
+              ),
+              _react2.default.createElement(
+                "li",
+                null,
+                "Danshi Koukousei no Nichijou"
+              )
+            ),
+            _react2.default.createElement("hr", { className: _Fun2.default.split }),
+            _react2.default.createElement(
+              "p",
+              { className: _Fun2.default.caption },
+              "Favorite games:"
+            ),
+            _react2.default.createElement(
+              "ul",
+              { className: _Fun2.default.favList },
+              _react2.default.createElement(
+                "li",
+                null,
+                "DotA 2"
+              ),
+              _react2.default.createElement(
+                "li",
+                null,
+                "The Binding of Isaac: Rebirth"
+              )
+            )
           )
         ),
         _react2.default.createElement(
@@ -11607,7 +11738,7 @@ var Home = function (_React$Component) {
                 { className: _Home2.default.hvrpop, href: "https://facebook.github.io/react/" },
                 "ReactJS"
               ),
-              ". React, developed by Facebook, and maintained by both Facebook and the community, is an extremely neat JavaScript library that allows users to build their website or webapp piece-by-piece in what are known as Components. These components can update via self-contained attributes known as states, or communicate with one another via attributes known as props. If you are interested in functional web design, as I am, I highly encourage you to check React out! React also encourages the use of an XML-like syntax called JSX, which I compile through a loader known as ",
+              ". React, developed by Facebook, and maintained by both Facebook and the community, is an extremely neat JavaScript library that allows users to build their website or webapp piece-by-piece in what are known as Components. These Components can update via self-contained attributes known as states, or communicate with one another via attributes known as props. If you are interested in functional web design, as I am, I highly encourage you to check React out! React also encourages the use of an XML-like syntax called JSX, which I compile through a loader known as ",
               _react2.default.createElement(
                 "a",
                 { className: _Home2.default.hvrpop, href: "https://babeljs.io/" },
@@ -11630,13 +11761,13 @@ var Home = function (_React$Component) {
                 { className: _Home2.default.hvrpop, href: "http://ianlunn.github.io/Hover/" },
                 "Hover.css"
               ),
-              ", a super convenient and abundant library of CSS hover effects. Any parts of the website that move utilize the ",
+              ", a super convenient and abundant library of CSS hover effects. Most website Components are also originally written, such as the navbar and dropdown (on mobile). React is also extremely flexible because of its Component-based structure, which allows community members to create Components and others to import them. For example, the timeline found on the Work page was borrowed from ",
               _react2.default.createElement(
                 "a",
-                { className: _Home2.default.hvrpop, href: "https://github.com/chenglou/react-motion" },
-                "react-motion"
+                { className: _Home2.default.hvrpop, href: "https://www.npmjs.com/package/react-event-timeline" },
+                "react-event-timeline"
               ),
-              " library, which offers elegant solutions to physics based movement in components. "
+              ", which neatly organizes Event Components into the timeline you see."
             )
           )
         ),
@@ -13745,14 +13876,18 @@ exports = module.exports = __webpack_require__(11)(undefined);
 
 
 // module
-exports.push([module.i, ".Fun__containerin___23CU7{\r\n  -webkit-animation-name: Fun__fadein___2BaEo;\r\n  -webkit-animation-duration: .5s;\r\n  -webkit-animation-timing-function: linear;\r\n  -webkit-animation-fill-mode: backwards;\r\n  animation-name: Fun__fadein___2BaEo;\r\n  animation-duration: .5s;\r\n  animation-fill-mode: backwards;\r\n  animation-timing-function: linear;\r\n}\r\n@-webkit-keyframes Fun__fadein___2BaEo{\r\n  0% {\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    opacity: 1;\r\n  }\r\n}\r\n@keyframes Fun__fadein___2BaEo {\r\n  0% {\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    opacity: 1;\r\n  }\r\n}\r\n.Fun__section___j7M-Q{\r\n  font-size: 18px;\r\n  margin: 20px auto;\r\n  border: 2px solid #000000;\r\n  width: 60%;\r\n  min-width: 100px;\r\n  padding: 10px 40px;\r\n}\r\n.Fun__linkList___28r6W {\r\n  list-style-type: none;\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n.Fun__link___aNeU7:hover{\r\n  color: #f17e33;\r\n}\r\n.Fun__icon___m_m74 {\r\n  width: 22px;\r\n  margin-right: 5px;\r\n}\r\n.Fun__text___2nI1k {\r\n  line-height: 150%;\r\n}\r\n@-webkit-keyframes Fun__hvrpop___2C5b9 {\r\n  50% {\r\n    -webkit-transform: scale(1.2);\r\n    transform: scale(1.2);\r\n  }\r\n}\r\n@keyframes Fun__hvrpop___2C5b9 {\r\n  50% {\r\n    -webkit-transform: scale(1.2);\r\n    transform: scale(1.2);\r\n  }\r\n}\r\n.Fun__hvrpop___2C5b9 {\r\n  font-size: 18px;\r\n  text-decoration: underline;\r\n  cursor: pointer;\r\n  display: inline-block;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  box-shadow: 0 0 1px transparent;\r\n}\r\n.Fun__hvrpop___2C5b9:hover, .Fun__hvrpop___2C5b9:focus, .Fun__hvrpop___2C5b9:active {\r\n  color: #f17e33;\r\n  -webkit-animation-name: Fun__hvrpop___2C5b9;\r\n  animation-name: Fun__hvrpop___2C5b9;\r\n  -webkit-animation-duration: 0.3s;\r\n  animation-duration: 0.3s;\r\n  -webkit-animation-timing-function: linear;\r\n  animation-timing-function: linear;\r\n  -webkit-animation-iteration-count: 1;\r\n  animation-iteration-count: 1;\r\n}\r\n\r\n@media all and (max-width: 800px){\r\n  .Fun__section___j7M-Q {\r\n    font-size: 14px;\r\n  }\r\n  .Fun__hvrpop___2C5b9{\r\n    font-size: 14px;\r\n  }\r\n  .Fun__list___1Z7iV{\r\n    margin: 5px 0 8px -20px;\r\n  }\r\n}\r\n\r\n@media all and (max-width: 400px){\r\n  .Fun__section___j7M-Q {\r\n    font-size: 12px;\r\n  }\r\n  .Fun__hvrpop___2C5b9{\r\n    font-size: 12px;\r\n  }\r\n  .Fun__list___1Z7iV{\r\n    margin: 5px 0 8px -35px;\r\n  }\r\n}\r\n", ""]);
+exports.push([module.i, ".Fun__containerin___23CU7{\r\n  -webkit-animation-name: Fun__fadein___2BaEo;\r\n  -webkit-animation-duration: .5s;\r\n  -webkit-animation-timing-function: linear;\r\n  -webkit-animation-fill-mode: backwards;\r\n  animation-name: Fun__fadein___2BaEo;\r\n  animation-duration: .5s;\r\n  animation-fill-mode: backwards;\r\n  animation-timing-function: linear;\r\n}\r\n@-webkit-keyframes Fun__fadein___2BaEo{\r\n  0% {\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    opacity: 1;\r\n  }\r\n}\r\n@keyframes Fun__fadein___2BaEo {\r\n  0% {\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    opacity: 1;\r\n  }\r\n}\r\n.Fun__section___j7M-Q{\r\n  font-size: 18px;\r\n  margin: 20px auto;\r\n  border: 2px solid #000000;\r\n  width: 60%;\r\n  min-width: 100px;\r\n  padding: 10px 40px;\r\n}\r\n.Fun__caption___2dC1o{\r\n  margin: 0 0 3px 0;\r\n}\r\n.Fun__linkList___28r6W {\r\n  list-style-type: none;\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n.Fun__split___2C0Tc {\r\n  margin: 0;\r\n  width: 50%;\r\n  min-width: 180px;\r\n}\r\n.Fun__favList___1c_my {\r\n  margin: 3px 0;\r\n}\r\n.Fun__inFavList___37Rhh {\r\n  margin: 0;\r\n}\r\n.Fun__link___aNeU7:hover{\r\n  color: #f17e33;\r\n}\r\n.Fun__icon___m_m74 {\r\n  width: 22px;\r\n  margin-right: 5px;\r\n}\r\n.Fun__text___2nI1k {\r\n  line-height: 150%;\r\n}\r\n@-webkit-keyframes Fun__hvrpop___2C5b9 {\r\n  50% {\r\n    -webkit-transform: scale(1.2);\r\n    transform: scale(1.2);\r\n  }\r\n}\r\n@keyframes Fun__hvrpop___2C5b9 {\r\n  50% {\r\n    -webkit-transform: scale(1.2);\r\n    transform: scale(1.2);\r\n  }\r\n}\r\n.Fun__hvrpop___2C5b9 {\r\n  font-size: 18px;\r\n  text-decoration: underline;\r\n  cursor: pointer;\r\n  display: inline-block;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  box-shadow: 0 0 1px transparent;\r\n}\r\n.Fun__hvrpop___2C5b9:hover, .Fun__hvrpop___2C5b9:focus, .Fun__hvrpop___2C5b9:active {\r\n  color: #f17e33;\r\n  -webkit-animation-name: Fun__hvrpop___2C5b9;\r\n  animation-name: Fun__hvrpop___2C5b9;\r\n  -webkit-animation-duration: 0.3s;\r\n  animation-duration: 0.3s;\r\n  -webkit-animation-timing-function: linear;\r\n  animation-timing-function: linear;\r\n  -webkit-animation-iteration-count: 1;\r\n  animation-iteration-count: 1;\r\n}\r\n\r\n@media all and (max-width: 800px){\r\n  .Fun__section___j7M-Q {\r\n    font-size: 14px;\r\n  }\r\n  .Fun__hvrpop___2C5b9{\r\n    font-size: 14px;\r\n  }\r\n  .Fun__list___1Z7iV{\r\n    margin: 5px 0 8px -20px;\r\n  }\r\n}\r\n\r\n@media all and (max-width: 400px){\r\n  .Fun__section___j7M-Q {\r\n    font-size: 12px;\r\n  }\r\n  .Fun__hvrpop___2C5b9{\r\n    font-size: 12px;\r\n  }\r\n  .Fun__list___1Z7iV{\r\n    margin: 5px 0 8px -35px;\r\n  }\r\n}\r\n", ""]);
 
 // exports
 exports.locals = {
 	"containerin": "Fun__containerin___23CU7",
 	"fadein": "Fun__fadein___2BaEo",
 	"section": "Fun__section___j7M-Q",
+	"caption": "Fun__caption___2dC1o",
 	"linkList": "Fun__linkList___28r6W",
+	"split": "Fun__split___2C0Tc",
+	"favList": "Fun__favList___1c_my",
+	"inFavList": "Fun__inFavList___37Rhh",
 	"link": "Fun__link___aNeU7",
 	"icon": "Fun__icon___m_m74",
 	"text": "Fun__text___2nI1k",

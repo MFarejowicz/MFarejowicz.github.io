@@ -36,7 +36,7 @@ class Home extends React.Component{
             React, developed by Facebook, and maintained by both Facebook
             and the community, is an extremely neat JavaScript library
             that allows users to build their website or webapp piece-by-piece
-            in what are known as Components. These components can update via
+            in what are known as Components. These Components can update via
             self-contained attributes known as states, or communicate with one
             another via attributes known as props. If you are interested in
             functional web design, as I am, I highly encourage you to check React
@@ -45,9 +45,13 @@ class Home extends React.Component{
             and bundle with <a className={styles.hvrpop} href="https://webpack.github.io/">Webpack</a>! </p>
             <p>A majority of the CSS is originally written, however many of the
             hover effects have been used with permission from <a className={styles.hvrpop} href="http://ianlunn.github.io/Hover/">Hover.css</a>,
-            a super convenient and abundant library of CSS hover effects. Any
-            parts of the website that move utilize the <a className={styles.hvrpop} href="https://github.com/chenglou/react-motion">react-motion</a> library,
-            which offers elegant solutions to physics based movement in components. </p>
+            a super convenient and abundant library of CSS hover effects. Most
+            website Components are also originally written, such as the navbar
+            and dropdown (on mobile). React is also extremely flexible because of
+            its Component-based structure, which allows community members to create
+            Components and others to import them. For example, the timeline
+            found on the Work page was borrowed from <a className={styles.hvrpop} href="https://www.npmjs.com/package/react-event-timeline">react-event-timeline</a>,
+            which neatly organizes Event Components into the timeline you see.</p>
           </div>
         </div>
         <div className={styles.section}>

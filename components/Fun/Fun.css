@@ -32,10 +32,24 @@
   min-width: 100px;
   padding: 10px 40px;
 }
+.caption{
+  margin: 0 0 3px 0;
+}
 .linkList {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+.split {
+  margin: 0;
+  width: 50%;
+  min-width: 180px;
+}
+.favList {
+  margin: 3px 0;
+}
+.inFavList {
+  margin: 0;
 }
 .link:hover{
   color: #f17e33;
