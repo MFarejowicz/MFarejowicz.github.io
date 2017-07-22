@@ -42,7 +42,7 @@ class List extends React.Component {
               <h4 className={styles.fall}>Fall 2017</h4>
               <ul className={styles.classList}>
                 <li>6.01: Introduction to EECS via Robotics</li>
-                <li>6.046/18.062: Mathematics for Computer Science</li>
+                <li>6.042/18.062: Mathematics for Computer Science</li>
                 <li>18.06: Linear Algebra</li>
                 <li>CMS.376: History of Media and Technology</li>
                 <li>21A.500: Technology and Culture</li>
@@ -89,7 +89,7 @@ class List extends React.Component {
     )
 
   }
-  
+
 }
 
 

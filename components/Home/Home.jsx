@@ -5,6 +5,19 @@ import CopyToClipboard from 'react-copy-to-clipboard'
 
 class Home extends React.Component{
 
+  constructor(props){
+    super(props)
+    this.state = {
+      copyVisible: false
+    }
+  }
+
+  handleCopy() {
+    clearTimeout(this.copy)
+    this.setState({copyVisible : true})
+    this.copy = setTimeout(() => {this.setState({copyVisible : false})}, 3000)
+  }
+
   render() {
 
     let content = (
@@ -59,9 +72,13 @@ class Home extends React.Component{
           <b>Contact</b>
           <hr/>
           <div className={styles.text}>
-            <p>If you'd like to reach me directly, feel free to shoot me an email at <CopyToClipboard text="mfarejow@mit.edu">
-                <span className={styles.hvrpop}> mfarejow@mit.edu</span>
-              </CopyToClipboard> </p>
+            <div className={styles.hold}>If you'd like to reach me directly, feel free to shoot me an email at <CopyToClipboard text="mfarejow@mit.edu">
+                <div onClick={this.handleCopy.bind(this)} className={styles.tooltip}><span className={styles.hvrpop}> mfarejow@mit.edu</span>
+                  <span className={styles.tooltipText} style={(this.state.copyVisible ? {visibility: "visible"} : null)}>
+                    Copied to clipboard!
+                  </span>
+                </div>
+              </CopyToClipboard> </div>
             <p>For other links and ways to connect, take a look at the <span className={styles.hvrpop} onClick={this.props.handleAbout}>About</span> tab </p>
           </div>
         </div>

@@ -11338,13 +11338,29 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var Home = function (_React$Component) {
   _inherits(Home, _React$Component);
 
-  function Home() {
+  function Home(props) {
     _classCallCheck(this, Home);
 
-    return _possibleConstructorReturn(this, (Home.__proto__ || Object.getPrototypeOf(Home)).apply(this, arguments));
+    var _this = _possibleConstructorReturn(this, (Home.__proto__ || Object.getPrototypeOf(Home)).call(this, props));
+
+    _this.state = {
+      copyVisible: false
+    };
+    return _this;
   }
 
   _createClass(Home, [{
+    key: "handleCopy",
+    value: function handleCopy() {
+      var _this2 = this;
+
+      clearTimeout(this.copy);
+      this.setState({ copyVisible: true });
+      this.copy = setTimeout(function () {
+        _this2.setState({ copyVisible: false });
+      }, 3000);
+    }
+  }, {
     key: "render",
     value: function render() {
 
@@ -11470,16 +11486,25 @@ var Home = function (_React$Component) {
             "div",
             { className: _Home2.default.text },
             _react2.default.createElement(
-              "p",
-              null,
+              "div",
+              { className: _Home2.default.hold },
               "If you'd like to reach me directly, feel free to shoot me an email at ",
               _react2.default.createElement(
                 _reactCopyToClipboard2.default,
                 { text: "mfarejow@mit.edu" },
                 _react2.default.createElement(
-                  "span",
-                  { className: _Home2.default.hvrpop },
-                  " mfarejow@mit.edu"
+                  "div",
+                  { onClick: this.handleCopy.bind(this), className: _Home2.default.tooltip },
+                  _react2.default.createElement(
+                    "span",
+                    { className: _Home2.default.hvrpop },
+                    " mfarejow@mit.edu"
+                  ),
+                  _react2.default.createElement(
+                    "span",
+                    { className: _Home2.default.tooltipText, style: this.state.copyVisible ? { visibility: "visible" } : null },
+                    "Copied to clipboard!"
+                  )
                 )
               ),
               " "
@@ -11840,7 +11865,7 @@ var List = function (_React$Component) {
               _react2.default.createElement(
                 "li",
                 null,
-                "6.046/18.062: Mathematics for Computer Science"
+                "6.042/18.062: Mathematics for Computer Science"
               ),
               _react2.default.createElement(
                 "li",
@@ -13619,7 +13644,7 @@ exports = module.exports = __webpack_require__(11)(undefined);
 
 
 // module
-exports.push([module.i, ".Home__container___3YqXY {\n  -webkit-animation-name: Home__fadein___XsXjx;\n  -webkit-animation-duration: .5s;\n  -webkit-animation-timing-function: linear;\n  -webkit-animation-fill-mode: backwards;\n  animation-name: Home__fadein___XsXjx;\n  animation-duration: .5s;\n  animation-fill-mode: backwards;\n  animation-timing-function: linear;\n}\n\n@-webkit-keyframes Home__fadein___XsXjx {\n  0% {\n    opacity: 0;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n\n@keyframes Home__fadein___XsXjx {\n  0% {\n    opacity: 0;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n\n.Home__section___1FP21 {\n  font-size: 18px;\n  margin: 20px auto;\n  border: 2px solid #000000;\n  width: 60%;\n  min-width: 100px;\n  padding: 10px 40px;\n}\n\n.Home__list___1B08o {\n  margin: 5px 0 8px 0;\n}\n\n.Home__email___nL9Ik {\n  font-family: \"Roboto Condensed\";\n  font-size: 20px;\n  background: rgba(0, 0, 0, 0);\n  border: none;\n}\n\n.Home__text___zzrdr {\n  line-height: 150%;\n}\n\n.Home__hvrpop___7_j5D {\n  font-size: 18px;\n  text-decoration: underline;\n  cursor: pointer;\n  display: inline-block;\n  -webkit-transform: perspective(1px) translateZ(0);\n  transform: perspective(1px) translateZ(0);\n  box-shadow: 0 0 1px transparent;\n}\n\n.Home__hvrpop___7_j5D:hover, .Home__hvrpop___7_j5D:focus, .Home__hvrpop___7_j5D:active {\n  color: #f17e33;\n  -webkit-animation-name: Home__hvrpop___7_j5D;\n  animation-name: Home__hvrpop___7_j5D;\n  -webkit-animation-duration: 0.3s;\n  animation-duration: 0.3s;\n  -webkit-animation-timing-function: linear;\n  animation-timing-function: linear;\n  -webkit-animation-iteration-count: 1;\n  animation-iteration-count: 1;\n}\n\n@-webkit-keyframes Home__hvrpop___7_j5D {\n  50% {\n    -webkit-transform: scale(1.2);\n    transform: scale(1.2);\n  }\n}\n\n@keyframes Home__hvrpop___7_j5D {\n  50% {\n    -webkit-transform: scale(1.2);\n    transform: scale(1.2);\n  }\n}\n\n@media all and (max-width: 800px) {\n  .Home__section___1FP21 {\n    font-size: 14px;\n  }\n  .Home__hvrpop___7_j5D {\n    font-size: 14px;\n  }\n  .Home__list___1B08o {\n    margin: 5px 0 8px -20px;\n  }\n}\n\n@media all and (max-width: 400px) {\n  .Home__section___1FP21 {\n    font-size: 12px;\n  }\n  .Home__hvrpop___7_j5D {\n    font-size: 12px;\n  }\n  .Home__list___1B08o {\n    margin: 5px 0 8px -35px;\n  }\n}\n", ""]);
+exports.push([module.i, ".Home__container___3YqXY {\n  -webkit-animation-name: Home__fadein___XsXjx;\n  -webkit-animation-duration: .5s;\n  -webkit-animation-timing-function: linear;\n  -webkit-animation-fill-mode: backwards;\n  animation-name: Home__fadein___XsXjx;\n  animation-duration: .5s;\n  animation-fill-mode: backwards;\n  animation-timing-function: linear;\n}\n\n@-webkit-keyframes Home__fadein___XsXjx {\n  0% {\n    opacity: 0;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n\n@keyframes Home__fadein___XsXjx {\n  0% {\n    opacity: 0;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n\n.Home__section___1FP21 {\n  font-size: 18px;\n  margin: 20px auto;\n  border: 2px solid #000000;\n  width: 60%;\n  min-width: 100px;\n  padding: 10px 40px;\n}\n\n.Home__list___1B08o {\n  margin: 5px 0 8px 0;\n}\n\n.Home__email___nL9Ik {\n  font-family: \"Roboto Condensed\";\n  font-size: 20px;\n  background: rgba(0, 0, 0, 0);\n  border: none;\n}\n\n.Home__text___zzrdr {\n  line-height: 150%;\n}\n\n.Home__hold___3BdbZ {\n  margin: 8px 0;\n}\n\n.Home__tooltip___1xnTq {\n  position: relative;\n  display: inline-block;\n}\n\n.Home__tooltipText___2UO3- {\n  visibility: hidden;\n  width: 120px;\n  background-color: black;\n  color: #fff;\n  text-align: center;\n  padding: 5px 0;\n  border-radius: 6px;\n  position: absolute;\n  z-index: 1;\n  bottom: 150%;\n  left: 50%;\n  margin-left: -60px;\n}\n\n.Home__tooltipText___2UO3-::after {\n  content: \"\";\n  position: absolute;\n  top: 100%;\n  left: 50%;\n  margin-left: -5px;\n  border-width: 5px;\n  border-style: solid;\n  border-color: black transparent transparent transparent;\n}\n\n.Home__hvrpop___7_j5D {\n  font-size: 18px;\n  text-decoration: underline;\n  cursor: pointer;\n  display: inline-block;\n  -webkit-transform: perspective(1px) translateZ(0);\n  transform: perspective(1px) translateZ(0);\n  box-shadow: 0 0 1px transparent;\n}\n\n.Home__hvrpop___7_j5D:hover, .Home__hvrpop___7_j5D:focus, .Home__hvrpop___7_j5D:active {\n  color: #f17e33;\n  -webkit-animation-name: Home__hvrpop___7_j5D;\n  animation-name: Home__hvrpop___7_j5D;\n  -webkit-animation-duration: 0.3s;\n  animation-duration: 0.3s;\n  -webkit-animation-timing-function: linear;\n  animation-timing-function: linear;\n  -webkit-animation-iteration-count: 1;\n  animation-iteration-count: 1;\n}\n\n@-webkit-keyframes Home__hvrpop___7_j5D {\n  50% {\n    -webkit-transform: scale(1.2);\n    transform: scale(1.2);\n  }\n}\n\n@keyframes Home__hvrpop___7_j5D {\n  50% {\n    -webkit-transform: scale(1.2);\n    transform: scale(1.2);\n  }\n}\n\n@media all and (max-width: 800px) {\n  .Home__section___1FP21 {\n    font-size: 14px;\n  }\n  .Home__hvrpop___7_j5D {\n    font-size: 14px;\n  }\n  .Home__list___1B08o {\n    margin: 5px 0 8px -20px;\n  }\n}\n\n@media all and (max-width: 400px) {\n  .Home__section___1FP21 {\n    font-size: 12px;\n  }\n  .Home__hvrpop___7_j5D {\n    font-size: 12px;\n  }\n  .Home__list___1B08o {\n    margin: 5px 0 8px -35px;\n  }\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -13629,6 +13654,9 @@ exports.locals = {
 	"list": "Home__list___1B08o",
 	"email": "Home__email___nL9Ik",
 	"text": "Home__text___zzrdr",
+	"hold": "Home__hold___3BdbZ",
+	"tooltip": "Home__tooltip___1xnTq",
+	"tooltipText": "Home__tooltipText___2UO3-",
 	"hvrpop": "Home__hvrpop___7_j5D"
 };
 
