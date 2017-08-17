@@ -12399,7 +12399,7 @@ var Projects = function (_React$Component) {
             { className: _Projects2.default.project },
             _react2.default.createElement(
               "a",
-              { href: "./components/Work/Links/Todo/todo.html", className: _Projects2.default.link },
+              { href: "https://mfarejowicz.github.io/simple-todo/", className: _Projects2.default.link },
               _react2.default.createElement("img", { className: _Projects2.default.picture, src: "./static/img/todo.png", alt: "Simple Todo" }),
               _react2.default.createElement(
                 "div",

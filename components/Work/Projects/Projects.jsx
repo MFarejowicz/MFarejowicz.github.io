@@ -22,7 +22,7 @@ class Projects extends React.Component {
             </a>
           </div>
           <div className={styles.project}>
-            <a href="./components/Work/Links/Todo/todo.html" className={styles.link}>
+            <a href="https://mfarejowicz.github.io/simple-todo/" className={styles.link}>
               <img className={styles.picture} src="./static/img/todo.png" alt="Simple Todo"></img>
               <div className={styles.projectInfo}>
                 <h3 className={styles.title}>Simple Todo</h3>
