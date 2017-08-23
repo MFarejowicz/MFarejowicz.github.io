@@ -35,7 +35,25 @@ class Projects extends React.Component {
               <img className={styles.picture} src="./static/img/replot.png" alt="Replot"></img>
               <div className={styles.projectInfo}>
                 <h3 className={styles.title}>Replot</h3>
-                <p className={styles.caption}> (Coming soon!) A ReactJS Data Visualization Library </p>
+                <p className={styles.caption}> (Coming soon!) A ReactJS Data Visualization Library. </p>
+              </div>
+            </a>
+          </div>
+          <div className={styles.project}>
+            <a href="https://macroconnections.github.io/replot-example-student-stats" className={styles.link}>
+              <img className={styles.picture} src="./static/img/stud.png" alt="Student Stats"></img>
+              <div className={styles.projectInfo}>
+                <h3 className={styles.title}>Student Stats</h3>
+                <p className={styles.caption}> An example website for Replot, made in collaboration with Nancy Luong. Data provided by MIT. </p>
+              </div>
+            </a>
+          </div>
+          <div className={styles.project}>
+            <a href="https://mfarejowicz.github.io/dota-data/" className={styles.link}>
+              <img className={styles.picture} src="./static/img/dota.png" alt="DotA Data"></img>
+              <div className={styles.projectInfo}>
+                <h3 className={styles.title}>DotA Data</h3>
+                <p className={styles.caption}> Another example website for Replot, made using data I collected concerning DotA 2, a popular E-Sport. </p>
               </div>
             </a>
           </div>

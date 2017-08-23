@@ -12435,7 +12435,53 @@ var Projects = function (_React$Component) {
                 _react2.default.createElement(
                   "p",
                   { className: _Projects2.default.caption },
-                  " (Coming soon!) A ReactJS Data Visualization Library "
+                  " (Coming soon!) A ReactJS Data Visualization Library. "
+                )
+              )
+            )
+          ),
+          _react2.default.createElement(
+            "div",
+            { className: _Projects2.default.project },
+            _react2.default.createElement(
+              "a",
+              { href: "https://macroconnections.github.io/replot-example-student-stats", className: _Projects2.default.link },
+              _react2.default.createElement("img", { className: _Projects2.default.picture, src: "./static/img/stud.png", alt: "Student Stats" }),
+              _react2.default.createElement(
+                "div",
+                { className: _Projects2.default.projectInfo },
+                _react2.default.createElement(
+                  "h3",
+                  { className: _Projects2.default.title },
+                  "Student Stats"
+                ),
+                _react2.default.createElement(
+                  "p",
+                  { className: _Projects2.default.caption },
+                  " An example website for Replot, made in collaboration with Nancy Luong. Data provided by MIT. "
+                )
+              )
+            )
+          ),
+          _react2.default.createElement(
+            "div",
+            { className: _Projects2.default.project },
+            _react2.default.createElement(
+              "a",
+              { href: "https://mfarejowicz.github.io/dota-data/", className: _Projects2.default.link },
+              _react2.default.createElement("img", { className: _Projects2.default.picture, src: "./static/img/dota.png", alt: "DotA Data" }),
+              _react2.default.createElement(
+                "div",
+                { className: _Projects2.default.projectInfo },
+                _react2.default.createElement(
+                  "h3",
+                  { className: _Projects2.default.title },
+                  "DotA Data"
+                ),
+                _react2.default.createElement(
+                  "p",
+                  { className: _Projects2.default.caption },
+                  " Another example website for Replot, made using data I collected concerning DotA 2, a popular E-Sport. "
                 )
               )
             )
