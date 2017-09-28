@@ -10939,7 +10939,7 @@ var About = function (_React$Component) {
             _react2.default.createElement(
               "p",
               null,
-              "Hey there! My name is Matthew Farejowicz, but you can call me Matt, MattF, Faree, or Joon. I'm a rising MIT Sophomore who likes, math, computer science, video games, volunteering, anime, taking walks, and talking to people. "
+              "Hey there! My name is Matthew Farejowicz, but you can call me Matt, MattF, Faree, or Joon. I'm an MIT Sophomore who likes, math, computer science, video games, volunteering, anime, taking walks, and talking to people. "
             ),
             _react2.default.createElement(
               "p",
@@ -10960,7 +10960,13 @@ var About = function (_React$Component) {
             _react2.default.createElement(
               "p",
               null,
-              "Right now I'm doing research with an awesome group of grad students under a concerningly overqualified tenure-track professor, and I've gained an inconceivable amount of practical skills with regards to functional programming and project practices. I'm attempting to produce a self-contained two-story haunted-house escape-the-room for this upcoming October, and I'm looking forward to taking more classes related to Math and Computer Science. In classic me fashion, I find myself probably overcommitted, balancing social shenanigans with professional endeavors. And I wouldn't want it any other way."
+              "Right now I'm grooving through my sophomore year, taking classes more related to my major, which I much prefer over the gen-eds I took last year that are required for every MIT undergrad. In my spare time, I'm attempting to produce a self-contained two-story haunted-house escape-the-room for this upcoming October, as part of a student group in my dorm called ",
+              _react2.default.createElement(
+                "i",
+                null,
+                "Next Haunt"
+              ),
+              ". In classic me fashion, I find myself probably overcommitted, balancing social shenanigans with professional endeavors. And I wouldn't want it any other way."
             ),
             _react2.default.createElement(
               "p",
@@ -11851,6 +11857,50 @@ var List = function (_React$Component) {
             null,
             _react2.default.createElement(
               "h4",
+              { className: _List2.default.extra },
+              "Ongoing Extracurriculars"
+            ),
+            _react2.default.createElement(
+              "ul",
+              { className: _List2.default.classList },
+              _react2.default.createElement(
+                "li",
+                null,
+                _react2.default.createElement(
+                  "a",
+                  { href: "https://next.mit.edu" },
+                  "Next House"
+                ),
+                " VP of Facilities"
+              ),
+              _react2.default.createElement(
+                "li",
+                null,
+                _react2.default.createElement(
+                  "a",
+                  { href: "https://haunt.mit.edu" },
+                  "Next Haunt"
+                ),
+                " Producer"
+              ),
+              _react2.default.createElement(
+                "li",
+                null,
+                "Next Gamers Treasurer"
+              ),
+              _react2.default.createElement(
+                "li",
+                null,
+                "Next House Intramural Ice Hockey Team Member"
+              ),
+              _react2.default.createElement(
+                "li",
+                null,
+                "MIT Educational Studies Program Admin"
+              )
+            ),
+            _react2.default.createElement(
+              "h4",
               { className: _List2.default.fall },
               "Fall 2017"
             ),
@@ -11876,11 +11926,6 @@ var List = function (_React$Component) {
                 "li",
                 null,
                 "CMS.376: History of Media and Technology"
-              ),
-              _react2.default.createElement(
-                "li",
-                null,
-                "21A.500: Technology and Culture"
               )
             ),
             _react2.default.createElement(
@@ -11905,7 +11950,7 @@ var List = function (_React$Component) {
               _react2.default.createElement(
                 "li",
                 null,
-                "Next Haunt Producer (current)"
+                "MIT East Campus Summer RA"
               )
             ),
             _react2.default.createElement(
@@ -11935,21 +11980,6 @@ var List = function (_React$Component) {
                 "li",
                 null,
                 "CMS.301: Introduction to Game Design Methods"
-              ),
-              _react2.default.createElement(
-                "li",
-                null,
-                "Next House VP of Facilities (current)"
-              ),
-              _react2.default.createElement(
-                "li",
-                null,
-                "Next Gamers Exec Member (current)"
-              ),
-              _react2.default.createElement(
-                "li",
-                null,
-                "Next House Intramural Ice Hockey"
               )
             ),
             _react2.default.createElement(
@@ -11969,11 +11999,6 @@ var List = function (_React$Component) {
                 "li",
                 null,
                 "6.178: Introduction to Software Engineering in Java"
-              ),
-              _react2.default.createElement(
-                "li",
-                null,
-                "MIT Educational Studies Program Admin (current)"
               )
             ),
             _react2.default.createElement(
@@ -12003,16 +12028,6 @@ var List = function (_React$Component) {
                 "li",
                 null,
                 "STS.009: Evolution and Society"
-              ),
-              _react2.default.createElement(
-                "li",
-                null,
-                "Next House 2W Wing Rep"
-              ),
-              _react2.default.createElement(
-                "li",
-                null,
-                "Next Haunt Build Crew and Run Crew"
               )
             ),
             _react2.default.createElement(
@@ -12031,7 +12046,26 @@ var List = function (_React$Component) {
               _react2.default.createElement(
                 "li",
                 null,
-                "8.02: Calculs I - Single Variable"
+                "8.02: Calculus I - Single Variable"
+              )
+            ),
+            _react2.default.createElement(
+              "h4",
+              { className: _List2.default.extra },
+              "Prior Extracurriculars"
+            ),
+            _react2.default.createElement(
+              "ul",
+              { className: _List2.default.classList },
+              _react2.default.createElement(
+                "li",
+                null,
+                "Next House 2W Wing Rep"
+              ),
+              _react2.default.createElement(
+                "li",
+                null,
+                "Next Haunt Build Crew and Run Crew"
               )
             )
           )
@@ -13636,7 +13670,7 @@ exports = module.exports = __webpack_require__(11)(undefined);
 
 
 // module
-exports.push([module.i, ".List__outer___3T9P5 {\n  margin: 20px auto;\n  padding: 10px 40px;\n  width: 60%;\n  min-width: 100px;\n  border: 2px solid #000000;\n}\n\n.List__heading___29qU_ {\n  font-size: 26px;\n  font-weight: bold;\n}\n\n.List__expand___2l7IH {\n  font-size: 26px;\n  float: right;\n}\n\n.List__topBar___nu9iT {\n  cursor: pointer;\n}\n\n.List__content___3IeTF {\n  font-size: 18px;\n  color: #000000;\n}\n\n.List__clickable___gC-bX {\n  cursor: pointer;\n}\n\n.List__classList___3HTTB {\n  margin: 0 0 8px 0;\n  line-height: 145%\n}\n\n.List__fall___gPCQM {\n  font-size: 20px;\n  color: #cf5230;\n}\n\n.List__winter___3yOKg {\n  font-size: 20px;\n  color: #a0ccff;\n}\n\n.List__spring___1F0LU {\n  font-size: 20px;\n  color: #4aa02c;\n}\n\n.List__summer___3nfaq {\n  font-size: 20px;\n  color: #236e96;\n}\n\n@media all and (max-width: 800px) {\n  .List__heading___29qU_ {\n    font-size: 20px;\n  }\n  .List__expand___2l7IH {\n    font-size: 20px;\n  }\n  .List__classList___3HTTB {\n    margin: 0 0 8px -20px;\n  }\n  .List__content___3IeTF {\n    font-size: 14px;\n  }\n  .List__fall___gPCQM, .List__winter___3yOKg, .List__spring___1F0LU, .List__summer___3nfaq {\n    font-size: 17px;\n  }\n}\n\n@media all and (max-width: 400px) {\n  .List__content___3IeTF {\n    font-size: 12px;\n  }\n  .List__fall___gPCQM, .List__winter___3yOKg, .List__spring___1F0LU, .List__summer___3nfaq {\n    font-size: 15px;\n  }\n}\n", ""]);
+exports.push([module.i, ".List__outer___3T9P5 {\n  margin: 20px auto;\n  padding: 10px 40px;\n  width: 60%;\n  min-width: 100px;\n  border: 2px solid #000000;\n}\n\n.List__heading___29qU_ {\n  font-size: 26px;\n  font-weight: bold;\n}\n\n.List__expand___2l7IH {\n  font-size: 26px;\n  float: right;\n}\n\n.List__topBar___nu9iT {\n  cursor: pointer;\n}\n\n.List__content___3IeTF {\n  font-size: 18px;\n  color: #000000;\n}\n\n.List__clickable___gC-bX {\n  cursor: pointer;\n}\n\n.List__classList___3HTTB {\n  margin: 0 0 8px 0;\n  line-height: 145%\n}\n\n.List__fall___gPCQM {\n  font-size: 20px;\n  color: #cf5230;\n}\n\n.List__winter___3yOKg {\n  font-size: 20px;\n  color: #a0ccff;\n}\n\n.List__spring___1F0LU {\n  font-size: 20px;\n  color: #4aa02c;\n}\n\n.List__summer___3nfaq {\n  font-size: 20px;\n  color: #236e96;\n}\n\n.List__extra___ea-YZ {\n  font-size: 20px;\n  color: #a31f34;\n}\n\n@media all and (max-width: 800px) {\n  .List__heading___29qU_ {\n    font-size: 20px;\n  }\n  .List__expand___2l7IH {\n    font-size: 20px;\n  }\n  .List__classList___3HTTB {\n    margin: 0 0 8px -20px;\n  }\n  .List__content___3IeTF {\n    font-size: 14px;\n  }\n  .List__fall___gPCQM, .List__winter___3yOKg, .List__spring___1F0LU, .List__summer___3nfaq {\n    font-size: 17px;\n  }\n}\n\n@media all and (max-width: 400px) {\n  .List__content___3IeTF {\n    font-size: 12px;\n  }\n  .List__fall___gPCQM, .List__winter___3yOKg, .List__spring___1F0LU, .List__summer___3nfaq {\n    font-size: 15px;\n  }\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -13650,7 +13684,8 @@ exports.locals = {
 	"fall": "List__fall___gPCQM",
 	"winter": "List__winter___3yOKg",
 	"spring": "List__spring___1F0LU",
-	"summer": "List__summer___3nfaq"
+	"summer": "List__summer___3nfaq",
+	"extra": "List__extra___ea-YZ"
 };
 
 /***/ }),

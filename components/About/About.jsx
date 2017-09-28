@@ -14,7 +14,7 @@ class About extends React.Component{
           <hr/>
           <img src="./static/img/matt.png" title="It's Matt!" alt="Matt" className={styles.pic}></img>
           <div className={styles.text}>
-            <p>Hey there! My name is Matthew Farejowicz, but you can call me Matt, MattF, Faree, or Joon. I'm a rising MIT Sophomore who
+            <p>Hey there! My name is Matthew Farejowicz, but you can call me Matt, MattF, Faree, or Joon. I'm an MIT Sophomore who
             likes, math, computer science, video games, volunteering, anime, taking walks, and talking to people. </p>
             <p>I grew up in a small suburban town in Illinois, which is where I completed my education though high school. There I developed my love for
             technology and my love for interacting with people, and (perhaps unsurprisingly) my love for interacting with people <i>through</i> technology.
@@ -24,9 +24,9 @@ class About extends React.Component{
             the potential of math and computer science, and the incredible amount of student diversity has drastically increased my perspective on life. I've met so many new people,
             tried countless new foods, procrastinated on too many homework assignments, joined student government as my dorm VP, took up teaching through ESP, attempted sports for the first time with
             intramural ice hockey, and it's all been an unbelievably eye-opening experience.</p>
-            <p>Right now I'm doing research with an awesome group of grad students under a concerningly overqualified tenure-track professor, and I've gained an inconceivable amount
-            of practical skills with regards to functional programming and project practices. I'm attempting to produce a self-contained two-story haunted-house escape-the-room for this upcoming
-            October, and I'm looking forward to taking more classes related to Math and Computer Science. In classic me fashion, I find myself probably overcommitted, balancing social shenanigans with professional endeavors.
+            <p>Right now I'm grooving through my sophomore year, taking classes more related to my major, which I much prefer over the gen-eds I took last year that are required for every MIT undergrad.
+            In my spare time, I'm attempting to produce a self-contained two-story haunted-house escape-the-room for this upcoming
+            October, as part of a student group in my dorm called <i>Next Haunt</i>. In classic me fashion, I find myself probably overcommitted, balancing social shenanigans with professional endeavors.
             And I wouldn't want it any other way.</p>
             <p>So that's my story up to this point. How about <i>yours</i>?</p>
           </div>

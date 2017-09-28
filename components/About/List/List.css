@@ -54,6 +54,11 @@
   color: #236e96;
 }
 
+.extra {
+  font-size: 20px;
+  color: #a31f34;
+}
+
 @media all and (max-width: 800px) {
   .heading {
     font-size: 20px;
