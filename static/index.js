@@ -11834,16 +11834,20 @@ var List = function (_React$Component) {
           { className: _List2.default.topBar, onClick: this.changeActive.bind(this) },
           _react2.default.createElement(
             "div",
-            { className: _List2.default.expand },
-            this.state.active ? "\u2B9D" : "\u2B9F"
+            null,
+            _react2.default.createElement(
+              "h4",
+              { className: _List2.default.heading },
+              "Class and Activity List"
+            )
           ),
           _react2.default.createElement(
             "div",
-            { className: _List2.default.heading },
-            "Class and Activity List",
-            _react2.default.createElement("hr", null)
+            { className: _List2.default.expand },
+            this.state.active ? "\u2B9D" : "\u2B9F"
           )
         ),
+        _react2.default.createElement("hr", null),
         _react2.default.createElement(
           "div",
           { className: _List2.default.content },
@@ -12032,7 +12036,7 @@ var List = function (_React$Component) {
             ),
             _react2.default.createElement(
               "h4",
-              null,
+              { className: _List2.default.normal },
               "Prior Credit"
             ),
             _react2.default.createElement(
@@ -13670,14 +13674,14 @@ exports = module.exports = __webpack_require__(11)(undefined);
 
 
 // module
-exports.push([module.i, ".List__outer___3T9P5 {\n  margin: 20px auto;\n  padding: 10px 40px;\n  width: 60%;\n  min-width: 100px;\n  border: 2px solid #000000;\n}\n\n.List__heading___29qU_ {\n  font-size: 26px;\n  font-weight: bold;\n}\n\n.List__expand___2l7IH {\n  font-size: 26px;\n  float: right;\n}\n\n.List__topBar___nu9iT {\n  cursor: pointer;\n}\n\n.List__content___3IeTF {\n  font-size: 18px;\n  color: #000000;\n}\n\n.List__clickable___gC-bX {\n  cursor: pointer;\n}\n\n.List__classList___3HTTB {\n  margin: 0 0 8px 0;\n  line-height: 145%\n}\n\n.List__fall___gPCQM {\n  font-size: 20px;\n  color: #cf5230;\n}\n\n.List__winter___3yOKg {\n  font-size: 20px;\n  color: #a0ccff;\n}\n\n.List__spring___1F0LU {\n  font-size: 20px;\n  color: #4aa02c;\n}\n\n.List__summer___3nfaq {\n  font-size: 20px;\n  color: #236e96;\n}\n\n.List__extra___ea-YZ {\n  font-size: 20px;\n  color: #a31f34;\n}\n\n@media all and (max-width: 800px) {\n  .List__heading___29qU_ {\n    font-size: 20px;\n  }\n  .List__expand___2l7IH {\n    font-size: 20px;\n  }\n  .List__classList___3HTTB {\n    margin: 0 0 8px -20px;\n  }\n  .List__content___3IeTF {\n    font-size: 14px;\n  }\n  .List__fall___gPCQM, .List__winter___3yOKg, .List__spring___1F0LU, .List__summer___3nfaq {\n    font-size: 17px;\n  }\n}\n\n@media all and (max-width: 400px) {\n  .List__content___3IeTF {\n    font-size: 12px;\n  }\n  .List__fall___gPCQM, .List__winter___3yOKg, .List__spring___1F0LU, .List__summer___3nfaq {\n    font-size: 15px;\n  }\n}\n", ""]);
+exports.push([module.i, ".List__outer___3T9P5 {\n  margin: 20px auto;\n  padding: 10px 40px;\n  width: 60%;\n  min-width: 100px;\n  border: 2px solid #000000;\n}\n\n.List__heading___29qU_ {\n  font-size: 26px;\n}\n\n.List__topBar___nu9iT {\n  cursor: pointer;\n  display: flex;\n  justify-content: space-between;\n}\n\n.List__expand___2l7IH {\n  font-size: 26px;\n}\n\n.List__content___3IeTF {\n  font-size: 18px;\n  color: #000000;\n}\n\n.List__clickable___gC-bX {\n  cursor: pointer;\n}\n\n.List__classList___3HTTB {\n  margin: 0 0 8px 0;\n  line-height: 145%\n}\n\n.List__fall___gPCQM {\n  font-size: 20px;\n  color: #cf5230;\n}\n\n.List__winter___3yOKg {\n  font-size: 20px;\n  color: #a0ccff;\n}\n\n.List__spring___1F0LU {\n  font-size: 20px;\n  color: #4aa02c;\n}\n\n.List__summer___3nfaq {\n  font-size: 20px;\n  color: #236e96;\n}\n\n.List__extra___ea-YZ {\n  font-size: 20px;\n  color: #a31f34;\n}\n\n.List__normal___3Yl-7 {\n  font-size: 20px;\n}\n\n@media all and (max-width: 800px) {\n  .List__heading___29qU_ {\n    font-size: 20px;\n  }\n  .List__expand___2l7IH {\n    font-size: 20px;\n  }\n  .List__classList___3HTTB {\n    margin: 0 0 8px -20px;\n  }\n  .List__content___3IeTF {\n    font-size: 14px;\n  }\n  .List__fall___gPCQM, .List__winter___3yOKg, .List__spring___1F0LU, .List__summer___3nfaq, .List__extra___ea-YZ, .List__normal___3Yl-7 {\n    font-size: 17px;\n  }\n\n}\n\n@media all and (max-width: 400px) {\n  .List__heading___29qU_ {\n    font-size: 18px;\n  }\n  .List__expand___2l7IH {\n    font-size: 16px;\n  }\n  .List__content___3IeTF {\n    font-size: 12px;\n  }\n  .List__fall___gPCQM, .List__winter___3yOKg, .List__spring___1F0LU, .List__summer___3nfaq, .List__extra___ea-YZ, .List__normal___3Yl-7 {\n    font-size: 15px;\n  }\n}\n", ""]);
 
 // exports
 exports.locals = {
 	"outer": "List__outer___3T9P5",
 	"heading": "List__heading___29qU_",
-	"expand": "List__expand___2l7IH",
 	"topBar": "List__topBar___nu9iT",
+	"expand": "List__expand___2l7IH",
 	"content": "List__content___3IeTF",
 	"clickable": "List__clickable___gC-bX",
 	"classList": "List__classList___3HTTB",
@@ -13685,7 +13689,8 @@ exports.locals = {
 	"winter": "List__winter___3yOKg",
 	"spring": "List__spring___1F0LU",
 	"summer": "List__summer___3nfaq",
-	"extra": "List__extra___ea-YZ"
+	"extra": "List__extra___ea-YZ",
+	"normal": "List__normal___3Yl-7"
 };
 
 /***/ }),

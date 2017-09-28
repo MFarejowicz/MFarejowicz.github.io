@@ -22,14 +22,14 @@ class List extends React.Component {
     return (
       <div className={styles.outer} onClick={(this.state.active ? null : this.changeActive.bind(this))}>
         <div className={styles.topBar} onClick={this.changeActive.bind(this)} >
+          <div>
+            <h4 className={styles.heading}>Class and Activity List</h4>
+          </div>
           <div className={styles.expand}>
             {this.state.active ? "\u2b9d" : "\u2b9f" }
           </div>
-          <div className={styles.heading}>
-            Class and Activity List
-            <hr/>
-          </div>
         </div>
+        <hr/>
         <div className={styles.content}>
           {!this.state.active &&
             <div className={styles.clickable}>
@@ -78,7 +78,7 @@ class List extends React.Component {
                 <li>5.111: Principles of Chemical Science</li>
                 <li>STS.009: Evolution and Society</li>
               </ul>
-              <h4>Prior Credit</h4>
+              <h4 className={styles.normal}>Prior Credit</h4>
               <ul className={styles.classList}>
                 <li>8.01: Physics I - Mechanics</li>
                 <li>8.02: Calculus I - Single Variable</li>

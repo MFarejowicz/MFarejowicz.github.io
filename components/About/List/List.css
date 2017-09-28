@@ -8,16 +8,16 @@
 
 .heading {
   font-size: 26px;
-  font-weight: bold;
-}
-
-.expand {
-  font-size: 26px;
-  float: right;
 }
 
 .topBar {
   cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+.expand {
+  font-size: 26px;
 }
 
 .content {
@@ -59,6 +59,10 @@
   color: #a31f34;
 }
 
+.normal {
+  font-size: 20px;
+}
+
 @media all and (max-width: 800px) {
   .heading {
     font-size: 20px;
@@ -72,16 +76,23 @@
   .content {
     font-size: 14px;
   }
-  .fall, .winter, .spring, .summer {
+  .fall, .winter, .spring, .summer, .extra, .normal {
     font-size: 17px;
   }
+
 }
 
 @media all and (max-width: 400px) {
+  .heading {
+    font-size: 18px;
+  }
+  .expand {
+    font-size: 16px;
+  }
   .content {
     font-size: 12px;
   }
-  .fall, .winter, .spring, .summer {
+  .fall, .winter, .spring, .summer, .extra, .normal {
     font-size: 15px;
   }
 }
