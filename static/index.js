@@ -10960,13 +10960,13 @@ var About = function (_React$Component) {
             _react2.default.createElement(
               "p",
               null,
-              "Right now I'm grooving through my sophomore year, taking classes more related to my major, which I much prefer over the gen-eds I took last year that are required for every MIT undergrad. In my spare time, I'm attempting to produce a self-contained two-story haunted-house escape-the-room for this upcoming October, as part of a student group in my dorm called ",
+              "Right now I'm halfway through my sophomore year, taking classes more related to my major, which I much prefer over the gen-eds I took last year that are required for every MIT undergrad. Last semester, notable events included producing a self-contained two-story haunted-house escape-the-room as part of a student group in my dorm called ",
               _react2.default.createElement(
                 "i",
                 null,
                 "Next Haunt"
               ),
-              ". In classic me fashion, I find myself probably overcommitted, balancing social shenanigans with professional endeavors. And I wouldn't want it any other way."
+              " and purchasing new tools and kitchen equipment for my dorm as VP of Facilities. In classic me fashion, I find myself probably overcommitted, balancing social shenanigans with professional endeavors. And I wouldn't want it any other way."
             ),
             _react2.default.createElement(
               "p",
@@ -11385,7 +11385,7 @@ var Home = function (_React$Component) {
           _react2.default.createElement(
             "div",
             { className: _Home2.default.text },
-            "Hello! You've arrived at the personal website of Matt Farejowicz. I'm a rising MIT sophomore, majoring in Course 18C - Mathematics with Computer Science. This website will serve as a hub for information relevant to me and what I'm up to. I'll be doing my best to keep it updated with the most current information. Regardless, thanks for visiting, and feel free to take a look around.",
+            "Hello! You've arrived at the personal website of Matt Farejowicz. I'm an MIT sophomore, majoring in Course 18C - Mathematics with Computer Science. This website will serve as a hub for information relevant to me and what I'm up to. I'll be doing my best to keep it updated with the most current information. Regardless, thanks for visiting, and feel free to take a look around.",
             _react2.default.createElement(
               "ul",
               { className: _Home2.default.list },
@@ -11882,25 +11882,45 @@ var List = function (_React$Component) {
                 null,
                 _react2.default.createElement(
                   "a",
-                  { href: "https://haunt.mit.edu" },
-                  "Next Haunt"
+                  { href: "https://next.mit.edu/nextgamers" },
+                  "Next Gamers"
                 ),
-                " Producer"
+                " Video Game Treasurer"
               ),
               _react2.default.createElement(
                 "li",
                 null,
-                "Next Gamers Treasurer"
+                "MIT ",
+                _react2.default.createElement(
+                  "a",
+                  { href: "https://esp.mit.edu" },
+                  "Educational Studies Program"
+                ),
+                " Admin"
               ),
               _react2.default.createElement(
                 "li",
                 null,
                 "Next House Intramural Ice Hockey Team Member"
-              ),
+              )
+            ),
+            _react2.default.createElement(
+              "h4",
+              { className: _List2.default.winter },
+              "IAP 2018"
+            ),
+            _react2.default.createElement(
+              "ul",
+              { className: _List2.default.classList },
               _react2.default.createElement(
                 "li",
                 null,
-                "MIT Educational Studies Program Admin"
+                "Taught high schoolers in Guadalajara, Mexico through ",
+                _react2.default.createElement(
+                  "a",
+                  { href: "http://misti.mit.edu/global-teaching-labs" },
+                  "MIT MISTI GTL"
+                )
               )
             ),
             _react2.default.createElement(
@@ -12070,6 +12090,16 @@ var List = function (_React$Component) {
                 "li",
                 null,
                 "Next Haunt Build Crew and Run Crew"
+              ),
+              _react2.default.createElement(
+                "li",
+                null,
+                _react2.default.createElement(
+                  "a",
+                  { href: "https://haunt.mit.edu" },
+                  "Next Haunt"
+                ),
+                " Producer"
               )
             )
           )
@@ -12307,6 +12337,26 @@ var MyLine = function (_React$Component) {
           null,
           _react2.default.createElement(
             _reactEventTimeline.TimelineEvent,
+            { title: "MISTI GTL Mexico", createdAt: "January 2018", iconColor: "#f17e33", icon: _react2.default.createElement("img", { src: "./static/img/teach.png", width: "52%" }) },
+            "Resided in Guadalajara, Mexico for one month and taught students at ",
+            _react2.default.createElement(
+              "a",
+              { href: "http://prepa.uag.mx/" },
+              "UAG Prepa"
+            ),
+            ".",
+            _react2.default.createElement("br", null),
+            "Prepared lesson plans and motivational materials for various high school classes."
+          ),
+          _react2.default.createElement(
+            _reactEventTimeline.TimelineEvent,
+            { title: "Calculus 18.02 Grader", createdAt: "October 2017 - December 2017", iconColor: "#f17e33", icon: _react2.default.createElement("img", { src: "./static/img/grade.png", width: "52%" }) },
+            "Graded weekly problem sets for MIT's 18.02 Calculus II course.",
+            _react2.default.createElement("br", null),
+            "Noted trends in student performance and gave feedback to a supervising graduate TA."
+          ),
+          _react2.default.createElement(
+            _reactEventTimeline.TimelineEvent,
             { title: "Research with Collective Learning", createdAt: "June 2017 - August 2017", iconColor: "#f17e33", icon: _react2.default.createElement("img", { src: "./static/img/data.png", width: "50%" }) },
             "Assisted in Research with the Collective Learning Group at the MIT Media Lab through via MIT UROP.",
             _react2.default.createElement("br", null),
@@ -12520,6 +12570,75 @@ var Projects = function (_React$Component) {
                   "p",
                   { className: _Projects2.default.caption },
                   " Another example website for Replot, made using data I collected concerning DotA 2, a popular E-Sport. "
+                )
+              )
+            )
+          ),
+          _react2.default.createElement(
+            "div",
+            { className: _Projects2.default.project },
+            _react2.default.createElement(
+              "a",
+              { href: "https://next2e.github.io/", className: _Projects2.default.link },
+              _react2.default.createElement("img", { className: _Projects2.default.picture, src: "./static/img/2e.png", alt: "Next 2E" }),
+              _react2.default.createElement(
+                "div",
+                { className: _Projects2.default.projectInfo },
+                _react2.default.createElement(
+                  "h3",
+                  { className: _Projects2.default.title },
+                  "Next 2E Website"
+                ),
+                _react2.default.createElement(
+                  "p",
+                  { className: _Projects2.default.caption },
+                  "Primary contributor to the website for my wing within Next House, 2E."
+                )
+              )
+            )
+          ),
+          _react2.default.createElement(
+            "div",
+            { className: _Projects2.default.project },
+            _react2.default.createElement(
+              "a",
+              { href: "https://music.2east.us", className: _Projects2.default.link },
+              _react2.default.createElement("img", { className: _Projects2.default.picture, src: "./static/img/muse.png", alt: "2GroovE" }),
+              _react2.default.createElement(
+                "div",
+                { className: _Projects2.default.projectInfo },
+                _react2.default.createElement(
+                  "h3",
+                  { className: _Projects2.default.title },
+                  "2E GroovE"
+                ),
+                _react2.default.createElement(
+                  "p",
+                  { className: _Projects2.default.caption },
+                  "Co-built a web app which queues and plays music into the 2E Main Lounge."
+                )
+              )
+            )
+          ),
+          _react2.default.createElement(
+            "div",
+            { className: _Projects2.default.project },
+            _react2.default.createElement(
+              "a",
+              { href: "https://next.mit.edu/nextgamers", className: _Projects2.default.link },
+              _react2.default.createElement("img", { className: _Projects2.default.picture, src: "./static/img/game.png", alt: "Next Gamers" }),
+              _react2.default.createElement(
+                "div",
+                { className: _Projects2.default.projectInfo },
+                _react2.default.createElement(
+                  "h3",
+                  { className: _Projects2.default.title },
+                  "Next Gamers Website"
+                ),
+                _react2.default.createElement(
+                  "p",
+                  { className: _Projects2.default.caption },
+                  "Designed and built a website for a student group within my dorm, Next Gamers."
                 )
               )
             )

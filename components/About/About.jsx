@@ -24,9 +24,9 @@ class About extends React.Component{
             the potential of math and computer science, and the incredible amount of student diversity has drastically increased my perspective on life. I've met so many new people,
             tried countless new foods, procrastinated on too many homework assignments, joined student government as my dorm VP, took up teaching through ESP, attempted sports for the first time with
             intramural ice hockey, and it's all been an unbelievably eye-opening experience.</p>
-            <p>Right now I'm grooving through my sophomore year, taking classes more related to my major, which I much prefer over the gen-eds I took last year that are required for every MIT undergrad.
-            In my spare time, I'm attempting to produce a self-contained two-story haunted-house escape-the-room for this upcoming
-            October, as part of a student group in my dorm called <i>Next Haunt</i>. In classic me fashion, I find myself probably overcommitted, balancing social shenanigans with professional endeavors.
+          <p>Right now I'm halfway through my sophomore year, taking classes more related to my major, which I much prefer over the gen-eds I took last year that are required for every MIT undergrad.
+            Last semester, notable events included producing a self-contained two-story haunted-house escape-the-room as part of a student group in my dorm called <i>Next Haunt</i> and purchasing new tools and kitchen equipment for my dorm as VP of Facilities.
+            In classic me fashion, I find myself probably overcommitted, balancing social shenanigans with professional endeavors.
             And I wouldn't want it any other way.</p>
             <p>So that's my story up to this point. How about <i>yours</i>?</p>
           </div>

@@ -42,10 +42,13 @@ class List extends React.Component {
               <h4 className={styles.extra}>Ongoing Extracurriculars</h4>
               <ul className={styles.classList}>
                 <li><a href="https://next.mit.edu">Next House</a> VP of Facilities</li>
-                <li><a href="https://haunt.mit.edu">Next Haunt</a> Producer</li>
-                <li>Next Gamers Treasurer</li>
+                <li><a href="https://next.mit.edu/nextgamers">Next Gamers</a> Video Game Treasurer</li>
+                <li>MIT <a href="https://esp.mit.edu">Educational Studies Program</a> Admin</li>
                 <li>Next House Intramural Ice Hockey Team Member</li>
-                <li>MIT Educational Studies Program Admin</li>
+              </ul>
+              <h4 className={styles.winter}>IAP 2018</h4>
+              <ul className={styles.classList}>
+                <li>Taught high schoolers in Guadalajara, Mexico through <a href="http://misti.mit.edu/global-teaching-labs">MIT MISTI GTL</a></li>
               </ul>
               <h4 className={styles.fall}>Fall 2017</h4>
               <ul className={styles.classList}>
@@ -87,6 +90,7 @@ class List extends React.Component {
               <ul className={styles.classList}>
                 <li>Next House 2W Wing Rep</li>
                 <li>Next Haunt Build Crew and Run Crew</li>
+                <li><a href="https://haunt.mit.edu">Next Haunt</a> Producer</li>
               </ul>
             </div>
           }

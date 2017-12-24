@@ -57,6 +57,33 @@ class Projects extends React.Component {
               </div>
             </a>
           </div>
+          <div className={styles.project}>
+            <a href="https://next2e.github.io/" className={styles.link}>
+              <img className={styles.picture} src="./static/img/2e.png" alt="Next 2E"></img>
+              <div className={styles.projectInfo}>
+                <h3 className={styles.title}>Next 2E Website</h3>
+                <p className={styles.caption}>Primary contributor to the website for my wing within Next House, 2E.</p>
+              </div>
+            </a>
+          </div>
+          <div className={styles.project}>
+            <a href="https://music.2east.us" className={styles.link}>
+              <img className={styles.picture} src="./static/img/muse.png" alt="2GroovE"></img>
+              <div className={styles.projectInfo}>
+                <h3 className={styles.title}>2E GroovE</h3>
+                <p className={styles.caption}>Co-built a web app which queues and plays music into the 2E Main Lounge.</p>
+              </div>
+            </a>
+          </div>
+          <div className={styles.project}>
+            <a href="https://next.mit.edu/nextgamers" className={styles.link}>
+              <img className={styles.picture} src="./static/img/game.png" alt="Next Gamers"></img>
+              <div className={styles.projectInfo}>
+                <h3 className={styles.title}>Next Gamers Website</h3>
+                <p className={styles.caption}>Designed and built a website for a student group within my dorm, Next Gamers.</p>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     )

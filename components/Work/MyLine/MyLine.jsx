@@ -11,6 +11,16 @@ class MyLine extends React.Component {
         <b>Timeline</b>
         <hr/>
         <Timeline>
+          <TimelineEvent title="MISTI GTL Mexico" createdAt="January 2018" iconColor="#f17e33" icon={<img src="./static/img/teach.png" width="52%"></img>}>
+            Resided in Guadalajara, Mexico for one month and taught students at <a href="http://prepa.uag.mx/">UAG Prepa</a>.
+            <br />
+            Prepared lesson plans and motivational materials for various high school classes.
+          </TimelineEvent>
+          <TimelineEvent title="Calculus 18.02 Grader" createdAt="October 2017 - December 2017" iconColor="#f17e33" icon={<img src="./static/img/grade.png" width="52%"></img>}>
+            Graded weekly problem sets for MIT's 18.02 Calculus II course.
+            <br />
+            Noted trends in student performance and gave feedback to a supervising graduate TA.
+          </TimelineEvent>
           <TimelineEvent title="Research with Collective Learning" createdAt="June 2017 - August 2017" iconColor="#f17e33" icon={<img src="./static/img/data.png" width="50%"></img>}>
             Assisted in Research with the Collective Learning Group at the MIT Media Lab through via MIT UROP.
             <br />
