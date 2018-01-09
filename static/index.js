@@ -12602,7 +12602,7 @@ var Projects = function (_React$Component) {
             { className: _Projects2.default.project },
             _react2.default.createElement(
               "a",
-              { href: "https://music.2east.us", className: _Projects2.default.link },
+              { href: "http://music.2east.us", className: _Projects2.default.link },
               _react2.default.createElement("img", { className: _Projects2.default.picture, src: "./static/img/muse.png", alt: "2GroovE" }),
               _react2.default.createElement(
                 "div",
