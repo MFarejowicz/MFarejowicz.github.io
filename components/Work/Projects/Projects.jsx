@@ -67,7 +67,7 @@ class Projects extends React.Component {
             </a>
           </div>
           <div className={styles.project}>
-            <a href="https://music.2east.us" className={styles.link}>
+            <a href="http://music.2east.us" className={styles.link}>
               <img className={styles.picture} src="./static/img/muse.png" alt="2GroovE"></img>
               <div className={styles.projectInfo}>
                 <h3 className={styles.title}>2E GroovE</h3>
