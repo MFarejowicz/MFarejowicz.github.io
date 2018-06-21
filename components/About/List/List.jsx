@@ -26,7 +26,11 @@ class List extends React.Component {
             <h4 className={styles.heading}>Class and Activity List</h4>
           </div>
           <div className={styles.expand}>
-            {this.state.active ? "\u2b9d" : "\u2b9f" }
+            {this.state.active ?
+              <img src="./static/img/close.png" title="Close" className={styles.icon} alt="Close"></img>
+               :
+               <img src="./static/img/open.png" title="Open" className={styles.icon} alt="Open"></img>
+             }
           </div>
         </div>
         <hr/>
@@ -39,12 +43,26 @@ class List extends React.Component {
           }
           {this.state.active &&
             <div>
-              <h4 className={styles.extra}>Ongoing Extracurriculars</h4>
+              <h2 className={styles.sectionTitle}>Classes</h2>
+              <h4 className={styles.fall}>Fall 2018</h4>
               <ul className={styles.classList}>
-                <li><a href="https://next.mit.edu">Next House</a> VP of Facilities</li>
-                <li><a href="https://next.mit.edu/nextgamers">Next Gamers</a> Video Game Treasurer</li>
-                <li>MIT <a href="https://esp.mit.edu">Educational Studies Program</a> Admin</li>
-                <li>Next House Intramural Ice Hockey Team Member</li>
+                <li>18.404: Theory of Computation</li>
+                <li>18.410: Design and Analysis of Algorithms</li>
+                <li>18.600: Probability and Random Variables</li>
+                <li>21M.600: Introduction to Acting</li>
+              </ul>
+              <h4 className={styles.summer}>Summer 2018</h4>
+              <ul className={styles.classList}>
+                <li>UROP with <a href="https://anthropology.mit.edu/people/faculty/ian-condry">Prof. Ian Condry</a> working on app development</li>
+                <li>MIT East Campus Summer RA (round 2!)</li>
+              </ul>
+              <h4 className={styles.spring}>Spring 2018</h4>
+              <ul className={styles.classList}>
+                <li>18.100A: Real Analysis</li>
+                <li>6.006: Introduction to Algorithms</li>
+                <li>6.009: Fundamentals of Programming</li>
+                <li>CMS.609: The Word Made Digital</li>
+                <li>21A.157: The Meaning of Life</li>
               </ul>
               <h4 className={styles.winter}>IAP 2018</h4>
               <ul className={styles.classList}>
@@ -86,11 +104,19 @@ class List extends React.Component {
                 <li>8.01: Physics I - Mechanics</li>
                 <li>8.02: Calculus I - Single Variable</li>
               </ul>
-              <h4 className={styles.extra}>Prior Extracurriculars</h4>
+              <h2 className={styles.sectionTitle}>Activities</h2>
+              <h4 className={styles.activeExtra}>Ongoing Extracurriculars</h4>
+              <ul className={styles.classList}>
+                <li><a href="https://next.mit.edu">Next House</a> VP of Facilities</li>
+                <li><a href="https://next.mit.edu/nextgamers">Next Gamers</a> Video Game Treasurer</li>
+                <li>MIT <a href="https://esp.mit.edu">Educational Studies Program</a> Admin</li>
+              </ul>
+              <h4 className={styles.oldExtra}>Prior Extracurriculars</h4>
               <ul className={styles.classList}>
                 <li>Next House 2W Wing Rep</li>
                 <li>Next Haunt Build Crew and Run Crew</li>
                 <li><a href="https://haunt.mit.edu">Next Haunt</a> Producer</li>
+                <li>Next House Intramural Ice Hockey Team Member</li>
               </ul>
             </div>
           }

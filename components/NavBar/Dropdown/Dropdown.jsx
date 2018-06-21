@@ -48,7 +48,7 @@ class Dropdown extends React.Component {
     for (var i = 0; i < this.props.list.length; i++) {
       var item = this.props.list[i];
       items.push(
-        <div key={item} onClick={this.select.bind(this,item)} style={this.state.listVisible ? {fontSize: "26px", background:"#ffffff", zIndex: "10", border: "1px solid #000000", width: "100px", padding: "11px 0px 10px", textAlign:"center",cursor:"pointer", position: "absolute",top:`${(i+1)*54}px`} : style.hidden}>
+        <div key={item} onClick={this.select.bind(this,item)} style={this.state.listVisible ? {fontSize: "26px", background:"#ffffff", zIndex: "10", border: "1px solid #000000", width: "100px", padding: "11px 0px 10px", textAlign:"center",cursor:"pointer", position: "absolute",top:`${(i+1)*53}px`} : style.hidden}>
           <span>{item}</span>
         </div>
       )

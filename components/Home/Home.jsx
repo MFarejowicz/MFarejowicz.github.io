@@ -27,7 +27,7 @@ class Home extends React.Component{
           <hr/>
           <div className={styles.text}>
             Hello! You've arrived at the personal website of Matt
-            Farejowicz. I'm an MIT sophomore, majoring in Course 18C -
+            Farejowicz. I'm an MIT junior, majoring in Course 18C -
             Mathematics with Computer Science. This website will serve
             as a hub for information relevant to me and what I'm up to. I'll
             be doing my best to keep it updated with the most current information.

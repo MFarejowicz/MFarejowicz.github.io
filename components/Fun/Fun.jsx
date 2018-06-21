@@ -33,6 +33,7 @@ class Fun extends React.Component{
             <hr className={styles.split}/>
             <p className={styles.caption}>Favorite programming languages:</p>
             <ul className={styles.favList}>
+              <li>Python</li>
               <li>Javascript
                 <ul className={styles.inFavList}>
                   <li>React</li>
@@ -40,7 +41,6 @@ class Fun extends React.Component{
                 </ul>
               </li>
               <li>Java</li>
-              <li>Python</li>
             </ul>
             <hr className={styles.split}/>
             <p className={styles.caption}>Favorite movies:</p>
@@ -66,7 +66,7 @@ class Fun extends React.Component{
           <b>Games</b>
           <hr/>
           <div className={styles.text}>
-            Coming soon (iffy on this one).
+            Coming soon (possibly).
           </div>
         </div>
       </div>

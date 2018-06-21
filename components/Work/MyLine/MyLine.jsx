@@ -11,6 +11,16 @@ class MyLine extends React.Component {
         <b>Timeline</b>
         <hr/>
         <Timeline>
+          <TimelineEvent title="Research with Prof. Ian Condry" createdAt="June 2018 - August 2018" iconColor="#f17e33" icon={<img src="./static/img/app.png" width="52%"></img>}>
+            Researched under CSM Professor Ian Condry, focusing on data scraping, cleaning, and production methods.
+            <br/>
+            Worked with a team to develop the app UndrGround, used to provide information about live music listings in a local area.
+          </TimelineEvent>
+          <TimelineEvent title="Linear Algebra 18.06 Grader" createdAt="February 2018 - May 2018" iconColor="#f17e33" icon={<img src="./static/img/grade.png" width="52%"></img>}>
+            Graded weekly problem sets, using online software, for MIT's 18.06 Linear Algebra course.
+            <br />
+            Recorded scores, trends, and made comments about performance to a supervising graduate TA.
+          </TimelineEvent>
           <TimelineEvent title="MISTI GTL Mexico" createdAt="January 2018" iconColor="#f17e33" icon={<img src="./static/img/teach.png" width="52%"></img>}>
             Resided in Guadalajara, Mexico for one month and taught students at <a href="http://prepa.uag.mx/">UAG Prepa</a>.
             <br />

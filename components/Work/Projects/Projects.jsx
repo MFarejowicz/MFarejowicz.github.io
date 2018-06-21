@@ -31,7 +31,7 @@ class Projects extends React.Component {
             </a>
           </div>
           <div className={styles.project}>
-            <a href="#" className={styles.link}>
+            <a href="http://replot.io/" className={styles.link}>
               <img className={styles.picture} src="./static/img/replot.png" alt="Replot"></img>
               <div className={styles.projectInfo}>
                 <h3 className={styles.title}>Replot</h3>

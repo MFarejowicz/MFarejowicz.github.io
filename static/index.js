@@ -10939,7 +10939,7 @@ var About = function (_React$Component) {
             _react2.default.createElement(
               "p",
               null,
-              "Hey there! My name is Matthew Farejowicz, but you can call me Matt, MattF, Faree, or Joon. I'm an MIT Sophomore who likes, math, computer science, video games, volunteering, anime, taking walks, and talking to people. "
+              "Hey there! My name is Matthew Farejowicz, but you can call me Matt, MattF, Faree, or Joon. I'm an MIT junior who likes, math, computer science, video games, volunteering, anime, taking walks, and talking to people. "
             ),
             _react2.default.createElement(
               "p",
@@ -10960,13 +10960,7 @@ var About = function (_React$Component) {
             _react2.default.createElement(
               "p",
               null,
-              "Right now I'm halfway through my sophomore year, taking classes more related to my major, which I much prefer over the gen-eds I took last year that are required for every MIT undergrad. Last semester, notable events included producing a self-contained two-story haunted-house escape-the-room as part of a student group in my dorm called ",
-              _react2.default.createElement(
-                "i",
-                null,
-                "Next Haunt"
-              ),
-              " and purchasing new tools and kitchen equipment for my dorm as VP of Facilities. In classic me fashion, I find myself probably overcommitted, balancing social shenanigans with professional endeavors. And I wouldn't want it any other way."
+              "Right now I'm starting my junior year, and have some relatively tough classes planned that I'm eager to struggle through as I cover more theoretical topics. I continue to be the VP of my dorm, tackling any Facilities-related challenges that other residents or I encounter. Additionally, I hope to devote more time to personal projects like app development or language-learning. In classic me fashion, I find myself probably overcommitted, balancing social shenanigans with professional endeavors. And I wouldn't want it any other way."
             ),
             _react2.default.createElement(
               "p",
@@ -11185,6 +11179,11 @@ var Fun = function (_React$Component) {
               _react2.default.createElement(
                 "li",
                 null,
+                "Python"
+              ),
+              _react2.default.createElement(
+                "li",
+                null,
                 "Javascript",
                 _react2.default.createElement(
                   "ul",
@@ -11205,11 +11204,6 @@ var Fun = function (_React$Component) {
                 "li",
                 null,
                 "Java"
-              ),
-              _react2.default.createElement(
-                "li",
-                null,
-                "Python"
               )
             ),
             _react2.default.createElement("hr", { className: _Fun2.default.split }),
@@ -11286,7 +11280,7 @@ var Fun = function (_React$Component) {
           _react2.default.createElement(
             "div",
             { className: _Fun2.default.text },
-            "Coming soon (iffy on this one)."
+            "Coming soon (possibly)."
           )
         )
       );
@@ -11385,7 +11379,7 @@ var Home = function (_React$Component) {
           _react2.default.createElement(
             "div",
             { className: _Home2.default.text },
-            "Hello! You've arrived at the personal website of Matt Farejowicz. I'm an MIT sophomore, majoring in Course 18C - Mathematics with Computer Science. This website will serve as a hub for information relevant to me and what I'm up to. I'll be doing my best to keep it updated with the most current information. Regardless, thanks for visiting, and feel free to take a look around.",
+            "Hello! You've arrived at the personal website of Matt Farejowicz. I'm an MIT junior, majoring in Course 18C - Mathematics with Computer Science. This website will serve as a hub for information relevant to me and what I'm up to. I'll be doing my best to keep it updated with the most current information. Regardless, thanks for visiting, and feel free to take a look around.",
             _react2.default.createElement(
               "ul",
               { className: _Home2.default.list },
@@ -11844,7 +11838,7 @@ var List = function (_React$Component) {
           _react2.default.createElement(
             "div",
             { className: _List2.default.expand },
-            this.state.active ? "\u2B9D" : "\u2B9F"
+            this.state.active ? _react2.default.createElement("img", { src: "./static/img/close.png", title: "Close", className: _List2.default.icon, alt: "Close" }) : _react2.default.createElement("img", { src: "./static/img/open.png", title: "Open", className: _List2.default.icon, alt: "Open" })
           )
         ),
         _react2.default.createElement("hr", null),
@@ -11860,9 +11854,14 @@ var List = function (_React$Component) {
             "div",
             null,
             _react2.default.createElement(
+              "h2",
+              { className: _List2.default.sectionTitle },
+              "Classes"
+            ),
+            _react2.default.createElement(
               "h4",
-              { className: _List2.default.extra },
-              "Ongoing Extracurriculars"
+              { className: _List2.default.fall },
+              "Fall 2018"
             ),
             _react2.default.createElement(
               "ul",
@@ -11870,38 +11869,81 @@ var List = function (_React$Component) {
               _react2.default.createElement(
                 "li",
                 null,
-                _react2.default.createElement(
-                  "a",
-                  { href: "https://next.mit.edu" },
-                  "Next House"
-                ),
-                " VP of Facilities"
+                "18.404: Theory of Computation"
               ),
               _react2.default.createElement(
                 "li",
                 null,
-                _react2.default.createElement(
-                  "a",
-                  { href: "https://next.mit.edu/nextgamers" },
-                  "Next Gamers"
-                ),
-                " Video Game Treasurer"
+                "18.410: Design and Analysis of Algorithms"
               ),
               _react2.default.createElement(
                 "li",
                 null,
-                "MIT ",
-                _react2.default.createElement(
-                  "a",
-                  { href: "https://esp.mit.edu" },
-                  "Educational Studies Program"
-                ),
-                " Admin"
+                "18.600: Probability and Random Variables"
               ),
               _react2.default.createElement(
                 "li",
                 null,
-                "Next House Intramural Ice Hockey Team Member"
+                "21M.600: Introduction to Acting"
+              )
+            ),
+            _react2.default.createElement(
+              "h4",
+              { className: _List2.default.summer },
+              "Summer 2018"
+            ),
+            _react2.default.createElement(
+              "ul",
+              { className: _List2.default.classList },
+              _react2.default.createElement(
+                "li",
+                null,
+                "UROP with ",
+                _react2.default.createElement(
+                  "a",
+                  { href: "https://anthropology.mit.edu/people/faculty/ian-condry" },
+                  "Prof. Ian Condry"
+                ),
+                " working on app development"
+              ),
+              _react2.default.createElement(
+                "li",
+                null,
+                "MIT East Campus Summer RA (round 2!)"
+              )
+            ),
+            _react2.default.createElement(
+              "h4",
+              { className: _List2.default.spring },
+              "Spring 2018"
+            ),
+            _react2.default.createElement(
+              "ul",
+              { className: _List2.default.classList },
+              _react2.default.createElement(
+                "li",
+                null,
+                "18.100A: Real Analysis"
+              ),
+              _react2.default.createElement(
+                "li",
+                null,
+                "6.006: Introduction to Algorithms"
+              ),
+              _react2.default.createElement(
+                "li",
+                null,
+                "6.009: Fundamentals of Programming"
+              ),
+              _react2.default.createElement(
+                "li",
+                null,
+                "CMS.609: The Word Made Digital"
+              ),
+              _react2.default.createElement(
+                "li",
+                null,
+                "21A.157: The Meaning of Life"
               )
             ),
             _react2.default.createElement(
@@ -12074,8 +12116,53 @@ var List = function (_React$Component) {
               )
             ),
             _react2.default.createElement(
+              "h2",
+              { className: _List2.default.sectionTitle },
+              "Activities"
+            ),
+            _react2.default.createElement(
               "h4",
-              { className: _List2.default.extra },
+              { className: _List2.default.activeExtra },
+              "Ongoing Extracurriculars"
+            ),
+            _react2.default.createElement(
+              "ul",
+              { className: _List2.default.classList },
+              _react2.default.createElement(
+                "li",
+                null,
+                _react2.default.createElement(
+                  "a",
+                  { href: "https://next.mit.edu" },
+                  "Next House"
+                ),
+                " VP of Facilities"
+              ),
+              _react2.default.createElement(
+                "li",
+                null,
+                _react2.default.createElement(
+                  "a",
+                  { href: "https://next.mit.edu/nextgamers" },
+                  "Next Gamers"
+                ),
+                " Video Game Treasurer"
+              ),
+              _react2.default.createElement(
+                "li",
+                null,
+                "MIT ",
+                _react2.default.createElement(
+                  "a",
+                  { href: "https://esp.mit.edu" },
+                  "Educational Studies Program"
+                ),
+                " Admin"
+              )
+            ),
+            _react2.default.createElement(
+              "h4",
+              { className: _List2.default.oldExtra },
               "Prior Extracurriculars"
             ),
             _react2.default.createElement(
@@ -12100,6 +12187,11 @@ var List = function (_React$Component) {
                   "Next Haunt"
                 ),
                 " Producer"
+              ),
+              _react2.default.createElement(
+                "li",
+                null,
+                "Next House Intramural Ice Hockey Team Member"
               )
             )
           )
@@ -12207,7 +12299,7 @@ var Dropdown = function (_React$Component) {
         var item = this.props.list[i];
         items.push(_react2.default.createElement(
           "div",
-          { key: item, onClick: this.select.bind(this, item), style: this.state.listVisible ? { fontSize: "26px", background: "#ffffff", zIndex: "10", border: "1px solid #000000", width: "100px", padding: "11px 0px 10px", textAlign: "center", cursor: "pointer", position: "absolute", top: (i + 1) * 54 + "px" } : style.hidden },
+          { key: item, onClick: this.select.bind(this, item), style: this.state.listVisible ? { fontSize: "26px", background: "#ffffff", zIndex: "10", border: "1px solid #000000", width: "100px", padding: "11px 0px 10px", textAlign: "center", cursor: "pointer", position: "absolute", top: (i + 1) * 53 + "px" } : style.hidden },
           _react2.default.createElement(
             "span",
             null,
@@ -12335,6 +12427,20 @@ var MyLine = function (_React$Component) {
         _react2.default.createElement(
           _reactEventTimeline.Timeline,
           null,
+          _react2.default.createElement(
+            _reactEventTimeline.TimelineEvent,
+            { title: "Research with Prof. Ian Condry", createdAt: "June 2018 - August 2018", iconColor: "#f17e33", icon: _react2.default.createElement("img", { src: "./static/img/app.png", width: "52%" }) },
+            "Researched under CSM Professor Ian Condry, focusing on data scraping, cleaning, and production methods.",
+            _react2.default.createElement("br", null),
+            "Worked with a team to develop the app UndrGround, used to provide information about live music listings in a local area."
+          ),
+          _react2.default.createElement(
+            _reactEventTimeline.TimelineEvent,
+            { title: "Linear Algebra 18.06 Grader", createdAt: "February 2018 - May 2018", iconColor: "#f17e33", icon: _react2.default.createElement("img", { src: "./static/img/grade.png", width: "52%" }) },
+            "Graded weekly problem sets, using online software, for MIT's 18.06 Linear Algebra course.",
+            _react2.default.createElement("br", null),
+            "Recorded scores, trends, and made comments about performance to a supervising graduate TA."
+          ),
           _react2.default.createElement(
             _reactEventTimeline.TimelineEvent,
             { title: "MISTI GTL Mexico", createdAt: "January 2018", iconColor: "#f17e33", icon: _react2.default.createElement("img", { src: "./static/img/teach.png", width: "52%" }) },
@@ -12510,7 +12616,7 @@ var Projects = function (_React$Component) {
             { className: _Projects2.default.project },
             _react2.default.createElement(
               "a",
-              { href: "#", className: _Projects2.default.link },
+              { href: "http://replot.io/", className: _Projects2.default.link },
               _react2.default.createElement("img", { className: _Projects2.default.picture, src: "./static/img/replot.png", alt: "Replot" }),
               _react2.default.createElement(
                 "div",
@@ -13769,19 +13875,19 @@ exports = module.exports = __webpack_require__(11)(undefined);
 
 
 // module
-exports.push([module.i, ".About__container___3VDN6 {\n  -webkit-animation-name: About__fadein___jro7F;\n  -webkit-animation-duration: .5s;\n  -webkit-animation-timing-function: linear;\n  -webkit-animation-fill-mode: backwards;\n  animation-name: About__fadein___jro7F;\n  animation-duration: .5s;\n  animation-fill-mode: backwards;\n  animation-timing-function: linear;\n}\n\n@-webkit-keyframes About__fadein___jro7F {\n  0% {\n    opacity: 0;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n\n@keyframes About__fadein___jro7F {\n  0% {\n    opacity: 0;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n\n.About__section___2esxW {\n  font-size: 18px;\n  margin: 20px auto;\n  border: 2px solid #000000;\n  width: 60%;\n  min-width: 100px;\n  padding: 10px 40px;\n}\n\n.About__caption___3H4jc {\n  margin: 0 0 3px 0;\n}\n\n.About__linkList___2aWK0 {\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n}\n\n.About__link___xkDQW:hover {\n  color: #f17e33;\n}\n\n.About__text___35ymG {\n  line-height: 150%;\n}\n\n.About__icon___2hXmT {\n  width: 22px;\n  margin-right: 5px;\n}\n\n.About__pic___2Y8Gx {\n  width: 220px;\n  float: right;\n}\n\n@media all and (max-width: 800px) {\n  .About__section___2esxW {\n    font-size: 14px;\n  }\n  .About__pic___2Y8Gx {\n    margin-right: -35px;\n    width: 140px;\n  }\n}\n\n@media all and (max-width: 400px) {\n  .About__section___2esxW {\n    font-size: 12px;\n  }\n  .About__pic___2Y8Gx {\n    margin-right: -30px;\n    width: 100px;\n  }\n}\n", ""]);
+exports.push([module.i, ".About__container___2Homk {\n  -webkit-animation-name: About__fadein___3haqb;\n  -webkit-animation-duration: .5s;\n  -webkit-animation-timing-function: linear;\n  -webkit-animation-fill-mode: backwards;\n  animation-name: About__fadein___3haqb;\n  animation-duration: .5s;\n  animation-fill-mode: backwards;\n  animation-timing-function: linear;\n}\n\n@-webkit-keyframes About__fadein___3haqb {\n  0% {\n    opacity: 0;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n\n@keyframes About__fadein___3haqb {\n  0% {\n    opacity: 0;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n\n.About__section___2eFO0 {\n  font-size: 18px;\n  margin: 20px auto;\n  border: 2px solid #000000;\n  width: 60%;\n  min-width: 100px;\n  padding: 10px 40px;\n}\n\n.About__caption___2tnqZ {\n  margin: 0 0 3px 0;\n}\n\n.About__linkList___3n8d9 {\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n}\n\n.About__link___3pZVS:hover {\n  color: #f17e33;\n}\n\n.About__text___F1N20 {\n  line-height: 150%;\n}\n\n.About__icon___3GHce {\n  width: 22px;\n  margin-right: 5px;\n}\n\n.About__pic___3xBoi {\n  width: 220px;\n  float: right;\n}\n\n@media all and (max-width: 800px) {\n  .About__section___2eFO0 {\n    font-size: 14px;\n  }\n  .About__pic___3xBoi {\n    margin-right: -35px;\n    width: 140px;\n  }\n}\n\n@media all and (max-width: 400px) {\n  .About__section___2eFO0 {\n    font-size: 12px;\n  }\n  .About__pic___3xBoi {\n    margin-right: -30px;\n    width: 100px;\n  }\n}\n", ""]);
 
 // exports
 exports.locals = {
-	"container": "About__container___3VDN6",
-	"fadein": "About__fadein___jro7F",
-	"section": "About__section___2esxW",
-	"caption": "About__caption___3H4jc",
-	"linkList": "About__linkList___2aWK0",
-	"link": "About__link___xkDQW",
-	"text": "About__text___35ymG",
-	"icon": "About__icon___2hXmT",
-	"pic": "About__pic___2Y8Gx"
+	"container": "About__container___2Homk",
+	"fadein": "About__fadein___3haqb",
+	"section": "About__section___2eFO0",
+	"caption": "About__caption___2tnqZ",
+	"linkList": "About__linkList___3n8d9",
+	"link": "About__link___3pZVS",
+	"text": "About__text___F1N20",
+	"icon": "About__icon___3GHce",
+	"pic": "About__pic___3xBoi"
 };
 
 /***/ }),
@@ -13793,23 +13899,26 @@ exports = module.exports = __webpack_require__(11)(undefined);
 
 
 // module
-exports.push([module.i, ".List__outer___3T9P5 {\n  margin: 20px auto;\n  padding: 10px 40px;\n  width: 60%;\n  min-width: 100px;\n  border: 2px solid #000000;\n}\n\n.List__heading___29qU_ {\n  font-size: 26px;\n}\n\n.List__topBar___nu9iT {\n  cursor: pointer;\n  display: flex;\n  justify-content: space-between;\n}\n\n.List__expand___2l7IH {\n  font-size: 26px;\n}\n\n.List__content___3IeTF {\n  font-size: 18px;\n  color: #000000;\n}\n\n.List__clickable___gC-bX {\n  cursor: pointer;\n}\n\n.List__classList___3HTTB {\n  margin: 0 0 8px 0;\n  line-height: 145%\n}\n\n.List__fall___gPCQM {\n  font-size: 20px;\n  color: #cf5230;\n}\n\n.List__winter___3yOKg {\n  font-size: 20px;\n  color: #a0ccff;\n}\n\n.List__spring___1F0LU {\n  font-size: 20px;\n  color: #4aa02c;\n}\n\n.List__summer___3nfaq {\n  font-size: 20px;\n  color: #236e96;\n}\n\n.List__extra___ea-YZ {\n  font-size: 20px;\n  color: #a31f34;\n}\n\n.List__normal___3Yl-7 {\n  font-size: 20px;\n}\n\n@media all and (max-width: 800px) {\n  .List__heading___29qU_ {\n    font-size: 20px;\n  }\n  .List__expand___2l7IH {\n    font-size: 20px;\n  }\n  .List__classList___3HTTB {\n    margin: 0 0 8px -20px;\n  }\n  .List__content___3IeTF {\n    font-size: 14px;\n  }\n  .List__fall___gPCQM, .List__winter___3yOKg, .List__spring___1F0LU, .List__summer___3nfaq, .List__extra___ea-YZ, .List__normal___3Yl-7 {\n    font-size: 17px;\n  }\n\n}\n\n@media all and (max-width: 400px) {\n  .List__heading___29qU_ {\n    font-size: 18px;\n  }\n  .List__expand___2l7IH {\n    font-size: 16px;\n  }\n  .List__content___3IeTF {\n    font-size: 12px;\n  }\n  .List__fall___gPCQM, .List__winter___3yOKg, .List__spring___1F0LU, .List__summer___3nfaq, .List__extra___ea-YZ, .List__normal___3Yl-7 {\n    font-size: 15px;\n  }\n}\n", ""]);
+exports.push([module.i, ".List__outer___Nh5qN {\n  margin: 20px auto;\n  padding: 10px 40px;\n  width: 60%;\n  min-width: 100px;\n  border: 2px solid #000000;\n}\n\n.List__heading___3u8Lg {\n  font-size: 26px;\n}\n\n.List__topBar___2C6FM {\n  cursor: pointer;\n  display: flex;\n  justify-content: space-between;\n}\n\n.List__expand___ZIzB7 {\n  font-size: 26px;\n}\n\n.List__icon___Cr4IK {\n  height: 30px;\n}\n\n.List__content___1Ns9q {\n  font-size: 18px;\n  color: #000000;\n}\n\n.List__clickable___nhyBc {\n  cursor: pointer;\n}\n\n.List__sectionTitle___2JIS0 {\n  font-size: 23px;\n  text-decoration: underline;\n  margin-bottom: 5px;\n}\n\n.List__classList___1noRR {\n  margin: 0 0 8px 0;\n  line-height: 145%\n}\n\n.List__fall___1_4On {\n  font-size: 20px;\n  color: #cf5230;\n}\n\n.List__winter___YnQRK {\n  font-size: 20px;\n  color: #a0ccff;\n}\n\n.List__spring___3RYBf {\n  font-size: 20px;\n  color: #4aa02c;\n}\n\n.List__summer___2IU1t {\n  font-size: 20px;\n  color: #236e96;\n}\n\n.List__activeExtra___1WiSx {\n  font-size: 20px;\n  color: #407512;\n}\n\n.List__oldExtra___pYcCZ {\n  font-size: 20px;\n  color: #a31f34;\n}\n\n.List__normal___1vLRR {\n  font-size: 20px;\n}\n\n@media all and (max-width: 800px) {\n  .List__heading___3u8Lg {\n    font-size: 20px;\n  }\n  .List__expand___ZIzB7 {\n    font-size: 20px;\n  }\n  .List__icon___Cr4IK {\n    height: 24px;\n  }\n  .List__sectionTitle___2JIS0 {\n    font-size: 19px;\n  }\n  .List__classList___1noRR {\n    margin: 0 0 8px -20px;\n  }\n  .List__content___1Ns9q {\n    font-size: 14px;\n  }\n  .List__fall___1_4On, .List__winter___YnQRK, .List__spring___3RYBf, .List__summer___2IU1t, .List__activeExtra___1WiSx, .List__oldExtra___pYcCZ, .List__normal___1vLRR {\n    font-size: 17px;\n  }\n\n}\n\n@media all and (max-width: 400px) {\n  .List__heading___3u8Lg {\n    font-size: 18px;\n  }\n  .List__expand___ZIzB7 {\n    font-size: 16px;\n  }\n  .List__icon___Cr4IK {\n    height: 21px;\n  }\n  .List__content___1Ns9q {\n    font-size: 12px;\n  }\n  .List__sectionTitle___2JIS0 {\n    font-size: 16px;\n  }\n  .List__fall___1_4On, .List__winter___YnQRK, .List__spring___3RYBf, .List__summer___2IU1t, .List__activeExtra___1WiSx, .List__oldExtra___pYcCZ, .List__normal___1vLRR {\n    font-size: 15px;\n  }\n}\n", ""]);
 
 // exports
 exports.locals = {
-	"outer": "List__outer___3T9P5",
-	"heading": "List__heading___29qU_",
-	"topBar": "List__topBar___nu9iT",
-	"expand": "List__expand___2l7IH",
-	"content": "List__content___3IeTF",
-	"clickable": "List__clickable___gC-bX",
-	"classList": "List__classList___3HTTB",
-	"fall": "List__fall___gPCQM",
-	"winter": "List__winter___3yOKg",
-	"spring": "List__spring___1F0LU",
-	"summer": "List__summer___3nfaq",
-	"extra": "List__extra___ea-YZ",
-	"normal": "List__normal___3Yl-7"
+	"outer": "List__outer___Nh5qN",
+	"heading": "List__heading___3u8Lg",
+	"topBar": "List__topBar___2C6FM",
+	"expand": "List__expand___ZIzB7",
+	"icon": "List__icon___Cr4IK",
+	"content": "List__content___1Ns9q",
+	"clickable": "List__clickable___nhyBc",
+	"sectionTitle": "List__sectionTitle___2JIS0",
+	"classList": "List__classList___1noRR",
+	"fall": "List__fall___1_4On",
+	"winter": "List__winter___YnQRK",
+	"spring": "List__spring___3RYBf",
+	"summer": "List__summer___2IU1t",
+	"activeExtra": "List__activeExtra___1WiSx",
+	"oldExtra": "List__oldExtra___pYcCZ",
+	"normal": "List__normal___1vLRR"
 };
 
 /***/ }),
@@ -13821,23 +13930,23 @@ exports = module.exports = __webpack_require__(11)(undefined);
 
 
 // module
-exports.push([module.i, ".Fun__container___1hvxP {\n  -webkit-animation-name: Fun__fadein___2BaEo;\n  -webkit-animation-duration: .5s;\n  -webkit-animation-timing-function: linear;\n  -webkit-animation-fill-mode: backwards;\n  animation-name: Fun__fadein___2BaEo;\n  animation-duration: .5s;\n  animation-fill-mode: backwards;\n  animation-timing-function: linear;\n}\n\n@-webkit-keyframes Fun__fadein___2BaEo {\n  0% {\n    opacity: 0;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n\n@keyframes Fun__fadein___2BaEo {\n  0% {\n    opacity: 0;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n\n.Fun__section___j7M-Q {\n  font-size: 18px;\n  margin: 20px auto;\n  border: 2px solid #000000;\n  width: 60%;\n  min-width: 100px;\n  padding: 10px 40px;\n}\n\n.Fun__caption___2dC1o {\n  margin: 0 0 3px 0;\n}\n\n.Fun__linkList___28r6W {\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n}\n\n.Fun__split___2C0Tc {\n  margin: 0;\n  width: 50%;\n  min-width: 180px;\n}\n\n.Fun__favList___1c_my {\n  margin: 3px 0;\n}\n\n.Fun__inFavList___37Rhh {\n  margin: 0;\n}\n\n.Fun__link___aNeU7:hover {\n  color: #f17e33;\n}\n\n.Fun__icon___m_m74 {\n  width: 22px;\n  margin-right: 5px;\n}\n\n.Fun__text___2nI1k {\n  line-height: 150%;\n}\n\n.Fun__hvrpop___2C5b9 {\n  font-size: 18px;\n  text-decoration: underline;\n  cursor: pointer;\n  display: inline-block;\n  -webkit-transform: perspective(1px) translateZ(0);\n  transform: perspective(1px) translateZ(0);\n  box-shadow: 0 0 1px transparent;\n}\n\n.Fun__hvrpop___2C5b9:hover, .Fun__hvrpop___2C5b9:focus, .Fun__hvrpop___2C5b9:active {\n  color: #f17e33;\n  -webkit-animation-name: Fun__hvrpop___2C5b9;\n  animation-name: Fun__hvrpop___2C5b9;\n  -webkit-animation-duration: 0.3s;\n  animation-duration: 0.3s;\n  -webkit-animation-timing-function: linear;\n  animation-timing-function: linear;\n  -webkit-animation-iteration-count: 1;\n  animation-iteration-count: 1;\n}\n\n@-webkit-keyframes Fun__hvrpop___2C5b9 {\n  50% {\n    -webkit-transform: scale(1.2);\n    transform: scale(1.2);\n  }\n}\n\n@keyframes Fun__hvrpop___2C5b9 {\n  50% {\n    -webkit-transform: scale(1.2);\n    transform: scale(1.2);\n  }\n}\n\n@media all and (max-width: 800px) {\n  .Fun__section___j7M-Q {\n    font-size: 14px;\n  }\n  .Fun__hvrpop___2C5b9 {\n    font-size: 14px;\n  }\n  .Fun__list___1Z7iV {\n    margin: 5px 0 8px -20px;\n  }\n}\n\n@media all and (max-width: 400px) {\n  .Fun__section___j7M-Q {\n    font-size: 12px;\n  }\n  .Fun__hvrpop___2C5b9 {\n    font-size: 12px;\n  }\n  .Fun__list___1Z7iV {\n    margin: 5px 0 8px -35px;\n  }\n}\n", ""]);
+exports.push([module.i, ".Fun__container___3BHNd {\n  -webkit-animation-name: Fun__fadein___ZFPZU;\n  -webkit-animation-duration: .5s;\n  -webkit-animation-timing-function: linear;\n  -webkit-animation-fill-mode: backwards;\n  animation-name: Fun__fadein___ZFPZU;\n  animation-duration: .5s;\n  animation-fill-mode: backwards;\n  animation-timing-function: linear;\n}\n\n@-webkit-keyframes Fun__fadein___ZFPZU {\n  0% {\n    opacity: 0;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n\n@keyframes Fun__fadein___ZFPZU {\n  0% {\n    opacity: 0;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n\n.Fun__section___3Sufb {\n  font-size: 18px;\n  margin: 20px auto;\n  border: 2px solid #000000;\n  width: 60%;\n  min-width: 100px;\n  padding: 10px 40px;\n}\n\n.Fun__caption___1n3Fx {\n  margin: 0 0 3px 0;\n}\n\n.Fun__linkList___34G72 {\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n}\n\n.Fun__split___3hiZ5 {\n  margin: 0;\n  width: 50%;\n  min-width: 180px;\n}\n\n.Fun__favList___1k-7j {\n  margin: 3px 0;\n}\n\n.Fun__inFavList___1rv0K {\n  margin: 0;\n}\n\n.Fun__link___1c878:hover {\n  color: #f17e33;\n}\n\n.Fun__icon___2kPuS {\n  width: 22px;\n  margin-right: 5px;\n}\n\n.Fun__text___2ItrU {\n  line-height: 150%;\n}\n\n.Fun__hvrpop___3NVJl {\n  font-size: 18px;\n  text-decoration: underline;\n  cursor: pointer;\n  display: inline-block;\n  -webkit-transform: perspective(1px) translateZ(0);\n  transform: perspective(1px) translateZ(0);\n  box-shadow: 0 0 1px transparent;\n}\n\n.Fun__hvrpop___3NVJl:hover, .Fun__hvrpop___3NVJl:focus, .Fun__hvrpop___3NVJl:active {\n  color: #f17e33;\n  -webkit-animation-name: Fun__hvrpop___3NVJl;\n  animation-name: Fun__hvrpop___3NVJl;\n  -webkit-animation-duration: 0.3s;\n  animation-duration: 0.3s;\n  -webkit-animation-timing-function: linear;\n  animation-timing-function: linear;\n  -webkit-animation-iteration-count: 1;\n  animation-iteration-count: 1;\n}\n\n@-webkit-keyframes Fun__hvrpop___3NVJl {\n  50% {\n    -webkit-transform: scale(1.2);\n    transform: scale(1.2);\n  }\n}\n\n@keyframes Fun__hvrpop___3NVJl {\n  50% {\n    -webkit-transform: scale(1.2);\n    transform: scale(1.2);\n  }\n}\n\n@media all and (max-width: 800px) {\n  .Fun__section___3Sufb {\n    font-size: 14px;\n  }\n  .Fun__hvrpop___3NVJl {\n    font-size: 14px;\n  }\n  .Fun__list___2IgjM {\n    margin: 5px 0 8px -20px;\n  }\n}\n\n@media all and (max-width: 400px) {\n  .Fun__section___3Sufb {\n    font-size: 12px;\n  }\n  .Fun__hvrpop___3NVJl {\n    font-size: 12px;\n  }\n  .Fun__list___2IgjM {\n    margin: 5px 0 8px -35px;\n  }\n}\n", ""]);
 
 // exports
 exports.locals = {
-	"container": "Fun__container___1hvxP",
-	"fadein": "Fun__fadein___2BaEo",
-	"section": "Fun__section___j7M-Q",
-	"caption": "Fun__caption___2dC1o",
-	"linkList": "Fun__linkList___28r6W",
-	"split": "Fun__split___2C0Tc",
-	"favList": "Fun__favList___1c_my",
-	"inFavList": "Fun__inFavList___37Rhh",
-	"link": "Fun__link___aNeU7",
-	"icon": "Fun__icon___m_m74",
-	"text": "Fun__text___2nI1k",
-	"hvrpop": "Fun__hvrpop___2C5b9",
-	"list": "Fun__list___1Z7iV"
+	"container": "Fun__container___3BHNd",
+	"fadein": "Fun__fadein___ZFPZU",
+	"section": "Fun__section___3Sufb",
+	"caption": "Fun__caption___1n3Fx",
+	"linkList": "Fun__linkList___34G72",
+	"split": "Fun__split___3hiZ5",
+	"favList": "Fun__favList___1k-7j",
+	"inFavList": "Fun__inFavList___1rv0K",
+	"link": "Fun__link___1c878",
+	"icon": "Fun__icon___2kPuS",
+	"text": "Fun__text___2ItrU",
+	"hvrpop": "Fun__hvrpop___3NVJl",
+	"list": "Fun__list___2IgjM"
 };
 
 /***/ }),
@@ -13849,20 +13958,20 @@ exports = module.exports = __webpack_require__(11)(undefined);
 
 
 // module
-exports.push([module.i, ".Home__container___3YqXY {\n  -webkit-animation-name: Home__fadein___XsXjx;\n  -webkit-animation-duration: .5s;\n  -webkit-animation-timing-function: linear;\n  -webkit-animation-fill-mode: backwards;\n  animation-name: Home__fadein___XsXjx;\n  animation-duration: .5s;\n  animation-fill-mode: backwards;\n  animation-timing-function: linear;\n}\n\n@-webkit-keyframes Home__fadein___XsXjx {\n  0% {\n    opacity: 0;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n\n@keyframes Home__fadein___XsXjx {\n  0% {\n    opacity: 0;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n\n.Home__section___1FP21 {\n  font-size: 18px;\n  margin: 20px auto;\n  border: 2px solid #000000;\n  width: 60%;\n  min-width: 100px;\n  padding: 10px 40px;\n}\n\n.Home__list___1B08o {\n  margin: 5px 0 8px 0;\n}\n\n.Home__email___nL9Ik {\n  font-family: \"Roboto Condensed\";\n  font-size: 20px;\n  background: rgba(0, 0, 0, 0);\n  border: none;\n}\n\n.Home__text___zzrdr {\n  line-height: 150%;\n}\n\n.Home__hold___3BdbZ {\n  margin: 8px 0;\n}\n\n.Home__tooltip___1xnTq {\n  position: relative;\n  display: inline-block;\n}\n\n.Home__tooltipText___2UO3- {\n  visibility: hidden;\n  width: 120px;\n  background-color: black;\n  color: #fff;\n  text-align: center;\n  padding: 5px 0;\n  border-radius: 6px;\n  position: absolute;\n  z-index: 1;\n  bottom: 150%;\n  left: 50%;\n  margin-left: -60px;\n}\n\n.Home__tooltipText___2UO3-::after {\n  content: \"\";\n  position: absolute;\n  top: 100%;\n  left: 50%;\n  margin-left: -5px;\n  border-width: 5px;\n  border-style: solid;\n  border-color: black transparent transparent transparent;\n}\n\n.Home__hvrpop___7_j5D {\n  font-size: 18px;\n  text-decoration: underline;\n  cursor: pointer;\n  display: inline-block;\n  -webkit-transform: perspective(1px) translateZ(0);\n  transform: perspective(1px) translateZ(0);\n  box-shadow: 0 0 1px transparent;\n}\n\n.Home__hvrpop___7_j5D:hover, .Home__hvrpop___7_j5D:focus, .Home__hvrpop___7_j5D:active {\n  color: #f17e33;\n  -webkit-animation-name: Home__hvrpop___7_j5D;\n  animation-name: Home__hvrpop___7_j5D;\n  -webkit-animation-duration: 0.3s;\n  animation-duration: 0.3s;\n  -webkit-animation-timing-function: linear;\n  animation-timing-function: linear;\n  -webkit-animation-iteration-count: 1;\n  animation-iteration-count: 1;\n}\n\n@-webkit-keyframes Home__hvrpop___7_j5D {\n  50% {\n    -webkit-transform: scale(1.2);\n    transform: scale(1.2);\n  }\n}\n\n@keyframes Home__hvrpop___7_j5D {\n  50% {\n    -webkit-transform: scale(1.2);\n    transform: scale(1.2);\n  }\n}\n\n@media all and (max-width: 800px) {\n  .Home__section___1FP21 {\n    font-size: 14px;\n  }\n  .Home__hvrpop___7_j5D {\n    font-size: 14px;\n  }\n  .Home__list___1B08o {\n    margin: 5px 0 8px -20px;\n  }\n}\n\n@media all and (max-width: 400px) {\n  .Home__section___1FP21 {\n    font-size: 12px;\n  }\n  .Home__hvrpop___7_j5D {\n    font-size: 12px;\n  }\n  .Home__list___1B08o {\n    margin: 5px 0 8px -35px;\n  }\n}\n", ""]);
+exports.push([module.i, ".Home__container___bf36U {\n  -webkit-animation-name: Home__fadein___TQIsB;\n  -webkit-animation-duration: .5s;\n  -webkit-animation-timing-function: linear;\n  -webkit-animation-fill-mode: backwards;\n  animation-name: Home__fadein___TQIsB;\n  animation-duration: .5s;\n  animation-fill-mode: backwards;\n  animation-timing-function: linear;\n}\n\n@-webkit-keyframes Home__fadein___TQIsB {\n  0% {\n    opacity: 0;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n\n@keyframes Home__fadein___TQIsB {\n  0% {\n    opacity: 0;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n\n.Home__section___29JkB {\n  font-size: 18px;\n  margin: 20px auto;\n  border: 2px solid #000000;\n  width: 60%;\n  min-width: 100px;\n  padding: 10px 40px;\n}\n\n.Home__list___KxqIo {\n  margin: 5px 0 8px 0;\n}\n\n.Home__email___GGkeq {\n  font-family: \"Roboto Condensed\";\n  font-size: 20px;\n  background: rgba(0, 0, 0, 0);\n  border: none;\n}\n\n.Home__text___1_2ir {\n  line-height: 150%;\n}\n\n.Home__hold___2KNet {\n  margin: 8px 0;\n}\n\n.Home__tooltip___Ne7Y1 {\n  position: relative;\n  display: inline-block;\n}\n\n.Home__tooltipText___3rFHO {\n  visibility: hidden;\n  width: 120px;\n  background-color: black;\n  color: #fff;\n  text-align: center;\n  padding: 5px 0;\n  border-radius: 6px;\n  position: absolute;\n  z-index: 1;\n  bottom: 150%;\n  left: 50%;\n  margin-left: -60px;\n}\n\n.Home__tooltipText___3rFHO::after {\n  content: \"\";\n  position: absolute;\n  top: 100%;\n  left: 50%;\n  margin-left: -5px;\n  border-width: 5px;\n  border-style: solid;\n  border-color: black transparent transparent transparent;\n}\n\n.Home__hvrpop___9QcWj {\n  font-size: 18px;\n  text-decoration: underline;\n  cursor: pointer;\n  display: inline-block;\n  -webkit-transform: perspective(1px) translateZ(0);\n  transform: perspective(1px) translateZ(0);\n  box-shadow: 0 0 1px transparent;\n}\n\n.Home__hvrpop___9QcWj:hover, .Home__hvrpop___9QcWj:focus, .Home__hvrpop___9QcWj:active {\n  color: #f17e33;\n  -webkit-animation-name: Home__hvrpop___9QcWj;\n  animation-name: Home__hvrpop___9QcWj;\n  -webkit-animation-duration: 0.3s;\n  animation-duration: 0.3s;\n  -webkit-animation-timing-function: linear;\n  animation-timing-function: linear;\n  -webkit-animation-iteration-count: 1;\n  animation-iteration-count: 1;\n}\n\n@-webkit-keyframes Home__hvrpop___9QcWj {\n  50% {\n    -webkit-transform: scale(1.2);\n    transform: scale(1.2);\n  }\n}\n\n@keyframes Home__hvrpop___9QcWj {\n  50% {\n    -webkit-transform: scale(1.2);\n    transform: scale(1.2);\n  }\n}\n\n@media all and (max-width: 800px) {\n  .Home__section___29JkB {\n    font-size: 14px;\n  }\n  .Home__hvrpop___9QcWj {\n    font-size: 14px;\n  }\n  .Home__list___KxqIo {\n    margin: 5px 0 8px -20px;\n  }\n}\n\n@media all and (max-width: 400px) {\n  .Home__section___29JkB {\n    font-size: 12px;\n  }\n  .Home__hvrpop___9QcWj {\n    font-size: 12px;\n  }\n  .Home__list___KxqIo {\n    margin: 5px 0 8px -35px;\n  }\n}\n", ""]);
 
 // exports
 exports.locals = {
-	"container": "Home__container___3YqXY",
-	"fadein": "Home__fadein___XsXjx",
-	"section": "Home__section___1FP21",
-	"list": "Home__list___1B08o",
-	"email": "Home__email___nL9Ik",
-	"text": "Home__text___zzrdr",
-	"hold": "Home__hold___3BdbZ",
-	"tooltip": "Home__tooltip___1xnTq",
-	"tooltipText": "Home__tooltipText___2UO3-",
-	"hvrpop": "Home__hvrpop___7_j5D"
+	"container": "Home__container___bf36U",
+	"fadein": "Home__fadein___TQIsB",
+	"section": "Home__section___29JkB",
+	"list": "Home__list___KxqIo",
+	"email": "Home__email___GGkeq",
+	"text": "Home__text___1_2ir",
+	"hold": "Home__hold___2KNet",
+	"tooltip": "Home__tooltip___Ne7Y1",
+	"tooltipText": "Home__tooltipText___3rFHO",
+	"hvrpop": "Home__hvrpop___9QcWj"
 };
 
 /***/ }),
@@ -13874,13 +13983,13 @@ exports = module.exports = __webpack_require__(11)(undefined);
 
 
 // module
-exports.push([module.i, ".Dropdown__container___2CHfe {\n  display: none;\n}\n\n@media all and (max-width: 800px) {\n  .Dropdown__container___2CHfe {\n    display: inline;\n    position: relative;\n    float: right;\n  }\n  .Dropdown__pic___3ZZwb {\n    width: 20%;\n    vertical-align: middle;\n    margin-right: 5px;\n  }\n  .Dropdown__hvrUnderline___1SidC {\n    font-size: 24px;\n    width: 100px;\n    padding: 16px 0px 15px;\n    float: right;\n    text-align: center;\n    cursor: pointer;\n    display: inline-block;\n    vertical-align: middle;\n    -webkit-transform: perspective(1px) translateZ(0);\n    transform: perspective(1px) translateZ(0);\n    box-shadow: 0 0 1px transparent;\n    position: relative;\n    overflow: hidden;\n  }\n  .Dropdown__hvrUnderline___1SidC:before {\n    content: \"\";\n    position: absolute;\n    z-index: -1;\n    left: 50%;\n    right: 50%;\n    bottom: 0;\n    background: #000000;\n    height: 4px;\n    -webkit-transition-property: left, right;\n    transition-property: left, right;\n    -webkit-transition-duration: 0.3s;\n    transition-duration: 0.3s;\n    -webkit-transition-timing-function: ease-out;\n    transition-timing-function: ease-out;\n  }\n  .Dropdown__hvrUnderline___1SidC:hover:before, .Dropdown__hvrUnderline___1SidC:focus:before, .Dropdown__hvrUnderline___1SidC:active:before {\n    left: 0;\n    right: 0;\n  }\n}\n", ""]);
+exports.push([module.i, ".Dropdown__container___2sb64 {\n  display: none;\n}\n\n@media all and (max-width: 800px) {\n  .Dropdown__container___2sb64 {\n    display: inline;\n    position: relative;\n    float: right;\n  }\n  .Dropdown__pic___2w6CV {\n    width: 20%;\n    vertical-align: middle;\n    margin-right: 5px;\n  }\n  .Dropdown__hvrUnderline___3Z7cV {\n    font-size: 24px;\n    width: 100px;\n    padding: 16px 0px 15px;\n    float: right;\n    text-align: center;\n    cursor: pointer;\n    display: inline-block;\n    vertical-align: middle;\n    -webkit-transform: perspective(1px) translateZ(0);\n    transform: perspective(1px) translateZ(0);\n    box-shadow: 0 0 1px transparent;\n    position: relative;\n    overflow: hidden;\n  }\n  .Dropdown__hvrUnderline___3Z7cV:before {\n    content: \"\";\n    position: absolute;\n    z-index: -1;\n    left: 50%;\n    right: 50%;\n    bottom: 0;\n    background: #000000;\n    height: 4px;\n    -webkit-transition-property: left, right;\n    transition-property: left, right;\n    -webkit-transition-duration: 0.3s;\n    transition-duration: 0.3s;\n    -webkit-transition-timing-function: ease-out;\n    transition-timing-function: ease-out;\n  }\n  .Dropdown__hvrUnderline___3Z7cV:hover:before, .Dropdown__hvrUnderline___3Z7cV:focus:before, .Dropdown__hvrUnderline___3Z7cV:active:before {\n    left: 0;\n    right: 0;\n  }\n}\n", ""]);
 
 // exports
 exports.locals = {
-	"container": "Dropdown__container___2CHfe",
-	"pic": "Dropdown__pic___3ZZwb",
-	"hvrUnderline": "Dropdown__hvrUnderline___1SidC"
+	"container": "Dropdown__container___2sb64",
+	"pic": "Dropdown__pic___2w6CV",
+	"hvrUnderline": "Dropdown__hvrUnderline___3Z7cV"
 };
 
 /***/ }),
@@ -13892,13 +14001,13 @@ exports = module.exports = __webpack_require__(11)(undefined);
 
 
 // module
-exports.push([module.i, ".NavBar__top___j_M8x {\n  background-color: #f17e33;\n}\n\n.NavBar__container___2bZCu {\n  width: 60%;\n  height: 60px;\n  margin: 0 auto;\n}\n\n.NavBar__brand___2LsgG {\n  display: inline-block;\n  font-family: \"Roboto\", serif;\n  font-size: 40px;\n  padding-top: 6px;\n  margin: 0;\n  cursor: pointer;\n}\n\n@media all and (max-width: 800px) {\n  .NavBar__container___2bZCu {\n    width: 90%\n  }\n}\n\n@media all and (max-width: 400px) {\n  .NavBar__brand___2LsgG {\n    font-size: 24px;\n    padding-top: 16px;\n  }\n}\n", ""]);
+exports.push([module.i, ".NavBar__top___2k5Yc {\n  background-color: #f17e33;\n}\n\n.NavBar__container___FNdsd {\n  width: 60%;\n  height: 60px;\n  margin: 0 auto;\n}\n\n.NavBar__brand___2P3wt {\n  display: inline-block;\n  font-family: \"Roboto\", serif;\n  font-size: 40px;\n  padding-top: 6px;\n  margin: 0;\n  cursor: pointer;\n}\n\n@media all and (max-width: 800px) {\n  .NavBar__container___FNdsd {\n    width: 90%\n  }\n}\n\n@media all and (max-width: 400px) {\n  .NavBar__brand___2P3wt {\n    font-size: 24px;\n    padding-top: 16px;\n  }\n}\n", ""]);
 
 // exports
 exports.locals = {
-	"top": "NavBar__top___j_M8x",
-	"container": "NavBar__container___2bZCu",
-	"brand": "NavBar__brand___2LsgG"
+	"top": "NavBar__top___2k5Yc",
+	"container": "NavBar__container___FNdsd",
+	"brand": "NavBar__brand___2P3wt"
 };
 
 /***/ }),
@@ -13910,12 +14019,12 @@ exports = module.exports = __webpack_require__(11)(undefined);
 
 
 // module
-exports.push([module.i, ".NavLink__active___3ytb5 {\n  font-weight: bold;\n  font-size: 33px;\n  width: 150px;\n  padding: 11px 10px 10px;\n  float: right;\n  text-align: center;\n  display: inline-block;\n  vertical-align: middle;\n}\n\n.NavLink__hvrUnderline___21XtX {\n  font-size: 33px;\n  width: 150px;\n  padding: 11px 10px 10px;\n  float: right;\n  text-align: center;\n  cursor: pointer;\n  display: inline-block;\n  vertical-align: middle;\n  -webkit-transform: perspective(1px) translateZ(0);\n  transform: perspective(1px) translateZ(0);\n  box-shadow: 0 0 1px transparent;\n  position: relative;\n  overflow: hidden;\n}\n\n.NavLink__hvrUnderline___21XtX:before {\n  content: \"\";\n  position: absolute;\n  z-index: -1;\n  left: 50%;\n  right: 50%;\n  bottom: 0;\n  background: #000000;\n  height: 4px;\n  -webkit-transition-property: left, right;\n  transition-property: left, right;\n  -webkit-transition-duration: 0.3s;\n  transition-duration: 0.3s;\n  -webkit-transition-timing-function: ease-out;\n  transition-timing-function: ease-out;\n}\n\n.NavLink__hvrUnderline___21XtX:hover:before, .NavLink__hvrUnderline___21XtX:focus:before, .NavLink__hvrUnderline___21XtX:active:before {\n  left: 0;\n  right: 0;\n}\n\n@media all and (max-width: 1440px) {\n  .NavLink__active___3ytb5 {\n    width: 100px;\n  }\n  .NavLink__hvrUnderline___21XtX {\n    width: 100px;\n  }\n}\n\n@media all and (max-width: 1100px) {\n  .NavLink__active___3ytb5 {\n    font-size: 24px;\n    padding: 16px 10px 15px;\n    width: 50px;\n  }\n  .NavLink__hvrUnderline___21XtX {\n    font-size: 24px;\n    padding: 16px 10px 15px;\n    width: 50px;\n  }\n}\n\n@media all and (max-width: 800px) {\n  .NavLink__active___3ytb5 {\n    display: none;\n  }\n  .NavLink__hvrUnderline___21XtX {\n    display: none;\n  }\n}\n", ""]);
+exports.push([module.i, ".NavLink__active___2ini5 {\n  font-weight: bold;\n  font-size: 33px;\n  width: 150px;\n  padding: 11px 10px 10px;\n  float: right;\n  text-align: center;\n  display: inline-block;\n  vertical-align: middle;\n}\n\n.NavLink__hvrUnderline___2T8mb {\n  font-size: 33px;\n  width: 150px;\n  padding: 11px 10px 10px;\n  float: right;\n  text-align: center;\n  cursor: pointer;\n  display: inline-block;\n  vertical-align: middle;\n  -webkit-transform: perspective(1px) translateZ(0);\n  transform: perspective(1px) translateZ(0);\n  box-shadow: 0 0 1px transparent;\n  position: relative;\n  overflow: hidden;\n}\n\n.NavLink__hvrUnderline___2T8mb:before {\n  content: \"\";\n  position: absolute;\n  z-index: -1;\n  left: 50%;\n  right: 50%;\n  bottom: 0;\n  background: #000000;\n  height: 4px;\n  -webkit-transition-property: left, right;\n  transition-property: left, right;\n  -webkit-transition-duration: 0.3s;\n  transition-duration: 0.3s;\n  -webkit-transition-timing-function: ease-out;\n  transition-timing-function: ease-out;\n}\n\n.NavLink__hvrUnderline___2T8mb:hover:before, .NavLink__hvrUnderline___2T8mb:focus:before, .NavLink__hvrUnderline___2T8mb:active:before {\n  left: 0;\n  right: 0;\n}\n\n@media all and (max-width: 1440px) {\n  .NavLink__active___2ini5 {\n    width: 100px;\n  }\n  .NavLink__hvrUnderline___2T8mb {\n    width: 100px;\n  }\n}\n\n@media all and (max-width: 1100px) {\n  .NavLink__active___2ini5 {\n    font-size: 24px;\n    padding: 16px 10px 15px;\n    width: 50px;\n  }\n  .NavLink__hvrUnderline___2T8mb {\n    font-size: 24px;\n    padding: 16px 10px 15px;\n    width: 50px;\n  }\n}\n\n@media all and (max-width: 800px) {\n  .NavLink__active___2ini5 {\n    display: none;\n  }\n  .NavLink__hvrUnderline___2T8mb {\n    display: none;\n  }\n}\n", ""]);
 
 // exports
 exports.locals = {
-	"active": "NavLink__active___3ytb5",
-	"hvrUnderline": "NavLink__hvrUnderline___21XtX"
+	"active": "NavLink__active___2ini5",
+	"hvrUnderline": "NavLink__hvrUnderline___2T8mb"
 };
 
 /***/ }),
@@ -13927,17 +14036,17 @@ exports = module.exports = __webpack_require__(11)(undefined);
 
 
 // module
-exports.push([module.i, ".Projects__description___3J0ms {\n  font-size: 18px;\n  margin: 0 0 10px 0;\n}\n\n.Projects__container___3XN3I {\n  font-size: 0;\n}\n\n.Projects__project___ipZ_M {\n  font-size: 16px;\n  min-height: 250px;\n  display: inline-block;\n  vertical-align: top;\n  width: 33.33%;\n  box-sizing: border-box;\n  text-align: center;\n  transition: all .5s ease;\n}\n\n.Projects__project___ipZ_M:hover {\n  transform: scale(1.05);\n}\n\n.Projects__link___jkbtY {\n  color: #000000;\n  text-decoration: none;\n  width: 90%;\n}\n\n.Projects__picture___2vAnK {\n  width: 90%;\n  padding: 4px;\n  border: 1px solid #808080;\n}\n\n.Projects__title___2dh-Z {\n  margin-top: 10px;\n}\n\n.Projects__caption___1A5Wc {\n  margin: 10px 0;\n  padding: 0 20px;\n}\n\n@media all and (max-width: 800px) {\n  .Projects__description___3J0ms {\n    font-size: 14px;\n  }\n  .Projects__project___ipZ_M {\n    min-height: 200px;\n    width: 50%;\n    font-size: 12px;\n  }\n  .Projects__caption___1A5Wc {\n    padding: 0 10px;\n  }\n}\n\n@media all and (max-width: 400px) {\n  .Projects__description___3J0ms {\n    font-size: 12px;\n  }\n  .Projects__project___ipZ_M {\n    width: 100%;\n    font-size: 12px;\n  }\n}\n", ""]);
+exports.push([module.i, ".Projects__description___1HRkB {\n  font-size: 18px;\n  margin: 0 0 10px 0;\n}\n\n.Projects__container___wUUT9 {\n  font-size: 0;\n}\n\n.Projects__project___2pDLC {\n  font-size: 16px;\n  min-height: 250px;\n  display: inline-block;\n  vertical-align: top;\n  width: 33.33%;\n  box-sizing: border-box;\n  text-align: center;\n  transition: all .5s ease;\n}\n\n.Projects__project___2pDLC:hover {\n  transform: scale(1.05);\n}\n\n.Projects__link___21Aew {\n  color: #000000;\n  text-decoration: none;\n  width: 90%;\n}\n\n.Projects__picture___1zl7G {\n  width: 90%;\n  padding: 4px;\n  border: 1px solid #808080;\n}\n\n.Projects__title___3xenK {\n  margin-top: 10px;\n}\n\n.Projects__caption___2p8Zi {\n  margin: 10px 0;\n  padding: 0 20px;\n}\n\n@media all and (max-width: 800px) {\n  .Projects__description___1HRkB {\n    font-size: 14px;\n  }\n  .Projects__project___2pDLC {\n    min-height: 200px;\n    width: 50%;\n    font-size: 12px;\n  }\n  .Projects__caption___2p8Zi {\n    padding: 0 10px;\n  }\n}\n\n@media all and (max-width: 400px) {\n  .Projects__description___1HRkB {\n    font-size: 12px;\n  }\n  .Projects__project___2pDLC {\n    width: 100%;\n    font-size: 12px;\n  }\n}\n", ""]);
 
 // exports
 exports.locals = {
-	"description": "Projects__description___3J0ms",
-	"container": "Projects__container___3XN3I",
-	"project": "Projects__project___ipZ_M",
-	"link": "Projects__link___jkbtY",
-	"picture": "Projects__picture___2vAnK",
-	"title": "Projects__title___2dh-Z",
-	"caption": "Projects__caption___1A5Wc"
+	"description": "Projects__description___1HRkB",
+	"container": "Projects__container___wUUT9",
+	"project": "Projects__project___2pDLC",
+	"link": "Projects__link___21Aew",
+	"picture": "Projects__picture___1zl7G",
+	"title": "Projects__title___3xenK",
+	"caption": "Projects__caption___2p8Zi"
 };
 
 /***/ }),
@@ -13949,14 +14058,14 @@ exports = module.exports = __webpack_require__(11)(undefined);
 
 
 // module
-exports.push([module.i, ".Work__container___m7ZG0 {\n  -webkit-animation-name: Work__fadein___dqEPx;\n  -webkit-animation-duration: .5s;\n  -webkit-animation-timing-function: linear;\n  -webkit-animation-fill-mode: backwards;\n  animation-name: Work__fadein___dqEPx;\n  animation-duration: .5s;\n  animation-fill-mode: backwards;\n  animation-timing-function: linear;\n}\n\n@-webkit-keyframes Work__fadein___dqEPx {\n  0% {\n    opacity: 0;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n\n@keyframes Work__fadein___dqEPx {\n  0% {\n    opacity: 0;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n\n.Work__section___1FF5S {\n  font-size: 18px;\n  margin: 20px auto;\n  border: 2px solid #000000;\n  width: 60%;\n  min-width: 100px;\n  padding: 10px 40px;\n}\n\n.Work__timeline___3XmZ_ {\n  font-size: 20px;\n  margin: 20px auto;\n  border: 2px solid #000000;\n  width: 60%;\n  min-width: 100px;\n  padding: 10px 40px;\n}\n\n@media all and (max-width: 800px) {\n  .Work__section___1FF5S {\n    font-size: 14px;\n  }\n  .Work__timeline___3XmZ_ {\n    font-size: 14px;\n  }\n}\n\n@media all and (max-width: 400px) {\n  .Work__section___1FF5S {\n    font-size: 12px;\n  }\n}\n", ""]);
+exports.push([module.i, ".Work__container___1_SJC {\n  -webkit-animation-name: Work__fadein___1MlD2;\n  -webkit-animation-duration: .5s;\n  -webkit-animation-timing-function: linear;\n  -webkit-animation-fill-mode: backwards;\n  animation-name: Work__fadein___1MlD2;\n  animation-duration: .5s;\n  animation-fill-mode: backwards;\n  animation-timing-function: linear;\n}\n\n@-webkit-keyframes Work__fadein___1MlD2 {\n  0% {\n    opacity: 0;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n\n@keyframes Work__fadein___1MlD2 {\n  0% {\n    opacity: 0;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n\n.Work__section___2186K {\n  font-size: 18px;\n  margin: 20px auto;\n  border: 2px solid #000000;\n  width: 60%;\n  min-width: 100px;\n  padding: 10px 40px;\n}\n\n.Work__timeline___3GV2d {\n  font-size: 20px;\n  margin: 20px auto;\n  border: 2px solid #000000;\n  width: 60%;\n  min-width: 100px;\n  padding: 10px 40px;\n}\n\n@media all and (max-width: 800px) {\n  .Work__section___2186K {\n    font-size: 14px;\n  }\n  .Work__timeline___3GV2d {\n    font-size: 14px;\n  }\n}\n\n@media all and (max-width: 400px) {\n  .Work__section___2186K {\n    font-size: 12px;\n  }\n}\n", ""]);
 
 // exports
 exports.locals = {
-	"container": "Work__container___m7ZG0",
-	"fadein": "Work__fadein___dqEPx",
-	"section": "Work__section___1FF5S",
-	"timeline": "Work__timeline___3XmZ_"
+	"container": "Work__container___1_SJC",
+	"fadein": "Work__fadein___1MlD2",
+	"section": "Work__section___2186K",
+	"timeline": "Work__timeline___3GV2d"
 };
 
 /***/ }),
@@ -24683,11 +24792,11 @@ TimelineEvent.defaultProps = {
   iconStyle: {},
   contentStyle: {},
   cardHeaderStyle: {},
+  cardBodyStyle: {},
   style: {}
 };
 
 exports.default = TimelineEvent;
-
 
 /***/ }),
 /* 203 */
