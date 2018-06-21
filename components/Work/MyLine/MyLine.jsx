@@ -12,7 +12,7 @@ class MyLine extends React.Component {
         <hr/>
         <Timeline>
           <TimelineEvent title="Research with Prof. Ian Condry" createdAt="June 2018 - August 2018" iconColor="#f17e33" icon={<img src="./static/img/app.png" width="52%"></img>}>
-            Researched under CSM Professor Ian Condry, focusing on data scraping, cleaning, and production methods.
+            Researched under CMS Professor Ian Condry, focusing on data scraping, cleaning, and production methods.
             <br/>
             Worked with a team to develop the app UndrGround, used to provide information about live music listings in a local area.
           </TimelineEvent>
