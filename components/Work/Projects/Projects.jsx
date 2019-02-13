@@ -35,7 +35,7 @@ class Projects extends React.Component {
               <img className={styles.picture} src="./static/img/replot.png" alt="Replot"></img>
               <div className={styles.projectInfo}>
                 <h3 className={styles.title}>Replot</h3>
-                <p className={styles.caption}> (Coming soon!) A ReactJS Data Visualization Library. </p>
+                <p className={styles.caption}> A ReactJS Data Visualization Library. </p>
               </div>
             </a>
           </div>
@@ -71,7 +71,7 @@ class Projects extends React.Component {
               <img className={styles.picture} src="./static/img/muse.png" alt="2GroovE"></img>
               <div className={styles.projectInfo}>
                 <h3 className={styles.title}>2E GroovE</h3>
-                <p className={styles.caption}>Co-built a web app which queues and plays music into the 2E Main Lounge.</p>
+                <p className={styles.caption}>Co-built a web app with Cory Lynch which queues and plays music into the 2E Main Lounge. Currently maintained by Michael Nguyen.</p>
               </div>
             </a>
           </div>
@@ -81,6 +81,24 @@ class Projects extends React.Component {
               <div className={styles.projectInfo}>
                 <h3 className={styles.title}>Next Gamers Website</h3>
                 <p className={styles.caption}>Designed and built a website for a student group within my dorm, Next Gamers.</p>
+              </div>
+            </a>
+          </div>
+          <div className={styles.project}>
+            <a href="https://mcd4-me.firebaseapp.com/" className={styles.link}>
+              <img className={styles.picture} src="./static/img/mcd.png" alt="McD4Me"></img>
+              <div className={styles.projectInfo}>
+                <h3 className={styles.title}>McD4Me</h3>
+                <p className={styles.caption}>Created a food order consolidation web app that uses Google's Firebase technology.</p>
+              </div>
+            </a>
+          </div>
+          <div className={styles.project}>
+            <a href="http://sound-space.herokuapp.com/" className={styles.link}>
+              <img className={styles.picture} src="./static/img/soundspace.png" alt="soundspace"></img>
+              <div className={styles.projectInfo}>
+                <h3 className={styles.title}>soundspace</h3>
+                <p className={styles.caption}>Worked with Joonho Ko during web.lab to produce a web app about creating sounds with friends or stangers.</p>
               </div>
             </a>
           </div>

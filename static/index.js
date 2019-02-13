@@ -10960,7 +10960,7 @@ var About = function (_React$Component) {
             _react2.default.createElement(
               "p",
               null,
-              "Right now I'm starting my junior year, and have some relatively tough classes planned that I'm eager to struggle through as I cover more theoretical topics. I continue to be the VP of my dorm, tackling any Facilities-related challenges that other residents or I encounter. Additionally, I hope to devote more time to personal projects like app development or language-learning. In classic me fashion, I find myself probably overcommitted, balancing social shenanigans with professional endeavors. And I wouldn't want it any other way."
+              "Right now I'm in the second semester of my junior year, taking classes that focus more on what I'd like to do after college, which includes everything from software engineering to presentation-giving. I continue to be the VP of my dorm, tackling any Facilities-related challenges that other residents or I encounter. Additionally, I hope to devote more time to personal projects like app development or language-learning. In classic me fashion, I find myself probably overcommitted, balancing social shenanigans with professional endeavors. And I wouldn't want it any other way."
             ),
             _react2.default.createElement(
               "p",
@@ -11860,6 +11860,60 @@ var List = function (_React$Component) {
             ),
             _react2.default.createElement(
               "h4",
+              { className: _List2.default.spring },
+              "Spring 2019"
+            ),
+            _react2.default.createElement(
+              "ul",
+              { className: _List2.default.classList },
+              _react2.default.createElement(
+                "li",
+                null,
+                "6.031: Software Construction"
+              ),
+              _react2.default.createElement(
+                "li",
+                null,
+                "6.036: Introduction to Machine Learning"
+              ),
+              _react2.default.createElement(
+                "li",
+                null,
+                "18.204: Seminar in Discrete Math"
+              ),
+              _react2.default.createElement(
+                "li",
+                null,
+                "21M.605: Voice and Speech for the Actor"
+              )
+            ),
+            _react2.default.createElement(
+              "h4",
+              { className: _List2.default.winter },
+              "IAP 2019"
+            ),
+            _react2.default.createElement(
+              "ul",
+              { className: _List2.default.classList },
+              _react2.default.createElement(
+                "li",
+                null,
+                "Took MIT's ",
+                _react2.default.createElement(
+                  "a",
+                  { href: "http://weblab.mit.edu/" },
+                  "Web Development Class/Competition"
+                ),
+                ", and placed third with ",
+                _react2.default.createElement(
+                  "a",
+                  { href: "http://sound-space.herokuapp.com/" },
+                  "soundspace"
+                )
+              )
+            ),
+            _react2.default.createElement(
+              "h4",
               { className: _List2.default.fall },
               "Fall 2018"
             ),
@@ -11874,7 +11928,7 @@ var List = function (_React$Component) {
               _react2.default.createElement(
                 "li",
                 null,
-                "18.410: Design and Analysis of Algorithms"
+                "6.046/18.410: Design and Analysis of Algorithms"
               ),
               _react2.default.createElement(
                 "li",
@@ -12147,6 +12201,11 @@ var List = function (_React$Component) {
                   "Next Gamers"
                 ),
                 " Video Game Treasurer"
+              ),
+              _react2.default.createElement(
+                "li",
+                null,
+                "Next Anime Founder and President"
               ),
               _react2.default.createElement(
                 "li",
@@ -12429,6 +12488,20 @@ var MyLine = function (_React$Component) {
           null,
           _react2.default.createElement(
             _reactEventTimeline.TimelineEvent,
+            { title: "18.600: Probability Grader", createdAt: "February 2019 - May 2019", iconColor: "#f17e33", icon: _react2.default.createElement("img", { src: "./static/img/grade.png", width: "52%" }) },
+            "Graded the weekly problem sets of over 20 students for MIT's 18.600 Probability and Random Variables course.",
+            _react2.default.createElement("br", null),
+            "Reported observations and common mistakes directly to the supervising professor."
+          ),
+          _react2.default.createElement(
+            _reactEventTimeline.TimelineEvent,
+            { title: "18.06 Grader/6.009 Lab Assistant", createdAt: "September 2018 - December 2018", iconColor: "#f17e33", icon: _react2.default.createElement("img", { src: "./static/img/keyboard.png", width: "52%" }) },
+            "Graded weekly problem sets and provided feedback to students for MIT's 18.06 Linear Algebra course.",
+            _react2.default.createElement("br", null),
+            "Provided instruction and guidance in lab sessions and office hours for MIT's 6.009 Fundamentals of Programming course."
+          ),
+          _react2.default.createElement(
+            _reactEventTimeline.TimelineEvent,
             { title: "Research with Prof. Ian Condry", createdAt: "June 2018 - August 2018", iconColor: "#f17e33", icon: _react2.default.createElement("img", { src: "./static/img/app.png", width: "52%" }) },
             "Researched under CMS Professor Ian Condry, focusing on data scraping, cleaning, and production methods.",
             _react2.default.createElement("br", null),
@@ -12436,7 +12509,7 @@ var MyLine = function (_React$Component) {
           ),
           _react2.default.createElement(
             _reactEventTimeline.TimelineEvent,
-            { title: "Linear Algebra 18.06 Grader", createdAt: "February 2018 - May 2018", iconColor: "#f17e33", icon: _react2.default.createElement("img", { src: "./static/img/grade.png", width: "52%" }) },
+            { title: "18.06: Linear Algebra Grader", createdAt: "February 2018 - May 2018", iconColor: "#f17e33", icon: _react2.default.createElement("img", { src: "./static/img/grade.png", width: "52%" }) },
             "Graded weekly problem sets, using online software, for MIT's 18.06 Linear Algebra course.",
             _react2.default.createElement("br", null),
             "Recorded scores, trends, and made comments about performance to a supervising graduate TA."
@@ -12456,7 +12529,7 @@ var MyLine = function (_React$Component) {
           ),
           _react2.default.createElement(
             _reactEventTimeline.TimelineEvent,
-            { title: "Calculus 18.02 Grader", createdAt: "October 2017 - December 2017", iconColor: "#f17e33", icon: _react2.default.createElement("img", { src: "./static/img/grade.png", width: "52%" }) },
+            { title: "18.02 Calculus Grader", createdAt: "October 2017 - December 2017", iconColor: "#f17e33", icon: _react2.default.createElement("img", { src: "./static/img/grade.png", width: "52%" }) },
             "Graded weekly problem sets for MIT's 18.02 Calculus II course.",
             _react2.default.createElement("br", null),
             "Noted trends in student performance and gave feedback to a supervising graduate TA."
@@ -12470,7 +12543,7 @@ var MyLine = function (_React$Component) {
           ),
           _react2.default.createElement(
             _reactEventTimeline.TimelineEvent,
-            { title: "Physics 8.02 TA", createdAt: "February 2017 - May 2017", iconColor: "#f17e33", icon: _react2.default.createElement("img", { src: "./static/img/phys.svg", width: "50%" }) },
+            { title: "8.02: Physics TA", createdAt: "February 2017 - May 2017", iconColor: "#f17e33", icon: _react2.default.createElement("img", { src: "./static/img/phys.svg", width: "50%" }) },
             "Served as a Teaching Assistant under Prof. Peter Dourmashkin for an 8.02 TEAL class at MIT.",
             _react2.default.createElement("br", null),
             "Answered student questions and clarified concepts in class, as well as graded homework weekly."
@@ -12629,7 +12702,7 @@ var Projects = function (_React$Component) {
                 _react2.default.createElement(
                   "p",
                   { className: _Projects2.default.caption },
-                  " (Coming soon!) A ReactJS Data Visualization Library. "
+                  " A ReactJS Data Visualization Library. "
                 )
               )
             )
@@ -12721,7 +12794,7 @@ var Projects = function (_React$Component) {
                 _react2.default.createElement(
                   "p",
                   { className: _Projects2.default.caption },
-                  "Co-built a web app which queues and plays music into the 2E Main Lounge."
+                  "Co-built a web app with Cory Lynch which queues and plays music into the 2E Main Lounge. Currently maintained by Michael Nguyen."
                 )
               )
             )
@@ -12745,6 +12818,52 @@ var Projects = function (_React$Component) {
                   "p",
                   { className: _Projects2.default.caption },
                   "Designed and built a website for a student group within my dorm, Next Gamers."
+                )
+              )
+            )
+          ),
+          _react2.default.createElement(
+            "div",
+            { className: _Projects2.default.project },
+            _react2.default.createElement(
+              "a",
+              { href: "https://mcd4-me.firebaseapp.com/", className: _Projects2.default.link },
+              _react2.default.createElement("img", { className: _Projects2.default.picture, src: "./static/img/mcd.png", alt: "McD4Me" }),
+              _react2.default.createElement(
+                "div",
+                { className: _Projects2.default.projectInfo },
+                _react2.default.createElement(
+                  "h3",
+                  { className: _Projects2.default.title },
+                  "McD4Me"
+                ),
+                _react2.default.createElement(
+                  "p",
+                  { className: _Projects2.default.caption },
+                  "Created a food order consolidation web app that uses Google's Firebase technology."
+                )
+              )
+            )
+          ),
+          _react2.default.createElement(
+            "div",
+            { className: _Projects2.default.project },
+            _react2.default.createElement(
+              "a",
+              { href: "http://sound-space.herokuapp.com/", className: _Projects2.default.link },
+              _react2.default.createElement("img", { className: _Projects2.default.picture, src: "./static/img/soundspace.png", alt: "soundspace" }),
+              _react2.default.createElement(
+                "div",
+                { className: _Projects2.default.projectInfo },
+                _react2.default.createElement(
+                  "h3",
+                  { className: _Projects2.default.title },
+                  "soundspace"
+                ),
+                _react2.default.createElement(
+                  "p",
+                  { className: _Projects2.default.caption },
+                  "Worked with Joonho Ko during web.lab to produce a web app about creating sounds with friends or stangers."
                 )
               )
             )
@@ -12816,6 +12935,46 @@ var Website = function (_React$Component) {
 
     var _this = _possibleConstructorReturn(this, (Website.__proto__ || Object.getPrototypeOf(Website)).call(this, props));
 
+    _this.homeActivator = function () {
+      _this.setState({
+        homeActive: true,
+        aboutActive: false,
+        workActive: false,
+        funActive: false,
+        selected: "Home"
+      });
+    };
+
+    _this.aboutActivator = function () {
+      _this.setState({
+        homeActive: false,
+        aboutActive: true,
+        workActive: false,
+        funActive: false,
+        selected: "About"
+      });
+    };
+
+    _this.workActivator = function () {
+      _this.setState({
+        homeActive: false,
+        aboutActive: false,
+        workActive: true,
+        funActive: false,
+        selected: "Work"
+      });
+    };
+
+    _this.funActivator = function () {
+      _this.setState({
+        homeActive: false,
+        aboutActive: false,
+        workActive: false,
+        funActive: true,
+        selected: "Fun"
+      });
+    };
+
     _this.state = {
       homeActive: true,
       aboutActive: false,
@@ -12827,50 +12986,6 @@ var Website = function (_React$Component) {
   }
 
   _createClass(Website, [{
-    key: "homeActivator",
-    value: function homeActivator() {
-      this.setState({
-        homeActive: true,
-        aboutActive: false,
-        workActive: false,
-        funActive: false,
-        selected: "Home"
-      });
-    }
-  }, {
-    key: "aboutActivator",
-    value: function aboutActivator() {
-      this.setState({
-        homeActive: false,
-        aboutActive: true,
-        workActive: false,
-        funActive: false,
-        selected: "About"
-      });
-    }
-  }, {
-    key: "workActivator",
-    value: function workActivator() {
-      this.setState({
-        homeActive: false,
-        aboutActive: false,
-        workActive: true,
-        funActive: false,
-        selected: "Work"
-      });
-    }
-  }, {
-    key: "funActivator",
-    value: function funActivator() {
-      this.setState({
-        homeActive: false,
-        aboutActive: false,
-        workActive: false,
-        funActive: true,
-        selected: "Fun"
-      });
-    }
-  }, {
     key: "render",
     value: function render() {
 
@@ -12885,10 +13000,10 @@ var Website = function (_React$Component) {
       return _react2.default.createElement(
         "div",
         null,
-        _react2.default.createElement(_NavBar2.default, { handleHome: this.homeActivator.bind(this), handleAbout: this.aboutActivator.bind(this),
-          handleWork: this.workActivator.bind(this), handleFun: this.funActivator.bind(this), selected: this.state.selected }),
-        _react2.default.createElement(_Home2.default, { active: this.state.homeActive, handleAbout: this.aboutActivator.bind(this),
-          handleWork: this.workActivator.bind(this), handleFun: this.funActivator.bind(this) }),
+        _react2.default.createElement(_NavBar2.default, { handleHome: this.homeActivator, handleAbout: this.aboutActivator,
+          handleWork: this.workActivator, handleFun: this.funActivator, selected: this.state.selected }),
+        _react2.default.createElement(_Home2.default, { active: this.state.homeActive, handleAbout: this.aboutActivator,
+          handleWork: this.workActivator, handleFun: this.funActivator }),
         _react2.default.createElement(_About2.default, { active: this.state.aboutActive }),
         _react2.default.createElement(_Work2.default, { active: this.state.workActive }),
         _react2.default.createElement(_Fun2.default, { active: this.state.funActive })

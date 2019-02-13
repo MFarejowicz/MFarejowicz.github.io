@@ -10,73 +10,73 @@ import Fun from "./components/Fun/Fun.jsx"
 
 class Website extends React.Component {
 
-  constructor(props){
-    super(props)
+  constructor(props) {
+    super(props);
     this.state = {
       homeActive: true,
       aboutActive: false,
       workActive: false,
       funActive: false,
       selected: "Home"
-    }
+    };
   }
 
-  homeActivator(){
+  homeActivator = () => {
     this.setState({
       homeActive: true,
       aboutActive: false,
       workActive: false,
       funActive: false,
       selected: "Home"
-    })
+    });
   }
 
-  aboutActivator(){
+  aboutActivator = () => {
     this.setState({
       homeActive: false,
       aboutActive: true,
       workActive: false,
       funActive: false,
       selected: "About"
-    })
+    });
   }
 
-  workActivator(){
+  workActivator = () => {
     this.setState({
       homeActive: false,
       aboutActive: false,
       workActive: true,
       funActive: false,
       selected: "Work"
-    })
+    });
   }
 
-  funActivator(){
+  funActivator = () => {
     this.setState({
       homeActive: false,
       aboutActive: false,
       workActive: false,
       funActive: true,
       selected: "Fun"
-    })
+    });
   }
 
-  render(){
+  render() {
 
-    var mobile = /Mobi/.test(navigator.userAgent) && !window.MSStream
+    let mobile = /Mobi/.test(navigator.userAgent) && !window.MSStream;
     if (mobile) {
-      var css = document.createElement("style")
-      css.type = "text/css"
-      css.innerHTML = "* {cursor: pointer}"
-      document.body.appendChild(css)
+      var css = document.createElement("style");
+      css.type = "text/css";
+      css.innerHTML = "* {cursor: pointer}";
+      document.body.appendChild(css);
     }
 
     return (
       <div>
-        <NavBar handleHome={this.homeActivator.bind(this)} handleAbout={this.aboutActivator.bind(this)}
-          handleWork={this.workActivator.bind(this)} handleFun={this.funActivator.bind(this)} selected={this.state.selected}/>
-        <Home active={this.state.homeActive} handleAbout={this.aboutActivator.bind(this)}
-          handleWork={this.workActivator.bind(this)} handleFun={this.funActivator.bind(this)}/>
+        <NavBar handleHome={this.homeActivator} handleAbout={this.aboutActivator}
+          handleWork={this.workActivator} handleFun={this.funActivator} selected={this.state.selected}/>
+        <Home active={this.state.homeActive} handleAbout={this.aboutActivator}
+          handleWork={this.workActivator} handleFun={this.funActivator}/>
         <About active={this.state.aboutActive} />
         <Work active={this.state.workActive} />
         <Fun active={this.state.funActive} />
@@ -91,4 +91,4 @@ class Website extends React.Component {
 ReactDOM.render(
   <Website />,
   document.getElementById("root")
-)
+);

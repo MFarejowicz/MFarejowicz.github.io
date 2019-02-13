@@ -24,9 +24,9 @@ class About extends React.Component{
             the potential of math and computer science, and the incredible amount of student diversity has drastically increased my perspective on life. I've met so many new people,
             tried countless new foods, procrastinated on too many homework assignments, joined student government as my dorm VP, took up teaching through ESP, attempted sports for the first time with
             intramural ice hockey, and it's all been an unbelievably eye-opening experience.</p>
-          <p>Right now I'm starting my junior year, and have some
-            relatively tough classes planned that I'm eager to struggle through
-            as I cover more theoretical topics.
+          <p>Right now I'm in the second semester of my junior year, taking classes that
+            focus more on what I'd like to do after college, which includes everything
+            from software engineering to presentation-giving.
             I continue to be the VP of my dorm, tackling any Facilities-related
             challenges that other residents or I encounter. Additionally, I hope
             to devote more time to personal projects like app development or

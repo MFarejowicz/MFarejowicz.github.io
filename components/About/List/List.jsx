@@ -44,10 +44,21 @@ class List extends React.Component {
           {this.state.active &&
             <div>
               <h2 className={styles.sectionTitle}>Classes</h2>
+              <h4 className={styles.spring}>Spring 2019</h4>
+              <ul className={styles.classList}>
+                <li>6.031: Software Construction</li>
+                <li>6.036: Introduction to Machine Learning</li>
+                <li>18.204: Seminar in Discrete Math</li>
+                <li>21M.605: Voice and Speech for the Actor</li>
+              </ul>
+              <h4 className={styles.winter}>IAP 2019</h4>
+              <ul className={styles.classList}>
+                <li>Took MIT's <a href="http://weblab.mit.edu/">Web Development Class/Competition</a>, and placed third with <a href="http://sound-space.herokuapp.com/">soundspace</a></li>
+              </ul>
               <h4 className={styles.fall}>Fall 2018</h4>
               <ul className={styles.classList}>
                 <li>18.404: Theory of Computation</li>
-                <li>18.410: Design and Analysis of Algorithms</li>
+                <li>6.046/18.410: Design and Analysis of Algorithms</li>
                 <li>18.600: Probability and Random Variables</li>
                 <li>21M.600: Introduction to Acting</li>
               </ul>
@@ -109,6 +120,7 @@ class List extends React.Component {
               <ul className={styles.classList}>
                 <li><a href="https://next.mit.edu">Next House</a> VP of Facilities</li>
                 <li><a href="https://next.mit.edu/nextgamers">Next Gamers</a> Video Game Treasurer</li>
+                <li>Next Anime Founder and President</li>
                 <li>MIT <a href="https://esp.mit.edu">Educational Studies Program</a> Admin</li>
               </ul>
               <h4 className={styles.oldExtra}>Prior Extracurriculars</h4>
