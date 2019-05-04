@@ -10989,13 +10989,18 @@ var About = function (_React$Component) {
             "div",
             { className: _About2.default.text },
             _react2.default.createElement(
-              "p",
-              { className: _About2.default.caption },
-              "Find me on some professional networks:"
-            ),
-            _react2.default.createElement(
               "ul",
               { className: _About2.default.linkList },
+              _react2.default.createElement(
+                "li",
+                null,
+                _react2.default.createElement(
+                  "a",
+                  { className: _About2.default.link, href: "static/files/resume.pdf" },
+                  _react2.default.createElement("img", { src: "./static/img/book.png", className: _About2.default.icon }),
+                  "Resume"
+                )
+              ),
               _react2.default.createElement(
                 "li",
                 null,

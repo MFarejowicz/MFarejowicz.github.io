@@ -42,8 +42,8 @@ class About extends React.Component{
           <b>Links</b>
           <hr/>
           <div className={styles.text}>
-            <p className={styles.caption}>Find me on some professional networks:</p>
             <ul className={styles.linkList}>
+              <li><a className={styles.link} href="static/files/resume.pdf"><img src="./static/img/book.png" className={styles.icon}></img>Resume</a></li>
               <li><a className={styles.link} href="https://github.com/MFarejowicz"><img src="./static/img/git.png" className={styles.icon}></img>Github</a></li>
               <li><a className={styles.link} href="https://www.linkedin.com/in/mfarejowicz/"><img src="./static/img/li.png" className={styles.icon}></img>LinkedIn</a></li>
             </ul>
