@@ -2,19 +2,21 @@ var webpack = require('webpack')
 var path = require('path')
 
 module.exports = {
-  entry: "./index.jsx",
+  entry: './index.jsx',
   output: {
-    path: path.join(__dirname, "/static"),
-    filename: "index.js"
+    publicPath: '',
+    path: path.join(__dirname, '/static'),
+    filename: 'index.js'
   },
+  mode: 'production',
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.jsx$/,
-        loader: "babel-loader",
-        query: {
-          "presets": ["es2015", "react"],
-          "plugins": ["transform-class-properties"]
+        loader: 'babel-loader',
+        options: {
+          'presets': ['es2015', 'react'],
+          'plugins': ['transform-class-properties']
         }
       },
       {
@@ -24,9 +26,9 @@ module.exports = {
       {
         test: /\.css$/,
         loader: 'css-loader',
-        query: {
+        options: {
           modules: true,
-          localIdentName: '[name]__[local]___[hash:base64:5]'
+          localIdentName: '[path][name]__[local]___[hash:base64:5]'
         }
       }
     ]
