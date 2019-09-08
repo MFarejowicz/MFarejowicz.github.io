@@ -82,22 +82,34 @@
   .heading {
     font-size: 20px;
   }
+
   .expand {
     font-size: 20px;
   }
+
   .icon {
     height: 24px;
   }
+
   .sectionTitle {
     font-size: 19px;
   }
+
   .classList {
     margin: 0 0 8px -20px;
   }
+
   .content {
     font-size: 14px;
   }
-  .fall, .winter, .spring, .summer, .activeExtra, .oldExtra, .normal {
+
+  .fall,
+  .winter,
+  .spring,
+  .summer,
+  .activeExtra,
+  .oldExtra,
+  .normal {
     font-size: 17px;
   }
 
@@ -107,19 +119,30 @@
   .heading {
     font-size: 18px;
   }
+
   .expand {
     font-size: 16px;
   }
+
   .icon {
     height: 21px;
   }
+
   .content {
     font-size: 12px;
   }
+
   .sectionTitle {
     font-size: 16px;
   }
-  .fall, .winter, .spring, .summer, .activeExtra, .oldExtra, .normal {
+
+  .fall,
+  .winter,
+  .spring,
+  .summer,
+  .activeExtra,
+  .oldExtra,
+  .normal {
     font-size: 15px;
   }
 }

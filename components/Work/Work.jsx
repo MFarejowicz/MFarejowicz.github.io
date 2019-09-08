@@ -1,12 +1,13 @@
-import React from "react"
-import styles from "./Work.css"
-import Projects from "./Projects/Projects.jsx"
-import MyLine from "./MyLine/MyLine.jsx"
+import React from "react";
+import styles from "./Work.css";
+import Projects from "./Projects/Projects.jsx";
+import MyLine from "./MyLine/MyLine.jsx";
 
-
-class Work extends React.Component{
-
+class Work extends React.Component {
   render() {
+    if (!this.props.active) {
+      return <div style={{ display: "none" }} />;
+    }
 
     let content = (
       <div>
@@ -17,23 +18,10 @@ class Work extends React.Component{
           <MyLine />
         </div>
       </div>
-    )
+    );
 
-    if (!this.props.active){
-      return(
-        <div style={{display: "none"}} />
-      )
-    }
-
-    return(
-      <div className={styles.container}>
-        {content}
-      </div>
-    )
-
+    return <div className={styles.container}>{content}</div>;
   }
-
 }
 
-
-export default Work
+export default Work;

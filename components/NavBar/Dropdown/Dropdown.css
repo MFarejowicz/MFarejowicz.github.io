@@ -8,11 +8,13 @@
     position: relative;
     float: right;
   }
+
   .pic {
     width: 20%;
     vertical-align: middle;
     margin-right: 5px;
   }
+
   .hvrUnderline {
     font-size: 24px;
     width: 100px;
@@ -28,6 +30,7 @@
     position: relative;
     overflow: hidden;
   }
+
   .hvrUnderline:before {
     content: "";
     position: absolute;
@@ -44,7 +47,10 @@
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
   }
-  .hvrUnderline:hover:before, .hvrUnderline:focus:before, .hvrUnderline:active:before {
+
+  .hvrUnderline:hover:before,
+  .hvrUnderline:focus:before,
+  .hvrUnderline:active:before {
     left: 0;
     right: 0;
   }

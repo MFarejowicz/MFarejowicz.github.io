@@ -23,9 +23,9 @@
   },
   "homepage": "https://github.com/MFarejowicz/MFarejowicz.github.io#readme",
   "dependencies": {
-    "react": "^15.6.2",
+    "react": "^16.9.0",
     "react-copy-to-clipboard": "^5.0.1",
-    "react-dom": "^15.6.2",
+    "react-dom": "^16.9.0",
     "react-event-timeline": "^1.6.3"
   },
   "devDependencies": {
@@ -37,7 +37,7 @@
     "babel-preset-react": "^6.24.1",
     "css-loader": "^2.1.1",
     "style-loader": "^0.18.2",
-    "webpack": "^4.33.0",
-    "webpack-cli": "^3.3.2"
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8"
   }
 }

@@ -13,6 +13,7 @@
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -22,6 +23,7 @@
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -83,7 +85,9 @@
   box-shadow: 0 0 1px transparent;
 }
 
-.hvrpop:hover, .hvrpop:focus, .hvrpop:active {
+.hvrpop:hover,
+.hvrpop:focus,
+.hvrpop:active {
   color: #f17e33;
   -webkit-animation-name: hvrpop;
   animation-name: hvrpop;
@@ -113,9 +117,11 @@
   .section {
     font-size: 14px;
   }
+
   .hvrpop {
     font-size: 14px;
   }
+
   .list {
     margin: 5px 0 8px -20px;
   }
@@ -125,9 +131,11 @@
   .section {
     font-size: 12px;
   }
+
   .hvrpop {
     font-size: 12px;
   }
+
   .list {
     margin: 5px 0 8px -35px;
   }

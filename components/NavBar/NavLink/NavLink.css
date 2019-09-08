@@ -42,7 +42,9 @@
   transition-timing-function: ease-out;
 }
 
-.hvrUnderline:hover:before, .hvrUnderline:focus:before, .hvrUnderline:active:before {
+.hvrUnderline:hover:before,
+.hvrUnderline:focus:before,
+.hvrUnderline:active:before {
   left: 0;
   right: 0;
 }
@@ -51,6 +53,7 @@
   .active {
     width: 100px;
   }
+
   .hvrUnderline {
     width: 100px;
   }
@@ -62,6 +65,7 @@
     padding: 16px 10px 15px;
     width: 50px;
   }
+
   .hvrUnderline {
     font-size: 24px;
     padding: 16px 10px 15px;
@@ -73,6 +77,7 @@
   .active {
     display: none;
   }
+
   .hvrUnderline {
     display: none;
   }
