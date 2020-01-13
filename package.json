@@ -6,6 +6,7 @@
   "directories": {},
   "scripts": {
     "start": "webpack --config webpack.config.js",
+    "dev": "webpack-dev-server --config ./webpack.config.js --mode development --port 5000",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.config.js"
   },
@@ -23,10 +24,12 @@
   },
   "homepage": "https://github.com/MFarejowicz/MFarejowicz.github.io#readme",
   "dependencies": {
+    "@reach/router": "^1.2.1",
     "react": "^16.9.0",
     "react-copy-to-clipboard": "^5.0.1",
     "react-dom": "^16.9.0",
-    "react-event-timeline": "^1.6.3"
+    "react-event-timeline": "^1.6.3",
+    "react-router-dom": "^5.1.2"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -38,6 +41,7 @@
     "css-loader": "^2.1.1",
     "style-loader": "^0.18.2",
     "webpack": "^4.39.3",
-    "webpack-cli": "^3.3.8"
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.10.1"
   }
 }

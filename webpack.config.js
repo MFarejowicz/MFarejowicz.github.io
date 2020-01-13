@@ -1,36 +1,36 @@
-var webpack = require('webpack')
-var path = require('path')
+var webpack = require("webpack");
+var path = require("path");
 
 module.exports = {
-  entry: './index.jsx',
+  entry: "./index.jsx",
   output: {
-    publicPath: '',
-    path: path.join(__dirname, '/static'),
-    filename: 'index.js'
+    publicPath: "",
+    path: path.join(__dirname, "/static"),
+    filename: "index.js",
   },
-  mode: 'production',
+  mode: "production",
   module: {
     rules: [
       {
         test: /\.jsx$/,
-        loader: 'babel-loader',
+        loader: "babel-loader",
         options: {
-          'presets': ['es2015', 'react'],
-          'plugins': ['transform-class-properties']
-        }
+          presets: ["es2015", "react"],
+          plugins: ["transform-class-properties"],
+        },
       },
       {
         test: /\.css$/,
-        loader: 'style-loader'
+        loader: "style-loader",
       },
       {
         test: /\.css$/,
-        loader: 'css-loader',
+        loader: "css-loader",
         options: {
           modules: true,
-          localIdentName: '[path][name]__[local]___[hash:base64:5]'
-        }
-      }
-    ]
-  }
-}
+          localIdentName: "[path][name]__[local]___[hash:base64:5]",
+        },
+      },
+    ],
+  },
+};

@@ -5,10 +5,6 @@ import MyLine from "./MyLine/MyLine.jsx";
 
 class Work extends React.Component {
   render() {
-    if (!this.props.active) {
-      return <div style={{ display: "none" }} />;
-    }
-
     let content = (
       <div>
         <div className={styles.section}>

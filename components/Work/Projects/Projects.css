@@ -15,7 +15,7 @@
   width: 33.33%;
   box-sizing: border-box;
   text-align: center;
-  transition: all .5s ease;
+  transition: all 0.5s ease;
 }
 
 .project:hover {
