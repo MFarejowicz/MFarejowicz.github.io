@@ -2,27 +2,9 @@ import React from "react";
 import styles from "./NavBar.css";
 import NavLink from "./NavLink/NavLink.jsx";
 import Dropdown from "./Dropdown/Dropdown.jsx";
+import { navigate, Location } from "@reach/router";
 
 class NavBar extends React.Component {
-  switchSelected = (newPane) => {
-    switch (newPane) {
-      case "Home":
-        this.props.handleHome();
-        break;
-      case "About":
-        this.props.handleAbout();
-        break;
-      case "Work":
-        this.props.handleWork();
-        break;
-      case "Fun":
-        this.props.handleFun();
-        break;
-      default:
-        break;
-    }
-  };
-
   render() {
     return (
       <div className={styles.top}>
@@ -33,34 +15,18 @@ class NavBar extends React.Component {
             height="100%"
             alt="Matt"
             style={{ float: "left", cursor: "pointer" }}
-            onClick={this.props.handleHome}
+            onClick={() => navigate("/")}
           ></img>
-          <NavLink
-            title="Fun"
-            active={this.props.selected == "Fun"}
-            handleClick={this.props.handleFun}
-          />
-          <NavLink
-            title="Work"
-            active={this.props.selected == "Work"}
-            handleClick={this.props.handleWork}
-          />
-          <NavLink
-            title="About"
-            active={this.props.selected == "About"}
-            handleClick={this.props.handleAbout}
-          />
-          <NavLink
-            title="Home"
-            active={this.props.selected == "Home"}
-            handleClick={this.props.handleHome}
-          />
+          <NavLink title="Fun" to="/fun" currentPath={this.props.location.pathname} />
+          <NavLink title="Work" to="/work" currentPath={this.props.location.pathname} />
+          <NavLink title="About" to="/about" currentPath={this.props.location.pathname} />
+          <NavLink title="Home" to="/" currentPath={this.props.location.pathname} />
           <Dropdown
-            selected={this.props.selected}
+            currentPath={this.props.location.pathname}
             list={["Home", "About", "Work", "Fun"]}
-            handleChange={this.switchSelected}
+            tos={["/", "/about", "/work", "/fun"]}
           />
-          <span className={styles.brand} onClick={this.props.handleHome}>
+          <span className={styles.brand} onClick={() => navigate("/")}>
             MattF
           </span>
         </div>
@@ -69,4 +35,14 @@ class NavBar extends React.Component {
   }
 }
 
-export default NavBar;
+const NavBarWithLocation = (props) => {
+  return (
+    <Location>
+      {({ location }) => {
+        return <NavBar location={location} {...props} />;
+      }}
+    </Location>
+  );
+};
+
+export default NavBarWithLocation;

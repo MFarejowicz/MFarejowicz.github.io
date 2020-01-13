@@ -23,13 +23,7 @@
         a.async = 1;
         a.src = g;
         m.parentNode.insertBefore(a, m);
-      })(
-        window,
-        document,
-        "script",
-        "https://www.google-analytics.com/analytics.js",
-        "ga"
-      );
+      })(window, document, "script", "https://www.google-analytics.com/analytics.js", "ga");
 
       ga("create", "UA-102719927-1", "auto");
       ga("send", "pageview");
@@ -65,10 +59,7 @@
             window.history.replaceState(
               null,
               null,
-              l.pathname.slice(0, -1) +
-                (q.p || "") +
-                (q.q ? "?" + q.q : "") +
-                l.hash
+              l.pathname.slice(0, -1) + (q.p || "") + (q.q ? "?" + q.q : "") + l.hash
             );
           }
         }

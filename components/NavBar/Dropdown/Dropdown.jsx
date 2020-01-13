@@ -1,4 +1,5 @@
 import React from "react";
+import { navigate } from "@reach/router";
 import styles from "./Dropdown.css";
 
 class Dropdown extends React.Component {
@@ -9,27 +10,38 @@ class Dropdown extends React.Component {
     };
   }
 
-  select(item) {
-    this.setState({ listVisible: false });
-    this.props.handleChange(item);
-  }
+  getCurrent = () => {
+    const path = this.props.currentPath;
+    const pathMap = {
+      "/": "Home",
+      "/about": "About",
+      "/work": "Work",
+      "/fun": "Fun",
+    };
+    return pathMap[path];
+  };
 
-  show() {
+  select = (item) => {
+    this.setState({ listVisible: false });
+    navigate(item);
+  };
+
+  show = () => {
     this.setState({ listVisible: true });
-    document.addEventListener("click", this.hide.bind(this), { once: true });
-  }
+    document.addEventListener("click", this.hide, { once: true });
+  };
 
-  hide() {
+  hide = () => {
     this.setState({ listVisible: false });
-  }
+  };
 
   render() {
     return (
       <div className={styles.container}>
-        <div onClick={!this.state.listVisible ? this.show.bind(this) : null}>
+        <div onClick={!this.state.listVisible ? this.show : null}>
           <div className={styles.hvrUnderline}>
             <img src="./static/img/drop.png" className={styles.pic}></img>
-            {this.props.selected}
+            {this.getCurrent()}
           </div>
         </div>
         {this.renderListItems()}
@@ -44,13 +56,14 @@ class Dropdown extends React.Component {
       },
     };
 
-    var items = [];
-    for (var i = 0; i < this.props.list.length; i++) {
-      var item = this.props.list[i];
+    const items = [];
+    for (let i = 0; i < this.props.list.length; i++) {
+      const item = this.props.list[i];
+      const to = this.props.tos[i];
       items.push(
         <div
           key={item}
-          onClick={this.select.bind(this, item)}
+          onClick={() => this.select(to)}
           style={
             this.state.listVisible
               ? {
