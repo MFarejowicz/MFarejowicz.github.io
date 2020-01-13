@@ -1,10 +1,10 @@
 .container {
   -webkit-animation-name: fadein;
-  -webkit-animation-duration: .5s;
+  -webkit-animation-duration: 0.5s;
   -webkit-animation-timing-function: linear;
   -webkit-animation-fill-mode: backwards;
   animation-name: fadein;
-  animation-duration: .5s;
+  animation-duration: 0.5s;
   animation-fill-mode: backwards;
   animation-timing-function: linear;
 }

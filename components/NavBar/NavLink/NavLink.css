@@ -1,4 +1,6 @@
 .active {
+  color: black;
+  text-decoration: none;
   font-weight: bold;
   font-size: 33px;
   width: 150px;
@@ -10,6 +12,8 @@
 }
 
 .hvrUnderline {
+  color: black;
+  text-decoration: none;
   font-size: 33px;
   width: 150px;
   padding: 11px 10px 10px;
