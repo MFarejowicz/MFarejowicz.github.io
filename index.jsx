@@ -7,6 +7,7 @@ import Home from "./components/Home/Home.jsx";
 import About from "./components/About/About.jsx";
 import Work from "./components/Work/Work.jsx";
 import Fun from "./components/Fun/Fun.jsx";
+import NotFound from "./components/NotFound/NotFound.jsx";
 
 import styles from "./static/app.css";
 
@@ -28,6 +29,7 @@ class Website extends React.Component {
           <About path="/about" />
           <Work path="/work" />
           <Fun path="/fun" />
+          <NotFound default />
         </Router>
       </div>
     );
