@@ -5,3 +5,8 @@
   min-width: 100px;
   padding: 10px 40px;
 }
+
+.backText {
+  font-size: 20px;
+  margin-top: 5px;
+}

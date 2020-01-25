@@ -21,8 +21,8 @@ class Home extends React.Component {
   };
 
   render() {
-    let content = (
-      <div>
+    return (
+      <div className={styles.container}>
         <div className={styles.section}>
           <b>Welcome!</b>
           <hr />
@@ -132,8 +132,6 @@ class Home extends React.Component {
         </div>
       </div>
     );
-
-    return <div className={styles.container}>{content}</div>;
   }
 }
 

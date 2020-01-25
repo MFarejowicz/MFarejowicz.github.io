@@ -1,4 +1,5 @@
 import React from "react";
+
 import styles from "./Projects.css";
 
 class Projects extends React.Component {
@@ -9,6 +10,18 @@ class Projects extends React.Component {
         <hr />
         <p className={styles.description}>My past and current projects can be found here:</p>
         <div className={styles.container}>
+          <div className={styles.project}>
+            <a href="https://mfarejowicz.github.io/ml-meme/" className={styles.link}>
+              <img className={styles.picture} src="./static/img/fit2.png" alt="Fit your bits"></img>
+              <div className={styles.projectInfo}>
+                <h3 className={styles.title}>Fit Your Bits!</h3>
+                <p className={styles.caption}>
+                  Inspired by Hole in the Wall, this game uses a pre-trained model to recognize
+                  poses.
+                </p>
+              </div>
+            </a>
+          </div>
           <div className={styles.project}>
             <a href="https://mfarejowicz.github.io/ts-typer/" className={styles.link}>
               <img className={styles.picture} src="./static/img/tstyper.png" alt="tstyper"></img>
@@ -35,17 +48,6 @@ class Projects extends React.Component {
             </a>
           </div>
           <div className={styles.project}>
-            <a href="https://mcd4-me.web.app/" className={styles.link}>
-              <img className={styles.picture} src="./static/img/mcd.png" alt="McD4Me"></img>
-              <div className={styles.projectInfo}>
-                <h3 className={styles.title}>McD4Me</h3>
-                <p className={styles.caption}>
-                  Created a food order consolidation web app that uses Google's Firebase technology.
-                </p>
-              </div>
-            </a>
-          </div>
-          <div className={styles.project}>
             <a href="https://next.mit.edu/nextgamers" className={styles.link}>
               <img className={styles.picture} src="./static/img/game.png" alt="Next Gamers"></img>
               <div className={styles.projectInfo}>
@@ -57,13 +59,24 @@ class Projects extends React.Component {
             </a>
           </div>
           <div className={styles.project}>
+            <a href="https://mcd4-me.web.app/" className={styles.link}>
+              <img className={styles.picture} src="./static/img/mcd.png" alt="McD4Me"></img>
+              <div className={styles.projectInfo}>
+                <h3 className={styles.title}>McD4Me</h3>
+                <p className={styles.caption}>
+                  Created a food order consolidation web app that uses Google's Firebase technology.
+                </p>
+              </div>
+            </a>
+          </div>
+          <div className={styles.project}>
             <a href="http://music.2east.us" className={styles.link}>
               <img className={styles.picture} src="./static/img/muse.png" alt="2GroovE"></img>
               <div className={styles.projectInfo}>
                 <h3 className={styles.title}>2E GroovE</h3>
                 <p className={styles.caption}>
                   Co-built a web app with Cory Lynch which queues and plays music into the 2E Main
-                  Lounge. Currently maintained by Michael Nguyen.
+                  Lounge. Currently maintained by Alice Nguyen.
                 </p>
               </div>
             </a>

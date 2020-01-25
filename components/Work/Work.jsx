@@ -1,12 +1,13 @@
 import React from "react";
-import styles from "./Work.css";
 import Projects from "./Projects/Projects.jsx";
 import MyLine from "./MyLine/MyLine.jsx";
 
+import styles from "./Work.css";
+
 class Work extends React.Component {
   render() {
-    let content = (
-      <div>
+    return (
+      <div className={styles.container}>
         <div className={styles.section}>
           <Projects />
         </div>
@@ -15,8 +16,6 @@ class Work extends React.Component {
         </div>
       </div>
     );
-
-    return <div className={styles.container}>{content}</div>;
   }
 }
 

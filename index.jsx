@@ -9,13 +9,13 @@ import Work from "./components/Work/Work.jsx";
 import Fun from "./components/Fun/Fun.jsx";
 import NotFound from "./components/NotFound/NotFound.jsx";
 
-import styles from "./static/app.css";
+import "./static/app.css";
 
 class Website extends React.Component {
   render() {
     let mobile = /Mobi/.test(navigator.userAgent) && !window.MSStream;
     if (mobile) {
-      var css = document.createElement("style");
+      const css = document.createElement("style");
       css.type = "text/css";
       css.innerHTML = "* {cursor: pointer}";
       document.body.appendChild(css);

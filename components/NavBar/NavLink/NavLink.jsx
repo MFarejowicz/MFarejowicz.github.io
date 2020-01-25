@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "@reach/router";
+
 import styles from "./NavLink.css";
 
 class NavLink extends React.Component {

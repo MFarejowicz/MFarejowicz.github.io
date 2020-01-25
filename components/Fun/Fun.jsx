@@ -1,10 +1,11 @@
 import React from "react";
+
 import styles from "./Fun.css";
 
 class Fun extends React.Component {
   render() {
-    let content = (
-      <div>
+    return (
+      <div className={styles.container}>
         <div className={styles.section}>
           <b>Social Links</b>
           <hr />
@@ -74,15 +75,8 @@ class Fun extends React.Component {
             </ul>
           </div>
         </div>
-        <div className={styles.section}>
-          <b>Games</b>
-          <hr />
-          <div className={styles.text}>Coming soon (possibly).</div>
-        </div>
       </div>
     );
-
-    return <div className={styles.container}>{content}</div>;
   }
 }
 

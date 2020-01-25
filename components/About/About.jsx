@@ -1,20 +1,16 @@
 import React from "react";
-import styles from "./About.css";
 import List from "./List/List.jsx";
+
+import styles from "./About.css";
 
 class About extends React.Component {
   render() {
-    let content = (
-      <div>
+    return (
+      <div className={styles.container}>
         <div className={styles.section}>
           <b>Biography</b>
           <hr />
-          <img
-            src="./static/img/matt.png"
-            title="It's Matt!"
-            alt="Matt"
-            className={styles.pic}
-          ></img>
+          <img src="./static/img/matt.png" title="It's Matt!" alt="Matt" className={styles.pic} />
           <div className={styles.text}>
             <p>
               Hey there! My name is Matthew Farejowicz, but you can call me Matt, MattF, Faree, or
@@ -83,8 +79,6 @@ class About extends React.Component {
         </div>
       </div>
     );
-
-    return <div className={styles.container}>{content}</div>;
   }
 }
 

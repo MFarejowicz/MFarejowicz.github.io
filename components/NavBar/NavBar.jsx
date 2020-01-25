@@ -1,8 +1,9 @@
 import React from "react";
-import styles from "./NavBar.css";
+import { navigate, Location } from "@reach/router";
 import NavLink from "./NavLink/NavLink.jsx";
 import Dropdown from "./Dropdown/Dropdown.jsx";
-import { navigate, Location } from "@reach/router";
+
+import styles from "./NavBar.css";
 
 class NavBar extends React.Component {
   render() {
@@ -16,7 +17,7 @@ class NavBar extends React.Component {
             alt="Matt"
             style={{ float: "left", cursor: "pointer" }}
             onClick={() => navigate("/")}
-          ></img>
+          />
           <NavLink title="Fun" to="/fun" currentPath={this.props.location.pathname} />
           <NavLink title="Work" to="/work" currentPath={this.props.location.pathname} />
           <NavLink title="About" to="/about" currentPath={this.props.location.pathname} />

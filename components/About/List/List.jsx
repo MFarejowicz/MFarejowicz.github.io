@@ -1,4 +1,5 @@
 import React from "react";
+
 import styles from "./List.css";
 
 class List extends React.Component {
@@ -17,29 +18,16 @@ class List extends React.Component {
 
   render() {
     return (
-      <div
-        className={styles.outer}
-        onClick={this.state.active ? null : this.changeActive}
-      >
+      <div className={styles.outer} onClick={this.state.active ? null : this.changeActive}>
         <div className={styles.topBar} onClick={this.changeActive}>
           <div>
             <h4 className={styles.heading}>Class and Activity List</h4>
           </div>
           <div className={styles.expand}>
             {this.state.active ? (
-              <img
-                src="./static/img/close.png"
-                title="Close"
-                className={styles.icon}
-                alt="Close"
-              ></img>
+              <img src="./static/img/close.png" title="Close" className={styles.icon} alt="Close" />
             ) : (
-              <img
-                src="./static/img/open.png"
-                title="Open"
-                className={styles.icon}
-                alt="Open"
-              ></img>
+              <img src="./static/img/open.png" title="Open" className={styles.icon} alt="Open" />
             )}
           </div>
         </div>
@@ -47,8 +35,8 @@ class List extends React.Component {
         <div className={styles.content}>
           {!this.state.active && (
             <div className={styles.clickable}>
-              Click to expand this section and see what classes I've taken or am
-              taking at MIT, as well as what I'm involved in.
+              Click to expand this section and see what classes I've taken or am taking at MIT, as
+              well as what I'm involved in.
             </div>
           )}
           {this.state.active && (
@@ -64,8 +52,8 @@ class List extends React.Component {
               <h4 className={styles.summer}>Summer 2019</h4>
               <ul className={styles.classList}>
                 <li>
-                  Internship with <a href="https://twitch.tv">twitch.tv</a>{" "}
-                  working on the Communications team.
+                  Internship with <a href="https://twitch.tv">twitch.tv</a> working on the
+                  Communications team.
                 </li>
               </ul>
               <h4 className={styles.spring}>Spring 2019</h4>
@@ -78,12 +66,8 @@ class List extends React.Component {
               <h4 className={styles.winter}>IAP 2019</h4>
               <ul className={styles.classList}>
                 <li>
-                  Took MIT's{" "}
-                  <a href="http://weblab.mit.edu/">
-                    Web Development Class/Competition
-                  </a>
-                  , and placed third with{" "}
-                  <a href="http://sound-space.herokuapp.com/">soundspace</a>
+                  Took MIT's <a href="http://weblab.mit.edu/">Web Development Class/Competition</a>,
+                  and placed third with <a href="http://sound-space.herokuapp.com/">soundspace</a>
                 </li>
               </ul>
               <h4 className={styles.fall}>Fall 2018</h4>
@@ -116,9 +100,7 @@ class List extends React.Component {
               <ul className={styles.classList}>
                 <li>
                   Taught high schoolers in Guadalajara, Mexico through{" "}
-                  <a href="http://misti.mit.edu/global-teaching-labs">
-                    MIT MISTI GTL
-                  </a>
+                  <a href="http://misti.mit.edu/global-teaching-labs">MIT MISTI GTL</a>
                 </li>
               </ul>
               <h4 className={styles.fall}>Fall 2017</h4>
@@ -170,13 +152,11 @@ class List extends React.Component {
                   <a href="https://next.mit.edu">Next House</a> VP of Facilities
                 </li>
                 <li>
-                  <a href="https://next.mit.edu/nextgamers">Next Gamers</a>{" "}
-                  Video Game Treasurer
+                  <a href="https://next.mit.edu/nextgamers">Next Gamers</a> Video Game Treasurer
                 </li>
                 <li>Next Anime Founder and President</li>
                 <li>
-                  Writer in the Arts Department for{" "}
-                  <a href="https://thetech.com/">The Tech</a>
+                  Writer in the Arts Department for <a href="https://thetech.com/">The Tech</a>
                 </li>
               </ul>
               <h4 className={styles.oldExtra}>Prior Extracurriculars</h4>
@@ -188,9 +168,7 @@ class List extends React.Component {
                 </li>
                 <li>Next House Intramural Ice Hockey Team Member</li>
                 <li>
-                  MIT{" "}
-                  <a href="https://esp.mit.edu">Educational Studies Program</a>{" "}
-                  Admin
+                  MIT <a href="https://esp.mit.edu">Educational Studies Program</a> Admin
                 </li>
               </ul>
             </div>
