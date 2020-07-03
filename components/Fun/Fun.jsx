@@ -27,6 +27,12 @@ class Fun extends React.Component {
                   MyAnimeList
                 </a>
               </li>
+              <li>
+                <a className={styles.link} href="https://www.twitch.tv/nerds235">
+                  <img src="./static/img/twitch.png" className={styles.icon}></img>
+                  Twitch
+                </a>
+              </li>
             </ul>
           </div>
         </div>
@@ -70,6 +76,7 @@ class Fun extends React.Component {
             <hr className={styles.split} />
             <p className={styles.caption}>Favorite games:</p>
             <ul className={styles.favList}>
+              <li>Destiny 2</li>
               <li>DotA 2</li>
               <li>The Binding of Isaac: Rebirth</li>
             </ul>

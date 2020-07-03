@@ -9,6 +9,37 @@ class MyLine extends React.Component {
         <hr />
         <Timeline>
           <TimelineEvent
+            title="Full-Time with Twitch"
+            createdAt="July 2020 - ..."
+            iconColor="#f17e33"
+            icon={<img src="./static/img/glitch.png" width="120%"></img>}
+          >
+            Working as a frontend engineer with the Communications team, focusing on Twitch products
+            like Chat and Whispers.
+          </TimelineEvent>
+          <TimelineEvent
+            title="18.650: Statistics Grader"
+            createdAt="February 2020 - May 2020"
+            iconColor="#f17e33"
+            icon={<img src="./static/img/grade.png" width="52%"></img>}
+          >
+            Graded the problem sets and midterms of over 25 students for MIT's 18.650 Statistics
+            course.
+            <br />
+            Reported observations and common mistakes directly to the supervising professor.
+          </TimelineEvent>
+          <TimelineEvent
+            title="MIT web.lab Treasurer"
+            createdAt="January 2020"
+            iconColor="#f17e33"
+            icon={<img src="./static/img/teach.png" width="52%"></img>}
+          >
+            Taught introductory JavaScript and React to other MIT students.
+            <br />
+            Planned and managed budget for MIT's 6.148 web.lab course, as well as filed
+            reimbursements for staff.
+          </TimelineEvent>
+          <TimelineEvent
             title="18.600: Probability Grader (Round 2!)"
             createdAt="September 2019 - December 2019"
             iconColor="#f17e33"
@@ -20,7 +51,7 @@ class MyLine extends React.Component {
             Reported observations and common mistakes directly to the supervising professor.
           </TimelineEvent>
           <TimelineEvent
-            title="Internship with twitch.tv"
+            title="Internship with Twitch"
             createdAt="June 2019 - August 2019"
             iconColor="#f17e33"
             icon={<img src="./static/img/glitch.png" width="120%"></img>}

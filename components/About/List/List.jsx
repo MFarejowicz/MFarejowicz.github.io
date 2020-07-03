@@ -35,13 +35,33 @@ class List extends React.Component {
         <div className={styles.content}>
           {!this.state.active && (
             <div className={styles.clickable}>
-              Click to expand this section and see what classes I've taken or am taking at MIT, as
-              well as what I'm involved in.
+              Click to expand this section and see what I'm up to now, as well as what I've done in
+              the past.
             </div>
           )}
           {this.state.active && (
             <div>
               <h2 className={styles.sectionTitle}>Classes</h2>
+              <h4 className={styles.summer}>Summer 2020 and beyond</h4>
+              <ul className={styles.classList}>
+                <li>
+                  Full-time software engineering with <a href="https://twitch.tv">Twitch</a>
+                </li>
+              </ul>
+              <h4 className={styles.spring}>Spring 2020</h4>
+              <ul className={styles.classList}>
+                <li>6.894: Interactive Data Visualization</li>
+                <li>21M.623: Physical Improvisation</li>
+                <li>7.URG: Biology UROP</li>
+              </ul>
+              <h4 className={styles.winter}>IAP 2020</h4>
+              <ul className={styles.classList}>
+                <li>
+                  Served as treasurer for MIT's{" "}
+                  <a href="http://weblab.mit.edu/">Web Development Class/Competition</a>, keeping
+                  track of finances and teaching lectures
+                </li>
+              </ul>
               <h4 className={styles.fall}>Fall 2019</h4>
               <ul className={styles.classList}>
                 <li>6.170: Software Studio</li>
@@ -52,8 +72,8 @@ class List extends React.Component {
               <h4 className={styles.summer}>Summer 2019</h4>
               <ul className={styles.classList}>
                 <li>
-                  Internship with <a href="https://twitch.tv">twitch.tv</a> working on the
-                  Communications team.
+                  Internship with <a href="https://twitch.tv">Twitch</a> working on the
+                  Communications team
                 </li>
               </ul>
               <h4 className={styles.spring}>Spring 2019</h4>
@@ -145,21 +165,14 @@ class List extends React.Component {
                 <li>8.01: Physics I - Mechanics</li>
                 <li>8.02: Calculus I - Single Variable</li>
               </ul>
-              <h2 className={styles.sectionTitle}>Activities</h2>
-              <h4 className={styles.activeExtra}>Ongoing Extracurriculars</h4>
+              <h2 className={styles.sectionTitle}>Hobbies and Activities</h2>
+              <h4 className={styles.activeExtra}>Current Hobbies</h4>
               <ul className={styles.classList}>
                 <li>
-                  <a href="https://next.mit.edu">Next House</a> VP of Facilities
-                </li>
-                <li>
-                  <a href="https://next.mit.edu/nextgamers">Next Gamers</a> Video Game Treasurer
-                </li>
-                <li>Next Anime Founder and President</li>
-                <li>
-                  Writer in the Arts Department for <a href="https://thetech.com/">The Tech</a>
+                  Occasional streams on <a href="https://www.twitch.tv/nerds235">Twitch</a>
                 </li>
               </ul>
-              <h4 className={styles.oldExtra}>Prior Extracurriculars</h4>
+              <h4 className={styles.oldExtra}>Prior MIT Extracurriculars</h4>
               <ul className={styles.classList}>
                 <li>Next House 2W Wing Rep</li>
                 <li>Next Haunt Build Crew and Run Crew</li>
@@ -169,6 +182,16 @@ class List extends React.Component {
                 <li>Next House Intramural Ice Hockey Team Member</li>
                 <li>
                   MIT <a href="https://esp.mit.edu">Educational Studies Program</a> Admin
+                </li>
+                <li>
+                  <a href="https://next.mit.edu">Next House</a> VP of Facilities
+                </li>
+                <li>
+                  <a href="https://next.mit.edu/nextgamers">Next Gamers</a> Video Game Treasurer
+                </li>
+                <li>Next Anime Founder and President</li>
+                <li>
+                  Writer in the Arts Department for <a href="https://thetech.com/">The Tech</a>
                 </li>
               </ul>
             </div>

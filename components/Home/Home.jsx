@@ -27,11 +27,10 @@ class Home extends React.Component {
           <b>Welcome!</b>
           <hr />
           <div className={styles.text}>
-            Hello! You've arrived at the personal website of Matt Farejowicz. I'm an MIT senior,
-            majoring in Course 18C - Mathematics with Computer Science. This website will serve as a
-            hub for information relevant to me and what I'm up to. I'll be doing my best to keep it
-            updated with the most current information. Regardless, thanks for visiting, and feel
-            free to take a look around.
+            Hello! You've arrived at the personal website of Matt Farejowicz. I'm a software
+            Engineer at Twitch. This website will serve as a hub for information relevant to me and
+            what I'm up to. I'll be doing my best to keep it updated with the most current
+            information. Regardless, thanks for visiting, and feel free to take a look around.
             <ul className={styles.list}>
               <li>
                 You can find out more about me and my life over in the{" "}
@@ -109,9 +108,9 @@ class Home extends React.Component {
           <div className={styles.text}>
             <div className={styles.hold}>
               If you'd like to reach me directly, feel free to shoot me an email at{" "}
-              <CopyToClipboard text="mfarejow@mit.edu">
+              <CopyToClipboard text="mfarejowicz@gmail.com">
                 <div onClick={this.handleCopy} className={styles.tooltip}>
-                  <span className={styles.hvrpop}> mfarejow@mit.edu</span>
+                  <span className={styles.hvrpop}> mfarejowicz@gmail.com</span>
                   <span
                     className={styles.tooltipText}
                     style={this.state.copyVisible ? { visibility: "visible" } : null}

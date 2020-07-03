@@ -8,8 +8,20 @@ class Projects extends React.Component {
       <div>
         <b>Projects</b>
         <hr />
-        <p className={styles.description}>My past and current projects can be found here:</p>
+        <p className={styles.description}>My current and past projects can be found here:</p>
         <div className={styles.container}>
+          <div className={styles.project}>
+            <a href="https://play-whatever.herokuapp.com/" className={styles.link}>
+              <img className={styles.picture} src="./static/img/play.png" alt="Play Whatever"></img>
+              <div className={styles.projectInfo}>
+                <h3 className={styles.title}>Play Whatever</h3>
+                <p className={styles.caption}>
+                  An infinite playlist generator for Spotify. Helps you find new music with less
+                  effort.
+                </p>
+              </div>
+            </a>
+          </div>
           <div className={styles.project}>
             <a href="https://mfarejowicz.github.io/ml-meme/" className={styles.link}>
               <img className={styles.picture} src="./static/img/fit2.png" alt="Fit your bits"></img>

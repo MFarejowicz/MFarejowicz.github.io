@@ -62,6 +62,11 @@
   margin: 0;
 }
 
+.link {
+  display: flex;
+  align-items: center;
+}
+
 .link:hover {
   color: #f17e33;
 }
