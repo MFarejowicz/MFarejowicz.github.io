@@ -1,47 +1,50 @@
 {
   "name": "MFarejowicz.github.io",
-  "version": "1.0.0",
-  "description": "Personal Website for Matt Farejowicz",
-  "main": "index.js",
-  "directories": {},
-  "scripts": {
-    "start": "webpack --config webpack.config.js",
-    "dev": "webpack-dev-server --config ./webpack.config.js --mode development --port 5000",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --config webpack.config.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MFarejowicz/MFarejowicz.github.io.git"
-  },
-  "keywords": [
-    "website"
-  ],
   "author": "Matt Farejowicz",
+  "description": "Personal Website for Matt Farejowicz",
+  "homepage": "http://mfarejowicz.github.io/",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/MFarejowicz/MFarejowicz.github.io/issues"
-  },
-  "homepage": "https://github.com/MFarejowicz/MFarejowicz.github.io#readme",
+  "version": "1.0.0",
+  "private": true,
   "dependencies": {
-    "@reach/router": "^1.2.1",
-    "react": "^16.9.0",
-    "react-copy-to-clipboard": "^5.0.1",
-    "react-dom": "^16.9.0",
+    "@reach/router": "^1.3.4",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "react": "^17.0.2",
+    "react-copy-to-clipboard": "^5.0.4",
+    "react-dom": "^17.0.2",
     "react-event-timeline": "^1.6.3",
-    "react-router-dom": "^5.1.2"
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.0.1"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.5",
-    "babel-plugin-transform-class-properties": "^6.24.1",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
-    "css-loader": "^2.1.1",
-    "style-loader": "^0.18.2",
-    "webpack": "^4.39.3",
-    "webpack-cli": "^3.3.8",
-    "webpack-dev-server": "^3.10.1"
+    "gh-pages": "^3.2.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

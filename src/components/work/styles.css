@@ -1,0 +1,64 @@
+.Work-container {
+  -webkit-animation-name: fadein;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-fill-mode: backwards;
+  animation-name: fadein;
+  animation-duration: 0.5s;
+  animation-fill-mode: backwards;
+  animation-timing-function: linear;
+}
+
+.Work-section {
+  font-size: 18px;
+  margin: 20px auto;
+  border: 2px solid #000000;
+  width: 60%;
+  min-width: 100px;
+  padding: 10px 40px;
+}
+
+.Work-timeline {
+  font-size: 20px;
+  margin: 20px auto;
+  border: 2px solid #000000;
+  width: 60%;
+  min-width: 100px;
+  padding: 10px 40px;
+}
+
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@media all and (max-width: 800px) {
+  .Work-section {
+    font-size: 14px;
+  }
+
+  .Work-timeline {
+    font-size: 14px;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .Work-section {
+    font-size: 12px;
+  }
+}

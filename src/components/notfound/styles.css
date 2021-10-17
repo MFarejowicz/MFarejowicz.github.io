@@ -1,0 +1,12 @@
+.NotFound-section {
+  margin: 20px auto;
+  border: 2px solid #000000;
+  width: 60%;
+  min-width: 100px;
+  padding: 10px 40px;
+}
+
+.NotFound-text {
+  font-size: 20px;
+  margin-top: 5px;
+}

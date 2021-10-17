@@ -1,0 +1,48 @@
+.Navbar-container {
+  background-color: #f17e33;
+}
+
+.Navbar-content {
+  width: 60%;
+  height: 60px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Navbar-brand {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.Navbar-pic {
+  height: 60px;
+}
+
+.Navbar-name {
+  display: inline-block;
+  font-family: "Roboto", serif;
+  font-size: 40px;
+  padding-top: 4px;
+  cursor: pointer;
+}
+
+.Navbar-links {
+  display: flex;
+  align-items: center;
+}
+
+@media all and (max-width: 900px) {
+  .Navbar-content {
+    width: 90%;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .Navbar-name {
+    font-size: 24px;
+    padding-top: 4px;
+  }
+}

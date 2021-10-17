@@ -1,0 +1,148 @@
+.List-outer {
+  margin: 20px auto;
+  padding: 10px 40px;
+  width: 60%;
+  min-width: 100px;
+  border: 2px solid #000000;
+}
+
+.List-heading {
+  font-size: 26px;
+}
+
+.List-topBar {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.List-expand {
+  height: 30px;
+}
+
+.List-icon {
+  height: 30px;
+}
+
+.List-content {
+  font-size: 18px;
+  color: #000000;
+}
+
+.List-clickable {
+  cursor: pointer;
+}
+
+.List-sectionTitle {
+  font-size: 23px;
+  text-decoration: underline;
+  margin-bottom: 5px;
+}
+
+.List-classList {
+  margin: 0 0 8px 0;
+  line-height: 145%;
+}
+
+.List-fall {
+  font-size: 20px;
+  color: #cf5230;
+}
+
+.List-winter {
+  font-size: 20px;
+  color: #a0ccff;
+}
+
+.List-spring {
+  font-size: 20px;
+  color: #4aa02c;
+}
+
+.List-summer {
+  font-size: 20px;
+  color: #236e96;
+}
+
+.List-activeExtra {
+  font-size: 20px;
+  color: #407512;
+}
+
+.List-oldExtra {
+  font-size: 20px;
+  color: #a31f34;
+}
+
+.List-normal {
+  font-size: 20px;
+}
+
+@media all and (max-width: 800px) {
+  .List-heading {
+    font-size: 20px;
+  }
+
+  .List-expand {
+    font-size: 20px;
+  }
+
+  .List-icon {
+    height: 24px;
+  }
+
+  .List-sectionTitle {
+    font-size: 19px;
+  }
+
+  .List-classList {
+    margin: 0 0 8px -20px;
+  }
+
+  .List-content {
+    font-size: 14px;
+  }
+
+  .List-fall,
+  .List-winter,
+  .List-spring,
+  .List-summer,
+  .List-activeExtra,
+  .List-oldExtra,
+  .List-normal {
+    font-size: 17px;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .List-heading {
+    font-size: 18px;
+  }
+
+  .List-expand {
+    font-size: 16px;
+  }
+
+  .List-icon {
+    height: 21px;
+  }
+
+  .List-content {
+    font-size: 12px;
+  }
+
+  .List-sectionTitle {
+    font-size: 16px;
+  }
+
+  .List-fall,
+  .List-winter,
+  .List-spring,
+  .List-summer,
+  .List-activeExtra,
+  .List-oldExtra,
+  .List-normal {
+    font-size: 15px;
+  }
+}
