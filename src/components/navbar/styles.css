@@ -15,6 +15,7 @@
   display: flex;
   align-items: center;
   flex-grow: 1;
+  cursor: pointer;
 }
 
 .Navbar-pic {
@@ -26,7 +27,6 @@
   font-family: "Roboto", serif;
   font-size: 40px;
   padding-top: 4px;
-  cursor: pointer;
 }
 
 .Navbar-links {

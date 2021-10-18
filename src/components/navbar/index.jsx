@@ -10,17 +10,9 @@ const Navbar = (props) => {
   return (
     <div className="Navbar-container">
       <div className="Navbar-content">
-        <div className="Navbar-brand">
-          <img
-            src={me}
-            title="Me!"
-            alt="Matt"
-            className="Navbar-pic"
-            onClick={() => navigate("/")}
-          />
-          <span className="Navbar-name" onClick={() => navigate("/")}>
-            MattF
-          </span>
+        <div className="Navbar-brand" onClick={() => navigate("/")}>
+          <img src={me} title="Me!" alt="Matt" className="Navbar-pic" />
+          <span className="Navbar-name">MattF</span>
         </div>
         <div className="Navbar-links">
           <Navlink title="Home" to="/" currentPath={props.location.pathname} />
