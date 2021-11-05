@@ -1,4 +1,5 @@
 import { Timeline, TimelineEvent } from "react-event-timeline";
+import { Link } from "../../common/link";
 
 import glitch from "../../../assets/glitch.png";
 import grade from "../../../assets/grade.png";
@@ -18,12 +19,21 @@ export const MyLine = () => {
       <hr />
       <Timeline>
         <TimelineEvent
-          title="Full-Time with Twitch"
-          createdAt="July 2020 - ..."
+          title="Full-Time with Twitch (Software Engineer II)"
+          createdAt="November2021 - ..."
           iconColor="#f17e33"
           icon={<img src={glitch} alt="Twitch Glitch" width="120%" />}
         >
-          Working as a frontend engineer with the Communications team, focusing on Twitch products
+          Working as a full-stack engineer with the Community Engagement team, focusing on Twitch
+          products like Chat, Whispers, Channel Points, and Predictions.
+        </TimelineEvent>
+        <TimelineEvent
+          title="Full-Time with Twitch (Software Engineer I)"
+          createdAt="July 2020 - November 2021"
+          iconColor="#f17e33"
+          icon={<img src={glitch} alt="Twitch Glitch" width="120%" />}
+        >
+          Worked as a front-end engineer with the Communications team, focusing on Twitch products
           like Chat and Whispers.
         </TimelineEvent>
         <TimelineEvent
@@ -65,7 +75,7 @@ export const MyLine = () => {
           iconColor="#f17e33"
           icon={<img src={glitch} alt="Twitch Glitch" width="120%" />}
         >
-          Worked as a frontend engineer with the Communications team, focusing on Twitch products
+          Worked as a front-end engineer with the Communications team, focusing on Twitch products
           like Chat and Whispers.
           <br />
           Designed and developed a new autocomplete interface to help viewers quickly and
@@ -123,7 +133,10 @@ export const MyLine = () => {
           icon={<img src={teach} alt="Teaching" width="52%" />}
         >
           Resided in Guadalajara, Mexico for one month and taught students at{" "}
-          <a href="http://prepa.uag.mx/">UAG Prepa</a>.
+          <Link href="http://prepa.uag.mx/" small>
+            UAG Prepa
+          </Link>
+          .
           <br />
           Prepared lesson plans and motivational materials for various high school classes.
         </TimelineEvent>

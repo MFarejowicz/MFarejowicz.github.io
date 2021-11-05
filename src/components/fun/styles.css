@@ -42,15 +42,6 @@
   margin: 0;
 }
 
-.Fun-link {
-  display: flex;
-  align-items: center;
-}
-
-.Fun-link:hover {
-  color: #f17e33;
-}
-
 .Fun-icon {
   width: 22px;
   margin-right: 5px;

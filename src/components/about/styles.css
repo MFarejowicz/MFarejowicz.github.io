@@ -28,15 +28,6 @@
   padding: 0;
 }
 
-.About-link {
-  display: flex;
-  align-items: center;
-}
-
-.About-link:hover {
-  color: #f17e33;
-}
-
 .About-text {
   line-height: 150%;
 }

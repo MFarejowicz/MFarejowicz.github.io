@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "../../common/link";
 
 import open from "../../../assets/open.png";
 import close from "../../../assets/close.png";
@@ -29,7 +30,7 @@ export const List = () => {
       <hr />
       <div className="List-content">
         {!active && (
-          <div className="List-clickable">
+          <div className="List-clickable" onClick={toggleActive}>
             Click to expand this section and see what I'm up to now, as well as what I've done in
             the past.
           </div>
@@ -40,7 +41,7 @@ export const List = () => {
             <h4 className="List-summer">Summer 2020 and beyond</h4>
             <ul className="List-classList">
               <li>
-                Full-time software engineering with <a href="https://twitch.tv">Twitch</a>
+                Full-time Software Engineer with <Link href="https://twitch.tv">Twitch</Link>
               </li>
             </ul>
             <h4 className="List-spring">Spring 2020</h4>
@@ -53,8 +54,8 @@ export const List = () => {
             <ul className="List-classList">
               <li>
                 Served as treasurer for MIT's{" "}
-                <a href="http://weblab.mit.edu/">Web Development Class/Competition</a>, keeping
-                track of finances and teaching lectures
+                <Link href="http://weblab.mit.edu/">Web Development Class/Competition</Link>,
+                keeping track of finances and teaching lectures
               </li>
             </ul>
             <h4 className="List-fall">Fall 2019</h4>
@@ -67,8 +68,8 @@ export const List = () => {
             <h4 className="List-summer">Summer 2019</h4>
             <ul className="List-classList">
               <li>
-                Internship with <a href="https://twitch.tv">Twitch</a> working on the Communications
-                team
+                Internship with <Link href="https://twitch.tv">Twitch</Link> working on the
+                Communications team
               </li>
             </ul>
             <h4 className="List-spring">Spring 2019</h4>
@@ -81,8 +82,9 @@ export const List = () => {
             <h4 className="List-winter">IAP 2019</h4>
             <ul className="List-classList">
               <li>
-                Took MIT's <a href="http://weblab.mit.edu/">Web Development Class/Competition</a>,
-                and placed third with <a href="http://sound-space.herokuapp.com/">soundspace</a>
+                Took MIT's{" "}
+                <Link href="http://weblab.mit.edu/">Web Development Class/Competition</Link>, and
+                placed third with <Link href="http://sound-space.herokuapp.com/">soundspace</Link>
               </li>
             </ul>
             <h4 className="List-fall">Fall 2018</h4>
@@ -96,9 +98,9 @@ export const List = () => {
             <ul className="List-classList">
               <li>
                 UROP with{" "}
-                <a href="https://anthropology.mit.edu/people/faculty/ian-condry">
+                <Link href="https://anthropology.mit.edu/people/faculty/ian-condry">
                   Prof. Ian Condry
-                </a>{" "}
+                </Link>{" "}
                 working on app development
               </li>
               <li>MIT East Campus Summer RA (round 2!)</li>
@@ -115,7 +117,7 @@ export const List = () => {
             <ul className="List-classList">
               <li>
                 Taught high schoolers in Guadalajara, Mexico through{" "}
-                <a href="http://misti.mit.edu/global-teaching-labs">MIT MISTI GTL</a>
+                <Link href="http://misti.mit.edu/global-teaching-labs">MIT MISTI GTL</Link>
               </li>
             </ul>
             <h4 className="List-fall">Fall 2017</h4>
@@ -129,9 +131,9 @@ export const List = () => {
             <ul className="List-classList">
               <li>
                 UROP with the{" "}
-                <a href="https://www.media.mit.edu/groups/collective-learning/overview/">
+                <Link href="https://www.media.mit.edu/groups/collective-learning/overview/">
                   Collective Learning Group
-                </a>{" "}
+                </Link>{" "}
                 at the MIT Media Lab
               </li>
               <li>MIT East Campus Summer RA</li>
@@ -164,7 +166,7 @@ export const List = () => {
             <h4 className="List-activeExtra">Current Hobbies</h4>
             <ul className="List-classList">
               <li>
-                Occasional streams on <a href="https://www.twitch.tv/nerds235">Twitch</a>
+                Occasional streams on <Link href="https://www.twitch.tv/nerds235">Twitch</Link>
               </li>
             </ul>
             <h4 className="List-oldExtra">Prior MIT Extracurriculars</h4>
@@ -172,21 +174,21 @@ export const List = () => {
               <li>Next House 2W Wing Rep</li>
               <li>Next Haunt Build Crew and Run Crew</li>
               <li>
-                <a href="https://haunt.mit.edu">Next Haunt</a> Producer
+                <Link href="https://haunt.nextie.us">Next Haunt</Link> Producer
               </li>
               <li>Next House Intramural Ice Hockey Team Member</li>
               <li>
-                MIT <a href="https://esp.mit.edu">Educational Studies Program</a> Admin
+                MIT <Link href="https://esp.mit.edu">Educational Studies Program</Link> Admin
               </li>
               <li>
-                <a href="https://next.mit.edu">Next House</a> VP of Facilities
+                <Link href="https://next.mit.edu">Next House</Link> VP of Facilities
               </li>
               <li>
-                <a href="https://next.mit.edu/nextgamers">Next Gamers</a> Video Game Treasurer
+                <Link href="https://next.mit.edu/nextgamers">Next Gamers</Link> Video Game Treasurer
               </li>
               <li>Next Anime Founder and President</li>
               <li>
-                Writer in the Arts Department for <a href="https://thetech.com/">The Tech</a>
+                Writer in the Arts Department for <Link href="https://thetech.com/">The Tech</Link>
               </li>
             </ul>
           </div>

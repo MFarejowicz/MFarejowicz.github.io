@@ -1,0 +1,28 @@
+.Link-hvrpop {
+  font-size: 18px;
+  text-decoration: underline;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+}
+
+.Link-hvrpop:hover,
+.Link-hvrpop:focus,
+.Link-hvrpop:active {
+  color: #f17e33;
+  -webkit-animation-name: hvrpop;
+  animation-name: hvrpop;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+.Link-small {
+  font-size: 16px;
+}

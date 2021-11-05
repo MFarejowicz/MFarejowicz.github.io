@@ -1,3 +1,5 @@
+import { Link } from "../common/link";
+
 import steam from "../../assets/steam.png";
 import mal from "../../assets/mal.png";
 import twitch from "../../assets/twitch.png";
@@ -14,22 +16,22 @@ export const Fun = () => {
           <p className="Fun-caption">Find me on some not-so-professional networks:</p>
           <ul className="Fun-linkList">
             <li>
-              <a className="Fun-link" href="http://steamcommunity.com/profiles/76561198039687446">
+              <Link href="http://steamcommunity.com/profiles/76561198039687446">
                 <img src={steam} title="Steam" alt="Steam" className="Fun-icon" />
                 Steam
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="Fun-link" href="https://myanimelist.net/profile/Nerds6969">
+              <Link href="https://myanimelist.net/profile/Nerds6969">
                 <img src={mal} title="MyAnimeList" alt="MyAnimeList" className="Fun-icon" />
                 MyAnimeList
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="Fun-link" href="https://www.twitch.tv/nerds235">
+              <Link href="https://www.twitch.tv/nerds235">
                 <img src={twitch} title="Twitch" alt="Twitch" className="Fun-icon" />
                 Twitch
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

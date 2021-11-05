@@ -126,7 +126,7 @@ export const Projects = () => {
           >
             <img className="Projects-picture" src={muse} alt="2GroovE"></img>
             <div className="Projects-projectInfo">
-              <h3 className="Projects-title">2E GroovE</h3>
+              <h3 className="Projects-title">2E GroovE (offline)</h3>
               <p className="Projects-caption">
                 Co-built a web app with Cory Lynch which queues and plays music into the 2E Main
                 Lounge. Currently maintained by Alice Nguyen.
@@ -177,7 +177,7 @@ export const Projects = () => {
           >
             <img className="Projects-picture" src={stud} alt="Student Stats"></img>
             <div className="Projects-projectInfo">
-              <h3 className="Projects-title">Student Stats</h3>
+              <h3 className="Projects-title">Student Stats (offline)</h3>
               <p className="Projects-caption">
                 An example website for Replot, made in collaboration with Nancy Luong. Data provided
                 by MIT.
@@ -189,7 +189,7 @@ export const Projects = () => {
           <a href="http://replot.io/" className="Projects-link" target="_blank" rel="noreferrer">
             <img className="Projects-picture" src={replot} alt="Replot"></img>
             <div className="Projects-projectInfo">
-              <h3 className="Projects-title">Replot</h3>
+              <h3 className="Projects-title">Replot (offline)</h3>
               <p className="Projects-caption"> A ReactJS Data Visualization Library. </p>
             </div>
           </a>
