@@ -20,7 +20,7 @@ export const MyLine = () => {
       <Timeline>
         <TimelineEvent
           title="Full-Time with Twitch (Software Engineer II)"
-          createdAt="November2021 - ..."
+          createdAt="November 2021 - ..."
           iconColor="#f17e33"
           icon={<img src={glitch} alt="Twitch Glitch" width="120%" />}
         >
