@@ -1,6 +1,6 @@
-import { Router } from "@reach/router";
+import { Routes, Route } from "react-router-dom";
 
-import { NavBarWithLocation } from "./components/navbar";
+import { NavBar } from "./components/navbar";
 import { Home } from "./components/home";
 import { About } from "./components/about";
 import { Work } from "./components/work";
@@ -10,14 +10,14 @@ import { NotFound } from "./components/notfound";
 export const App = () => {
   return (
     <div>
-      <NavBarWithLocation />
-      <Router primary={false}>
-        <Home path="/" />
-        <About path="/about" />
-        <Work path="/work" />
-        <Fun path="/fun" />
-        <NotFound default />
-      </Router>
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/work" element={<Work />} />
+        <Route path="/fun" element={<Fun />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
     </div>
   );
 };

@@ -1,5 +1,5 @@
 import React from "react";
-import { navigate } from "@reach/router";
+import { useNavigate } from "react-router-dom";
 
 import drop from "../../../assets/drop.png";
 
@@ -7,6 +7,7 @@ import "./styles.css";
 
 export const Dropdown = (props) => {
   const [listVisible, setListVisible] = React.useState(false);
+  const navigate = useNavigate();
 
   const getCurrent = React.useCallback(() => {
     const path = props.currentPath;
@@ -19,10 +20,13 @@ export const Dropdown = (props) => {
     return pathMap[path];
   }, [props.currentPath]);
 
-  const select = React.useCallback((item) => {
-    setListVisible(false);
-    navigate(item);
-  }, []);
+  const select = React.useCallback(
+    (item) => {
+      setListVisible(false);
+      navigate(item);
+    },
+    [navigate]
+  );
 
   const hide = React.useCallback(() => {
     setListVisible(false);

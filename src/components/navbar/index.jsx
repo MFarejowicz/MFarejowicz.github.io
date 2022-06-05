@@ -1,12 +1,16 @@
-import { navigate, Location } from "@reach/router";
-import { Navlink } from "./navlink";
+import { useNavigate, useLocation } from "react-router-dom";
+
+import { NavLink } from "./navlink";
 import { Dropdown } from "./dropdown";
 
 import me from "../../assets/matthead.png";
 
 import "./styles.css";
 
-const Navbar = (props) => {
+export const NavBar = () => {
+  const navigate = useNavigate();
+  const location = useLocation();
+
   return (
     <div className="Navbar-container">
       <div className="Navbar-content">
@@ -15,27 +19,17 @@ const Navbar = (props) => {
           <span className="Navbar-name">MattF</span>
         </div>
         <div className="Navbar-links">
-          <Navlink title="Home" to="/" currentPath={props.location.pathname} />
-          <Navlink title="About" to="/about" currentPath={props.location.pathname} />
-          <Navlink title="Work" to="/work" currentPath={props.location.pathname} />
-          <Navlink title="Fun" to="/fun" currentPath={props.location.pathname} />
+          <NavLink title="Home" to="/" currentPath={location.pathname} />
+          <NavLink title="About" to="/about" currentPath={location.pathname} />
+          <NavLink title="Work" to="/work" currentPath={location.pathname} />
+          <NavLink title="Fun" to="/fun" currentPath={location.pathname} />
         </div>
         <Dropdown
-          currentPath={props.location.pathname}
+          currentPath={location.pathname}
           list={["Home", "About", "Work", "Fun"]}
           tos={["/", "/about", "/work", "/fun"]}
         />
       </div>
     </div>
-  );
-};
-
-export const NavBarWithLocation = (props) => {
-  return (
-    <Location>
-      {({ location }) => {
-        return <Navbar location={location} {...props} />;
-      }}
-    </Location>
   );
 };

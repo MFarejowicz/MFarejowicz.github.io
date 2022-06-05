@@ -1,13 +1,17 @@
-import { Link } from "@reach/router";
+import { useNavigate } from "react-router-dom";
 
 import "./styles.css";
 
-export const Navlink = (props) => {
+export const NavLink = (props) => {
   const active = props.to === props.currentPath;
+  const navigate = useNavigate();
 
   return (
-    <Link className={active ? "Navlink-active" : "Navlink-hvrUnderline"} to={props.to}>
+    <span
+      className={active ? "Navlink-active" : "Navlink-hvrUnderline"}
+      onClick={() => navigate(props.to)}
+    >
       {props.title}
-    </Link>
+    </span>
   );
 };

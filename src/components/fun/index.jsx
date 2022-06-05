@@ -84,6 +84,7 @@ export const Fun = () => {
             <li>Pokémon Unite</li>
             <li>DotA 2</li>
             <li>The Binding of Isaac: Rebirth</li>
+            <li>Sekiro: Shadows Die Twice</li>
           </ul>
         </div>
       </div>

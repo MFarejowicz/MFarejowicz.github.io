@@ -71,8 +71,9 @@ export const Home = () => {
               <Link href="https://doc.rust-lang.org/stable/book/title-page.html">nifty book</Link>.
             </li>
             <li>
-              Playing a lot of{" "}
-              <Link href="https://teamwood.itch.io/super-auto-pets">Super Auto Pets</Link> and{" "}
+              Playing through all the{" "}
+              <Link href="https://en.wikipedia.org/wiki/Souls_(series)">Souls</Link> games
+              (currently on Bloodborne), as well as playing{" "}
               <Link href="https://unite.pokemon.com/en-us/">Pokémon Unite</Link>.
             </li>
           </ul>
