@@ -43,11 +43,11 @@ export const About = () => {
             unbelievably eye-opening experience.
           </p>
           <p>
-            I graduated and immediately started full-time work with Twitch. I'm a front-end engineer
-            on the Community Engagement team, working to help streamers better connect with their
-            communities. I love being able to work on things that people see and interact with. I'm
-            always learning a lot from my coworkers and hoping to grow my web development knowledge
-            even more. Just recently, I started to explore full-stack development.
+            I graduated and immediately started full-time work with Twitch. I'm a full-stack
+            engineer on the Community Engagement team, working to help streamers better connect with
+            their communities. I love being able to work on things that people see and interact
+            with. I'm always learning a lot from my coworkers and hoping to grow my web development
+            knowledge even more.
           </p>
           <p>
             So that's my story up to this point. How about <i>yours</i>?
