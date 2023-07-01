@@ -37,7 +37,7 @@ export const Dropdown = (props) => {
       return;
     }
 
-    setListVisible(true, () => console.log("pog"));
+    setListVisible(true);
   }, [listVisible]);
 
   React.useEffect(() => {

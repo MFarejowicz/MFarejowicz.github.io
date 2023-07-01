@@ -3,8 +3,8 @@ import { useNavigate } from "react-router-dom";
 import "./styles.css";
 
 export const NavLink = (props) => {
-  const active = props.to === props.currentPath;
   const navigate = useNavigate();
+  const active = props.to === props.currentPath;
 
   return (
     <span

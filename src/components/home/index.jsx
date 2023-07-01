@@ -63,17 +63,9 @@ export const Home = () => {
         <div className="Home-text">
           <ul className="Home-list">
             <li>
-              Working on a simple <Link href="https://github.com/MFarejowicz/slash">web game</Link>{" "}
-              based on a mechanic from Sucker Punch's Ghost of Tsushima.
+              Working on a way to keep track of games and shows and movies and recipes and more.
             </li>
-            <li>
-              Trying to learn Rust using their{" "}
-              <Link href="https://doc.rust-lang.org/stable/book/title-page.html">nifty book</Link>.
-            </li>
-            <li>
-              Playing through <Link href="https://cupheadgame.com/">Cuphead</Link> as well as
-              playing <Link href="https://unite.pokemon.com/en-us/">Pokémon Unite</Link>.
-            </li>
+            <li>Playing through the Dark Souls games and a bit of Marvel Snap.</li>
           </ul>
         </div>
       </div>
